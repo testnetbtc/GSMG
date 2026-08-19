@@ -9,13 +9,17 @@ If you find this useful, please donate BTC at [1JK27jtvE1wS4VG9k7Zpo8wBufMbYwy3r
 - [Tools](#tools)
 - [Hints](#hints)
 - [Additional hints](#additional-hints)
+- [Related](#related)
+- [Wanted: original captures](#wanted-original-captures)
 
 ![puzzle image](./puzzle.png)
 
 # Summary
 - The puzzle was published at https://gsmg.io/puzzle
-- The prize address with 5 BTC is [1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe](https://www.blockchain.com/btc/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe)
-(The creator of the puzzle intended to halve the prize each time Bitcoin halving occurs. It happened for the first time on May 11, 2020, the current value is 2.5 BTC)
+- The prize address is [1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe](https://www.blockchain.com/btc/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe). It was funded with exactly 5 BTC on 2019-04-13 and still holds 1.25634510 BTC.
+- Coins left it twice, each time shortly after a Bitcoin halving. [On 2020-05-11](https://mempool.space/tx/2aa9a4a90be819d5122d70c993280785a0508f163521e7b38cebb4db0b071b13) 2.5 BTC went to [17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa](https://www.blockchain.com/btc/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa), and [on 2024-04-24](https://mempool.space/tx/88cdb3cdca12b471551b1b26188508a14ca5fd8a415223ffb7c190381c9b9df3) another 1.25 BTC went to the same address. In both transactions the only other output paid back to 1GSMG1.
+- 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa appears as a recipient in 44 transactions, and none of the coins it received have been spent. It holds 3.75055310 BTC.
+- Between them the two addresses hold 5.00689820 BTC. Balances and both transactions checked 2026-08-18 against mempool.space and blockstream.info.
 - Discussions on Reddit: [gsmgio_5_btc_puzzle](https://www.reddit.com/r/bitcoinpuzzles/comments/dfwcqk/gsmgio_5_btc_puzzle/), [gsmgio_5_btc_puzzle_challenge](https://www.reddit.com/r/bitcoinpuzzles/comments/bf7siz/gsmgio_5_btc_puzzle_challenge/)
 
 # Tools
@@ -394,3 +398,17 @@ Through some trial and error, we find that these need to be shifted to base 16, 
 The following follows the same formatting as previous openssl base64-encoded AES blobs that we encounted in previous stages
 > U 2 F s d G V k X 1 8 6 t Y U 0 h V J B X X U n B U O 7 C 0 + X 4 K U W n W k C v o Z S x b R D 3 w N s G W V H e f v d r d 9 z
 > Q v X 0 t 8 v 3 j P B 4 o k p s p x e b R i 6 s E 1 B M l 5 H I 8 R k u + K e j U q T v d W O X 6 n Q j S p e p X w G u N / j J
+
+# Related
+
+More documentation: [floflo777/open-crypto-puzzles](https://github.com/floflo777/open-crypto-puzzles).
+
+# Wanted: original captures
+
+Looking for original captures of the puzzle pages:
+
+- Saved pages from any gsmg.io puzzle URL, from any period, with the date. Saved HTML beats a screenshot.
+- The image files as you originally downloaded them, with the source URL and the date if you still have them.
+- Anything the creator posted, with a date and something showing where it came from.
+
+Open an issue or a PR if you have any of it.
