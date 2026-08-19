@@ -9,6 +9,7 @@ If you find this useful, please donate BTC at [1JK27jtvE1wS4VG9k7Zpo8wBufMbYwy3r
 - [Tools](#tools)
 - [Hints](#hints)
 - [Additional hints](#additional-hints)
+- [What is left](#what-is-left)
 
 ![puzzle image](./puzzle.png)
 
@@ -394,3 +395,41 @@ Through some trial and error, we find that these need to be shifted to base 16, 
 The following follows the same formatting as previous openssl base64-encoded AES blobs that we encounted in previous stages
 > U 2 F s d G V k X 1 8 6 t Y U 0 h V J B X X U n B U O 7 C 0 + X 4 K U W n W k C v o Z S x b R D 3 w N s G W V H e f v d r d 9 z
 > Q v X 0 t 8 v 3 j P B 4 o k p s p x e b R i 6 s E 1 B M l 5 H I 8 R k u + K e j U q T v d W O X 6 n Q j S p e p X w G u N / j J
+
+# What is left
+
+The published stage path has been traversed end to end, but the last page is not open. Two
+OpenSSL "Salted__" AES blobs sit there with no known password: a small one of 96 bytes, and a
+larger one titled "Dualite" in the page markup. Parts of the Salphaseion text above also
+remain undecoded, in particular two conspicuous runs:
+
+- a 91-symbol run beginning `dbbi`
+- a 570-symbol run beginning `faed`
+
+Accounts differ on whether those runs feed the final gate, are side material, or are
+something else again. No reproducible decoding of either is documented here.
+
+## Claims, and how to tell them apart
+
+Many issues in this tracker announce a solution, and there is no agreed way to test one. So
+they cannot be told apart, nobody can build on them, and the same ground gets covered again
+and again. Two things would fix that.
+
+Treat a claim as substantiated when it does one of two things: derives an address matching a
+prize address exactly, or shows every step from material published on the puzzle pages
+through to its result so that somebody else can rerun it. Valid padding, plaintext that reads
+as meaningful, and a near miss are none of them a match.
+
+When posting a claim or a failure, include:
+
+- the exact input, the URL it came from, and a hash of it
+- the transformations and their parameters, in order
+- enough code or commands for someone else to reproduce the result
+- the output, or a hash of the output
+- for a claimed solution, the derivation all the way down to the address
+- for a negative, the bounds of what was searched, and a known-good input pushed through the
+  same code to show the test would have caught a hit
+
+Negatives are worth posting. Most of what is known about this puzzle is what does not work,
+and almost none of it is written down anywhere. A negative with no stated bounds and no
+known-good witness does not close anything, so say which of the two you have.
