@@ -130,7 +130,7 @@ A gives two alphabet strings, `FUBCDORA.LETHINGKYMVPS/JQZXW` and `FUBCDORA.LETHI
 48 41 53 48 54 48 45 54 45 58 54  →  HASHTHETEXT
 ```
 
-Our rendering is `reproduction/results/audio_LminusR_spectrogram.png`. The eighth group sits under a broadband transient near 3.4 s and is only partly legible; "54" there rests on the partial glyph plus context. B's `invert_data` evaluates `(-1**i)*x` as plain negation, i.e. L−R, not an alternating sign *(N5 code reading)*. Signal band ≤ ~7.97 kHz (reported) [C:docs/VERIFIED-SOLUTIONS.md@caaa77a#L188]. A notes the same method [A:README.md@fb92dd1#L343-L347].
+Our rendering is `reproduction/results/audio_LminusR_spectrogram.png`. The eighth group sits under a broadband transient near 3.4 s and is only partly legible; "54" there rests on the partial glyph plus context. B's `invert_data` evaluates `(-1**i)*x` as plain negation, i.e. L−R, not an alternating sign *(N5 code reading)*. Signal band ≤ ~7.97 kHz (reported) [C:docs/VERIFIED-SOLUTIONS.md@caaa77a#L188]. A notes the same method [A:README.md@fb92dd1#L343-L347]. A PR #30 contributor appended a note to the notebook saying the in-world sound is broken in some desktop/browser clients, a nearby "door" does nothing, and the original files are no longer downloadable *(single source, reported)* [A:_pr30/decentraland.ipynb@290c334 trailing text].
 
 ### 3.8 SalPhaseIon entry
 

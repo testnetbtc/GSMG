@@ -58,9 +58,18 @@ def main():
         corpus += open(f, encoding="utf-8", errors="replace").read()
     canon = [p for p, r in lin.items() if r["role"] == "canonical" and p in set(on_disk)]
 
+    import re
+    key = {"puzzlehunt": "A", "naddiseo": "B", "hosterjack": "C"}
+    issue_cites = set(re.findall(r"\[([ABC])#(\d+)", corpus))
+
     def cited(p):
         rel = p.split("/", 2)[2] if p.count("/") >= 2 else p
-        return p in corpus or rel in corpus
+        if p in corpus or rel in corpus:
+            return True
+        m = re.match(r"sources/discussions/(\w+)/(issues|pulls)/(\d+)\.md$", p)
+        if m:  # rendered thread cited as [A#N] / [B#N] / [C#N]
+            return (key[m.group(1)], str(int(m.group(3)))) in issue_cites
+        return False
     unc = [p for p in canon if not cited(p)]
     cat = Counter(p.split("/")[1] + ("/" + p.split("/")[2] if p.split("/")[2].startswith(("_pr", "_branches", "raw", "issues", "pulls", "attachments")) else "") for p in unc)
 

@@ -34,6 +34,8 @@ with open(os.path.join(SRC, "REFS.tsv")) as fh:
 REVIEW = [
     ("hosterjack/assets/walkthrough/phase2-assets/", "identical after CRLF->LF; no unique fact (reproduction: upstream_plaintext_check)"),
     ("hosterjack/assets/walkthrough/phase3-assets/phase3.2.txt", "identical after CRLF->LF; no unique fact (reproduction: upstream_plaintext_check)"),
+    ("_pr30/decentraland.ipynb", "UNIQUE: appended contributor note (in-world sound broken in some clients; a non-functional 'door' near the question mark; originals not downloadable) — recorded in 01_SOLVED_CHAIN §3.7"),
+    ("inner96.b64", "same envelope bytes as p32_trailing; name collision recorded in 08_GLOSSARY"),
     ("ciphertexts/p32_trailing.txt", "same envelope bytes; name collision recorded in 08_GLOSSARY (inner96 = p32_trailing)"),
     ("cosmic_duality_b64.txt", "same envelope bytes as cosmic; formatting only"),
     ("salphaseion_soup_space_separated.txt", "same soup text; formatting only (reproduction: salphaseion_page_provenance)"),

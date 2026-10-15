@@ -1,48 +1,48 @@
---- sources/hosterjack/_pr2/docs/VERIFIED-SOLUTIONS.md
-+++ sources/hosterjack/docs/VERIFIED-SOLUTIONS.md
-@@ -1,3 +1 @@
--All canonical crypto values reproduce exactly: the four phase hashes, the base64 `Salted__` prefix, and all five salts read straight from the artifacts. Now I'll write the complete reference document.
--
+--- sources/hosterjack/docs/VERIFIED-SOLUTIONS.md
++++ sources/hosterjack/_pr2/docs/VERIFIED-SOLUTIONS.md
+@@ -1 +1,3 @@
++All canonical crypto values reproduce exactly: the four phase hashes, the base64 `Salted__` prefix, and all five salts read straight from the artifacts. Now I'll write the complete reference document.
++
  # GSMG.io 5 BTC Puzzle — The Definitive Verified Reference
-@@ -65,3 +63,3 @@
+@@ -63,3 +65,3 @@
  | Total `1` cells = 101 (both sums total 101 — consistency check) | ✅ CONFIRMED |
--| These sums feed the later token **`matrixsumlist`** | ✅ CONFIRMED |
-+| These sums feed the later token **`matrixsumlist`** | ⚠️ INFERRED — the sums recompute ✅ and the soup's binary block spells the literal word `matrixsumlist` ✅, but nothing has validated that the sums are that token's VALUE |
+-| These sums feed the later token **`matrixsumlist`** | ⚠️ INFERRED — the sums recompute ✅ and the soup's binary block spells the literal word `matrixsumlist` ✅, but nothing has validated that the sums are that token's VALUE |
++| These sums feed the later token **`matrixsumlist`** | ✅ CONFIRMED |
  
-@@ -75,3 +73,3 @@
+@@ -73,3 +75,3 @@
  
--**Plain English:** The `theseedisplanted` page hides a password form (visible in browser dev tools) plus scrambled images that spell out the song **"The Warning" by Logic**. The password is a lyric from that song.
-+**Plain English:** The `theseedisplanted` page hides a password form (visible in browser dev tools) plus scrambled images that spell out the song **"The Warning" by Logic** — the New York deep-house project of Wayne Gardiner and Eddie Maduro (Strictly Rhythm, 1990), **not** the American rapper of the same name. The password is a lyric from that song.
+-**Plain English:** The `theseedisplanted` page hides a password form (visible in browser dev tools) plus scrambled images that spell out the song **"The Warning" by Logic** — the New York deep-house project of Wayne Gardiner and Eddie Maduro (Strictly Rhythm, 1990), **not** the American rapper of the same name. The password is a lyric from that song.
++**Plain English:** The `theseedisplanted` page hides a password form (visible in browser dev tools) plus scrambled images that spell out the song **"The Warning" by Logic**. The password is a lyric from that song.
  
-@@ -120,3 +118,3 @@
+@@ -118,3 +120,3 @@
  
--> ⚠️ **Two subtle "gotchas":** (a) the literal **`0x`** prefix on the genesis hex **must** be kept, and (b) the **full FEN** (not just `B5KR`) must be included — only `0x-prefix + full FEN` reproduces the published hash. Naddiseo's README renders the password truncated at `…B5KR`; that truncated form does **not** hash correctly. Use the puzzlehunt README's full string.
-+> ⚠️ **Three subtle "gotchas":** (a) the literal **`0x`** prefix on the genesis hex **must** be kept; (b) the **full FEN** (not just `B5KR`) must be included — only `0x-prefix + full FEN` reproduces the published hash (Naddiseo's README renders the password truncated at `…B5KR`; that truncated form does **not** hash correctly — use the puzzlehunt README's full string); and (c) the FEN's **halfmove clock must be the author's hand-written `0 1`**, not the engine-correct `1 1`. Rc6 is neither a capture nor a pawn move, so every FEN tool increments the clock — but `… b - - 1 1` hashes to `53b27a4e9763…` and fails with *bad decrypt*, while `… b - - 0 1` hashes to `1a57c572caf3…` and decrypts Phase 3. (Both recomputed here.)
+-> ⚠️ **Three subtle "gotchas":** (a) the literal **`0x`** prefix on the genesis hex **must** be kept; (b) the **full FEN** (not just `B5KR`) must be included — only `0x-prefix + full FEN` reproduces the published hash (Naddiseo's README renders the password truncated at `…B5KR`; that truncated form does **not** hash correctly — use the puzzlehunt README's full string); and (c) the FEN's **halfmove clock must be the author's hand-written `0 1`**, not the engine-correct `1 1`. Rc6 is neither a capture nor a pawn move, so every FEN tool increments the clock — but `… b - - 1 1` hashes to `53b27a4e9763…` and fails with *bad decrypt*, while `… b - - 0 1` hashes to `1a57c572caf3…` and decrypts Phase 3. (Both recomputed here.)
++> ⚠️ **Two subtle "gotchas":** (a) the literal **`0x`** prefix on the genesis hex **must** be kept, and (b) the **full FEN** (not just `B5KR`) must be included — only `0x-prefix + full FEN` reproduces the published hash. Naddiseo's README renders the password truncated at `…B5KR`; that truncated form does **not** hash correctly. Use the puzzlehunt README's full string.
  
-@@ -189,3 +187,3 @@
+@@ -187,3 +189,3 @@
  2. In an audio editor (e.g. Audacity): split the **stereo** into Left/Right, **invert (phase-flip)** one channel, and **mix to mono**. Everything identical cancels; only the hidden difference survives.
--3. View the result as a **spectrogram** (a picture of sound). In the high frequencies you'll see the word **`HASHTHETEXT`**. ✅ CONFIRMED.
-+3. View the result as a **spectrogram** (a picture of sound). In the **low/mid band (~2–8 kHz)** you'll see the word **`HASHTHETEXT`**. ✅ *(Measured: the L−R channel carries signal only up to ~7.97 kHz; above 10 kHz is empty. "High frequencies" was wrong.)* CONFIRMED.
+-3. View the result as a **spectrogram** (a picture of sound). In the **low/mid band (~2–8 kHz)** you'll see the word **`HASHTHETEXT`**. ✅ *(Measured: the L−R channel carries signal only up to ~7.97 kHz; above 10 kHz is empty. "High frequencies" was wrong.)* CONFIRMED.
++3. View the result as a **spectrogram** (a picture of sound). In the high frequencies you'll see the word **`HASHTHETEXT`**. ✅ CONFIRMED.
  4. Take **all the text on the opening image including the prize address**, no spaces: `GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe` (59 chars, **no trailing newline**).
-@@ -197,3 +195,4 @@
+@@ -195,4 +197,3 @@
  | Spectrogram word `HASHTHETEXT` | ✅ CONFIRMED |
--| Decentraland coords `-41,-17`, file `audio_source.wav` | ✅ CONFIRMED |
-+| Decentraland coords `-41,-17` | ✅ CONFIRMED |
-+| Audio asset filename: the artifact in this repo is **`puzzlepiece.mp3`** (content id `QmeRy5MjmEZ2W6J3DwhQfht5HKBKXBFpoGzSkzmjeGKiDK`) | ✅ CONFIRMED — ⚠️ *`audio_source` is the Decentraland SDK component name (`AudioSource`), not a filename; earlier text here listed a non-existent `audio_source.wav`* |
+-| Decentraland coords `-41,-17` | ✅ CONFIRMED |
+-| Audio asset filename: the artifact in this repo is **`puzzlepiece.mp3`** (content id `QmeRy5MjmEZ2W6J3DwhQfht5HKBKXBFpoGzSkzmjeGKiDK`) | ✅ CONFIRMED — ⚠️ *`audio_source` is the Decentraland SDK component name (`AudioSource`), not a filename; earlier text here listed a non-existent `audio_source.wav`* |
++| Decentraland coords `-41,-17`, file `audio_source.wav` | ✅ CONFIRMED |
  | Entry string `GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe` (59 chars) | ✅ CONFIRMED |
-@@ -210,6 +209,6 @@
+@@ -209,6 +210,6 @@
  
--**Plain English:** The SalPhaseIon page is a long "soup" of letters from a tiny alphabet, split into chunks by the letter **`z`**. **Four** chunks are cracked; **two** remain unsolved. The two unsolved ones are the doorway to the endgame.
+-**Plain English:** The SalPhaseIon page is a long "soup" of letters from a tiny alphabet, split into chunks by the letter **`z`** (three of the four `z`s are separators — see step 1). **Four** chunks are cracked; **two** remain unsolved. The two unsolved ones are the doorway to the endgame.
 -
 -**Step-by-step:**
--1. Split the soup wherever a `z` appears.
-+**Plain English:** The SalPhaseIon page is a long "soup" of letters from a tiny alphabet, split into chunks by the letter **`z`** (three of the four `z`s are separators — see step 1). **Four** chunks are cracked; **two** remain unsolved. The two unsolved ones are the doorway to the endgame.
+-1. Split the soup on the **three** `z` separators — a fourth `z` occurs *inside* the embedded base64 blob (it is that blob's 64th character); splitting there corrupts the ciphertext.
++**Plain English:** The SalPhaseIon page is a long "soup" of letters from a tiny alphabet, split into chunks by the letter **`z`**. **Four** chunks are cracked; **two** remain unsolved. The two unsolved ones are the doorway to the endgame.
 +
 +**Step-by-step:**
-+1. Split the soup on the **three** `z` separators — a fourth `z` occurs *inside* the embedded base64 blob (it is that blob's 64th character); splitting there corrupts the ciphertext.
++1. Split the soup wherever a `z` appears.
  2. **a/b chunks** → set a=0, b=1, read as **8-bit binary ASCII**: → `matrixsumlist` (104 bits) and `enter` (40 bits). ✅ CONFIRMED.
-@@ -352,3 +351,3 @@
+@@ -351,3 +352,3 @@
  **Local artifacts (this repo, ✅ salts & decrypts verified directly)**
--- `ciphertexts/phase2.txt`, `phase3.txt`, `phase32.txt`, `salphaseion.txt`, `cosmic.txt`
-+- `ciphertexts/phase2.txt`, `phase3.txt`, `phase32.txt`, `salphaseion.txt`, `cosmic.txt` — ⚠️ naming: `salphaseion.txt` is the **80-byte inner blob** (salt `3ab585…`) embedded in the SalPhaseIon *soup*, **not** the full SalPhaseIon page; it is byte-identical to the duplicate `salph_inner.txt` (the site fetches it under the id `salphaseion`, the docs call it `salph_inner` — same 80 bytes).
+-- `ciphertexts/phase2.txt`, `phase3.txt`, `phase32.txt`, `salphaseion.txt`, `cosmic.txt` — ⚠️ naming: `salphaseion.txt` is the **80-byte inner blob** (salt `3ab585…`) embedded in the SalPhaseIon *soup*, **not** the full SalPhaseIon page; it is byte-identical to the duplicate `salph_inner.txt` (the site fetches it under the id `salphaseion`, the docs call it `salph_inner` — same 80 bytes).
++- `ciphertexts/phase2.txt`, `phase3.txt`, `phase32.txt`, `salphaseion.txt`, `cosmic.txt`
  - `index.html`, `README.md`, `CLAUDE.md`
