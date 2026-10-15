@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-15T14:25:37+00:00",
+ "generated_utc": "2026-10-15T14:36:29+00:00",
  "script": "reproduction/scripts/reproduce.py",
  "source_commits": {
   "A": "fb92dd15487c6e2d275adb8c923698b7166c328e",
@@ -7,8 +7,8 @@
   "C": "caaa77a8c218e97f9fdaae8908d580e51118edec"
  },
  "summary": {
-  "confirmed": 17,
-  "new": 12
+  "confirmed": 18,
+  "new": 13
  },
  "results": [
   {
@@ -786,6 +786,8 @@
     "mystery_bytes": 1169,
     "unmasked_header": "Salted__",
     "salt": "5bbd88ac32481bca",
+    "masked_envelope_sha256": "f0bd54d102d8d930fbbd0c5f8e4d7b7ffd64cab5d192a3751374d688c5115add",
+    "masked_envelope_bytes": 1168,
     "literal_Salted___in_cosmic_output": false,
     "password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a259cc",
     "bytes": 1151,
@@ -969,6 +971,89 @@
    "prior_report": null,
    "implementations_agree": null,
    "note": "Captures are as supplied in B PR #15 (user-uploaded Wayback dump); this archive did not refetch them from archive.org."
+  },
+  {
+   "step": "cosmic_seven_token_xor_set_A",
+   "status": "confirmed",
+   "inputs": {
+    "envelope": "C@caaa77a:ciphertexts/cosmic.txt",
+    "tokens": [
+     "matrixsumlist",
+     "enter",
+     "lastwordsbeforearchichoice",
+     "thispassword",
+     "matrixsumlist",
+     "sha256",
+     "theone"
+    ],
+    "recipe_source": "A#62 comment 3432403162; A#69 body"
+   },
+   "params": {
+    "key": "XOR of SHA-256 digests",
+    "encodings_tested": [
+     "raw32",
+     "hex64"
+    ],
+    "kdfs_tested": [
+     "md5",
+     "sha256"
+    ]
+   },
+   "outputs": {
+    "xor_key_hex": "818af53daa3028449f125a2e4f47259ddf9b9d86e59ce6c4993a67ffd76bb402",
+    "encoding_variants": {
+     "raw32/md5": null,
+     "raw32/sha256": null,
+     "hex64/md5": null,
+     "hex64/sha256": null
+    },
+    "any_variant_gives_4f7a1e4e": false
+   },
+   "prior_report": {
+    "xor_key_hex": "818af53daa3028449f125a2e4f47259ddf9b9d86e59ce6c4993a67ffd76bb402"
+   },
+   "implementations_agree": null,
+   "note": "Prior value = key published in A#69. A null entry means invalid padding."
+  },
+  {
+   "step": "cosmic_103x103_base38",
+   "status": "new",
+   "inputs": {
+    "cosmic_output": "cosmic_seven_token_xor output (4f7a1e4e…)",
+    "recipe_source": "A#72 body; A#79 body; A#81 body"
+   },
+   "params": {
+    "bits": "first 10,609 bits MSB-first, row-major 103x103",
+    "secondary": "row_sum[i] + col_sum[(i+7) mod 103]",
+    "digit": "value - 80",
+    "base": 38,
+    "split": "32 + 32 + rest"
+   },
+   "outputs": {
+    "secondary_string": "Vmfgiel[rfc\\h]iodi\\engckhbucp`cjjbP\\nnrga`]qjicil^_ihd\\gppek_lq_cYie^iddgafb^j`]ilkda_q^^ZifZg]__g\\]]a`",
+    "secondary_min_max": [
+     80,
+     117
+    ],
+    "bytes": 68,
+    "half_prefix": "0423d911",
+    "better_half_prefix": "48cc46e6",
+    "trail": "fc0c1b02",
+    "addresses": {
+     "half": {
+      "uncompressed": "15E3pcDDXSKhvi3CLVhRTHEgd8dbVKvSZg",
+      "compressed": "1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu"
+     },
+     "better_half": {
+      "uncompressed": "1FhbJnrdq1FmeiXrpTqnpQ8jvYV7naze96",
+      "compressed": "145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ"
+     }
+    },
+    "prize_address_match": false
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": "Prior report §6 listed this as not reproduced. Published values to compare: half 0423d911…, better half 48cc46e6…, trail fc0c1b02, addresses 1JG648ya…/15E3pcDD…/1FhbJnrd…/145ZQ9si… (A#72, A#79). The 32-byte values are already public; addresses are derived only for comparison with the published ones and the prize address. Shift 7, offset 80, base 38 and the split are discretionary choices made after inspecting the bytes."
   }
  ]
 }

@@ -385,6 +385,7 @@ def step_cosmic(c1, c2):
                 "recipe_source": "A#68 comment 3704010992"},
         params={"password": "E_C || E_S || E_B[:2] (raw 32 bytes)", "kdf": "EVP_BytesToKey MD5"},
         outputs={"mystery_bytes": len(mystery), "unmasked_header": env[:8].decode("latin1"), "salt": env[8:16].hex(),
+                 "masked_envelope_sha256": g.sha256(env), "masked_envelope_bytes": len(env),
                  "literal_Salted___in_cosmic_output": b"Salted__" in out, "password_hex": pw.hex(),
                  "bytes": None if c4 is None else len(c4), "sha256": None if c4 is None else g.sha256(c4),
                  "file": None if c4 is None else save("chain4.bin", c4),
@@ -488,6 +489,54 @@ def step_page_provenance():
         note="Captures are as supplied in B PR #15 (user-uploaded Wayback dump); this archive did not refetch them from archive.org.")
 
 
+def step_cosmic_set_a():
+    """A#62/A#69 publish a different seven-token set ('Set A') and claim the same Cosmic output."""
+    path = "hosterjack/ciphertexts/cosmic.txt"
+    b64 = open(g.src(path)).read()
+    toks = ["matrixsumlist", "enter", "lastwordsbeforearchichoice", "thispassword", "matrixsumlist", "sha256", "theone"]
+    x = bytes(32)
+    for t in toks:
+        x = bytes(a ^ b for a, b in zip(x, hashlib.sha256(t.encode()).digest()))
+    variants = {}
+    for pwname, pw in [("raw32", x), ("hex64", x.hex().encode())]:
+        for md in ("md5", "sha256"):
+            o = g.aes_decrypt(b64, pw, md)
+            variants[f"{pwname}/{md}"] = None if o is None else [len(o), g.sha256(o)]
+    rec("cosmic_seven_token_xor_set_A",
+        inputs={"envelope": cite(path), "tokens": toks, "recipe_source": "A#62 comment 3432403162; A#69 body"},
+        params={"key": "XOR of SHA-256 digests", "encodings_tested": ["raw32", "hex64"], "kdfs_tested": ["md5", "sha256"]},
+        outputs={"xor_key_hex": x.hex(), "encoding_variants": variants,
+                 "any_variant_gives_4f7a1e4e": any(v and v[1].startswith("4f7a1e4e") for v in variants.values())},
+        prior={"xor_key_hex": "818af53daa3028449f125a2e4f47259ddf9b9d86e59ce6c4993a67ffd76bb402"},
+        note="Prior value = key published in A#69. A null entry means invalid padding.")
+
+
+def step_103x103(cos):
+    """A#72/A#79/A#81: 103x103 bit matrix of the Cosmic output -> shifted row+col sums -> base-38 -> 68 bytes."""
+    bits = "".join(f"{b:08b}" for b in cos)[:103 * 103]
+    m = [[int(bits[r * 103 + c]) for c in range(103)] for r in range(103)]
+    rs = [sum(r) for r in m]; cs = [sum(m[r][c] for r in range(103)) for c in range(103)]
+    sec = [rs[i] + cs[(i + 7) % 103] for i in range(103)]
+    n = 0
+    for v in sec:
+        n = n * 38 + (v - 80)
+    out = n.to_bytes((n.bit_length() + 7) // 8, "big")
+    half, better, trail = out[:32], out[32:64], out[64:]
+    addrs = {}
+    for nm, k in (("half", half), ("better_half", better)):
+        P = g.point_mul(int.from_bytes(k, "big"))
+        addrs[nm] = {"uncompressed": g.p2pkh(g.ser(P, False)), "compressed": g.p2pkh(g.ser(P, True))}
+    rec("cosmic_103x103_base38",
+        inputs={"cosmic_output": "cosmic_seven_token_xor output (4f7a1e4e…)", "recipe_source": "A#72 body; A#79 body; A#81 body"},
+        params={"bits": "first 10,609 bits MSB-first, row-major 103x103", "secondary": "row_sum[i] + col_sum[(i+7) mod 103]",
+                "digit": "value - 80", "base": 38, "split": "32 + 32 + rest"},
+        outputs={"secondary_string": "".join(chr(v) for v in sec), "secondary_min_max": [min(sec), max(sec)], "bytes": len(out),
+                 "half_prefix": half[:4].hex(), "better_half_prefix": better[:4].hex(), "trail": trail.hex(),
+                 "addresses": addrs, "prize_address_match": any(a == "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe" for d in addrs.values() for a in d.values())},
+        prior=None,
+        note="Prior report §6 listed this as not reproduced. Published values to compare: half 0423d911…, better half 48cc46e6…, trail fc0c1b02, addresses 1JG648ya…/15E3pcDD…/1FhbJnrd…/145ZQ9si… (A#72, A#79). The 32-byte values are already public; addresses are derived only for comparison with the published ones and the prize address. Shift 7, offset 80, base 38 and the split are discretionary choices made after inspecting the bytes.")
+
+
 if __name__ == "__main__":
     step_grid()
     pts = step_aes()
@@ -501,6 +550,8 @@ if __name__ == "__main__":
     step_prize()
     step_crib_control()
     step_page_provenance()
+    step_cosmic_set_a()
+    step_103x103(open(os.path.join(OUT, "cosmic_output.bin"), "rb").read())
     summary = collections.Counter(r["status"] for r in RESULTS)
     doc = {"generated_utc": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(timespec="seconds"),
            "script": "reproduction/scripts/reproduce.py", "source_commits": {"A": A, "B": B, "C": C},
