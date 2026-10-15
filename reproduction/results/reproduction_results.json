@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-15T14:07:06+00:00",
+ "generated_utc": "2026-10-15T14:22:28+00:00",
  "script": "reproduction/scripts/reproduce.py",
  "source_commits": {
   "A": "fb92dd15487c6e2d275adb8c923698b7166c328e",
@@ -8,7 +8,7 @@
  },
  "summary": {
   "confirmed": 17,
-  "new": 10
+  "new": 11
  },
  "results": [
   {
@@ -904,6 +904,31 @@
    },
    "implementations_agree": null,
    "note": ""
+  },
+  {
+   "step": "chain4_crib_control_cosmic_A",
+   "status": "new",
+   "inputs": {
+    "cosmic_A": "B@9e61693:_pr15/unverified/drive-2026-05/cosmic_A.bin",
+    "cosmic_A_sha256": "cd3fea3d697a7fbfb2e6e4c1fd79316a1a8635be225a07539d4cc56a3f6d3002",
+    "cosmic_A_bytes": 1327,
+    "ca158_hidden_blob": "B@9e61693:_pr15/unverified/drive-2026-05/ca158_hidden_blob.bin",
+    "chain4_final": "B@9e61693:_pr15/unverified/drive-2026-05/chain4_final.bin"
+   },
+   "params": {
+    "rule": "mask = X[158:166] XOR 'Salted__', applied repeating to X[158:]"
+   },
+   "outputs": {
+    "crib_mask_hex": "e264c342fc04995b",
+    "ca158_equals_masked_cosmic_A": true,
+    "ca158_bytes": 1169,
+    "ca158_header": "Salted__",
+    "ca158_salt": "0391bdb016191c9d",
+    "chain4_final_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b"
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": "Same crib recipe on a different padding-valid Cosmic decrypt yields a different well-formed 'Salted__' envelope; the header is manufactured by the mask choice. Observation first reported by extraction agent N4 from B PR #15 files; verified here."
   }
  ]
 }

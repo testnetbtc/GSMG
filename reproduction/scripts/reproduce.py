@@ -443,6 +443,26 @@ def step_prize():
         prior={"on_curve": True, "address_uncompressed": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe", "address_compressed": "1cc6xayvqpeetixmuXDRsGug7GKyoRdxP"})
 
 
+def step_crib_control():
+    """Is the chain-4 mask a clue-derived rule or a crib fit? Apply the same offset-158 'Salted__' crib
+    to an unrelated 1-byte-pad Cosmic decrypt shipped in B PR #15 and compare with the shipped file."""
+    d = "naddiseo/_pr15/unverified/drive-2026-05/"
+    ca = open(g.src(d + "cosmic_A.bin"), "rb").read()
+    hid = open(g.src(d + "ca158_hidden_blob.bin"), "rb").read()
+    c4f = open(g.src(d + "chain4_final.bin"), "rb").read()
+    mask = bytes(a ^ b for a, b in zip(ca[158:166], b"Salted__"))
+    unmasked = bytes(b ^ mask[i % 8] for i, b in enumerate(ca[158:158 + len(hid)]))
+    rec("chain4_crib_control_cosmic_A",
+        inputs={"cosmic_A": cite(d + "cosmic_A.bin"), "cosmic_A_sha256": g.sha256(ca), "cosmic_A_bytes": len(ca),
+                "ca158_hidden_blob": cite(d + "ca158_hidden_blob.bin"), "chain4_final": cite(d + "chain4_final.bin")},
+        params={"rule": "mask = X[158:166] XOR 'Salted__', applied repeating to X[158:]"},
+        outputs={"crib_mask_hex": mask.hex(), "ca158_equals_masked_cosmic_A": unmasked == hid, "ca158_bytes": len(hid),
+                 "ca158_header": hid[:8].decode("latin1"), "ca158_salt": hid[8:16].hex(),
+                 "chain4_final_sha256": g.sha256(c4f)},
+        prior=None,
+        note="Same crib recipe on a different padding-valid Cosmic decrypt yields a different well-formed 'Salted__' envelope; the header is manufactured by the mask choice. Observation first reported by extraction agent N4 from B PR #15 files; verified here.")
+
+
 if __name__ == "__main__":
     step_grid()
     pts = step_aes()
@@ -454,6 +474,7 @@ if __name__ == "__main__":
     step_cosmic(c1, c2)
     step_bifid(dbbi, faed)
     step_prize()
+    step_crib_control()
     summary = collections.Counter(r["status"] for r in RESULTS)
     doc = {"generated_utc": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(timespec="seconds"),
            "script": "reproduction/scripts/reproduce.py", "source_commits": {"A": A, "B": B, "C": C},
