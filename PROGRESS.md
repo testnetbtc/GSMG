@@ -10,6 +10,6 @@
 | 6 | Reproduction scripts + results | done (18 confirmed, 0 discrepancies; extra controls) | 2026-10-15 | `reproduction:` |
 | 7 | Manifest + coverage check | done (zero orphans) | 2026-10-15 | `manifest:` |
 | 8 | Reasoning report v2 | done | 2026-10-15 | `report:` |
-| 9 | README, final manifest run, push | see git log / DECISIONS.md tail | 2026-10-15 | `finish:` |
+| 9 | README, final manifest run, push | done (pushed main + 22 archive tags) | 2026-10-15 | `finish:` |
 
 Note: work proceeded partly in parallel while the GitHub API rate limit blocked step 3 (steps 5–6 were drafted from repository files first and re-checked after the discussions arrived).
