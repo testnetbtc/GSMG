@@ -27,6 +27,7 @@ COL = {c: POS[c] % 5 for c in SQUARE}
 
 results = []
 HITS = []
+CANDS = {}      # name -> scalar, for downstream reuse (e.g. BSGS vanity search)
 # addresses of interest besides the exact prize point (public, from archive)
 WATCH_ADDR = {
     PRIZE_ADDR: "prize",
@@ -75,6 +76,7 @@ def reg(name, k):
     watch = WATCH_ADDR.get(ac) or WATCH_ADDR.get(au)
     rec = {"name": name, "k_hex": hex(k), "addr_c": ac, "addr_u": au,
            "exact_prize_point": exact, "watch": watch}
+    CANDS[name] = k
     results.append(rec)
     if exact or watch:
         HITS.append(rec)
@@ -183,6 +185,8 @@ def run():
     out = {"n_candidates": len(results), "hits": HITS,
            "sample": results[:5]}
     json.dump(results, open("results_btcseed.json", "w"), indent=0)
+    json.dump({k: hex(v) for k, v in CANDS.items()},
+              open("candidates_btcseed.json", "w"), indent=0)
     print(json.dumps(out, indent=2))
     print(f"\nTOTAL candidates tested: {len(results)}")
     print(f"EXACT prize / watched hits: {len(HITS)}")

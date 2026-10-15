@@ -57,10 +57,12 @@ WATCH = {PRIZE_ADDR: "prize",
          "176ysPe7FdevdQjZWaFCK2nnVbzX9Tgydy": "chain2_K_S2"}
 
 
+CANDS = {}
 def test(name, k):
     k %= N
     if k == 0:
         return
+    CANDS[name] = k
     pt = scalar_mul(k)
     if pt is None:
         return
@@ -88,4 +90,6 @@ for pname, p in PHRASES.items():
 
 print(json.dumps({"tested": len(results), "hits": HITS}, indent=2))
 json.dump(results, open("results_brainwallet.json", "w"), indent=0)
+json.dump({k: hex(v) for k, v in CANDS.items()},
+          open("candidates_brainwallet.json", "w"), indent=0)
 print("EXACT/watched hits:", len(HITS))
