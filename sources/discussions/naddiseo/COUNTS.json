@@ -1,0 +1,17 @@
+{
+ "issues": 10,
+ "pulls": 7,
+ "comments_expected": 36,
+ "comments_fetched": 35,
+ "reviews": 1,
+ "review_comments": 1,
+ "mismatches": [
+  {
+   "number": 2,
+   "counter": 2,
+   "fetched": 1,
+   "refetched": 1
+  }
+ ],
+ "unique_comment_ids": 35
+}

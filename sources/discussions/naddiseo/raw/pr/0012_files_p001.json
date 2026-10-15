@@ -1,0 +1,38 @@
+[
+ {
+  "sha": "d8904424d18ed75688c8ebd8c2a7c9c2bc83a239",
+  "filename": "unverified/README.md",
+  "status": "modified",
+  "additions": 2,
+  "deletions": 0,
+  "changes": 2,
+  "blob_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/blob/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79/unverified%2FREADME.md",
+  "raw_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/raw/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79/unverified%2FREADME.md",
+  "contents_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/contents/unverified%2FREADME.md?ref=e2f1d77a6363b20d7fe27b3ebc059efcebb0df79",
+  "patch": "@@ -7,3 +7,5 @@ This folder contains a list of currently unverified, or unverifiable, solutions\n | --------------|-------|------| ------------|\n | My Solution   | Phase 3.2 | [FAKE AES ATTEMPT #1](./sample_3.2_attempt_1.md) | I attempted to brute force the AES using the matrix movie's script |\n | 1141 Coincidence | Phase 3.2 | [1141 Slice](./phase3.2_1141.md)| coincidence |\n+| Yellow and Blue counts | Phase 0 | [Yellow/Blue counts](./phase0_yellow_blue_counts.md) | the 9 and 15 counts restate the URL's low bits, so they are not a new input |\n+| fefefe parity | Phase 0 | [fefefe is 101 010](./phase0_fefefe_parity.md) | hex digit parity gives 42; explains a solver remark, and the 104 half does not hold |"
+ },
+ {
+  "sha": "7353691c49f9e6727d631f77793876b508ce9d7f",
+  "filename": "unverified/phase0_fefefe_parity.md",
+  "status": "added",
+  "additions": 29,
+  "deletions": 0,
+  "changes": 29,
+  "blob_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/blob/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79/unverified%2Fphase0_fefefe_parity.md",
+  "raw_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/raw/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79/unverified%2Fphase0_fefefe_parity.md",
+  "contents_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/contents/unverified%2Fphase0_fefefe_parity.md?ref=e2f1d77a6363b20d7fe27b3ebc059efcebb0df79",
+  "patch": "@@ -0,0 +1,29 @@\n+# \"fefefe is 101 010\" [Phase 0]\n+\n+In the 2021-03-01 conversation a solver writes \"hundred FOUR = 104 is the fefefe square\" and\n+\"fefefe is 101 010\". Note this is a community claim and not an official hint.\n+\n+## hypothesis\n+\n+The remark encodes something about the near-invisible `#FEFEFE` cell in the Phase 0 grid.\n+\n+## observation\n+\n+The `101 010` half is hex digit parity. F is 15, which is odd, so 1. E is 14, which is even, so 0.\n+\n+```\n+FEFEFE -> 101010 -> 42\n+```\n+\n+The same rule on the grid's other two colours:\n+\n+```\n+#FFF200 -> 111000\n+#3F48CC -> 110000\n+```\n+\n+## result\n+\n+The parity reading explains the remark and gives 42, which is thematically apt and nothing more. The\n+`104` half of the same message does not hold up: the off-white cell sits at row 7, column 4, which is\n+spiral index 163, not 104. Recorded as an explanation of a solver's comment rather than as a step."
+ },
+ {
+  "sha": "ad1b59aa3c70dc545be2cb789572a404e132d88b",
+  "filename": "unverified/phase0_yellow_blue_counts.md",
+  "status": "added",
+  "additions": 36,
+  "deletions": 0,
+  "changes": 36,
+  "blob_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/blob/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79/unverified%2Fphase0_yellow_blue_counts.md",
+  "raw_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/raw/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79/unverified%2Fphase0_yellow_blue_counts.md",
+  "contents_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/contents/unverified%2Fphase0_yellow_blue_counts.md?ref=e2f1d77a6363b20d7fe27b3ebc059efcebb0df79",
+  "patch": "@@ -0,0 +1,36 @@\n+# Yellow and Blue counts [Phase 0]\n+\n+The 2020-01-14 hint says \"Yellow has a number and so does Blue\". The section for that hint currently\n+ends \"no one publicly managed to decode it\".\n+\n+## hypothesis\n+\n+The two numbers are the cell counts, 9 and 15, and they supply a new input to `yellowblueprimes`.\n+\n+## observation\n+\n+Sampling `puzzle.png` on the 14x14 grid gives 9 yellow cells and 15 blue, 24 in total.\n+\n+Under the counter-clockwise inward spiral used in Phase 0, numbering from 0, all 24 coloured cells land\n+on indices congruent to 7 mod 8. Those are exactly the last bit of each of the 24 bytes.\n+\n+Reading blue as 1 and yellow as 0 along those 24 positions:\n+\n+```\n+111101110011110110010010\n+```\n+\n+and the low bit of each character of `gsmg.io/theseedisplanted`:\n+\n+```\n+111101110011110110010010\n+```\n+\n+The strings are identical, with the 15 blue cells falling on the 15 one-bits and the 9 yellow on the\n+9 zero-bits.\n+\n+## result\n+\n+Nothing new. The colouring restates the URL's own low bits, so it is forced by the URL rather than\n+carrying an independent value. That rules this reading out as a source of input for\n+`yellowblueprimes`, which is only a negative, but it is a negative worth not repeating."
+ }
+]

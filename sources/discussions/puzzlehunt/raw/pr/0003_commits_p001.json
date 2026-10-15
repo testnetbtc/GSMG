@@ -1,0 +1,84 @@
+[
+ {
+  "sha": "9d99692d4a700c8b1a34fb5eeaecf2474d92b666",
+  "node_id": "MDY6Q29tbWl0MjU4ODUyMzA3OjlkOTk2OTJkNGE3MDBjOGIxYTM0ZmI1ZWVhZWNmMjQ3NGQ5MmI2NjY=",
+  "commit": {
+   "author": {
+    "name": "Richard Eames",
+    "email": "github@naddiseo.ca",
+    "date": "2021-03-20T20:24:27Z"
+   },
+   "committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2021-03-20T20:24:27Z"
+   },
+   "message": "Update README.md\n\nFilled out more hints",
+   "tree": {
+    "sha": "1ae3b4a554cef783cc511d7dc6884b49f7584c1f",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/trees/1ae3b4a554cef783cc511d7dc6884b49f7584c1f"
+   },
+   "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/commits/9d99692d4a700c8b1a34fb5eeaecf2474d92b666",
+   "comment_count": 1,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsBcBAABCAAQBQJgVln7CRBK7hj4Ov3rIwAAdHIIAHy+bv6mQlc7m1wCPvyXRSe+\n/xbS9KPXHKRhvEBbarWIJ6zuJmmlo9fCfHYesquX/Bj9LE/p6a+DtG9HFfR6zy7A\n12lX7xHqPbNC9m5x51cm2LlVs3P0R04GN8HLLQtlD3ZXW9uv7OMBr0mRpexCuNI6\nkihjf15xR8asqSZ8Etzx1vkC0ZBHBwTZoG1MPjnWzW0tcWTiq6bI/dKgP2DKGdiP\nbW/qh76OP3bVbihdfl2/2YcD6ffDgXSC0873sZvYGK3+VyMBxFVVySwyHF5w6iKx\nTVmgERgq3Ecpm4KL/UoW8bUiQmSwXHkr9GBPqksCCVQj5qT66lxNWPJWWFjRhmM=\n=jE8u\n-----END PGP SIGNATURE-----\n",
+    "payload": "tree 1ae3b4a554cef783cc511d7dc6884b49f7584c1f\nparent 6fd6673e6db065e8df3f0de443ae545fbef7ecba\nauthor Richard Eames <github@naddiseo.ca> 1616271867 -0600\ncommitter GitHub <noreply@github.com> 1616271867 -0600\n\nUpdate README.md\n\nFilled out more hints",
+    "verified_at": "2024-01-16T19:59:59Z"
+   }
+  },
+  "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/9d99692d4a700c8b1a34fb5eeaecf2474d92b666",
+  "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/9d99692d4a700c8b1a34fb5eeaecf2474d92b666",
+  "comments_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/9d99692d4a700c8b1a34fb5eeaecf2474d92b666/comments",
+  "author": {
+   "login": "Naddiseo",
+   "id": 115951,
+   "node_id": "MDQ6VXNlcjExNTk1MQ==",
+   "avatar_url": "https://avatars.githubusercontent.com/u/115951?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/Naddiseo",
+   "html_url": "https://github.com/Naddiseo",
+   "followers_url": "https://api.github.com/users/Naddiseo/followers",
+   "following_url": "https://api.github.com/users/Naddiseo/following{/other_user}",
+   "gists_url": "https://api.github.com/users/Naddiseo/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/Naddiseo/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/Naddiseo/subscriptions",
+   "organizations_url": "https://api.github.com/users/Naddiseo/orgs",
+   "repos_url": "https://api.github.com/users/Naddiseo/repos",
+   "events_url": "https://api.github.com/users/Naddiseo/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/Naddiseo/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "web-flow",
+   "id": 19864447,
+   "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/web-flow",
+   "html_url": "https://github.com/web-flow",
+   "followers_url": "https://api.github.com/users/web-flow/followers",
+   "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+   "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+   "organizations_url": "https://api.github.com/users/web-flow/orgs",
+   "repos_url": "https://api.github.com/users/web-flow/repos",
+   "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/web-flow/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "6fd6673e6db065e8df3f0de443ae545fbef7ecba",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/6fd6673e6db065e8df3f0de443ae545fbef7ecba",
+    "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/6fd6673e6db065e8df3f0de443ae545fbef7ecba"
+   }
+  ]
+ }
+]

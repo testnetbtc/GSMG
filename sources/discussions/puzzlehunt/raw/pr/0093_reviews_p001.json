@@ -1,0 +1,42 @@
+[
+ {
+  "id": 5171806054,
+  "node_id": "PRR_kwDOD23F088AAAABNEN_Zg",
+  "user": {
+   "login": "Olawale20r",
+   "id": 171894761,
+   "node_id": "U_kgDOCj7n6Q",
+   "avatar_url": "https://avatars.githubusercontent.com/u/171894761?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/Olawale20r",
+   "html_url": "https://github.com/Olawale20r",
+   "followers_url": "https://api.github.com/users/Olawale20r/followers",
+   "following_url": "https://api.github.com/users/Olawale20r/following{/other_user}",
+   "gists_url": "https://api.github.com/users/Olawale20r/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/Olawale20r/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/Olawale20r/subscriptions",
+   "organizations_url": "https://api.github.com/users/Olawale20r/orgs",
+   "repos_url": "https://api.github.com/users/Olawale20r/repos",
+   "events_url": "https://api.github.com/users/Olawale20r/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/Olawale20r/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "body": "Hello",
+  "state": "APPROVED",
+  "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/pull/93#pullrequestreview-5171806054",
+  "pull_request_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/pulls/93",
+  "author_association": "NONE",
+  "_links": {
+   "html": {
+    "href": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/pull/93#pullrequestreview-5171806054"
+   },
+   "pull_request": {
+    "href": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/pulls/93"
+   }
+  },
+  "submitted_at": "2026-09-10T20:12:45Z",
+  "commit_id": "2c97f4472bda49f983f3b2fb3da454e665d57e6e"
+ }
+]

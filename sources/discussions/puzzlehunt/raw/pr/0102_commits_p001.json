@@ -1,0 +1,84 @@
+[
+ {
+  "sha": "76561745f23fbc987134dfaa4609c3c69edb7b68",
+  "node_id": "C_kwDOD23F09oAKDc2NTYxNzQ1ZjIzZmJjOTg3MTM0ZGZhYTQ2MDljM2M2OWVkYjdiNjg",
+  "commit": {
+   "author": {
+    "name": "wayzeek",
+    "email": "112975047+wayzeek@users.noreply.github.com",
+    "date": "2026-08-19T06:41:02Z"
+   },
+   "committer": {
+    "name": "wayzeek",
+    "email": "112975047+wayzeek@users.noreply.github.com",
+    "date": "2026-08-19T06:41:02Z"
+   },
+   "message": "docs: state what is still unsolved and a standard for claims",
+   "tree": {
+    "sha": "86ace14a8735934bc4348dc5897b3b3c7476be8b",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/trees/86ace14a8735934bc4348dc5897b3b3c7476be8b"
+   },
+   "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/commits/76561745f23fbc987134dfaa4609c3c69edb7b68",
+   "comment_count": 0,
+   "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+   }
+  },
+  "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/76561745f23fbc987134dfaa4609c3c69edb7b68",
+  "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/76561745f23fbc987134dfaa4609c3c69edb7b68",
+  "comments_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/76561745f23fbc987134dfaa4609c3c69edb7b68/comments",
+  "author": {
+   "login": "wayzeek",
+   "id": 112975047,
+   "node_id": "U_kgDOBrvcxw",
+   "avatar_url": "https://avatars.githubusercontent.com/u/112975047?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/wayzeek",
+   "html_url": "https://github.com/wayzeek",
+   "followers_url": "https://api.github.com/users/wayzeek/followers",
+   "following_url": "https://api.github.com/users/wayzeek/following{/other_user}",
+   "gists_url": "https://api.github.com/users/wayzeek/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/wayzeek/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/wayzeek/subscriptions",
+   "organizations_url": "https://api.github.com/users/wayzeek/orgs",
+   "repos_url": "https://api.github.com/users/wayzeek/repos",
+   "events_url": "https://api.github.com/users/wayzeek/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/wayzeek/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "wayzeek",
+   "id": 112975047,
+   "node_id": "U_kgDOBrvcxw",
+   "avatar_url": "https://avatars.githubusercontent.com/u/112975047?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/wayzeek",
+   "html_url": "https://github.com/wayzeek",
+   "followers_url": "https://api.github.com/users/wayzeek/followers",
+   "following_url": "https://api.github.com/users/wayzeek/following{/other_user}",
+   "gists_url": "https://api.github.com/users/wayzeek/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/wayzeek/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/wayzeek/subscriptions",
+   "organizations_url": "https://api.github.com/users/wayzeek/orgs",
+   "repos_url": "https://api.github.com/users/wayzeek/repos",
+   "events_url": "https://api.github.com/users/wayzeek/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/wayzeek/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "fb92dd15487c6e2d275adb8c923698b7166c328e",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/fb92dd15487c6e2d275adb8c923698b7166c328e",
+    "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/fb92dd15487c6e2d275adb8c923698b7166c328e"
+   }
+  ]
+ }
+]

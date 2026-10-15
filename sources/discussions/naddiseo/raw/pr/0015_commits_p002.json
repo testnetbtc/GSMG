@@ -1,0 +1,2708 @@
+[
+ {
+  "sha": "cd3089a0f15828e1531b5cf69fb49b80324d69a6",
+  "node_id": "C_kwDOFgNOpdoAKGNkMzA4OWEwZjE1ODI4ZTE1MzFiNWNmNjlmYjQ5YjgwMzI0ZDY5YTY",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T06:52:29Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T06:52:29Z"
+   },
+   "message": "Tick 61: genesis relates to the prize via the halving schedule; prize = 1/10 subsidy mirror, halving split to 17ucy1\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy",
+   "tree": {
+    "sha": "2dd8c63910b5dd0c20e3aac07fa99c9013d517ae",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/2dd8c63910b5dd0c20e3aac07fa99c9013d517ae"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/cd3089a0f15828e1531b5cf69fb49b80324d69a6",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQHgPYgWT\nYQJwdqJuEPg65rlooMW5Un9HxykZJOU2AozoHd0S46AEIW+o28kO2bu9UyFLZ5AAPbksiPl0oAb1\nngA=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 2dd8c63910b5dd0c20e3aac07fa99c9013d517ae\nparent d1662609df7e04a01b1a0eabf77c2786727ab7b5\nauthor Claude <noreply@anthropic.com> 1790405549 +0000\ncommitter Claude <noreply@anthropic.com> 1790405549 +0000\n\nTick 61: genesis relates to the prize via the halving schedule; prize = 1/10 subsidy mirror, halving split to 17ucy1\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy\n",
+    "verified_at": "2026-09-26T06:52:32Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/cd3089a0f15828e1531b5cf69fb49b80324d69a6",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/cd3089a0f15828e1531b5cf69fb49b80324d69a6",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/cd3089a0f15828e1531b5cf69fb49b80324d69a6/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "d1662609df7e04a01b1a0eabf77c2786727ab7b5",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/d1662609df7e04a01b1a0eabf77c2786727ab7b5",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/d1662609df7e04a01b1a0eabf77c2786727ab7b5"
+   }
+  ]
+ },
+ {
+  "sha": "4eddf84f9bfafb8c027dd43f32f3dd3ad3c6fce3",
+  "node_id": "C_kwDOFgNOpdoAKDRlZGRmODRmOWJmYWZiOGMwMjdkZDQzZjMyZjNkZDNhZDNjNmZjZTM",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T06:59:10Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T06:59:10Z"
+   },
+   "message": "Prereg: five checkpoint preimages verbatim (before run)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy",
+   "tree": {
+    "sha": "5f52ad024e88168177a4744b0cd1802c09567ba4",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/5f52ad024e88168177a4744b0cd1802c09567ba4"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/4eddf84f9bfafb8c027dd43f32f3dd3ad3c6fce3",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQC0m5dL8\nWwCA4K8YjK8bL6AUnOKEW7dEnwSdb1C071SluZcpwrbX/smKA0Kn0CQKGij5dcKq2nHFNOsxRsww\nrwc=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 5f52ad024e88168177a4744b0cd1802c09567ba4\nparent cd3089a0f15828e1531b5cf69fb49b80324d69a6\nauthor Claude <noreply@anthropic.com> 1790405950 +0000\ncommitter Claude <noreply@anthropic.com> 1790405950 +0000\n\nPrereg: five checkpoint preimages verbatim (before run)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy\n",
+    "verified_at": "2026-09-26T06:59:13Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4eddf84f9bfafb8c027dd43f32f3dd3ad3c6fce3",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/4eddf84f9bfafb8c027dd43f32f3dd3ad3c6fce3",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4eddf84f9bfafb8c027dd43f32f3dd3ad3c6fce3/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "cd3089a0f15828e1531b5cf69fb49b80324d69a6",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/cd3089a0f15828e1531b5cf69fb49b80324d69a6",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/cd3089a0f15828e1531b5cf69fb49b80324d69a6"
+   }
+  ]
+ },
+ {
+  "sha": "8325e7fd1a029ae96736a1eb7cb707196479d4b8",
+  "node_id": "C_kwDOFgNOpdoAKDgzMjVlN2ZkMWEwMjlhZTk2NzM2YTFlYjdjYjcwNzE5NjQ3OWQ0Yjg",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T06:59:24Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T06:59:24Z"
+   },
+   "message": "Tick 62: five checkpoint preimages verbatim, 80 decrypts null; public-ask premises corrected\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy",
+   "tree": {
+    "sha": "e042516d0ecb0f3a018dec26016a0692e17582a7",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/e042516d0ecb0f3a018dec26016a0692e17582a7"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/8325e7fd1a029ae96736a1eb7cb707196479d4b8",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQEoIEgwJ\nkJDTSBX9s59ntDs529mYvzEZz2mWQY+wGeZ5iJ9EPLgIeS6fJduIFFGW9EPdPtdy5JNJJxkeqiXg\nLwY=\n-----END SSH SIGNATURE-----",
+    "payload": "tree e042516d0ecb0f3a018dec26016a0692e17582a7\nparent 4eddf84f9bfafb8c027dd43f32f3dd3ad3c6fce3\nauthor Claude <noreply@anthropic.com> 1790405964 +0000\ncommitter Claude <noreply@anthropic.com> 1790405964 +0000\n\nTick 62: five checkpoint preimages verbatim, 80 decrypts null; public-ask premises corrected\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy\n",
+    "verified_at": "2026-09-26T06:59:26Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/8325e7fd1a029ae96736a1eb7cb707196479d4b8",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/8325e7fd1a029ae96736a1eb7cb707196479d4b8",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/8325e7fd1a029ae96736a1eb7cb707196479d4b8/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "4eddf84f9bfafb8c027dd43f32f3dd3ad3c6fce3",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4eddf84f9bfafb8c027dd43f32f3dd3ad3c6fce3",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/4eddf84f9bfafb8c027dd43f32f3dd3ad3c6fce3"
+   }
+  ]
+ },
+ {
+  "sha": "88f8b23cc53f43967c0b491a543f3ddd248c1bac",
+  "node_id": "C_kwDOFgNOpdoAKDg4ZjhiMjNjYzUzZjQzOTY3YzBiNDkxYTU0M2YzZGRkMjQ4YzFiYWM",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:22:19Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:22:19Z"
+   },
+   "message": "Tick 63: 'Good job, Neo!' paid the two raw-seed keys (148XH2, 13HGhj); tick 39 lead withdrawn; 1NULY7 seed variants null\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy",
+   "tree": {
+    "sha": "5b3e2e55622080a12edd42b6b118b58244626bb5",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/5b3e2e55622080a12edd42b6b118b58244626bb5"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/88f8b23cc53f43967c0b491a543f3ddd248c1bac",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQOepZpp1\n88KMLaB881pdqF+sxPCWglM+b3LKRFZt0E6QzQ7+gas/kIXAc4sXg0eHBKjgZ9cFw15L0eScK0mU\n2Qk=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 5b3e2e55622080a12edd42b6b118b58244626bb5\nparent 8325e7fd1a029ae96736a1eb7cb707196479d4b8\nauthor Claude <noreply@anthropic.com> 1790407339 +0000\ncommitter Claude <noreply@anthropic.com> 1790407339 +0000\n\nTick 63: 'Good job, Neo!' paid the two raw-seed keys (148XH2, 13HGhj); tick 39 lead withdrawn; 1NULY7 seed variants null\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy\n",
+    "verified_at": "2026-09-26T07:22:21Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/88f8b23cc53f43967c0b491a543f3ddd248c1bac",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/88f8b23cc53f43967c0b491a543f3ddd248c1bac",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/88f8b23cc53f43967c0b491a543f3ddd248c1bac/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "8325e7fd1a029ae96736a1eb7cb707196479d4b8",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/8325e7fd1a029ae96736a1eb7cb707196479d4b8",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/8325e7fd1a029ae96736a1eb7cb707196479d4b8"
+   }
+  ]
+ },
+ {
+  "sha": "552342a905b19cfe712e2ba4cf6fb5d914a6f82b",
+  "node_id": "C_kwDOFgNOpdoAKDU1MjM0MmE5MDViMTljZmU3MTJlMmJhNGNmNmZiNWQ5MTRhNmY4MmI",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:37:02Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:37:02Z"
+   },
+   "message": "Tick 64: #60307 = X quoting Jrk's #8774 back; Aug-2023 context verified; BTCSEED not the referent\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy",
+   "tree": {
+    "sha": "ffffcb91a7f004ef25f8f11d819233e8dc4d5f51",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/ffffcb91a7f004ef25f8f11d819233e8dc4d5f51"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/552342a905b19cfe712e2ba4cf6fb5d914a6f82b",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQGvKvSiB\nUWQa6CDpyGmxBgxrsEhvNViilvgKEmY9voLA87+N7J0vazg7mmWgq7KlJgzxk53HS3Zn91Iw+q8W\ngQQ=\n-----END SSH SIGNATURE-----",
+    "payload": "tree ffffcb91a7f004ef25f8f11d819233e8dc4d5f51\nparent 88f8b23cc53f43967c0b491a543f3ddd248c1bac\nauthor Claude <noreply@anthropic.com> 1790408222 +0000\ncommitter Claude <noreply@anthropic.com> 1790408222 +0000\n\nTick 64: #60307 = X quoting Jrk's #8774 back; Aug-2023 context verified; BTCSEED not the referent\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy\n",
+    "verified_at": "2026-09-26T07:37:05Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/552342a905b19cfe712e2ba4cf6fb5d914a6f82b",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/552342a905b19cfe712e2ba4cf6fb5d914a6f82b",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/552342a905b19cfe712e2ba4cf6fb5d914a6f82b/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "88f8b23cc53f43967c0b491a543f3ddd248c1bac",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/88f8b23cc53f43967c0b491a543f3ddd248c1bac",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/88f8b23cc53f43967c0b491a543f3ddd248c1bac"
+   }
+  ]
+ },
+ {
+  "sha": "4de4c1accef635de5dd8a93eaaa1966273c37716",
+  "node_id": "C_kwDOFgNOpdoAKDRkZTRjMWFjY2VmNjM1ZGU1ZGQ4YTkzZWFhYTE5NjYyNzNjMzc3MTY",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:41:43Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:41:43Z"
+   },
+   "message": "Tick 65: DOUBLE DOWN/no-odds/2x14 is the solved phase-3.2 checkerboard clue; user-reported nulls recorded\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy",
+   "tree": {
+    "sha": "49b084ed5b639a3bb37de51aa81c83c414843c14",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/49b084ed5b639a3bb37de51aa81c83c414843c14"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/4de4c1accef635de5dd8a93eaaa1966273c37716",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQLzUmTTg\n5BhTG4f5e8ojYWSBNcOuNNutInYO+0vqAXvkbBI43twdSPIsec0jRIeCIQ0XqD858QA92I0ZyBYj\nuwY=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 49b084ed5b639a3bb37de51aa81c83c414843c14\nparent 552342a905b19cfe712e2ba4cf6fb5d914a6f82b\nauthor Claude <noreply@anthropic.com> 1790408503 +0000\ncommitter Claude <noreply@anthropic.com> 1790408503 +0000\n\nTick 65: DOUBLE DOWN/no-odds/2x14 is the solved phase-3.2 checkerboard clue; user-reported nulls recorded\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy\n",
+    "verified_at": "2026-09-26T07:41:45Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4de4c1accef635de5dd8a93eaaa1966273c37716",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/4de4c1accef635de5dd8a93eaaa1966273c37716",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4de4c1accef635de5dd8a93eaaa1966273c37716/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "552342a905b19cfe712e2ba4cf6fb5d914a6f82b",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/552342a905b19cfe712e2ba4cf6fb5d914a6f82b",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/552342a905b19cfe712e2ba4cf6fb5d914a6f82b"
+   }
+  ]
+ },
+ {
+  "sha": "ce267965e1924f9d694d1aed1213d02e5da8e21d",
+  "node_id": "C_kwDOFgNOpdoAKGNlMjY3OTY1ZTE5MjRmOWQ2OTRkMWFlZDEyMTNkMDJlNWRhOGUyMWQ",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:44:12Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:44:12Z"
+   },
+   "message": "Prereg: item E residue, 4 candidates (before run)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy",
+   "tree": {
+    "sha": "43b3db8c85df8ae78a78eb4a594c7bad667ba4f1",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/43b3db8c85df8ae78a78eb4a594c7bad667ba4f1"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/ce267965e1924f9d694d1aed1213d02e5da8e21d",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQEmxnTe0\nFPywK9f0EqH2X1MdDTysLb1ZQi9AxUbLKtw8grmvul0INkje4RugAlFiSQsi/SvId+QNyaz0/Dwy\n3AQ=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 43b3db8c85df8ae78a78eb4a594c7bad667ba4f1\nparent 4de4c1accef635de5dd8a93eaaa1966273c37716\nauthor Claude <noreply@anthropic.com> 1790408652 +0000\ncommitter Claude <noreply@anthropic.com> 1790408652 +0000\n\nPrereg: item E residue, 4 candidates (before run)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy\n",
+    "verified_at": "2026-09-26T07:44:15Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/ce267965e1924f9d694d1aed1213d02e5da8e21d",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/ce267965e1924f9d694d1aed1213d02e5da8e21d",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/ce267965e1924f9d694d1aed1213d02e5da8e21d/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "4de4c1accef635de5dd8a93eaaa1966273c37716",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4de4c1accef635de5dd8a93eaaa1966273c37716",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/4de4c1accef635de5dd8a93eaaa1966273c37716"
+   }
+  ]
+ },
+ {
+  "sha": "891f255caf075332b9e48e759d1967314b5920c0",
+  "node_id": "C_kwDOFgNOpdoAKDg5MWYyNTVjYWYwNzUzMzJiOWU0OGU3NTlkMTk2NzMxNGI1OTIwYzA",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:44:24Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T07:44:24Z"
+   },
+   "message": "Tick 66: item E residue (empty, P32T salt, VIC upper, HALFANDBETTERHALF) 64 decrypts null\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy",
+   "tree": {
+    "sha": "b672914db26cfe6cc98d622f70ca0c05c812585f",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/b672914db26cfe6cc98d622f70ca0c05c812585f"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/891f255caf075332b9e48e759d1967314b5920c0",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQHWnX6jz\nVmy6tIe15jPqmkZDyhOuhPeVpnBH20IV3Ncd1KzVEIhPTN9xdmGRo045A0mqxURDAh094MIV9D6O\nOQE=\n-----END SSH SIGNATURE-----",
+    "payload": "tree b672914db26cfe6cc98d622f70ca0c05c812585f\nparent ce267965e1924f9d694d1aed1213d02e5da8e21d\nauthor Claude <noreply@anthropic.com> 1790408664 +0000\ncommitter Claude <noreply@anthropic.com> 1790408664 +0000\n\nTick 66: item E residue (empty, P32T salt, VIC upper, HALFANDBETTERHALF) 64 decrypts null\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy\n",
+    "verified_at": "2026-09-26T07:44:26Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/891f255caf075332b9e48e759d1967314b5920c0",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/891f255caf075332b9e48e759d1967314b5920c0",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/891f255caf075332b9e48e759d1967314b5920c0/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "ce267965e1924f9d694d1aed1213d02e5da8e21d",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/ce267965e1924f9d694d1aed1213d02e5da8e21d",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/ce267965e1924f9d694d1aed1213d02e5da8e21d"
+   }
+  ]
+ },
+ {
+  "sha": "9f75d5b7412365ff6581c90dfe1077fce3bc95b8",
+  "node_id": "C_kwDOFgNOpdoAKDlmNzVkNWI3NDEyMzY1ZmY2NTgxYzkwZGZlMTA3N2ZjZTNiYzk1Yjg",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T08:08:55Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T08:08:55Z"
+   },
+   "message": "Tick 67: K14 reading - 12/0/12 colour split and VIC 33/58 are forced by construction\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy",
+   "tree": {
+    "sha": "02ca054687bc34bebfa9b9e44823f299f723e93d",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/02ca054687bc34bebfa9b9e44823f299f723e93d"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/9f75d5b7412365ff6581c90dfe1077fce3bc95b8",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQLEq9uo4\nWGn2kdg8+u8sau7jjebLLInNjpUxVlOtGkweRBAPCVfcTIYlHV7tYjVexBlgYKAbsdq1r7DtWPqb\nkA8=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 02ca054687bc34bebfa9b9e44823f299f723e93d\nparent 891f255caf075332b9e48e759d1967314b5920c0\nauthor Claude <noreply@anthropic.com> 1790410135 +0000\ncommitter Claude <noreply@anthropic.com> 1790410135 +0000\n\nTick 67: K14 reading - 12/0/12 colour split and VIC 33/58 are forced by construction\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01WYiKutBvz73VTREPFiBHRy\n",
+    "verified_at": "2026-09-26T08:08:58Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/9f75d5b7412365ff6581c90dfe1077fce3bc95b8",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/9f75d5b7412365ff6581c90dfe1077fce3bc95b8",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/9f75d5b7412365ff6581c90dfe1077fce3bc95b8/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "891f255caf075332b9e48e759d1967314b5920c0",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/891f255caf075332b9e48e759d1967314b5920c0",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/891f255caf075332b9e48e759d1967314b5920c0"
+   }
+  ]
+ },
+ {
+  "sha": "72805e2e142312fc5c84d9af4d0ee9d9eba64c67",
+  "node_id": "C_kwDOFgNOpdoAKDcyODA1ZTJlMTQyMzEyZmM1Yzg0ZDlhZjRkMGVlOWQ5ZWJhNjRjNjc",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T08:20:40Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T08:20:40Z"
+   },
+   "message": "Prereg: K14 edge-space reading, structure/text/crypto checks (before run)\n\nPre-registers the user's six-step K14 multiplicity proposal as one closed family: four fixed\nedge placements, the VIC 33-edge mask, the 24 coloured cells, seven layers plus the VIC and\nresidual streams as weighted K14, Bonferroni-corrected nulls, an English control for\ntext-derived objects, a fixed text check and the frozen gate decrypt path. Records before any\ninvariant is computed that the 24 coloured cells contain no mirrored pair.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "f0ca3103e3659bd3d18d3f9e5a17244b25713c3f",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/f0ca3103e3659bd3d18d3f9e5a17244b25713c3f"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/72805e2e142312fc5c84d9af4d0ee9d9eba64c67",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQMStkXn3\n46DJY1blbEB70CQ+k4dwTBQiYM8vGDMSsetA347Mi20v/WwfpgvIull+cQXMRYfk4ogXqksBBGuO\nJAE=\n-----END SSH SIGNATURE-----",
+    "payload": "tree f0ca3103e3659bd3d18d3f9e5a17244b25713c3f\nparent 9f75d5b7412365ff6581c90dfe1077fce3bc95b8\nauthor Claude <noreply@anthropic.com> 1790410840 +0000\ncommitter Claude <noreply@anthropic.com> 1790410840 +0000\n\nPrereg: K14 edge-space reading, structure/text/crypto checks (before run)\n\nPre-registers the user's six-step K14 multiplicity proposal as one closed family: four fixed\nedge placements, the VIC 33-edge mask, the 24 coloured cells, seven layers plus the VIC and\nresidual streams as weighted K14, Bonferroni-corrected nulls, an English control for\ntext-derived objects, a fixed text check and the frozen gate decrypt path. Records before any\ninvariant is computed that the 24 coloured cells contain no mirrored pair.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T08:20:48Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/72805e2e142312fc5c84d9af4d0ee9d9eba64c67",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/72805e2e142312fc5c84d9af4d0ee9d9eba64c67",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/72805e2e142312fc5c84d9af4d0ee9d9eba64c67/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "9f75d5b7412365ff6581c90dfe1077fce3bc95b8",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/9f75d5b7412365ff6581c90dfe1077fce3bc95b8",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/9f75d5b7412365ff6581c90dfe1077fce3bc95b8"
+   }
+  ]
+ },
+ {
+  "sha": "8eeb9faad32e33f763cc4249ceddba5bb8931874",
+  "node_id": "C_kwDOFgNOpdoAKDhlZWI5ZmFhZDMyZTMzZjc2M2NjNDI0OWNlZGRiYTViYjg5MzE4NzQ",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T08:28:27Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T08:28:27Z"
+   },
+   "message": "Tick 68: K14 edge-space reading run once as preregistered; null on structure, text and crypto\n\nRuns campaign 44 as pre-registered. The VIC 33-edge mask graphs sit at the null median (28 tests,\nmin p 0.31); the weighted K14 layers show nothing (144 tests, min p 0.0073 against 6.9e-5); no\ntarget word appears in any rendering; 2,208 decrypts and 53 direct scalars give no hit. Records\nthat spiral-lower is spiral-upper under i -> 13-i, and that the coloured cells' odd spiral parity\nforces both the empty diagonal and a bipartite colour graph. The K14 family is closed.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "35037c99ae7fe71eda1ed3e330c940898472dc73",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/35037c99ae7fe71eda1ed3e330c940898472dc73"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/8eeb9faad32e33f763cc4249ceddba5bb8931874",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQGwS6EwF\nRyrps5zfUcqpbB3vhCqZfLTHrjsUpAouW23KI9WWg37YmImISVNW0VowNbdoBcVcysDObNgwyQ7S\n1gs=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 35037c99ae7fe71eda1ed3e330c940898472dc73\nparent 72805e2e142312fc5c84d9af4d0ee9d9eba64c67\nauthor Claude <noreply@anthropic.com> 1790411307 +0000\ncommitter Claude <noreply@anthropic.com> 1790411307 +0000\n\nTick 68: K14 edge-space reading run once as preregistered; null on structure, text and crypto\n\nRuns campaign 44 as pre-registered. The VIC 33-edge mask graphs sit at the null median (28 tests,\nmin p 0.31); the weighted K14 layers show nothing (144 tests, min p 0.0073 against 6.9e-5); no\ntarget word appears in any rendering; 2,208 decrypts and 53 direct scalars give no hit. Records\nthat spiral-lower is spiral-upper under i -> 13-i, and that the coloured cells' odd spiral parity\nforces both the empty diagonal and a bipartite colour graph. The K14 family is closed.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T08:28:29Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/8eeb9faad32e33f763cc4249ceddba5bb8931874",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/8eeb9faad32e33f763cc4249ceddba5bb8931874",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/8eeb9faad32e33f763cc4249ceddba5bb8931874/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "72805e2e142312fc5c84d9af4d0ee9d9eba64c67",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/72805e2e142312fc5c84d9af4d0ee9d9eba64c67",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/72805e2e142312fc5c84d9af4d0ee9d9eba64c67"
+   }
+  ]
+ },
+ {
+  "sha": "a69c28a5734d013ea91f05e4a500a3bb8f58091c",
+  "node_id": "C_kwDOFgNOpdoAKGE2OWMyOGE1NzM0ZDAxM2VhOTFmMDVlNGE1MDBhM2JiOGY1ODA5MWM",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T09:17:53Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T09:17:53Z"
+   },
+   "message": "Tick 69: audit the simulation/K14 message claim by claim; record five corrections\n\nRecords a blind verify-then-challenge audit of the relayed K14 message. None of its facts is an\ninformative anomaly: 196 = 91+14+91 is an identity, the 12/0/12 colour split and the diagonal\nreading ' ?' are forced by the spiral encoding, 33/58 is the English median under the certified\nboard, and 1344 = 14 x 96 and 96 - 91 = 5 are typical under look-elsewhere nulls. The two 91-streams\nare one design decision, since YOUWON can be planted at exactly one offset, 21.\n\nCorrects tick 63's txids (364de511/722fbf35 were right) and the Gavin transaction's outputs (seven\nof eight stamp addresses), tick 68's scalar count (52) and its dead edge-connectivity test, and\ntick 67's stride-8 wording. Also fixes the tx file header and the YOUWON note's null rate, and\nnotes campaign 44's extra dependencies in the README.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "9462a1895f6fcfa2a94d7dfaebedb926773c5368",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/9462a1895f6fcfa2a94d7dfaebedb926773c5368"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/a69c28a5734d013ea91f05e4a500a3bb8f58091c",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQJ0ZdzTf\nUAkPAkW/uoDz8DLkiXQAxk9gJYRgfQM18s0IR9VCGkqQh76UpP2skEJ1MdHiUdGbQ5o37+qgneJu\n2As=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 9462a1895f6fcfa2a94d7dfaebedb926773c5368\nparent 8eeb9faad32e33f763cc4249ceddba5bb8931874\nauthor Claude <noreply@anthropic.com> 1790414273 +0000\ncommitter Claude <noreply@anthropic.com> 1790414273 +0000\n\nTick 69: audit the simulation/K14 message claim by claim; record five corrections\n\nRecords a blind verify-then-challenge audit of the relayed K14 message. None of its facts is an\ninformative anomaly: 196 = 91+14+91 is an identity, the 12/0/12 colour split and the diagonal\nreading ' ?' are forced by the spiral encoding, 33/58 is the English median under the certified\nboard, and 1344 = 14 x 96 and 96 - 91 = 5 are typical under look-elsewhere nulls. The two 91-streams\nare one design decision, since YOUWON can be planted at exactly one offset, 21.\n\nCorrects tick 63's txids (364de511/722fbf35 were right) and the Gavin transaction's outputs (seven\nof eight stamp addresses), tick 68's scalar count (52) and its dead edge-connectivity test, and\ntick 67's stride-8 wording. Also fixes the tx file header and the YOUWON note's null rate, and\nnotes campaign 44's extra dependencies in the README.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T09:17:57Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/a69c28a5734d013ea91f05e4a500a3bb8f58091c",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/a69c28a5734d013ea91f05e4a500a3bb8f58091c",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/a69c28a5734d013ea91f05e4a500a3bb8f58091c/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "8eeb9faad32e33f763cc4249ceddba5bb8931874",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/8eeb9faad32e33f763cc4249ceddba5bb8931874",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/8eeb9faad32e33f763cc4249ceddba5bb8931874"
+   }
+  ]
+ },
+ {
+  "sha": "b56051525ca9960e037db5c44b8050a9f012f0b0",
+  "node_id": "C_kwDOFgNOpdoAKGI1NjA1MTUyNWNhOTk2MGUwMzdkYjVjNDRiODA1MGE5ZjAxMmYwYjA",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T09:44:00Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T09:44:00Z"
+   },
+   "message": "Tick 70: agree the chain-trapdoor review; bind locktime 629998 to the prize key offline\n\nAdds verify_halving_sigs.py, which rebuilds legacy SIGHASH_ALL for the three P2PKH inputs of the\n2020 halving spend and verifies each signature against the prize public key with the repo's own\ncurve code and with the ecdsa package; the same signatures fail when the locktime is changed by 1.\nRecords that the 840003 spend and the segwit OP_RETURN transactions cannot be checked offline and\nthat chain APIs are still refused by the network policy.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "c905b6a5480024669f808a809956b67ad6215bbd",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/c905b6a5480024669f808a809956b67ad6215bbd"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/b56051525ca9960e037db5c44b8050a9f012f0b0",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQAODa60E\nc/oozhW/XPc9FeYJGOPfj4wVo5usZlkYA0I8B6rKo8jegBpXfH81jhQkihcRKtWJzNH6dn7LsW18\nlQw=\n-----END SSH SIGNATURE-----",
+    "payload": "tree c905b6a5480024669f808a809956b67ad6215bbd\nparent a69c28a5734d013ea91f05e4a500a3bb8f58091c\nauthor Claude <noreply@anthropic.com> 1790415840 +0000\ncommitter Claude <noreply@anthropic.com> 1790415840 +0000\n\nTick 70: agree the chain-trapdoor review; bind locktime 629998 to the prize key offline\n\nAdds verify_halving_sigs.py, which rebuilds legacy SIGHASH_ALL for the three P2PKH inputs of the\n2020 halving spend and verifies each signature against the prize public key with the repo's own\ncurve code and with the ecdsa package; the same signatures fail when the locktime is changed by 1.\nRecords that the 840003 spend and the segwit OP_RETURN transactions cannot be checked offline and\nthat chain APIs are still refused by the network policy.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T09:44:02Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/b56051525ca9960e037db5c44b8050a9f012f0b0",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/b56051525ca9960e037db5c44b8050a9f012f0b0",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/b56051525ca9960e037db5c44b8050a9f012f0b0/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "a69c28a5734d013ea91f05e4a500a3bb8f58091c",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/a69c28a5734d013ea91f05e4a500a3bb8f58091c",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/a69c28a5734d013ea91f05e4a500a3bb8f58091c"
+   }
+  ]
+ },
+ {
+  "sha": "62d2fb8157eb35991f37f80030ce62f5fd856cf4",
+  "node_id": "C_kwDOFgNOpdoAKDYyZDJmYjgxNTdlYjM1OTkxZjM3ZjgwMDMwY2U2MmY1ZmQ4NTZjZjQ",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T09:56:09Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T09:56:09Z"
+   },
+   "message": "Tick 71: affine-nonce trapdoor test on the prize key's own signatures; null\n\nAdds campaign_45_affine_nonce.py, a read-only test of whether the 2020 halving signatures use a\nnonce k = a*d + b from the neighbors/half/double vocabulary, which would let d fall out by\nalgebra. The self-test plants and recovers such a trapdoor and rejects normal signatures; the real\nrun against the three prize-key signatures finds no relation under any single-signature,\npairwise-nonce, repeated-nonce or point-identity branch. Records that the R.y idea has no on-chain\noperand and that the relayed Apple Pie / Genesis scalars are not the Genesis address.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "ed84ea8df30658e6b6161f07b58ba0de33b0d0f4",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/ed84ea8df30658e6b6161f07b58ba0de33b0d0f4"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/62d2fb8157eb35991f37f80030ce62f5fd856cf4",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQJ8W7TGt\ns1eadvCQHKAsYNNaSAq4cUvTaDPNCsrHrBwj58PYTbSRruwXSfLrFRjq8ZQRrMVpfM4EB0PSs37W\n0wI=\n-----END SSH SIGNATURE-----",
+    "payload": "tree ed84ea8df30658e6b6161f07b58ba0de33b0d0f4\nparent b56051525ca9960e037db5c44b8050a9f012f0b0\nauthor Claude <noreply@anthropic.com> 1790416569 +0000\ncommitter Claude <noreply@anthropic.com> 1790416569 +0000\n\nTick 71: affine-nonce trapdoor test on the prize key's own signatures; null\n\nAdds campaign_45_affine_nonce.py, a read-only test of whether the 2020 halving signatures use a\nnonce k = a*d + b from the neighbors/half/double vocabulary, which would let d fall out by\nalgebra. The self-test plants and recovers such a trapdoor and rejects normal signatures; the real\nrun against the three prize-key signatures finds no relation under any single-signature,\npairwise-nonce, repeated-nonce or point-identity branch. Records that the R.y idea has no on-chain\noperand and that the relayed Apple Pie / Genesis scalars are not the Genesis address.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T09:56:12Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/62d2fb8157eb35991f37f80030ce62f5fd856cf4",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/62d2fb8157eb35991f37f80030ce62f5fd856cf4",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/62d2fb8157eb35991f37f80030ce62f5fd856cf4/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "b56051525ca9960e037db5c44b8050a9f012f0b0",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/b56051525ca9960e037db5c44b8050a9f012f0b0",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/b56051525ca9960e037db5c44b8050a9f012f0b0"
+   }
+  ]
+ },
+ {
+  "sha": "a217c694df4eebcb3f9b297896bf25d078755ab1",
+  "node_id": "C_kwDOFgNOpdoAKGEyMTdjNjk0ZGY0ZWViY2IzZjliMjk3ODk2YmYyNWQwNzg3NTVhYjE",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T09:59:13Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T09:59:13Z"
+   },
+   "message": "Make campaign 45 ready for the 2024 peel; record the 2020 nonces and close the (a,b) grid\n\nThe affine-nonce test now takes any number of raw transactions, legacy or segwit, keeps only\ninputs signed by the prize key, verifies each signature before use, and pools them for the\nrepeated-nonce and pairwise checks. A segwit re-serialization of the 2020 spend is added as a\nself-test case, and the default re-run reproduces the null. The ledger records the three distinct\n2020 nonces, that the neighbors/half/double caption names the four point operations of tick 52,\nand that the grid is not widened.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "1e169e560673d597f6aceb8f68ca147a26219d66",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/1e169e560673d597f6aceb8f68ca147a26219d66"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/a217c694df4eebcb3f9b297896bf25d078755ab1",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQECue2Wj\nt+JNMVaOsV9kwTurQnj+3wZz0c8PyMVHWhCgNrlPtpnQ94xBvWINH+uTtEhNT3tlz55BZGV0nLAp\nxwk=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 1e169e560673d597f6aceb8f68ca147a26219d66\nparent 62d2fb8157eb35991f37f80030ce62f5fd856cf4\nauthor Claude <noreply@anthropic.com> 1790416753 +0000\ncommitter Claude <noreply@anthropic.com> 1790416753 +0000\n\nMake campaign 45 ready for the 2024 peel; record the 2020 nonces and close the (a,b) grid\n\nThe affine-nonce test now takes any number of raw transactions, legacy or segwit, keeps only\ninputs signed by the prize key, verifies each signature before use, and pools them for the\nrepeated-nonce and pairwise checks. A segwit re-serialization of the 2020 spend is added as a\nself-test case, and the default re-run reproduces the null. The ledger records the three distinct\n2020 nonces, that the neighbors/half/double caption names the four point operations of tick 52,\nand that the grid is not widened.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T09:59:15Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/a217c694df4eebcb3f9b297896bf25d078755ab1",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/a217c694df4eebcb3f9b297896bf25d078755ab1",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/a217c694df4eebcb3f9b297896bf25d078755ab1/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "62d2fb8157eb35991f37f80030ce62f5fd856cf4",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/62d2fb8157eb35991f37f80030ce62f5fd856cf4",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/62d2fb8157eb35991f37f80030ce62f5fd856cf4"
+   }
+  ]
+ },
+ {
+  "sha": "50f3b78c5aca903ccebf2e07831940c1105a0cd0",
+  "node_id": "C_kwDOFgNOpdoAKDUwZjNiNzhjNWFjYTkwM2NjZWJmMmUwNzgzMTk0MGMxMTA1YTBjZDA",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:03:16Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:03:16Z"
+   },
+   "message": "Ticks 72-73: 2024 peel null on nonce checks; close the pi-as-prime-counting reading\n\nSaves the user-pasted 2024 peel (locktime 840003), verifies its three prize-key signatures, and\nruns the pre-registered affine-nonce and reuse checks on it alone and pooled with 2020: six\ndistinct nonces, no relation. Records the audit of the prime-counting message: the recursive\nprime sieve always leaves the largest primeth-recurrence term below N, so 127 is forced for every\nlength 127-708; the (31,73) system has five solutions, not one; pi(570) = |bin1| is a 2-4% zoo\nhit; the prime-filtered FAED is an ordinary sample. Corrects line 161's attribution of 2,3,5,7 to\nthe solver and notes Jrk's bare '42' (#8385). Drops the VIC-mask test by user decision.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "031c69e7b5a02ecde61283948ea4c49298f21bf7",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/031c69e7b5a02ecde61283948ea4c49298f21bf7"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/50f3b78c5aca903ccebf2e07831940c1105a0cd0",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQDIWSPBU\nVGhsjjdCwNpvJ9BVliLRvxRuRmvcKFjMF6sG2GK8ETKBQ7+gd5YbqvxNAsAxD+4197HR+eZhcULG\nPQE=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 031c69e7b5a02ecde61283948ea4c49298f21bf7\nparent a217c694df4eebcb3f9b297896bf25d078755ab1\nauthor Claude <noreply@anthropic.com> 1790416996 +0000\ncommitter Claude <noreply@anthropic.com> 1790416996 +0000\n\nTicks 72-73: 2024 peel null on nonce checks; close the pi-as-prime-counting reading\n\nSaves the user-pasted 2024 peel (locktime 840003), verifies its three prize-key signatures, and\nruns the pre-registered affine-nonce and reuse checks on it alone and pooled with 2020: six\ndistinct nonces, no relation. Records the audit of the prime-counting message: the recursive\nprime sieve always leaves the largest primeth-recurrence term below N, so 127 is forced for every\nlength 127-708; the (31,73) system has five solutions, not one; pi(570) = |bin1| is a 2-4% zoo\nhit; the prime-filtered FAED is an ordinary sample. Corrects line 161's attribution of 2,3,5,7 to\nthe solver and notes Jrk's bare '42' (#8385). Drops the VIC-mask test by user decision.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:03:19Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/50f3b78c5aca903ccebf2e07831940c1105a0cd0",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/50f3b78c5aca903ccebf2e07831940c1105a0cd0",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/50f3b78c5aca903ccebf2e07831940c1105a0cd0/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "a217c694df4eebcb3f9b297896bf25d078755ab1",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/a217c694df4eebcb3f9b297896bf25d078755ab1",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/a217c694df4eebcb3f9b297896bf25d078755ab1"
+   }
+  ]
+ },
+ {
+  "sha": "4f99cdb2442bcbc9faec1a9b559a6aaaa04dce10",
+  "node_id": "C_kwDOFgNOpdoAKDRmOTljZGIyNDQyYmNiYzlmYWVjMWE5YjU1OWE2YWFhYTA0ZGNlMTA",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:11:18Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:11:18Z"
+   },
+   "message": "Tick 74: close #8569/#8000, the Genesis-42 readings and the bare '42'\n\nRecords the user's closures. The bare string '42' is not re-run: campaign 06 already tried it raw\nand in its sha256hex forms against all four gate targets under both gate KDFs and four more, with\nno hit, and gate.py refuses it as spent. Notes that 0x2a is only a generic data push in Script,\nthat Jrk's bare '42' names no operation, and that every form of the yinyang and yellowblueprimes\nlabels is corpus-spent, so the gate waits for a creator-named value.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "849a96145f1ae363506e257e6dfd69708efd7d45",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/849a96145f1ae363506e257e6dfd69708efd7d45"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/4f99cdb2442bcbc9faec1a9b559a6aaaa04dce10",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQBUXHH/7\nvDo/x7bTJ5I4Mp8E1yDTQityBvbxaMg+YWXhiARxysKORW865b6D/HTOOUaX2eMA4+2aXO4TbRtV\nEQU=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 849a96145f1ae363506e257e6dfd69708efd7d45\nparent 50f3b78c5aca903ccebf2e07831940c1105a0cd0\nauthor Claude <noreply@anthropic.com> 1790417478 +0000\ncommitter Claude <noreply@anthropic.com> 1790417478 +0000\n\nTick 74: close #8569/#8000, the Genesis-42 readings and the bare '42'\n\nRecords the user's closures. The bare string '42' is not re-run: campaign 06 already tried it raw\nand in its sha256hex forms against all four gate targets under both gate KDFs and four more, with\nno hit, and gate.py refuses it as spent. Notes that 0x2a is only a generic data push in Script,\nthat Jrk's bare '42' names no operation, and that every form of the yinyang and yellowblueprimes\nlabels is corpus-spent, so the gate waits for a creator-named value.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:11:21Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4f99cdb2442bcbc9faec1a9b559a6aaaa04dce10",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/4f99cdb2442bcbc9faec1a9b559a6aaaa04dce10",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4f99cdb2442bcbc9faec1a9b559a6aaaa04dce10/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "50f3b78c5aca903ccebf2e07831940c1105a0cd0",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/50f3b78c5aca903ccebf2e07831940c1105a0cd0",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/50f3b78c5aca903ccebf2e07831940c1105a0cd0"
+   }
+  ]
+ },
+ {
+  "sha": "a7102116ed7064c4a48cb7c83981a47617b2f8cc",
+  "node_id": "C_kwDOFgNOpdoAKGE3MTAyMTE2ZWQ3MDY0YzRhNDhjYjdjODM5ODFhNDc2MTdiMmY4Y2M",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:19:18Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:19:18Z"
+   },
+   "message": "Tick 75: issues #79 and #55 are already covered; #79's recipe reproduces from the noise file\n\nReads the two community issues. Issue 79's stated recipe reproduces its two keys exactly from the\nin-repo 1327-byte file, but that file is a one-byte-pad false positive and the base-38 step is fitted\nto its own range, so the keys are computable by anyone and prove nothing; the private keys are not\ncopied. Records that the 2026-02-05 funding of the two addresses was never traced and how to check it\noffline. Issue 55 holds only a donation link; the Cosmic copy once taken from its repo is byte-identical\nto the archived raw capture.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "6b428ba7ddf26532bf04c8dcde125fb01d54cee2",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/6b428ba7ddf26532bf04c8dcde125fb01d54cee2"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/a7102116ed7064c4a48cb7c83981a47617b2f8cc",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQD4lRUJP\n+5uOHEKt9KUZFjY1IW+LfnmVxkwkg0JUNLiMuloWX3+vWUxkl0fz5jxzytsAEC8X9oLSqFvpYKLP\nKwo=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 6b428ba7ddf26532bf04c8dcde125fb01d54cee2\nparent 4f99cdb2442bcbc9faec1a9b559a6aaaa04dce10\nauthor Claude <noreply@anthropic.com> 1790417958 +0000\ncommitter Claude <noreply@anthropic.com> 1790417958 +0000\n\nTick 75: issues #79 and #55 are already covered; #79's recipe reproduces from the noise file\n\nReads the two community issues. Issue 79's stated recipe reproduces its two keys exactly from the\nin-repo 1327-byte file, but that file is a one-byte-pad false positive and the base-38 step is fitted\nto its own range, so the keys are computable by anyone and prove nothing; the private keys are not\ncopied. Records that the 2026-02-05 funding of the two addresses was never traced and how to check it\noffline. Issue 55 holds only a donation link; the Cosmic copy once taken from its repo is byte-identical\nto the archived raw capture.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:19:22Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/a7102116ed7064c4a48cb7c83981a47617b2f8cc",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/a7102116ed7064c4a48cb7c83981a47617b2f8cc",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/a7102116ed7064c4a48cb7c83981a47617b2f8cc/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "4f99cdb2442bcbc9faec1a9b559a6aaaa04dce10",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4f99cdb2442bcbc9faec1a9b559a6aaaa04dce10",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/4f99cdb2442bcbc9faec1a9b559a6aaaa04dce10"
+   }
+  ]
+ },
+ {
+  "sha": "3b8fc606d7ec33a0912159fbd986261b08f73850",
+  "node_id": "C_kwDOFgNOpdoAKDNiOGZjNjA2ZDdlYzMzYTA5MTIxNTlmYmQ5ODYyNjFiMDhmNzM4NTA",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:22:47Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:22:47Z"
+   },
+   "message": "Prereg: the 196 = 91 + 14 + 91 scalar test (before run)\n\nFixes the relayed script's ambiguous parts before any scalar is computed: two definitions of the\n14-bit middle (the main diagonal and spiral bits 91-104; rows 7-8 is 28 cells and is not run), the\nauthenticated YOUWON residual alongside the draft's shifted literal rendering, ASCII bits in the\n196-symbol concatenation, and both readings of the middle as a scalar. Address predicate only.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "4366e2b587e0157c26c92a609b0d1d28a266b654",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/4366e2b587e0157c26c92a609b0d1d28a266b654"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/3b8fc606d7ec33a0912159fbd986261b08f73850",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQIQ4v5Z6\nF3jkM4qsEls08a2MJ6Bfd16TKciBoQmIh+7yklkV/9scnHOIxrZ5/B8KU8ETsFNvtSiyzo/EK/6P\n0QU=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 4366e2b587e0157c26c92a609b0d1d28a266b654\nparent a7102116ed7064c4a48cb7c83981a47617b2f8cc\nauthor Claude <noreply@anthropic.com> 1790418167 +0000\ncommitter Claude <noreply@anthropic.com> 1790418167 +0000\n\nPrereg: the 196 = 91 + 14 + 91 scalar test (before run)\n\nFixes the relayed script's ambiguous parts before any scalar is computed: two definitions of the\n14-bit middle (the main diagonal and spiral bits 91-104; rows 7-8 is 28 cells and is not run), the\nauthenticated YOUWON residual alongside the draft's shifted literal rendering, ASCII bits in the\n196-symbol concatenation, and both readings of the middle as a scalar. Address predicate only.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:22:49Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/3b8fc606d7ec33a0912159fbd986261b08f73850",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/3b8fc606d7ec33a0912159fbd986261b08f73850",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/3b8fc606d7ec33a0912159fbd986261b08f73850/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "a7102116ed7064c4a48cb7c83981a47617b2f8cc",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/a7102116ed7064c4a48cb7c83981a47617b2f8cc",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/a7102116ed7064c4a48cb7c83981a47617b2f8cc"
+   }
+  ]
+ },
+ {
+  "sha": "541585efd5684cb27c583d2818d554d7134b0758",
+  "node_id": "C_kwDOFgNOpdoAKDU0MTU4NWVmZDU2ODRjYjI3YzU4M2QyODE4ZDU1NGQ3MTM0YjA3NTg",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:23:34Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:23:34Z"
+   },
+   "message": "Tick 76: the 196 = 91 + 14 + 91 scalar test, run once as preregistered; null\n\nRuns the relayed test with its ambiguities fixed in advance: sha256 of DBBI, of the VIC sentence, of\nthe YOUWON residual and of the draft's shifted rendering, of the 196-symbol concatenation for the\ndiagonal and spiral middles, and both middles as integers. None of the ten scalars gives the prize\nor 17ucy1 in either encoding. Records the vanity-prefix prior against sha256-of-text keys and that\nthe pasted K14 solver's bugs do not apply to campaign 44.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "dd72a917552963a7298d0d03e7a2bb5cce9dff93",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/dd72a917552963a7298d0d03e7a2bb5cce9dff93"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/541585efd5684cb27c583d2818d554d7134b0758",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQMOV0axe\neYq5GPhouS9e3iZzYHvHYd6jG2wwIgXowxgSH+eCqhpplhyN+D8lob7Tppm3AC7ZrKTxgcKDrBo/\nXwQ=\n-----END SSH SIGNATURE-----",
+    "payload": "tree dd72a917552963a7298d0d03e7a2bb5cce9dff93\nparent 3b8fc606d7ec33a0912159fbd986261b08f73850\nauthor Claude <noreply@anthropic.com> 1790418214 +0000\ncommitter Claude <noreply@anthropic.com> 1790418214 +0000\n\nTick 76: the 196 = 91 + 14 + 91 scalar test, run once as preregistered; null\n\nRuns the relayed test with its ambiguities fixed in advance: sha256 of DBBI, of the VIC sentence, of\nthe YOUWON residual and of the draft's shifted rendering, of the 196-symbol concatenation for the\ndiagonal and spiral middles, and both middles as integers. None of the ten scalars gives the prize\nor 17ucy1 in either encoding. Records the vanity-prefix prior against sha256-of-text keys and that\nthe pasted K14 solver's bugs do not apply to campaign 44.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:23:37Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/541585efd5684cb27c583d2818d554d7134b0758",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/541585efd5684cb27c583d2818d554d7134b0758",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/541585efd5684cb27c583d2818d554d7134b0758/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "3b8fc606d7ec33a0912159fbd986261b08f73850",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/3b8fc606d7ec33a0912159fbd986261b08f73850",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/3b8fc606d7ec33a0912159fbd986261b08f73850"
+   }
+  ]
+ },
+ {
+  "sha": "11668bb7982b1b29e66a4241ad272322377dd843",
+  "node_id": "C_kwDOFgNOpdoAKDExNjY4YmI3OTgyYjFiMjllNjZhNDI0MWFkMjcyMzIyMzc3ZGQ4NDM",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:32:06Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:32:06Z"
+   },
+   "message": "Tick 77: add read-only address-tracing tool for the Half/Better-Half funding question\n\nAdds trace_address.py: pulls and decodes every transaction of an address from an Esplora API, or\ndecodes raw tx hex offline, flagging GSMG creator-trail counterparties on both sides. Built to\ntrace the untraced 2026-02-05 funding of the Issue #79 addresses (tick 75). Offline decode is\nverified against the three in-repo transactions and a bech32 test vector; the online path is\nblocked by the environment network policy, so it runs on a node or on pasted hex.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "52bc5020646bff4805fadcf51443727aced96c8a",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/52bc5020646bff4805fadcf51443727aced96c8a"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/11668bb7982b1b29e66a4241ad272322377dd843",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQDVmTsOI\ndk+BSFyvvzZL69cbu9VS9EOPfCDT64T95iZiVZcCoNmsGOmJnrLByDI5oS7VRRGgnqs0O65OggQG\nkQE=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 52bc5020646bff4805fadcf51443727aced96c8a\nparent 541585efd5684cb27c583d2818d554d7134b0758\nauthor Claude <noreply@anthropic.com> 1790418726 +0000\ncommitter Claude <noreply@anthropic.com> 1790418726 +0000\n\nTick 77: add read-only address-tracing tool for the Half/Better-Half funding question\n\nAdds trace_address.py: pulls and decodes every transaction of an address from an Esplora API, or\ndecodes raw tx hex offline, flagging GSMG creator-trail counterparties on both sides. Built to\ntrace the untraced 2026-02-05 funding of the Issue #79 addresses (tick 75). Offline decode is\nverified against the three in-repo transactions and a bech32 test vector; the online path is\nblocked by the environment network policy, so it runs on a node or on pasted hex.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:32:09Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/11668bb7982b1b29e66a4241ad272322377dd843",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/11668bb7982b1b29e66a4241ad272322377dd843",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/11668bb7982b1b29e66a4241ad272322377dd843/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "541585efd5684cb27c583d2818d554d7134b0758",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/541585efd5684cb27c583d2818d554d7134b0758",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/541585efd5684cb27c583d2818d554d7134b0758"
+   }
+  ]
+ },
+ {
+  "sha": "ce499f224fa174574eec0bdaefdeb41a83e7469c",
+  "node_id": "C_kwDOFgNOpdoAKGNlNDk5ZjIyNGZhMTc0NTc0ZWVjMGJkYWVmZGViNDFhODNlNzQ2OWM",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:34:38Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:34:38Z"
+   },
+   "message": "Add campaign 47: Bitcoin-specific combinations of the Issue #79 Half/Better-Half scalars\n\nRead-only, address-predicate-only test of BIP32, HMAC, interleave, point-sum and a bounded linear\ngrid over the two published solver scalars, against the prize and 17ucy1. The scalars are re-derived\nin-code from the in-repo false-positive file (no private-key material in the source). Run in\nprogress; result and ledger entry follow on completion.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "bf0078bf9807cd7dac8c7da24b4c51ed94dcb547",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/bf0078bf9807cd7dac8c7da24b4c51ed94dcb547"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/ce499f224fa174574eec0bdaefdeb41a83e7469c",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQEes1GeT\nZ+L6AkLFLnBXN8GPFXycH2NgnmZWgqJ/zcBfijXNh1bCHyfoJwQ4NuqU/zQWKXpQuHOZm++baA2v\nBQ8=\n-----END SSH SIGNATURE-----",
+    "payload": "tree bf0078bf9807cd7dac8c7da24b4c51ed94dcb547\nparent 11668bb7982b1b29e66a4241ad272322377dd843\nauthor Claude <noreply@anthropic.com> 1790418878 +0000\ncommitter Claude <noreply@anthropic.com> 1790418878 +0000\n\nAdd campaign 47: Bitcoin-specific combinations of the Issue #79 Half/Better-Half scalars\n\nRead-only, address-predicate-only test of BIP32, HMAC, interleave, point-sum and a bounded linear\ngrid over the two published solver scalars, against the prize and 17ucy1. The scalars are re-derived\nin-code from the in-repo false-positive file (no private-key material in the source). Run in\nprogress; result and ledger entry follow on completion.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:34:41Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/ce499f224fa174574eec0bdaefdeb41a83e7469c",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/ce499f224fa174574eec0bdaefdeb41a83e7469c",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/ce499f224fa174574eec0bdaefdeb41a83e7469c/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "11668bb7982b1b29e66a4241ad272322377dd843",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/11668bb7982b1b29e66a4241ad272322377dd843",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/11668bb7982b1b29e66a4241ad272322377dd843"
+   }
+  ]
+ },
+ {
+  "sha": "cf44b97d008c58b14467653711923b6d1e0234e4",
+  "node_id": "C_kwDOFgNOpdoAKGNmNDRiOTdkMDA4YzU4YjE0NDY3NjUzNzExOTIzYjZkMWUwMjM0ZTQ",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:39:07Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:39:07Z"
+   },
+   "message": "Tick 78: Bitcoin-specific combinations of the Issue #79 keys, null\n\nRuns 41 named constructions (arithmetic, HMAC, SHA512, interleave, BIP32 non-hardened/hardened,\npoint-sum) and a 16,641-pair linear grid over the two published solver scalars against the prize\nand 17ucy1; no hit. The scalars are re-derived from the in-repo false-positive file and no\nprivate-key material is written. The linear grid compares points against the prize pubkey, so the\nrun is ~5 s instead of minutes. Closes the combine-the-two-keys question on primary.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "17ca16a51615bd932e86e68741a38d6695162dce",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/17ca16a51615bd932e86e68741a38d6695162dce"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/cf44b97d008c58b14467653711923b6d1e0234e4",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQEigaTRf\nwwKw1NR8J59LCO3tLgczLBU2RhDSJcd20Oi8049aZU8X9Gu4FILtasCkCPT17b8klD+G/17d53/b\nlQQ=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 17ca16a51615bd932e86e68741a38d6695162dce\nparent ce499f224fa174574eec0bdaefdeb41a83e7469c\nauthor Claude <noreply@anthropic.com> 1790419147 +0000\ncommitter Claude <noreply@anthropic.com> 1790419147 +0000\n\nTick 78: Bitcoin-specific combinations of the Issue #79 keys, null\n\nRuns 41 named constructions (arithmetic, HMAC, SHA512, interleave, BIP32 non-hardened/hardened,\npoint-sum) and a 16,641-pair linear grid over the two published solver scalars against the prize\nand 17ucy1; no hit. The scalars are re-derived from the in-repo false-positive file and no\nprivate-key material is written. The linear grid compares points against the prize pubkey, so the\nrun is ~5 s instead of minutes. Closes the combine-the-two-keys question on primary.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:39:09Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/cf44b97d008c58b14467653711923b6d1e0234e4",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/cf44b97d008c58b14467653711923b6d1e0234e4",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/cf44b97d008c58b14467653711923b6d1e0234e4/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "ce499f224fa174574eec0bdaefdeb41a83e7469c",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/ce499f224fa174574eec0bdaefdeb41a83e7469c",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/ce499f224fa174574eec0bdaefdeb41a83e7469c"
+   }
+  ]
+ },
+ {
+  "sha": "df81214e6cb9156c9905f84fda278e3e9a7a76b6",
+  "node_id": "C_kwDOFgNOpdoAKGRmODEyMTRlNmNiOTE1NmM5OTA1Zjg0ZmRhMjc4ZTNlOWE3YTc2YjY",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:48:05Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:48:05Z"
+   },
+   "message": "Prereg: Fresco / Looking Forward adjacent strings (before run)\n\nPre-registers the 12 genuinely-new Venus-Project/Fresco strings for one frozen-path pass. Notes that\nthe core Looking Forward strings are already spent (tick 60), that the Bingo confirmation is of the\nCartman quote not the book, and that Fresco is the phase-3.2 answer (a backward pointer).\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "0f6eec5842d9fa378cc23155266e8cc849b7a7b7",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/0f6eec5842d9fa378cc23155266e8cc849b7a7b7"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/df81214e6cb9156c9905f84fda278e3e9a7a76b6",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQLfxaL0y\neFTJzoIL+q/AoIVxEzNoAmzbys34VCoqq5all1uiBdYrlH5+3tPyhz4F7xeYOtOMYN2l+oX/ZJL6\nYwE=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 0f6eec5842d9fa378cc23155266e8cc849b7a7b7\nparent cf44b97d008c58b14467653711923b6d1e0234e4\nauthor Claude <noreply@anthropic.com> 1790419685 +0000\ncommitter Claude <noreply@anthropic.com> 1790419685 +0000\n\nPrereg: Fresco / Looking Forward adjacent strings (before run)\n\nPre-registers the 12 genuinely-new Venus-Project/Fresco strings for one frozen-path pass. Notes that\nthe core Looking Forward strings are already spent (tick 60), that the Bingo confirmation is of the\nCartman quote not the book, and that Fresco is the phase-3.2 answer (a backward pointer).\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:49:07Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/df81214e6cb9156c9905f84fda278e3e9a7a76b6",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/df81214e6cb9156c9905f84fda278e3e9a7a76b6",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/df81214e6cb9156c9905f84fda278e3e9a7a76b6/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "cf44b97d008c58b14467653711923b6d1e0234e4",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/cf44b97d008c58b14467653711923b6d1e0234e4",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/cf44b97d008c58b14467653711923b6d1e0234e4"
+   }
+  ]
+ },
+ {
+  "sha": "84288c06c5c9670ad93ca7dd574a5daeeb7a6899",
+  "node_id": "C_kwDOFgNOpdoAKDg0Mjg4YzA2YzVjOTY3MGFkOTNjYTdkZDU3NGE1ZGFlZWI3YTY4OTk",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:49:04Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:49:04Z"
+   },
+   "message": "Ticks 79-80: Half-address funding trace (NONE creator-trail); Looking Forward direction closed\n\nRecords the user's trace of the Issue #79 Half address: 105 txs, no creator-trail funder, and the\naddress instead sprays dust at the prize and 17ucy1 (confirming tick 38). Resolves the tick-75 open\nitem: the addresses are solver-controlled, not creator-funded. Corrects the relayed Looking Forward\nclaim (Bingo confirms the Cartman quote, not the book; tick 60), notes the core strings are spent,\nand runs the 12 new Fresco/Venus adjacent strings through the frozen path: 192 decrypts, 0 hits.\nLeaves the public ask unposted (outward-facing, user decision).\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "2e54db11ebf5be0d47c09cdb8820c6b520c568b0",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/2e54db11ebf5be0d47c09cdb8820c6b520c568b0"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/84288c06c5c9670ad93ca7dd574a5daeeb7a6899",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQN/wfR9Z\nxEnPvNBSRAIvHNBdMDqtsNln/6m+QbFGUhMPzTrypVnPk2SsEgMkktFlooUgavfMKWiYfQp28mUE\nLQc=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 2e54db11ebf5be0d47c09cdb8820c6b520c568b0\nparent df81214e6cb9156c9905f84fda278e3e9a7a76b6\nauthor Claude <noreply@anthropic.com> 1790419744 +0000\ncommitter Claude <noreply@anthropic.com> 1790419744 +0000\n\nTicks 79-80: Half-address funding trace (NONE creator-trail); Looking Forward direction closed\n\nRecords the user's trace of the Issue #79 Half address: 105 txs, no creator-trail funder, and the\naddress instead sprays dust at the prize and 17ucy1 (confirming tick 38). Resolves the tick-75 open\nitem: the addresses are solver-controlled, not creator-funded. Corrects the relayed Looking Forward\nclaim (Bingo confirms the Cartman quote, not the book; tick 60), notes the core strings are spent,\nand runs the 12 new Fresco/Venus adjacent strings through the frozen path: 192 decrypts, 0 hits.\nLeaves the public ask unposted (outward-facing, user decision).\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:49:07Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/84288c06c5c9670ad93ca7dd574a5daeeb7a6899",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/84288c06c5c9670ad93ca7dd574a5daeeb7a6899",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/84288c06c5c9670ad93ca7dd574a5daeeb7a6899/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "df81214e6cb9156c9905f84fda278e3e9a7a76b6",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/df81214e6cb9156c9905f84fda278e3e9a7a76b6",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/df81214e6cb9156c9905f84fda278e3e9a7a76b6"
+   }
+  ]
+ },
+ {
+  "sha": "e8a0be6c6d0c81b1c5bd54aaf2ba093b98af116c",
+  "node_id": "C_kwDOFgNOpdoAKGU4YTBiZTZjNmQwYzgxYjFjNWJkNTRhYWYyYmEwOTNiOThhZjExNmM",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:51:22Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:51:22Z"
+   },
+   "message": "Tick 80 addendum: record the user's 162-decrypt title-grade null and the export-pending provenance\n\nAdds the user's run (title-grade + free-will strings x three envelopes, 162 decrypts, null),\nverified salts, and the precise provenance caveat: the Bingo -> Looking Forward attribution holds\nonly if the JSON export shows that reply threading. Affirms Fresco as an already-used password and a\nreading direction, not a KDF input; the Venus bibliography and public ask stay out.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "420f24942aa9e5ac3957abd4437ba8a1fa827290",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/420f24942aa9e5ac3957abd4437ba8a1fa827290"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/e8a0be6c6d0c81b1c5bd54aaf2ba093b98af116c",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQAxqiLfy\n5qgNd34sXUWO4An4lHfphfiyU7OZhCA9Rb/IKpmCB8M5Ih2EOCqs5oFO4Vssc7ut8erFZyiJydr3\nrgg=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 420f24942aa9e5ac3957abd4437ba8a1fa827290\nparent 84288c06c5c9670ad93ca7dd574a5daeeb7a6899\nauthor Claude <noreply@anthropic.com> 1790419882 +0000\ncommitter Claude <noreply@anthropic.com> 1790419882 +0000\n\nTick 80 addendum: record the user's 162-decrypt title-grade null and the export-pending provenance\n\nAdds the user's run (title-grade + free-will strings x three envelopes, 162 decrypts, null),\nverified salts, and the precise provenance caveat: the Bingo -> Looking Forward attribution holds\nonly if the JSON export shows that reply threading. Affirms Fresco as an already-used password and a\nreading direction, not a KDF input; the Venus bibliography and public ask stay out.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:51:24Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/e8a0be6c6d0c81b1c5bd54aaf2ba093b98af116c",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/e8a0be6c6d0c81b1c5bd54aaf2ba093b98af116c",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/e8a0be6c6d0c81b1c5bd54aaf2ba093b98af116c/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "84288c06c5c9670ad93ca7dd574a5daeeb7a6899",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/84288c06c5c9670ad93ca7dd574a5daeeb7a6899",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/84288c06c5c9670ad93ca7dd574a5daeeb7a6899"
+   }
+  ]
+ },
+ {
+  "sha": "d6777b489c9b6baa02f1fe9219731aaaa9429be5",
+  "node_id": "C_kwDOFgNOpdoAKGQ2Nzc3YjQ4OWM5YjZiYWEwMmYxZmU5MjE5NzMxYWFhYTk0MjliZTU",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:59:33Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T10:59:33Z"
+   },
+   "message": "Tick 81: challenge the KDF assumption with PBKDF2; null, controls pass\n\nAdds campaign_49_pbkdf2.py, the first test of PBKDF2 key derivation (never tried; every prior tick\nused EVP_BytesToKey). PBKDF2 is validated against OpenSSL 3.0.13 ground truth, EVP still opens the\nsolved blobs, and PBKDF2 does not, so the controls hold. 24 strongest known candidates under\nPBKDF2-HMAC-{sha256,sha1,md5} at six iteration counts against all four locks: 3,456 decrypts, 0\nhits. Hardens every prior EVP null against the KDF question. Flags the short-lock ciphertext\nre-capture as the remaining unexamined item.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "e636c22cf6ced8f3894afe28a59f963d30528447",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/e636c22cf6ced8f3894afe28a59f963d30528447"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/d6777b489c9b6baa02f1fe9219731aaaa9429be5",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQC1DQv+x\nlBfHEeEc6sytz2aRXWgL3x1VsEtqD9RCnCczOwl02dxeUpAUrSDd2/z6ngBagmerCq8QuDPRILPY\nGQQ=\n-----END SSH SIGNATURE-----",
+    "payload": "tree e636c22cf6ced8f3894afe28a59f963d30528447\nparent e8a0be6c6d0c81b1c5bd54aaf2ba093b98af116c\nauthor Claude <noreply@anthropic.com> 1790420373 +0000\ncommitter Claude <noreply@anthropic.com> 1790420373 +0000\n\nTick 81: challenge the KDF assumption with PBKDF2; null, controls pass\n\nAdds campaign_49_pbkdf2.py, the first test of PBKDF2 key derivation (never tried; every prior tick\nused EVP_BytesToKey). PBKDF2 is validated against OpenSSL 3.0.13 ground truth, EVP still opens the\nsolved blobs, and PBKDF2 does not, so the controls hold. 24 strongest known candidates under\nPBKDF2-HMAC-{sha256,sha1,md5} at six iteration counts against all four locks: 3,456 decrypts, 0\nhits. Hardens every prior EVP null against the KDF question. Flags the short-lock ciphertext\nre-capture as the remaining unexamined item.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T10:59:35Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/d6777b489c9b6baa02f1fe9219731aaaa9429be5",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/d6777b489c9b6baa02f1fe9219731aaaa9429be5",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/d6777b489c9b6baa02f1fe9219731aaaa9429be5/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "e8a0be6c6d0c81b1c5bd54aaf2ba093b98af116c",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/e8a0be6c6d0c81b1c5bd54aaf2ba093b98af116c",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/e8a0be6c6d0c81b1c5bd54aaf2ba093b98af116c"
+   }
+  ]
+ },
+ {
+  "sha": "5b2218dd50b7472cf0b3232c997a605168992ecc",
+  "node_id": "C_kwDOFgNOpdoAKDViMjIxOGRkNTBiNzQ3MmNmMGIzMjMyYzk5N2E2MDUxNjg5OTJlY2M",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T11:07:52Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T11:07:52Z"
+   },
+   "message": "Tick 82: correct the relayed 'XOR-of-seven = solved' claim; keep the three locks distinct\n\nRecords that the web-sourced 'known solution' is the XOR-of-token-hashes theory already falsified\nat tick 7: the XOR reproduces the 1327-byte payload but it is noise (7.870 bits/byte, 1-byte pad),\nnot plaintext, and no spend followed. Re-confirms the three distinct locks (3ab5 short, b45a\ntrailing, 2d3f Cosmic) are separate artifacts, not transcription variants, and that the pasted\n7-token list is community-invented. Prize unspent; standing state unchanged.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "921c6fba60459cb293d37b04aeabf4a669b4ac50",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/921c6fba60459cb293d37b04aeabf4a669b4ac50"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/5b2218dd50b7472cf0b3232c997a605168992ecc",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQGJQydto\ntXoTNo3umQodEcmgniDyXU5dqiatzjKHW2rrigf0dmQ+Aznhyl4DLPwH2Onu/JEIyS4GdaroSIxL\nTA0=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 921c6fba60459cb293d37b04aeabf4a669b4ac50\nparent d6777b489c9b6baa02f1fe9219731aaaa9429be5\nauthor Claude <noreply@anthropic.com> 1790420872 +0000\ncommitter Claude <noreply@anthropic.com> 1790420872 +0000\n\nTick 82: correct the relayed 'XOR-of-seven = solved' claim; keep the three locks distinct\n\nRecords that the web-sourced 'known solution' is the XOR-of-token-hashes theory already falsified\nat tick 7: the XOR reproduces the 1327-byte payload but it is noise (7.870 bits/byte, 1-byte pad),\nnot plaintext, and no spend followed. Re-confirms the three distinct locks (3ab5 short, b45a\ntrailing, 2d3f Cosmic) are separate artifacts, not transcription variants, and that the pasted\n7-token list is community-invented. Prize unspent; standing state unchanged.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T11:07:55Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/5b2218dd50b7472cf0b3232c997a605168992ecc",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/5b2218dd50b7472cf0b3232c997a605168992ecc",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/5b2218dd50b7472cf0b3232c997a605168992ecc/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "d6777b489c9b6baa02f1fe9219731aaaa9429be5",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/d6777b489c9b6baa02f1fe9219731aaaa9429be5",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/d6777b489c9b6baa02f1fe9219731aaaa9429be5"
+   }
+  ]
+ },
+ {
+  "sha": "1e8ccd32135d62bb0826cf2a3a58145eb9b229ae",
+  "node_id": "C_kwDOFgNOpdoAKDFlOGNjZDMyMTM1ZDYyYmIwODI2Y2YyYTNhNTgxNDVlYjliMjI5YWU",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T11:47:08Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T11:47:08Z"
+   },
+   "message": "Tick 83: grave-detail audit — curated MITM, padding-independent oracle, wayback ciphertext closure\n\nFour-agent audit of missed avenues. Runs the curated-pool MITM (adds S1-S4 seeds, canonical\nanswers, salts, layer sums that tick 37's pool dropped) vs the prize point: null. Adds a\npadding-independent address/key oracle that bypasses check_pt's PKCS#7 gate (the accept-rule\nfalse-negative surface): 464 decrypts, 0 hits. Verifies the SalPhaseIon soup and Cosmic ciphertext\nare byte-identical across two independent wayback captures, closing the tick-81 transcription risk\nin-repo. Also records that 17ucy1 is not a point-function of the prize.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "7dd5e5cac2b294591e2d66d1cb30b3376f6dbe91",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/7dd5e5cac2b294591e2d66d1cb30b3376f6dbe91"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/1e8ccd32135d62bb0826cf2a3a58145eb9b229ae",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQHMGA/OM\nJs6Xomep01jK0YUgsCfnBWsvNJKic4mbaBBs80vp2qTm9XrCO95r4ZdWnluzcr6ATbU2xqta9vXU\nFAQ=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 7dd5e5cac2b294591e2d66d1cb30b3376f6dbe91\nparent 5b2218dd50b7472cf0b3232c997a605168992ecc\nauthor Claude <noreply@anthropic.com> 1790423228 +0000\ncommitter Claude <noreply@anthropic.com> 1790423228 +0000\n\nTick 83: grave-detail audit — curated MITM, padding-independent oracle, wayback ciphertext closure\n\nFour-agent audit of missed avenues. Runs the curated-pool MITM (adds S1-S4 seeds, canonical\nanswers, salts, layer sums that tick 37's pool dropped) vs the prize point: null. Adds a\npadding-independent address/key oracle that bypasses check_pt's PKCS#7 gate (the accept-rule\nfalse-negative surface): 464 decrypts, 0 hits. Verifies the SalPhaseIon soup and Cosmic ciphertext\nare byte-identical across two independent wayback captures, closing the tick-81 transcription risk\nin-repo. Also records that 17ucy1 is not a point-function of the prize.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T11:47:11Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/1e8ccd32135d62bb0826cf2a3a58145eb9b229ae",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/1e8ccd32135d62bb0826cf2a3a58145eb9b229ae",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/1e8ccd32135d62bb0826cf2a3a58145eb9b229ae/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "5b2218dd50b7472cf0b3232c997a605168992ecc",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/5b2218dd50b7472cf0b3232c997a605168992ecc",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/5b2218dd50b7472cf0b3232c997a605168992ecc"
+   }
+  ]
+ },
+ {
+  "sha": "48ba297f3904c42ea37f819e97f6fbc0fc216581",
+  "node_id": "C_kwDOFgNOpdoAKDQ4YmEyOTdmMzkwNGM0MmVhMzdmODE5ZTk3ZjZmYmMwZmMyMTY1ODE",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T11:55:11Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T11:55:11Z"
+   },
+   "message": "Tick 84 + NEXT_PASS.md: soup operators exhausted; last-words decrypted bare (null); audit synthesis\n\nCompletes the four-agent audit. Records that no soup->string operator emits a new confirming word,\nand closes a gate-hygiene gap by decrypting the natural last-words phrases bare (224 decrypts, 0\nhits) that were previously only gate-refused. Adds NEXT_PASS.md: the do-not-repeat inventory, the\nthree closed escape-hatches (MITM pool, accept-rule false-negative, ciphertext transcription), the\nmeet-in-the-middle verdict, and the ranked levers (Telegram export, lead-solver ask,\nBSGS-from-seed-center).\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "04af37d81bb03e0b0a97cbbc8c64a71ad13a5c53",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/04af37d81bb03e0b0a97cbbc8c64a71ad13a5c53"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/48ba297f3904c42ea37f819e97f6fbc0fc216581",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQLANFaZw\n3/vWFI41ImQgR62GRc64vyZSqddjpQjQC5nhXsH8bccv411wBMVuAkQzNT4riqj3FFANE8ly5pC/\nQQ0=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 04af37d81bb03e0b0a97cbbc8c64a71ad13a5c53\nparent 1e8ccd32135d62bb0826cf2a3a58145eb9b229ae\nauthor Claude <noreply@anthropic.com> 1790423711 +0000\ncommitter Claude <noreply@anthropic.com> 1790423711 +0000\n\nTick 84 + NEXT_PASS.md: soup operators exhausted; last-words decrypted bare (null); audit synthesis\n\nCompletes the four-agent audit. Records that no soup->string operator emits a new confirming word,\nand closes a gate-hygiene gap by decrypting the natural last-words phrases bare (224 decrypts, 0\nhits) that were previously only gate-refused. Adds NEXT_PASS.md: the do-not-repeat inventory, the\nthree closed escape-hatches (MITM pool, accept-rule false-negative, ciphertext transcription), the\nmeet-in-the-middle verdict, and the ranked levers (Telegram export, lead-solver ask,\nBSGS-from-seed-center).\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T11:55:14Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/48ba297f3904c42ea37f819e97f6fbc0fc216581",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/48ba297f3904c42ea37f819e97f6fbc0fc216581",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/48ba297f3904c42ea37f819e97f6fbc0fc216581/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "1e8ccd32135d62bb0826cf2a3a58145eb9b229ae",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/1e8ccd32135d62bb0826cf2a3a58145eb9b229ae",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/1e8ccd32135d62bb0826cf2a3a58145eb9b229ae"
+   }
+  ]
+ },
+ {
+  "sha": "4d91c085286be1c0095293759bd7a503632cbc20",
+  "node_id": "C_kwDOFgNOpdoAKDRkOTFjMDg1Mjg2YmUxYzAwOTUyOTM3NTliZDdhNTAzNjMyY2JjMjA",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T12:03:01Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T12:03:01Z"
+   },
+   "message": "Tick 83 addendum: curated MITM phase 2 (three-way) also null\n\nThe three-way k=a+/-b+c scan over 69 curated offsets against the prize point completed: no hit.\nBoth MITM phases (two-way and three-way) on the corrected pool are null; the curated meet-in-the-\nmiddle is fully closed.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "388bbc7c31102b400b30e25b5713f7cec0a62c77",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/388bbc7c31102b400b30e25b5713f7cec0a62c77"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/4d91c085286be1c0095293759bd7a503632cbc20",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQDRvQAUJ\nAwEP4MhodNll8TELt+4if4HaZXbvja2yjpTosV+NgOE6xyTu+DLIBZT4MfF0hgGxVCNHjEjBFfGz\nUgg=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 388bbc7c31102b400b30e25b5713f7cec0a62c77\nparent 48ba297f3904c42ea37f819e97f6fbc0fc216581\nauthor Claude <noreply@anthropic.com> 1790424181 +0000\ncommitter Claude <noreply@anthropic.com> 1790424181 +0000\n\nTick 83 addendum: curated MITM phase 2 (three-way) also null\n\nThe three-way k=a+/-b+c scan over 69 curated offsets against the prize point completed: no hit.\nBoth MITM phases (two-way and three-way) on the corrected pool are null; the curated meet-in-the-\nmiddle is fully closed.\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T12:03:04Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4d91c085286be1c0095293759bd7a503632cbc20",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/4d91c085286be1c0095293759bd7a503632cbc20",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4d91c085286be1c0095293759bd7a503632cbc20/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "48ba297f3904c42ea37f819e97f6fbc0fc216581",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/48ba297f3904c42ea37f819e97f6fbc0fc216581",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/48ba297f3904c42ea37f819e97f6fbc0fc216581"
+   }
+  ]
+ },
+ {
+  "sha": "9697ca0736ee36f61893ec837f5d7d34a2d13168",
+  "node_id": "C_kwDOFgNOpdoAKDk2OTdjYTA3MzZlZTM2ZjYxODkzZWM4MzdmNWQ3ZDM0YTJkMTMxNjg",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T13:31:46Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T13:31:46Z"
+   },
+   "message": "Tick 85: verify Issue #108 is a non-issue; byte-pin the three envelopes\n\nVerifies in-repo that the three committed envelopes hash exactly to the relayed baselines and that\nIssue #108's alleged short-lock typos (positions 18/51) are already the J/s values in the committed\nbase64 (0-based), so #108's 'fixed' blob is byte-identical to the standing object (9e2831e1). Its\nCADEIA construction depends on the rejected 1327-byte Cosmic artifact. Byte-pins all three envelope\nhashes and last blocks in NEXT_PASS.md and tightens the boxed state.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "4819b54d2bf4eb4165af44a721abb3349878da3d",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/4819b54d2bf4eb4165af44a721abb3349878da3d"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/9697ca0736ee36f61893ec837f5d7d34a2d13168",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQKjclpWI\niqOxjsd9kK70ixXui3VOgycMPaqjxjSOfIatQ0dmbV/DC3P7PkNFpcUsfxlWuhscO45OBaTWb7kh\nEgk=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 4819b54d2bf4eb4165af44a721abb3349878da3d\nparent 4d91c085286be1c0095293759bd7a503632cbc20\nauthor Claude <noreply@anthropic.com> 1790429506 +0000\ncommitter Claude <noreply@anthropic.com> 1790429506 +0000\n\nTick 85: verify Issue #108 is a non-issue; byte-pin the three envelopes\n\nVerifies in-repo that the three committed envelopes hash exactly to the relayed baselines and that\nIssue #108's alleged short-lock typos (positions 18/51) are already the J/s values in the committed\nbase64 (0-based), so #108's 'fixed' blob is byte-identical to the standing object (9e2831e1). Its\nCADEIA construction depends on the rejected 1327-byte Cosmic artifact. Byte-pins all three envelope\nhashes and last blocks in NEXT_PASS.md and tightens the boxed state.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T13:31:49Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/9697ca0736ee36f61893ec837f5d7d34a2d13168",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/9697ca0736ee36f61893ec837f5d7d34a2d13168",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/9697ca0736ee36f61893ec837f5d7d34a2d13168/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "4d91c085286be1c0095293759bd7a503632cbc20",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/4d91c085286be1c0095293759bd7a503632cbc20",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/4d91c085286be1c0095293759bd7a503632cbc20"
+   }
+  ]
+ },
+ {
+  "sha": "1e913fdbd42b8d5bd7d0a0cf3406d6abdd33142a",
+  "node_id": "C_kwDOFgNOpdoAKDFlOTEzZmRiZDQyYjhkNWJkN2QwYTBjZjM0MDZkNmFiZGQzMzE0MmE",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T15:04:39Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2026-09-26T15:04:39Z"
+   },
+   "message": "Tick 86: add and validate the single-file offline solver\n\nCommits the user-built gsmg_offline_solver.py, a dependency-light consolidation of the frozen\ntick-85 state (audit / selftest / test / opreturn), validated end-to-end: three envelopes byte-pin,\nissue-108 positions J/s, solved blobs decrypt, secp256k1 control passes, the one-candidate frozen\npath with padding-independent + freeze + scalar oracles runs null on a spent control with working\nsha256 dedupe, and the OP_RETURN x/y comparator flags a synthetic match and its reversal. Generates\nno candidates; complements gate.py.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr",
+   "tree": {
+    "sha": "c28c03b978cfeaee30dcd897604ed0d9ae0b4ff2",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/c28c03b978cfeaee30dcd897604ed0d9ae0b4ff2"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/1e913fdbd42b8d5bd7d0a0cf3406d6abdd33142a",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQCASdeOg\nbch07XEKsSuxBzFUXD+DHO2WvzCzRljUBBQCLXVGSZxfnwTk7nKB/azu9ZSWvbczwfxiMm3i5OB7\nSQg=\n-----END SSH SIGNATURE-----",
+    "payload": "tree c28c03b978cfeaee30dcd897604ed0d9ae0b4ff2\nparent 9697ca0736ee36f61893ec837f5d7d34a2d13168\nauthor Claude <noreply@anthropic.com> 1790435079 +0000\ncommitter Claude <noreply@anthropic.com> 1790435079 +0000\n\nTick 86: add and validate the single-file offline solver\n\nCommits the user-built gsmg_offline_solver.py, a dependency-light consolidation of the frozen\ntick-85 state (audit / selftest / test / opreturn), validated end-to-end: three envelopes byte-pin,\nissue-108 positions J/s, solved blobs decrypt, secp256k1 control passes, the one-candidate frozen\npath with padding-independent + freeze + scalar oracles runs null on a spent control with working\nsha256 dedupe, and the OP_RETURN x/y comparator flags a synthetic match and its reversal. Generates\nno candidates; complements gate.py.\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>\nClaude-Session: https://claude.ai/code/session_01NnX6k6kDj1SvTtsUojefBr\n",
+    "verified_at": "2026-09-26T15:04:42Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/1e913fdbd42b8d5bd7d0a0cf3406d6abdd33142a",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/1e913fdbd42b8d5bd7d0a0cf3406d6abdd33142a",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/1e913fdbd42b8d5bd7d0a0cf3406d6abdd33142a/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "9697ca0736ee36f61893ec837f5d7d34a2d13168",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/9697ca0736ee36f61893ec837f5d7d34a2d13168",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/9697ca0736ee36f61893ec837f5d7d34a2d13168"
+   }
+  ]
+ }
+]

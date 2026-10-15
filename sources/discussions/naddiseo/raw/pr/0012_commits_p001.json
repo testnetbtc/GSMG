@@ -1,0 +1,166 @@
+[
+ {
+  "sha": "6a72b9d8bc8a709981f0b95e59c7948ed865c85c",
+  "node_id": "C_kwDOT-2jBdoAKDZhNzJiOWQ4YmM4YTcwOTk4MWYwYjk1ZTU5Yzc5NDhlZDg2NWM4NWM",
+  "commit": {
+   "author": {
+    "name": "etheral-dev",
+    "email": "etheral-dev@users.noreply.github.com",
+    "date": "2026-08-23T15:50:37Z"
+   },
+   "committer": {
+    "name": "etheral-dev",
+    "email": "etheral-dev@users.noreply.github.com",
+    "date": "2026-08-23T15:50:37Z"
+   },
+   "message": "Add two Phase 0 observations to the unverified section",
+   "tree": {
+    "sha": "3423137b423fc385e74d40d2eb47efed6f7694c5",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/3423137b423fc385e74d40d2eb47efed6f7694c5"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/6a72b9d8bc8a709981f0b95e59c7948ed865c85c",
+   "comment_count": 0,
+   "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/6a72b9d8bc8a709981f0b95e59c7948ed865c85c",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/6a72b9d8bc8a709981f0b95e59c7948ed865c85c",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/6a72b9d8bc8a709981f0b95e59c7948ed865c85c/comments",
+  "author": {
+   "login": "etheral-dev",
+   "id": 246341634,
+   "node_id": "U_kgDODq7gAg",
+   "avatar_url": "https://avatars.githubusercontent.com/u/246341634?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/etheral-dev",
+   "html_url": "https://github.com/etheral-dev",
+   "followers_url": "https://api.github.com/users/etheral-dev/followers",
+   "following_url": "https://api.github.com/users/etheral-dev/following{/other_user}",
+   "gists_url": "https://api.github.com/users/etheral-dev/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/etheral-dev/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/etheral-dev/subscriptions",
+   "organizations_url": "https://api.github.com/users/etheral-dev/orgs",
+   "repos_url": "https://api.github.com/users/etheral-dev/repos",
+   "events_url": "https://api.github.com/users/etheral-dev/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/etheral-dev/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "etheral-dev",
+   "id": 246341634,
+   "node_id": "U_kgDODq7gAg",
+   "avatar_url": "https://avatars.githubusercontent.com/u/246341634?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/etheral-dev",
+   "html_url": "https://github.com/etheral-dev",
+   "followers_url": "https://api.github.com/users/etheral-dev/followers",
+   "following_url": "https://api.github.com/users/etheral-dev/following{/other_user}",
+   "gists_url": "https://api.github.com/users/etheral-dev/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/etheral-dev/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/etheral-dev/subscriptions",
+   "organizations_url": "https://api.github.com/users/etheral-dev/orgs",
+   "repos_url": "https://api.github.com/users/etheral-dev/repos",
+   "events_url": "https://api.github.com/users/etheral-dev/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/etheral-dev/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "15b43fc859c33170d7c45b9fe41789d77b7af974",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/15b43fc859c33170d7c45b9fe41789d77b7af974",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/15b43fc859c33170d7c45b9fe41789d77b7af974"
+   }
+  ]
+ },
+ {
+  "sha": "e2f1d77a6363b20d7fe27b3ebc059efcebb0df79",
+  "node_id": "C_kwDOT-2jBdoAKGUyZjFkNzdhNjM2M2IyMGQ3ZmUyN2IzZWJjMDU5ZWZjZWJiMGRmNzk",
+  "commit": {
+   "author": {
+    "name": "etheral-dev",
+    "email": "etheral-dev@users.noreply.github.com",
+    "date": "2026-08-25T18:09:17Z"
+   },
+   "committer": {
+    "name": "etheral-dev",
+    "email": "etheral-dev@users.noreply.github.com",
+    "date": "2026-08-25T18:09:17Z"
+   },
+   "message": "Drop the solver's name from the fefefe note",
+   "tree": {
+    "sha": "3298e7c3c66240c642eb7facd75127ba500c73d2",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/3298e7c3c66240c642eb7facd75127ba500c73d2"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79",
+   "comment_count": 0,
+   "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/e2f1d77a6363b20d7fe27b3ebc059efcebb0df79/comments",
+  "author": {
+   "login": "etheral-dev",
+   "id": 246341634,
+   "node_id": "U_kgDODq7gAg",
+   "avatar_url": "https://avatars.githubusercontent.com/u/246341634?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/etheral-dev",
+   "html_url": "https://github.com/etheral-dev",
+   "followers_url": "https://api.github.com/users/etheral-dev/followers",
+   "following_url": "https://api.github.com/users/etheral-dev/following{/other_user}",
+   "gists_url": "https://api.github.com/users/etheral-dev/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/etheral-dev/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/etheral-dev/subscriptions",
+   "organizations_url": "https://api.github.com/users/etheral-dev/orgs",
+   "repos_url": "https://api.github.com/users/etheral-dev/repos",
+   "events_url": "https://api.github.com/users/etheral-dev/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/etheral-dev/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "etheral-dev",
+   "id": 246341634,
+   "node_id": "U_kgDODq7gAg",
+   "avatar_url": "https://avatars.githubusercontent.com/u/246341634?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/etheral-dev",
+   "html_url": "https://github.com/etheral-dev",
+   "followers_url": "https://api.github.com/users/etheral-dev/followers",
+   "following_url": "https://api.github.com/users/etheral-dev/following{/other_user}",
+   "gists_url": "https://api.github.com/users/etheral-dev/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/etheral-dev/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/etheral-dev/subscriptions",
+   "organizations_url": "https://api.github.com/users/etheral-dev/orgs",
+   "repos_url": "https://api.github.com/users/etheral-dev/repos",
+   "events_url": "https://api.github.com/users/etheral-dev/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/etheral-dev/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "6a72b9d8bc8a709981f0b95e59c7948ed865c85c",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/6a72b9d8bc8a709981f0b95e59c7948ed865c85c",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/6a72b9d8bc8a709981f0b95e59c7948ed865c85c"
+   }
+  ]
+ }
+]

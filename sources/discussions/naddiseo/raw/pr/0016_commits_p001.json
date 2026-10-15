@@ -1,0 +1,166 @@
+[
+ {
+  "sha": "f916cca0e0e86523fcf1cff78bd701216822f3b3",
+  "node_id": "C_kwDOSMUL7doAKGY5MTZjY2EwZTBlODY1MjNmY2YxY2ZmNzhiZDcwMTIxNjgyMmYzYjM",
+  "commit": {
+   "author": {
+    "name": "half pi",
+    "email": "shappy256@protonmail.com",
+    "date": "2026-09-29T18:22:35Z"
+   },
+   "committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-09-29T18:22:35Z"
+   },
+   "message": "Added 11110.md\n\nInsights into 5binary",
+   "tree": {
+    "sha": "5830d10d4060abea6a3af59d8ea96602632a74c0",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/5830d10d4060abea6a3af59d8ea96602632a74c0"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/f916cca0e0e86523fcf1cff78bd701216822f3b3",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqvAHrCRC1aQ7uu5UhlAAAqyEQAEGAzTUioKYAMIUz+YwZsiPM\nJQ4JhW0eKs7SmqR2P4F5UqAPlppBeieAZjJtI2h8FjU+w+1Ts0cxWm8NyPRy3RQb\n2APjLD+/Fez6WzGNLOWpT1KNTBUWZet0Pmh+rPa33DWMTyLlVU3TuU30StDkVNH8\ncInSFbDveKJTHUQVd7s8LS34M0meNG5yVrOCk5p1+nlf1QSLeLx4ExI9FO3CWgCs\nWRYQRUdNocLfMyfKh7WveRnD7ghjU5jHOnwSf/6xA4hiyrJEB2hb4YhLU+rINCjh\nMd6CfsmjJAJqzDvQkoqLbDPv4ndpHs8gqBt+Iha4PrX+8sXj+H1iW4h4RZ7tNQcD\n+QLjMJJ3yhZ3ALHBouiIilVbs4BKeHxQL63oBQ+3bM5EqHpOARUSf+HjK2VZUsj6\nQWKeuZxtw4aHRzKIXOh2/upLyb0B+wPsvwn9cRxrNcIQ8t9W8xEuYKkeKxoitS9u\nO2FY0/kv/Zb7XQm0E4ETL0101cAk/N44D2s8G9kS7fTsx9tRhX8fvuK9Fmze41sk\nhZQLt61es1q4gnMJKQUcPZmQmTHoLi2zi5Fpd7JSgoFNagWzwhdO757t21LuYUcH\nrE3jj9XUV1WqbbYfhDoL1MqJ98+DWwCA4opBo9dRgVTUOmcQnqaO9IOupy9Otwt/\nd6ZEV5Ndn/agPutO+YNZ\n=0TrG\n-----END PGP SIGNATURE-----\n",
+    "payload": "tree 5830d10d4060abea6a3af59d8ea96602632a74c0\nparent 03bc4b7154aec1ce5821d129ecafe9918f5ddcf8\nauthor half pi <shappy256@protonmail.com> 1790706155 +0200\ncommitter GitHub <noreply@github.com> 1790706155 +0200\n\nAdded 11110.md\n\nInsights into 5binary",
+    "verified_at": "2026-09-29T18:22:36Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/f916cca0e0e86523fcf1cff78bd701216822f3b3",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/f916cca0e0e86523fcf1cff78bd701216822f3b3",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/f916cca0e0e86523fcf1cff78bd701216822f3b3/comments",
+  "author": {
+   "login": "sha256ppy",
+   "id": 279256369,
+   "node_id": "U_kgDOEKUdMQ",
+   "avatar_url": "https://avatars.githubusercontent.com/u/279256369?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/sha256ppy",
+   "html_url": "https://github.com/sha256ppy",
+   "followers_url": "https://api.github.com/users/sha256ppy/followers",
+   "following_url": "https://api.github.com/users/sha256ppy/following{/other_user}",
+   "gists_url": "https://api.github.com/users/sha256ppy/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/sha256ppy/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/sha256ppy/subscriptions",
+   "organizations_url": "https://api.github.com/users/sha256ppy/orgs",
+   "repos_url": "https://api.github.com/users/sha256ppy/repos",
+   "events_url": "https://api.github.com/users/sha256ppy/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/sha256ppy/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "web-flow",
+   "id": 19864447,
+   "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/web-flow",
+   "html_url": "https://github.com/web-flow",
+   "followers_url": "https://api.github.com/users/web-flow/followers",
+   "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+   "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+   "organizations_url": "https://api.github.com/users/web-flow/orgs",
+   "repos_url": "https://api.github.com/users/web-flow/repos",
+   "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/web-flow/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "03bc4b7154aec1ce5821d129ecafe9918f5ddcf8",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/03bc4b7154aec1ce5821d129ecafe9918f5ddcf8",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/03bc4b7154aec1ce5821d129ecafe9918f5ddcf8"
+   }
+  ]
+ },
+ {
+  "sha": "37a8e94e41bafccdf6cbaa68dc7233339ccb7e22",
+  "node_id": "C_kwDOSMUL7doAKDM3YThlOTRlNDFiYWZjY2RmNmNiYWE2OGRjNzIzMzMzOWNjYjdlMjI",
+  "commit": {
+   "author": {
+    "name": "half pi",
+    "email": "shappy256@protonmail.com",
+    "date": "2026-09-29T18:26:50Z"
+   },
+   "committer": {
+    "name": "GitHub",
+    "email": "noreply@github.com",
+    "date": "2026-09-29T18:26:50Z"
+   },
+   "message": "Update README.md",
+   "tree": {
+    "sha": "5bce321a42c46e344e848741e89134ce3954b981",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/5bce321a42c46e344e848741e89134ce3954b981"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/37a8e94e41bafccdf6cbaa68dc7233339ccb7e22",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqvALqCRC1aQ7uu5UhlAAAKoMQABM+8HtjM1VWTISlSF9oK//q\nAL3iz8TH7tWtRfJ5swVmGr8eUDqOsRMk1Fm3J6EAt9FPfnNksEIEQ59ccRcg9aeP\nLKGn0NxLjN9cVi7GUTwzRrF5bsh2NiJoc5sFQMzw862Hc8Fcb3CZypitXLv9SBk1\nvjxQ1YOu2JdqfltZ5hG1OyIXvDO9Td33BT6uDFBWD7bTe50uT4KNqOjQwgnhuH2w\nSo8wU4o7utAbizJnVsv74XXnRLMaO6+fCLR0sDN/wF+J3UGIpqAyXdj6Q8CKPcYp\n/FKzTHg1jNd84hDsgDI5zC7LzZdWmL/iRxiPPbhdx1NNWtaY0IxrUDvnjjVbjruT\nrRMYx8nUvL5eIyTPDfM5YqyG1VuZf0zeOG89Uva2pPQX1ZJj6jfwxCdjXdx5eb6m\nrPsY5+ZdDat34k1uYnolKOQFaSxjDbUWkJmoAIkpWNLkV2LCFmXq1v7qS2X6Bju1\n37kUXioht//AQT90vC3zdv3oj+eHZk+nJbOC59AvyodO7qrPLwNICRoU5phfQLcH\nDm/fPtAaEXDM8cmgeDK+pVeihxR7oitGYJIMQz8gI+UvOqpq+D9whdPLYpaD6589\noWb40hIgXtrDMs+L5JRZoPle2Wm0i8SmcWjGgKU1z43teUVZPcVry8wP5hcmBYYZ\n2Nz4Ucs7vzpdYaBoVQ9P\n=TSjf\n-----END PGP SIGNATURE-----\n",
+    "payload": "tree 5bce321a42c46e344e848741e89134ce3954b981\nparent f916cca0e0e86523fcf1cff78bd701216822f3b3\nauthor half pi <shappy256@protonmail.com> 1790706410 +0200\ncommitter GitHub <noreply@github.com> 1790706410 +0200\n\nUpdate README.md",
+    "verified_at": "2026-09-29T18:26:51Z"
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/37a8e94e41bafccdf6cbaa68dc7233339ccb7e22",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/37a8e94e41bafccdf6cbaa68dc7233339ccb7e22",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/37a8e94e41bafccdf6cbaa68dc7233339ccb7e22/comments",
+  "author": {
+   "login": "sha256ppy",
+   "id": 279256369,
+   "node_id": "U_kgDOEKUdMQ",
+   "avatar_url": "https://avatars.githubusercontent.com/u/279256369?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/sha256ppy",
+   "html_url": "https://github.com/sha256ppy",
+   "followers_url": "https://api.github.com/users/sha256ppy/followers",
+   "following_url": "https://api.github.com/users/sha256ppy/following{/other_user}",
+   "gists_url": "https://api.github.com/users/sha256ppy/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/sha256ppy/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/sha256ppy/subscriptions",
+   "organizations_url": "https://api.github.com/users/sha256ppy/orgs",
+   "repos_url": "https://api.github.com/users/sha256ppy/repos",
+   "events_url": "https://api.github.com/users/sha256ppy/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/sha256ppy/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "web-flow",
+   "id": 19864447,
+   "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/web-flow",
+   "html_url": "https://github.com/web-flow",
+   "followers_url": "https://api.github.com/users/web-flow/followers",
+   "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+   "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+   "organizations_url": "https://api.github.com/users/web-flow/orgs",
+   "repos_url": "https://api.github.com/users/web-flow/repos",
+   "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/web-flow/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "f916cca0e0e86523fcf1cff78bd701216822f3b3",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/f916cca0e0e86523fcf1cff78bd701216822f3b3",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/f916cca0e0e86523fcf1cff78bd701216822f3b3"
+   }
+  ]
+ }
+]

@@ -1,0 +1,84 @@
+[
+ {
+  "sha": "c7707b96dad27fd6d4db21a15b44b89b4f7da252",
+  "node_id": "C_kwDOTGAY6doAKGM3NzA3Yjk2ZGFkMjdmZDZkNGRiMjFhMTViNDRiODliNGY3ZGEyNTI",
+  "commit": {
+   "author": {
+    "name": "HosterjackAGV",
+    "email": "hosterjack@gmail.com",
+    "date": "2026-06-26T17:22:13Z"
+   },
+   "committer": {
+    "name": "HosterjackAGV",
+    "email": "hosterjack@gmail.com",
+    "date": "2026-06-26T17:22:13Z"
+   },
+   "message": "Add Arcade + per-phase games, dual/combined leaderboards, owner-only governance\n\nGame layer (no build step, native ES modules):\n- engine/ — seeded RNG (shared browser+Node), RAF loop, pointer drag, GameHost\n- Arcade hub (#/arcade) with two flagship games: Substitution (drag-to-solve\n  cryptogram) and Hash Miner (idle, offline progress)\n- Replay-verified arcade leaderboard: games/sim/* are pure logic imported by both\n  the browser and .github/scripts/verify-arcade.mjs, so scores are recomputed from\n  the move-log, not trusted (workflow + issue template + data/arcade-*)\n- Per-phase games (games/phasegames.js): every door playable via a data-driven\n  `play` field — assemble (P1 lyric, P2/P3 password→decrypts real next blob, P3.2\n  confession, SalPhaseIon chunks) and spiral (P0 genesis grid); Cosmic runs the\n  REAL crypto and logs a frontier attempt. Solving cracks the door + awards XP.\n- Combined \"Overall champions\" board merges the Hive + Arcade by handle, both\n  detailed boards kept separate (leaderboards.js)\n- root package.json {type:module} so Node imports the shared .js sims as ESM\n\nGovernance — maintainer-only control:\n- CODEOWNERS + protect-paths.yml (hard PR guard) + docs/GOVERNANCE.md lock\n  data/**, .github/**, content/config.js to @HosterjackAGV\n- Untrack + gitignore all Claude files (CLAUDE.md stays local, never pushed)\n\nVerified: all modules node --check clean; sim + per-phase functional tests pass\n(assembled passwords decrypt the real phase3/phase32 blobs).\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+   "tree": {
+    "sha": "7b77f08d10a544b8bbd270761124837406f2bc20",
+    "url": "https://api.github.com/repos/HosterjackAGV/gsmg-5btc-puzzle/git/trees/7b77f08d10a544b8bbd270761124837406f2bc20"
+   },
+   "url": "https://api.github.com/repos/HosterjackAGV/gsmg-5btc-puzzle/git/commits/c7707b96dad27fd6d4db21a15b44b89b4f7da252",
+   "comment_count": 0,
+   "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+   }
+  },
+  "url": "https://api.github.com/repos/HosterjackAGV/gsmg-5btc-puzzle/commits/c7707b96dad27fd6d4db21a15b44b89b4f7da252",
+  "html_url": "https://github.com/HosterjackAGV/gsmg-5btc-puzzle/commit/c7707b96dad27fd6d4db21a15b44b89b4f7da252",
+  "comments_url": "https://api.github.com/repos/HosterjackAGV/gsmg-5btc-puzzle/commits/c7707b96dad27fd6d4db21a15b44b89b4f7da252/comments",
+  "author": {
+   "login": "HosterjackAGV",
+   "id": 83460592,
+   "node_id": "MDQ6VXNlcjgzNDYwNTky",
+   "avatar_url": "https://avatars.githubusercontent.com/u/83460592?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/HosterjackAGV",
+   "html_url": "https://github.com/HosterjackAGV",
+   "followers_url": "https://api.github.com/users/HosterjackAGV/followers",
+   "following_url": "https://api.github.com/users/HosterjackAGV/following{/other_user}",
+   "gists_url": "https://api.github.com/users/HosterjackAGV/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/HosterjackAGV/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/HosterjackAGV/subscriptions",
+   "organizations_url": "https://api.github.com/users/HosterjackAGV/orgs",
+   "repos_url": "https://api.github.com/users/HosterjackAGV/repos",
+   "events_url": "https://api.github.com/users/HosterjackAGV/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/HosterjackAGV/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "HosterjackAGV",
+   "id": 83460592,
+   "node_id": "MDQ6VXNlcjgzNDYwNTky",
+   "avatar_url": "https://avatars.githubusercontent.com/u/83460592?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/HosterjackAGV",
+   "html_url": "https://github.com/HosterjackAGV",
+   "followers_url": "https://api.github.com/users/HosterjackAGV/followers",
+   "following_url": "https://api.github.com/users/HosterjackAGV/following{/other_user}",
+   "gists_url": "https://api.github.com/users/HosterjackAGV/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/HosterjackAGV/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/HosterjackAGV/subscriptions",
+   "organizations_url": "https://api.github.com/users/HosterjackAGV/orgs",
+   "repos_url": "https://api.github.com/users/HosterjackAGV/repos",
+   "events_url": "https://api.github.com/users/HosterjackAGV/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/HosterjackAGV/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "3a65b1bb8c51c9127c3aec100eeb58c543652fba",
+    "url": "https://api.github.com/repos/HosterjackAGV/gsmg-5btc-puzzle/commits/3a65b1bb8c51c9127c3aec100eeb58c543652fba",
+    "html_url": "https://github.com/HosterjackAGV/gsmg-5btc-puzzle/commit/3a65b1bb8c51c9127c3aec100eeb58c543652fba"
+   }
+  ]
+ }
+]

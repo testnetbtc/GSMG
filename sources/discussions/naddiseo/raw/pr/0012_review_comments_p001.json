@@ -1,0 +1,71 @@
+[
+ {
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/pulls/comments/3839332963",
+  "pull_request_review_id": 5003134170,
+  "id": 3839332963,
+  "node_id": "PRRC_kwDOFgNOpc7k15Jj",
+  "diff_hunk": "@@ -0,0 +1,30 @@\n+# \"fefefe is 101 010\" [Phase 0]\n+\n+In the 2021-03-01 conversation a solver writes \"hundred FOUR = 104 is the fefefe square\" and\n+\"fefefe is 101 010\". Note this is Janusz Baran rather than Jrk, so it is a community claim and not an\n+official hint.",
+  "path": "unverified/phase0_fefefe_parity.md",
+  "commit_id": "6a72b9d8bc8a709981f0b95e59c7948ed865c85c",
+  "original_commit_id": "6a72b9d8bc8a709981f0b95e59c7948ed865c85c",
+  "user": {
+   "login": "Naddiseo",
+   "id": 115951,
+   "node_id": "MDQ6VXNlcjExNTk1MQ==",
+   "avatar_url": "https://avatars.githubusercontent.com/u/115951?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/Naddiseo",
+   "html_url": "https://github.com/Naddiseo",
+   "followers_url": "https://api.github.com/users/Naddiseo/followers",
+   "following_url": "https://api.github.com/users/Naddiseo/following{/other_user}",
+   "gists_url": "https://api.github.com/users/Naddiseo/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/Naddiseo/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/Naddiseo/subscriptions",
+   "organizations_url": "https://api.github.com/users/Naddiseo/orgs",
+   "repos_url": "https://api.github.com/users/Naddiseo/repos",
+   "events_url": "https://api.github.com/users/Naddiseo/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/Naddiseo/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "body": "```suggestion\n\"fefefe is 101 010\". Note this is  a community claim and not an official hint.```",
+  "created_at": "2026-08-23T19:01:23Z",
+  "updated_at": "2026-08-23T19:02:24Z",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/pull/12#discussion_r3839332963",
+  "pull_request_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/pulls/12",
+  "_links": {
+   "self": {
+    "href": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/pulls/comments/3839332963"
+   },
+   "html": {
+    "href": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/pull/12#discussion_r3839332963"
+   },
+   "pull_request": {
+    "href": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/pulls/12"
+   }
+  },
+  "reactions": {
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/pulls/comments/3839332963/reactions",
+   "total_count": 0,
+   "+1": 0,
+   "-1": 0,
+   "laugh": 0,
+   "hooray": 0,
+   "confused": 0,
+   "heart": 0,
+   "rocket": 0,
+   "eyes": 0
+  },
+  "start_line": null,
+  "original_start_line": 4,
+  "start_side": "RIGHT",
+  "line": null,
+  "original_line": 5,
+  "side": "RIGHT",
+  "author_association": "OWNER",
+  "original_position": 5,
+  "position": 1,
+  "subject_type": "line"
+ }
+]

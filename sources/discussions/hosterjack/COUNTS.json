@@ -1,0 +1,10 @@
+{
+ "issues": 3,
+ "pulls": 1,
+ "comments_expected": 2,
+ "comments_fetched": 2,
+ "reviews": 0,
+ "review_comments": 0,
+ "mismatches": [],
+ "unique_comment_ids": 2
+}

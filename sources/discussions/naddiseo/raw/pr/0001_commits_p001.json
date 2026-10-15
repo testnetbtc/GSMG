@@ -1,0 +1,84 @@
+[
+ {
+  "sha": "f6468725bad55d41b0545d5f60a2bd0044b11736",
+  "node_id": "C_kwDOFgNOpdoAKGY2NDY4NzI1YmFkNTVkNDFiMDU0NWQ1ZjYwYTJiZDAwNDRiMTE3MzY",
+  "commit": {
+   "author": {
+    "name": "Richard",
+    "email": "github@naddiseo.ca",
+    "date": "2023-08-19T06:26:51Z"
+   },
+   "committer": {
+    "name": "Richard Eames",
+    "email": "115951+Naddiseo@users.noreply.github.com",
+    "date": "2023-08-24T22:30:36Z"
+   },
+   "message": "- Reorganize the README\n- Phase 0 and 1\n- Phase 2, and 2.1\n- Finish 3.1\n- Phase 3.2\n- Expand on all the hints given 2020 on wards\n- decentraland\n- Salphaseion\n- Hints and timeline",
+   "tree": {
+    "sha": "86754a32e0c3116132f50206347e94878ded5956",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/86754a32e0c3116132f50206347e94878ded5956"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/f6468725bad55d41b0545d5f60a2bd0044b11736",
+   "comment_count": 0,
+   "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/f6468725bad55d41b0545d5f60a2bd0044b11736",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/f6468725bad55d41b0545d5f60a2bd0044b11736",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/f6468725bad55d41b0545d5f60a2bd0044b11736/comments",
+  "author": {
+   "login": "Naddiseo",
+   "id": 115951,
+   "node_id": "MDQ6VXNlcjExNTk1MQ==",
+   "avatar_url": "https://avatars.githubusercontent.com/u/115951?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/Naddiseo",
+   "html_url": "https://github.com/Naddiseo",
+   "followers_url": "https://api.github.com/users/Naddiseo/followers",
+   "following_url": "https://api.github.com/users/Naddiseo/following{/other_user}",
+   "gists_url": "https://api.github.com/users/Naddiseo/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/Naddiseo/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/Naddiseo/subscriptions",
+   "organizations_url": "https://api.github.com/users/Naddiseo/orgs",
+   "repos_url": "https://api.github.com/users/Naddiseo/repos",
+   "events_url": "https://api.github.com/users/Naddiseo/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/Naddiseo/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "Naddiseo",
+   "id": 115951,
+   "node_id": "MDQ6VXNlcjExNTk1MQ==",
+   "avatar_url": "https://avatars.githubusercontent.com/u/115951?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/Naddiseo",
+   "html_url": "https://github.com/Naddiseo",
+   "followers_url": "https://api.github.com/users/Naddiseo/followers",
+   "following_url": "https://api.github.com/users/Naddiseo/following{/other_user}",
+   "gists_url": "https://api.github.com/users/Naddiseo/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/Naddiseo/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/Naddiseo/subscriptions",
+   "organizations_url": "https://api.github.com/users/Naddiseo/orgs",
+   "repos_url": "https://api.github.com/users/Naddiseo/repos",
+   "events_url": "https://api.github.com/users/Naddiseo/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/Naddiseo/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "fb92dd15487c6e2d275adb8c923698b7166c328e",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/fb92dd15487c6e2d275adb8c923698b7166c328e",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/fb92dd15487c6e2d275adb8c923698b7166c328e"
+   }
+  ]
+ }
+]

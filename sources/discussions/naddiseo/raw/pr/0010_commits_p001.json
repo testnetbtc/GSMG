@@ -1,0 +1,84 @@
+[
+ {
+  "sha": "6b2dfd0899253f3e2b5c9861462ec89c7b2abd40",
+  "node_id": "C_kwDOT-2jBdoAKDZiMmRmZDA4OTkyNTNmM2UyYjVjOTg2MTQ2MmVjODljN2IyYWJkNDA",
+  "commit": {
+   "author": {
+    "name": "etheral",
+    "email": "etheral.eth.dev@gmail.com",
+    "date": "2026-08-20T17:33:49Z"
+   },
+   "committer": {
+    "name": "etheral",
+    "email": "etheral.eth.dev@gmail.com",
+    "date": "2026-08-20T17:33:49Z"
+   },
+   "message": "Fix truncated phase 3 password in phase 2.2\n\nThe assembled password ended at B5KR, which does not decrypt phase 3. The\nwhole FEN goes in, matching the full solution already given one line above.",
+   "tree": {
+    "sha": "0cd1e900038246a4ff3f1b5817f34fa212c49d92",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/trees/0cd1e900038246a4ff3f1b5817f34fa212c49d92"
+   },
+   "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/git/commits/6b2dfd0899253f3e2b5c9861462ec89c7b2abd40",
+   "comment_count": 0,
+   "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+   }
+  },
+  "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/6b2dfd0899253f3e2b5c9861462ec89c7b2abd40",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/6b2dfd0899253f3e2b5c9861462ec89c7b2abd40",
+  "comments_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/6b2dfd0899253f3e2b5c9861462ec89c7b2abd40/comments",
+  "author": {
+   "login": "etheral-dev",
+   "id": 246341634,
+   "node_id": "U_kgDODq7gAg",
+   "avatar_url": "https://avatars.githubusercontent.com/u/246341634?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/etheral-dev",
+   "html_url": "https://github.com/etheral-dev",
+   "followers_url": "https://api.github.com/users/etheral-dev/followers",
+   "following_url": "https://api.github.com/users/etheral-dev/following{/other_user}",
+   "gists_url": "https://api.github.com/users/etheral-dev/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/etheral-dev/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/etheral-dev/subscriptions",
+   "organizations_url": "https://api.github.com/users/etheral-dev/orgs",
+   "repos_url": "https://api.github.com/users/etheral-dev/repos",
+   "events_url": "https://api.github.com/users/etheral-dev/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/etheral-dev/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "etheral-dev",
+   "id": 246341634,
+   "node_id": "U_kgDODq7gAg",
+   "avatar_url": "https://avatars.githubusercontent.com/u/246341634?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/etheral-dev",
+   "html_url": "https://github.com/etheral-dev",
+   "followers_url": "https://api.github.com/users/etheral-dev/followers",
+   "following_url": "https://api.github.com/users/etheral-dev/following{/other_user}",
+   "gists_url": "https://api.github.com/users/etheral-dev/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/etheral-dev/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/etheral-dev/subscriptions",
+   "organizations_url": "https://api.github.com/users/etheral-dev/orgs",
+   "repos_url": "https://api.github.com/users/etheral-dev/repos",
+   "events_url": "https://api.github.com/users/etheral-dev/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/etheral-dev/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "c0a0a49afad758d6f3361ad422ed11ea3ef4b10a",
+    "url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/commits/c0a0a49afad758d6f3361ad422ed11ea3ef4b10a",
+    "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/commit/c0a0a49afad758d6f3361ad422ed11ea3ef4b10a"
+   }
+  ]
+ }
+]

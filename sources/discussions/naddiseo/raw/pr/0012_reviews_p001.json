@@ -1,0 +1,42 @@
+[
+ {
+  "id": 5003134170,
+  "node_id": "PRR_kwDOFgNOpc8AAAABKjXE2g",
+  "user": {
+   "login": "Naddiseo",
+   "id": 115951,
+   "node_id": "MDQ6VXNlcjExNTk1MQ==",
+   "avatar_url": "https://avatars.githubusercontent.com/u/115951?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/Naddiseo",
+   "html_url": "https://github.com/Naddiseo",
+   "followers_url": "https://api.github.com/users/Naddiseo/followers",
+   "following_url": "https://api.github.com/users/Naddiseo/following{/other_user}",
+   "gists_url": "https://api.github.com/users/Naddiseo/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/Naddiseo/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/Naddiseo/subscriptions",
+   "organizations_url": "https://api.github.com/users/Naddiseo/orgs",
+   "repos_url": "https://api.github.com/users/Naddiseo/repos",
+   "events_url": "https://api.github.com/users/Naddiseo/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/Naddiseo/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "body": "",
+  "state": "COMMENTED",
+  "html_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/pull/12#pullrequestreview-5003134170",
+  "pull_request_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/pulls/12",
+  "author_association": "OWNER",
+  "_links": {
+   "html": {
+    "href": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/pull/12#pullrequestreview-5003134170"
+   },
+   "pull_request": {
+    "href": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/pulls/12"
+   }
+  },
+  "submitted_at": "2026-08-23T19:02:24Z",
+  "commit_id": "6a72b9d8bc8a709981f0b95e59c7948ed865c85c"
+ }
+]

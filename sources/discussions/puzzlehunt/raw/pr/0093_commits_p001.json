@@ -1,0 +1,166 @@
+[
+ {
+  "sha": "8d043ad115ec7736ecff65f33812c7344ccf0221",
+  "node_id": "C_kwDOS5IqztoAKDhkMDQzYWQxMTVlYzc3MzZlY2ZmNjVmMzM4MTJjNzM0NGNjZjAyMjE",
+  "commit": {
+   "author": {
+    "name": "halbgott29a",
+    "email": "halbgott29a@gmail.com",
+    "date": "2026-06-13T00:00:03Z"
+   },
+   "committer": {
+    "name": "halbgott29a",
+    "email": "halbgott29a@gmail.com",
+    "date": "2026-06-13T00:00:03Z"
+   },
+   "message": "Add cryptanalysis of the unsolved SalPhaseIon/Cosmic Duality endgame\n\n- FINDINGS.md: full falsification-driven analysis (VIC/straddling-checkerboard\n  diagnosis, dbbi=key vs faed=payload via IoC, escape digits ~1,4, the\n  verification problem, all falsified hypotheses)\n- _work/: validated tools (cb2.py reproduces phase 3.2.2), hill-climber,\n  chat parser, AES helpers, and every attack script\n- key data: blobs, creator messages, Game-of-Logic OCR, parsed transcript\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>",
+   "tree": {
+    "sha": "d931aa69da5775e88a0d7bb3d85e108bb24881c9",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/trees/d931aa69da5775e88a0d7bb3d85e108bb24881c9"
+   },
+   "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/commits/8d043ad115ec7736ecff65f33812c7344ccf0221",
+   "comment_count": 0,
+   "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+   }
+  },
+  "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/8d043ad115ec7736ecff65f33812c7344ccf0221",
+  "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/8d043ad115ec7736ecff65f33812c7344ccf0221",
+  "comments_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/8d043ad115ec7736ecff65f33812c7344ccf0221/comments",
+  "author": {
+   "login": "halbgott29a",
+   "id": 37415751,
+   "node_id": "MDQ6VXNlcjM3NDE1NzUx",
+   "avatar_url": "https://avatars.githubusercontent.com/u/37415751?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/halbgott29a",
+   "html_url": "https://github.com/halbgott29a",
+   "followers_url": "https://api.github.com/users/halbgott29a/followers",
+   "following_url": "https://api.github.com/users/halbgott29a/following{/other_user}",
+   "gists_url": "https://api.github.com/users/halbgott29a/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/halbgott29a/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/halbgott29a/subscriptions",
+   "organizations_url": "https://api.github.com/users/halbgott29a/orgs",
+   "repos_url": "https://api.github.com/users/halbgott29a/repos",
+   "events_url": "https://api.github.com/users/halbgott29a/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/halbgott29a/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "halbgott29a",
+   "id": 37415751,
+   "node_id": "MDQ6VXNlcjM3NDE1NzUx",
+   "avatar_url": "https://avatars.githubusercontent.com/u/37415751?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/halbgott29a",
+   "html_url": "https://github.com/halbgott29a",
+   "followers_url": "https://api.github.com/users/halbgott29a/followers",
+   "following_url": "https://api.github.com/users/halbgott29a/following{/other_user}",
+   "gists_url": "https://api.github.com/users/halbgott29a/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/halbgott29a/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/halbgott29a/subscriptions",
+   "organizations_url": "https://api.github.com/users/halbgott29a/orgs",
+   "repos_url": "https://api.github.com/users/halbgott29a/repos",
+   "events_url": "https://api.github.com/users/halbgott29a/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/halbgott29a/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "fb92dd15487c6e2d275adb8c923698b7166c328e",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/fb92dd15487c6e2d275adb8c923698b7166c328e",
+    "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/fb92dd15487c6e2d275adb8c923698b7166c328e"
+   }
+  ]
+ },
+ {
+  "sha": "2c97f4472bda49f983f3b2fb3da454e665d57e6e",
+  "node_id": "C_kwDOS5IqztoAKDJjOTdmNDQ3MmJkYTQ5Zjk4M2YzYjJmYjNkYTQ1NGU2NjVkNTdlNmU",
+  "commit": {
+   "author": {
+    "name": "halbgott29a",
+    "email": "halbgott29a@gmail.com",
+    "date": "2026-06-13T00:05:57Z"
+   },
+   "committer": {
+    "name": "halbgott29a",
+    "email": "halbgott29a@gmail.com",
+    "date": "2026-06-13T00:05:57Z"
+   },
+   "message": "Add joint 4-parameter attack with end-of-chain AES verification\n\njoint_attack.py enumerates {alphabet x mapping x escapes x transposition x\nover-encryption} and verifies only via the real oracle (sha256(answer) opening\nthe blob), not the unreliable English score. 4904 decode-forms tested, 0 hits.\nFormalizes why the endgame is computationally unbreakable without the correct\nalphabet interpretation (26! space, binary AES oracle, no gradient).\n\nCo-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>",
+   "tree": {
+    "sha": "45a173fd0e9c4761d762fc225accf5ecdd3fa465",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/trees/45a173fd0e9c4761d762fc225accf5ecdd3fa465"
+   },
+   "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/commits/2c97f4472bda49f983f3b2fb3da454e665d57e6e",
+   "comment_count": 0,
+   "verification": {
+    "verified": false,
+    "reason": "unsigned",
+    "signature": null,
+    "payload": null,
+    "verified_at": null
+   }
+  },
+  "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/2c97f4472bda49f983f3b2fb3da454e665d57e6e",
+  "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/2c97f4472bda49f983f3b2fb3da454e665d57e6e",
+  "comments_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/2c97f4472bda49f983f3b2fb3da454e665d57e6e/comments",
+  "author": {
+   "login": "halbgott29a",
+   "id": 37415751,
+   "node_id": "MDQ6VXNlcjM3NDE1NzUx",
+   "avatar_url": "https://avatars.githubusercontent.com/u/37415751?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/halbgott29a",
+   "html_url": "https://github.com/halbgott29a",
+   "followers_url": "https://api.github.com/users/halbgott29a/followers",
+   "following_url": "https://api.github.com/users/halbgott29a/following{/other_user}",
+   "gists_url": "https://api.github.com/users/halbgott29a/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/halbgott29a/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/halbgott29a/subscriptions",
+   "organizations_url": "https://api.github.com/users/halbgott29a/orgs",
+   "repos_url": "https://api.github.com/users/halbgott29a/repos",
+   "events_url": "https://api.github.com/users/halbgott29a/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/halbgott29a/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "halbgott29a",
+   "id": 37415751,
+   "node_id": "MDQ6VXNlcjM3NDE1NzUx",
+   "avatar_url": "https://avatars.githubusercontent.com/u/37415751?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/halbgott29a",
+   "html_url": "https://github.com/halbgott29a",
+   "followers_url": "https://api.github.com/users/halbgott29a/followers",
+   "following_url": "https://api.github.com/users/halbgott29a/following{/other_user}",
+   "gists_url": "https://api.github.com/users/halbgott29a/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/halbgott29a/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/halbgott29a/subscriptions",
+   "organizations_url": "https://api.github.com/users/halbgott29a/orgs",
+   "repos_url": "https://api.github.com/users/halbgott29a/repos",
+   "events_url": "https://api.github.com/users/halbgott29a/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/halbgott29a/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "8d043ad115ec7736ecff65f33812c7344ccf0221",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/8d043ad115ec7736ecff65f33812c7344ccf0221",
+    "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/8d043ad115ec7736ecff65f33812c7344ccf0221"
+   }
+  ]
+ }
+]

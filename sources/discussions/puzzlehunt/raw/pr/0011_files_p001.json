@@ -1,0 +1,14 @@
+[
+ {
+  "sha": "68e8b995de068206b307ba1ed00125cf45f777b7",
+  "filename": "??",
+  "status": "added",
+  "additions": 1,
+  "deletions": 0,
+  "changes": 1,
+  "blob_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/blob/6e6ed3da58fb2396f6ab26941772dd79bdcccfc4/%3F%3F",
+  "raw_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/raw/6e6ed3da58fb2396f6ab26941772dd79bdcccfc4/%3F%3F",
+  "contents_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/contents/%3F%3F?ref=6e6ed3da58fb2396f6ab26941772dd79bdcccfc4",
+  "patch": "@@ -0,0 +1 @@\n+\"I am not alone, you are not alone, let's walk together and not feel alone. What am I?\""
+ }
+]

@@ -1,0 +1,166 @@
+[
+ {
+  "sha": "ec18960ea0dbe21fa459c60782c23dd96392248c",
+  "node_id": "C_kwDOQtbCQ9oAKGVjMTg5NjBlYTBkYmUyMWZhNDU5YzYwNzgyYzIzZGQ5NjM5MjI0OGM",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2025-12-22T22:19:30Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2025-12-22T22:19:30Z"
+   },
+   "message": "Add comprehensive gap analysis for GSMG.IO 5 BTC puzzle\n\nSummary of findings:\n- Cosmic Duality decryption produces 1327 bytes of encrypted binary\n- The 7 SalPhaselon passwords have been discovered\n- At least 10-15 more decryption layers may remain per Oracle warning\n- X 2 S H 4 Y 0 Q B 15 formula still partially unsolved\n- \"Half and Better Half\" hint remains unexplored\n\nKey discoveries:\n- Derived key: a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735\n- Post-Cosmic output SHA256: 4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081\n- Output entropy: 7.87 bits/byte (near-random, indicating encryption)\n\nThe puzzle frontier is the Cosmic Duality decrypted output which requires\nfurther analysis to extract the final Bitcoin private key.",
+   "tree": {
+    "sha": "d5cc09d4b3a09d20ef89b17655a99904b81075df",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/trees/d5cc09d4b3a09d20ef89b17655a99904b81075df"
+   },
+   "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/commits/ec18960ea0dbe21fa459c60782c23dd96392248c",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQJOOqzrG\nqRvZRslT2xtvaGQuejR34uCIlQ1PDBOGHf4+Skx4yHMdyo91QP0QKfKiMPO7IWJ/x/Kb7jG9ESe3\nvgc=\n-----END SSH SIGNATURE-----",
+    "payload": "tree d5cc09d4b3a09d20ef89b17655a99904b81075df\nparent fb92dd15487c6e2d275adb8c923698b7166c328e\nauthor Claude <noreply@anthropic.com> 1766441970 +0000\ncommitter Claude <noreply@anthropic.com> 1766441970 +0000\n\nAdd comprehensive gap analysis for GSMG.IO 5 BTC puzzle\n\nSummary of findings:\n- Cosmic Duality decryption produces 1327 bytes of encrypted binary\n- The 7 SalPhaselon passwords have been discovered\n- At least 10-15 more decryption layers may remain per Oracle warning\n- X 2 S H 4 Y 0 Q B 15 formula still partially unsolved\n- \"Half and Better Half\" hint remains unexplored\n\nKey discoveries:\n- Derived key: a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735\n- Post-Cosmic output SHA256: 4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081\n- Output entropy: 7.87 bits/byte (near-random, indicating encryption)\n\nThe puzzle frontier is the Cosmic Duality decrypted output which requires\nfurther analysis to extract the final Bitcoin private key.\n",
+    "verified_at": "2025-12-22T22:19:42Z"
+   }
+  },
+  "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/ec18960ea0dbe21fa459c60782c23dd96392248c",
+  "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/ec18960ea0dbe21fa459c60782c23dd96392248c",
+  "comments_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/ec18960ea0dbe21fa459c60782c23dd96392248c/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "fb92dd15487c6e2d275adb8c923698b7166c328e",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/fb92dd15487c6e2d275adb8c923698b7166c328e",
+    "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/fb92dd15487c6e2d275adb8c923698b7166c328e"
+   }
+  ]
+ },
+ {
+  "sha": "27ea50eb0544baa6b99f145e9ea51c110010abf4",
+  "node_id": "C_kwDOQtbCQ9oAKDI3ZWE1MGViMDU0NGJhYTZiOTlmMTQ1ZTllYTUxYzExMDAxMGFiZjQ",
+  "commit": {
+   "author": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2025-12-22T22:53:27Z"
+   },
+   "committer": {
+    "name": "Claude",
+    "email": "noreply@anthropic.com",
+    "date": "2025-12-22T22:53:27Z"
+   },
+   "message": "Expand gap analysis with detailed unexplored approaches\n\nAdded comprehensive documentation for 7 untested approach categories:\n\n1. Elliptic Curve Operations (secp256k1)\n   - Raw private key attempts with Cosmic output\n   - Point multiplication and BIP32 derivation\n   - EC point halving for \"HALF AND BETTER HALF\" hint\n\n2. Key Derivation Functions (PBKDF2, scrypt)\n   - Multiple salt candidates including Cosmic Duality salt\n   - Bitcoin BIP38 parameters\n   - Various iteration counts from puzzle clues\n\n3. Website Source Code Analysis\n   - Hidden endpoint enumeration\n   - JavaScript deobfuscation\n   - Wayback Machine historical analysis\n   - DNS TXT records\n\n4. LSB Steganography in Images\n   - Multi-bit extraction code\n   - Alpha channel analysis for RGBA images\n   - DCT coefficient analysis for JPEG\n   - Specific analysis of knight piece and QR code\n\n5. Matrix Operations on 14x14 Binary\n   - Eigenvalues, determinant, rank calculations\n   - Row/column sums as potential key bytes\n   - Cellular automata and Game of Life iterations\n   - Matrix transformations\n\n6. XOR Chains with All Passwords\n   - Complete list of known strings and hashes\n   - Permutation testing (5040 combinations)\n   - Bitcoin address byte XOR\n   - Half-splitting operations\n\n7. Additional Cryptographic Approaches\n   - Alternative block cipher modes\n   - Hash variations (SHA-512, RIPEMD-160)\n   - Bitcoin-specific formats (WIF, BIP39, mini keys)\n\nEach section includes working Python/Bash code examples and\ncomprehensive checklists of specific operations to attempt.",
+   "tree": {
+    "sha": "6c0a2b7929640c66b782c26a73107d05dd185b8a",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/trees/6c0a2b7929640c66b782c26a73107d05dd185b8a"
+   },
+   "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/git/commits/27ea50eb0544baa6b99f145e9ea51c110010abf4",
+   "comment_count": 0,
+   "verification": {
+    "verified": true,
+    "reason": "valid",
+    "signature": "-----BEGIN SSH SIGNATURE-----\nU1NIU0lHAAAAAQAAADMAAAALc3NoLWVkMjU1MTkAAAAgrLzsfFISF4by8Q+FKz27YpkK1USsBB+m\namu1QkJnbDsAAAADZ2l0AAAAAAAAAAZzaGE1MTIAAABTAAAAC3NzaC1lZDI1NTE5AAAAQMsHzQvQ\nH4L16Xn2fXN+3+KC8x6itIXLmWAHAiCKfEs0+R/pIPE/Z6SArp+At3x5pRWo48SZYVRh5DfSGH1x\nOQc=\n-----END SSH SIGNATURE-----",
+    "payload": "tree 6c0a2b7929640c66b782c26a73107d05dd185b8a\nparent ec18960ea0dbe21fa459c60782c23dd96392248c\nauthor Claude <noreply@anthropic.com> 1766444007 +0000\ncommitter Claude <noreply@anthropic.com> 1766444007 +0000\n\nExpand gap analysis with detailed unexplored approaches\n\nAdded comprehensive documentation for 7 untested approach categories:\n\n1. Elliptic Curve Operations (secp256k1)\n   - Raw private key attempts with Cosmic output\n   - Point multiplication and BIP32 derivation\n   - EC point halving for \"HALF AND BETTER HALF\" hint\n\n2. Key Derivation Functions (PBKDF2, scrypt)\n   - Multiple salt candidates including Cosmic Duality salt\n   - Bitcoin BIP38 parameters\n   - Various iteration counts from puzzle clues\n\n3. Website Source Code Analysis\n   - Hidden endpoint enumeration\n   - JavaScript deobfuscation\n   - Wayback Machine historical analysis\n   - DNS TXT records\n\n4. LSB Steganography in Images\n   - Multi-bit extraction code\n   - Alpha channel analysis for RGBA images\n   - DCT coefficient analysis for JPEG\n   - Specific analysis of knight piece and QR code\n\n5. Matrix Operations on 14x14 Binary\n   - Eigenvalues, determinant, rank calculations\n   - Row/column sums as potential key bytes\n   - Cellular automata and Game of Life iterations\n   - Matrix transformations\n\n6. XOR Chains with All Passwords\n   - Complete list of known strings and hashes\n   - Permutation testing (5040 combinations)\n   - Bitcoin address byte XOR\n   - Half-splitting operations\n\n7. Additional Cryptographic Approaches\n   - Alternative block cipher modes\n   - Hash variations (SHA-512, RIPEMD-160)\n   - Bitcoin-specific formats (WIF, BIP39, mini keys)\n\nEach section includes working Python/Bash code examples and\ncomprehensive checklists of specific operations to attempt.\n",
+    "verified_at": "2025-12-22T22:53:36Z"
+   }
+  },
+  "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/27ea50eb0544baa6b99f145e9ea51c110010abf4",
+  "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/27ea50eb0544baa6b99f145e9ea51c110010abf4",
+  "comments_url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/27ea50eb0544baa6b99f145e9ea51c110010abf4/comments",
+  "author": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "committer": {
+   "login": "claude",
+   "id": 81847,
+   "node_id": "MDQ6VXNlcjgxODQ3",
+   "avatar_url": "https://avatars.githubusercontent.com/u/81847?v=4",
+   "gravatar_id": "",
+   "url": "https://api.github.com/users/claude",
+   "html_url": "https://github.com/claude",
+   "followers_url": "https://api.github.com/users/claude/followers",
+   "following_url": "https://api.github.com/users/claude/following{/other_user}",
+   "gists_url": "https://api.github.com/users/claude/gists{/gist_id}",
+   "starred_url": "https://api.github.com/users/claude/starred{/owner}{/repo}",
+   "subscriptions_url": "https://api.github.com/users/claude/subscriptions",
+   "organizations_url": "https://api.github.com/users/claude/orgs",
+   "repos_url": "https://api.github.com/users/claude/repos",
+   "events_url": "https://api.github.com/users/claude/events{/privacy}",
+   "received_events_url": "https://api.github.com/users/claude/received_events",
+   "type": "User",
+   "user_view_type": "public",
+   "site_admin": false
+  },
+  "parents": [
+   {
+    "sha": "ec18960ea0dbe21fa459c60782c23dd96392248c",
+    "url": "https://api.github.com/repos/puzzlehunt/gsmgio-5btc-puzzle/commits/ec18960ea0dbe21fa459c60782c23dd96392248c",
+    "html_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/commit/ec18960ea0dbe21fa459c60782c23dd96392248c"
+   }
+  ]
+ }
+]

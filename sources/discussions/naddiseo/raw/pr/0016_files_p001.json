@@ -1,0 +1,26 @@
+[
+ {
+  "sha": "e6ee149611b63ab4d97da19a38a82e0925659568",
+  "filename": "unverified/11110.md",
+  "status": "added",
+  "additions": 48,
+  "deletions": 0,
+  "changes": 48,
+  "blob_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/blob/37a8e94e41bafccdf6cbaa68dc7233339ccb7e22/unverified%2F11110.md",
+  "raw_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/raw/37a8e94e41bafccdf6cbaa68dc7233339ccb7e22/unverified%2F11110.md",
+  "contents_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/contents/unverified%2F11110.md?ref=37a8e94e41bafccdf6cbaa68dc7233339ccb7e22",
+  "patch": "@@ -0,0 +1,48 @@\n+# 5binary is a piece of this puzzle    \n+\n+Puzzle image LSB, where Blue=1 and Yellow=0:  \n+\n+> `111101110011110110010010`\n+  \n+### First five bits in the initial matrix LSB:\n+\n+`111101110011110110010010`  \n+`11110.....11110.........`    \n+\n+> contains `EO11110`\n+ \n+### Five last bits in 0xfe:  \n+\n+`111 11110`\n+\n+> contains `EO11110`\n+  \n+### Feedback shift three times 0xfe\n+\n+`11110111`\n+\n+> First byte of the LSB => `0xf7`\n+\n+#### Historical Note\n+\n+In 1933, the Emergency Banking Act and subsequent legislation ended the redeemability of Federal Reserve notes in gold.\n+By January 30, 1934, Federal Reserve notes were no longer redeemable in gold.\n+\n+Executive Order 11110, issued by President John F. Kennedy in 1963, \n+amended Executive Order 10289, originally issued by President Harry S. Truman in 1951.\n+\n+Among other things, EO 11110 delegated to the Secretary of the Treasury certain presidential authority concerning \n+the issuance of silver certificates and the coinage of silver currency.\n+\n+By 1963, the Federal Reserve began issuing $1 Federal Reserve notes as a replacement for $1 silver certificates, \n+which were being phased out because of increasing demand for silver coinage.\n+\n+Thus, domestically, Federal Reserve notes no longer required direct redeemability in gold or silver, \n+although the monetary system still retained important statutory relationships with gold and silver.\n+\n+In 1971, President Richard Nixon suspended the convertibility of U.S. dollars into gold for foreign official holders\n+, effectively ending the dollar's role as the gold-convertible anchor of the Bretton Woods system.\n+\n+This marked the beginning of the end of the Bretton Woods monetary system and the transition toward the modern fiat-dollar system.\n+\n+> `JFK Secretary of Treasury was C. Dillon Douglas son of Clarence Dillon owner of Chateau Haut-Brion. among others` "
+ },
+ {
+  "sha": "18b0bbd9c79de17bade813c62ee33f0ee5025281",
+  "filename": "unverified/README.md",
+  "status": "modified",
+  "additions": 1,
+  "deletions": 0,
+  "changes": 1,
+  "blob_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/blob/37a8e94e41bafccdf6cbaa68dc7233339ccb7e22/unverified%2FREADME.md",
+  "raw_url": "https://github.com/Naddiseo/gsmgio-5btc-puzzle/raw/37a8e94e41bafccdf6cbaa68dc7233339ccb7e22/unverified%2FREADME.md",
+  "contents_url": "https://api.github.com/repos/Naddiseo/gsmgio-5btc-puzzle/contents/unverified%2FREADME.md?ref=37a8e94e41bafccdf6cbaa68dc7233339ccb7e22",
+  "patch": "@@ -9,3 +9,4 @@ This folder contains a list of currently unverified, or unverifiable, solutions\n | 1141 Coincidence | Phase 3.2 | [1141 Slice](./phase3.2_1141.md)| coincidence |\n | Yellow and Blue counts | Phase 0 | [Yellow/Blue counts](./phase0_yellow_blue_counts.md) | the 9 and 15 counts restate the URL's low bits, so they are not a new input |\n | fefefe parity | Phase 0 | [fefefe is 101 010](./phase0_fefefe_parity.md) | hex digit parity gives 42; explains a solver remark, and the 104 half does not hold |\n+| EO11110 | Phase 3 | [11110](./11110.md)| Insights into 5binary |"
+ }
+]
