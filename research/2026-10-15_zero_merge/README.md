@@ -35,3 +35,8 @@ outputs are gibberish; no English.
 Ruled out: DBBI/FAED as the soup's decimal encoding with zeros hidden in one letter, or zeroed by the obvious prime
 rules. Open: a non-decimal reading of DBBI/FAED; personal-knowledge inputs ("close friends have the best chance");
 the raw Telegram export.
+
+## H-ZM2: zeros hidden in a SET of letters (`zero_merge_multi.py`)
+Control (z-section zeros spread over two letters) recovered. DBBI: every 2- and 3-letter set, both directions;
+FAED: every 2-letter set containing `g`, both directions. **Lowercase criterion: 0 solutions, all searches
+exhaustive.** Printable-ASCII criterion: many searches hit the 3M-node cap (unresolved, listed in the run log).
