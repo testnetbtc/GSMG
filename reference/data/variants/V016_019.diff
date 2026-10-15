@@ -1,0 +1,37 @@
+--- sources/hosterjack/content/phases.js
++++ sources/hosterjack/_pr2/content/phases.js
+@@ -26,3 +26,3 @@
+       { h: 'Turn the bits into letters', body: `Chop the 196-bit string into <b>8-bit bytes</b> and convert each to its <b>ASCII</b> character. Out comes <span class="mono">gsmg.io/theseedisplanted</span> (24 characters + a little zero-padding). Visiting it opens Phase 1.` },
+-      { h: 'A separate clue hides in the colours', body: `Counting the <b>1-cells per row and per column</b> gives two number strings (<span class="mono">610876654997879</span> and <span class="mono">8108108736759668</span>). These are <b>not</b> needed for the URL — they’re a separate artifact, believed (not proven) to be the value behind the endgame token <span class="mono">matrixsumlist</span>. Don’t let them distract you here.` },
++      { h: 'A separate clue hides in the colours', body: `Counting the <b>1-cells per row and per column</b> gives two number strings (<span class="mono">610876654997879</span> and <span class="mono">8108108736759668</span>). These are <b>not</b> needed for the URL — they’re a separate artifact called <span class="mono">matrixsumlist</span> that you only need at the very endgame. Don’t let them distract you here.` },
+     ],
+@@ -38,3 +38,3 @@
+     ],
+-    trivia: [`The colours foreshadow “yellowblueprimes”, a word you won’t need until the very end. The sums are widely believed to BE the value behind the endgame token “matrixsumlist” — but note that is an inference: what is proven is (a) the sums recompute exactly, and (b) a binary block in the SalPhaseIon soup spells the literal word “matrixsumlist”. Nothing has yet validated the link between the two.`],
++    trivia: [`The colours foreshadow “yellowblueprimes”, a word you won’t need until the very end — and the sums become the token “matrixsumlist”.`],
+     verified: '✅ Independently re-implemented: the counter-clockwise spiral of bits reproduces the URL exactly.',
+@@ -182,3 +182,2 @@
+       { label: 'AES salt', value: 'eefc4c5befc1656a' },
+-      { label: 'Trailing blob salt (p32_trailing · UNDECODED)', value: 'b45a5e3d827593ca' },
+     ],
+@@ -214,3 +213,3 @@
+       { label: 'Spectrogram answer', value: 'HASHTHETEXT' },
+-      { label: 'Decentraland coords', value: '-41,-17  ·  audio asset: puzzlepiece.mp3' },
++      { label: 'Decentraland coords', value: '-41,-17  ·  audio_source.wav' },
+       { label: 'Entry text (59 chars, no newline)', value: 'GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe' },
+@@ -218,5 +217,3 @@
+       { label: '✅ Decoded · matrixsumlist', value: 'matrixsumlist' },
+-      { label: '✅ Decoded · enter', value: 'enter  (a/b binary → ASCII; not a cosmic ingredient)' },
+       { label: '✅ Decoded · lastwords…', value: 'lastwordsbeforearchichoice' },
+-      { label: '✅ Decoded · thispassword', value: 'thispassword  (a–i/o field-decode; not a cosmic ingredient)' },
+       { label: '⚠️ Open block · dbbi', value: 'dbbi  (91 symbols)  → guessed: yellowblueprimes (unconfirmed)' },
+@@ -231,3 +228,3 @@
+     id: 'cosmic', num: '05', codename: 'Cosmic Duality', title: 'The Final Lock',
+-    tagline: 'Unsolved. Decrypt this and ~1.256 BTC is yours.',
++    tagline: 'Unsolved. Decrypt this and 5 BTC is yours.',
+     status: 'open', difficulty: 5, xp: 0,
+@@ -242,3 +239,3 @@
+     play: { type: 'assemble', mode: 'recipe',
+-            intro: 'The believed final recipe hashes four ingredients together to unlock Cosmic Duality. Drag them into order and hit Run — it tests the REAL blob and logs your attempt to the shared frontier. (Two ingredients are still unconfirmed, so expect “fail” — for now. The first valid decryption wins the prize (~1.25 BTC).)',
++            intro: 'The believed final recipe hashes four ingredients together to unlock Cosmic Duality. Drag them into order and hit Run — it tests the REAL blob and logs your attempt to the shared frontier. (Two ingredients are still unconfirmed, so expect “fail” — for now. The first valid decryption wins 5 BTC.)',
+             tokens: [{ label: 'yellowblueprimes' }, { label: 'matrixsumlist' }, { label: 'lastwordsbeforearchichoice' }, { label: 'yinyang' }],

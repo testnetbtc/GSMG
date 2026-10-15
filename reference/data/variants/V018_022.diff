@@ -1,0 +1,14 @@
+--- sources/hosterjack/assets/js/components/matrix.js
++++ sources/hosterjack/_pr2/assets/js/components/matrix.js
+@@ -11,3 +11,2 @@
+   const yellow = new Set(MATRIX.yellow.map(([r, c]) => r + ',' + c));
+-  const fefefe = new Set((MATRIX.fefefe || []).map(([r, c]) => r + ',' + c));
+ 
+@@ -17,5 +16,4 @@
+       const v = MATRIX.grid[r][c];
+-      const rc = r + ',' + c;
+-      const tint = blue.has(rc) ? 'blue' : yellow.has(rc) ? 'yellow' : fefefe.has(rc) ? 'fefefe' : '';
+-      cells += `<div class="mcell ${v ? 'on' : 'off'} ${tint}" data-rc="${r},${c}" title="row ${r + 1}, col ${c + 1} (counting from 1) · row ${r}, col ${c} (counting from 0) = ${v}"></div>`;
++      const tint = blue.has(r + ',' + c) ? 'blue' : yellow.has(r + ',' + c) ? 'yellow' : '';
++      cells += `<div class="mcell ${v ? 'on' : 'off'} ${tint}" data-rc="${r},${c}" title="row ${r}, col ${c} = ${v}"></div>`;
+     }

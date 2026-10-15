@@ -1,0 +1,7 @@
+--- sources/hosterjack/assets/js/router.js
++++ sources/hosterjack/_pr2/assets/js/router.js
+@@ -40,3 +40,3 @@
+     outlet.classList.remove('view-enter'); void outlet.offsetWidth; outlet.classList.add('view-enter');
+-    document.title = (result && result.title ? result.title + ' · ' : '') + 'GSMG.io 5 BTC Puzzle — Walkthrough';
++    document.title = (result && result.title ? result.title + ' · ' : '') + 'The Seed Is Planted — GSMG 5 BTC';
+     if (result && result.mount) { try { result.mount(outlet); } catch (e) { console.error(e); } }

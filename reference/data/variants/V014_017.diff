@@ -1,0 +1,23 @@
+--- sources/hosterjack/_pr2/assets/js/views/leaderboard.js
++++ sources/hosterjack/_branches/game-rebuild/assets/js/views/leaderboard.js
+@@ -6,3 +6,2 @@
+ import { esc, qs, on, ago, toast, copy } from '../util.js';
+-import { mergeOverall, overallTableHTML } from '../leaderboards.js';
+ 
+@@ -14,6 +13,4 @@
+   const s = store.state;
+-  let board = null, arcadeBoard = null;
++  let board = null;
+   try { const r = await fetch('data/leaderboard.json', { cache: 'no-store' }); if (r.ok) board = await r.json(); } catch {}
+-  try { const r = await fetch('data/arcade-leaderboard.json', { cache: 'no-store' }); if (r.ok) arcadeBoard = await r.json(); } catch {}
+-  const overall = mergeOverall(board, arcadeBoard);
+ 
+@@ -36,8 +33,2 @@
+     ${solved ? `<div class="note gold"><h4>🏆 SOLVED</h4><p>A verified valid decryption of the Cosmic blob has been recorded. Verify the recovered key on-chain before celebrating — but this is the moment.</p></div>` : ''}
+-
+-    <details class="eli5" open><summary>★ Overall champions — puzzle + arcade combined <span class="chev">+</span></summary>
+-      <div class="body">
+-        <p class="cnote" style="margin-top:0">One combined standing: real-puzzle frontier work (weighted heavily) plus <a href="#/arcade">Arcade</a> points, merged by handle. The detailed puzzle board is just below; the Arcade board lives on its own page — this only ranks them together.</p>
+-        ${overallTableHTML(overall)}
+-      </div></details>
+ 

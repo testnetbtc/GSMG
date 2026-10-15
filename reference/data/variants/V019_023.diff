@@ -1,0 +1,16 @@
+--- sources/hosterjack/_pr2/assets/js/views/reference.js
++++ sources/hosterjack/assets/js/views/reference.js
+@@ -9,3 +9,2 @@
+   { label: 'Split-off (halvings, unspent)', value: '17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa' },
+-  { label: 'Donation (older)', value: '1JK27jtvE1wS4VG9k7Zpo8wBufMbYwy3r8' },
+ ];
+@@ -16,3 +15,3 @@
+       <div class="spread"><h3 style="margin:0">${esc(p.num)} · ${esc(p.codename)}</h3>
+-        <a class="pill ${p.status === 'solved' ? 'teal' : 'gold'}" href="#/phase/${p.id}" style="text-decoration:none">open door →</a></div>
++        <a class="pill ${p.status === 'solved' ? 'teal' : 'gold'}" href="#/walkthrough?p=${encodeURIComponent(p.codename)}" style="text-decoration:none">open in walkthrough →</a></div>
+       ${p.verified ? `<p class="mono faint" style="font-size:11.5px;margin:.4em 0 0">${esc(p.verified)}</p>` : ''}
+@@ -24,3 +23,3 @@
+     <div class="sec-head"><div class="sec-num">REFERENCE</div><h2>Every value, in one place</h2>
+-      <p>All the canonical constants — addresses, passphrases, SHA-256 keys, AES salts, decoded strings — each copyable. Cross-checked; see the <a href="https://github.com/HosterjackAGV/gsmg-5btc-puzzle/blob/main/docs/VERIFIED-SOLUTIONS.md" target="_blank" rel="noopener">verification audit</a> for the status of every claim.</p></div>
++      <p>All the canonical constants — addresses, passphrases, SHA-256 keys, AES salts, decoded strings — each copyable. Cross-checked against the <a href="https://github.com/HosterjackAGV/gsmg-5btc-puzzle/blob/main/docs/VERIFIED-SOLUTIONS.md" target="_blank" rel="noopener">verification audit</a>; every "open in walkthrough →" jumps to that phase in the <a href="#/walkthrough">full walkthrough</a>. For the creator's own rules and hints, see <a href="#/intel">The Three Books</a>.</p></div>
+ 

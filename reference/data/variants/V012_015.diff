@@ -1,0 +1,10 @@
+--- sources/hosterjack/_branches/feat/arcade-phase-games-governance/assets/js/games/phasegames.js
++++ sources/hosterjack/_pr2/assets/js/games/phasegames.js
+@@ -222,6 +222,5 @@
+     function update(n) {
+-      grid.querySelectorAll('.mcell.lit, .mcell.head').forEach(el => el.classList.remove('lit', 'head'));
++      grid.querySelectorAll('.mcell.lit').forEach(el => el.classList.remove('lit'));
+       let bits = '';
+       for (let i = 0; i < n; i++) { const [r, c] = MATRIX.spiral[i]; const el = cellAt[r + ',' + c]; if (el) el.classList.add('lit'); bits += MATRIX.grid[r][c]; }
+-      if (n > 0) { const [hr, hc] = MATRIX.spiral[n - 1]; const he = cellAt[hr + ',' + hc]; if (he) he.classList.add('head'); }
+       bitsEl.textContent = bits;

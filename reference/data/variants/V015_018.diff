@@ -1,0 +1,48 @@
+--- sources/hosterjack/_pr2/assets/js/views/phase.js
++++ sources/hosterjack/_branches/game-rebuild/assets/js/views/phase.js
+@@ -46,6 +46,2 @@
+ 
+-    ${p.play ? `<h3 style="margin-top:24px">🎮 Play this door</h3>
+-      <p class="muted" style="font-size:13.5px">${p.door.type === 'open' ? 'A hands-on recipe builder — every run hits the real blob and is logged to the frontier.' : 'Solve it by hand and the door opens itself.'}</p>
+-      <div id="game-host" class="game-host"><div class="faint" style="padding:20px">loading…</div></div>` : ''}
+-
+     ${renderDoor(p, cracked)}
+@@ -78,15 +74,2 @@
+     wireDoor(root, p);
+-
+-    // interactive per-phase game (assemble / spiral), lazy-loaded
+-    const gameHost = qs('#game-host', root);
+-    if (gameHost && p.play) {
+-      import('../games/phasegames.js')
+-        .then(m => {
+-          const g = m.phaseGame(p);
+-          if (!g) { gameHost.innerHTML = ''; return; }
+-          gameHost.innerHTML = g.html;
+-          g.mount(gameHost, { crack: () => crackPhaseUI(root, p) });
+-        })
+-        .catch(e => { console.error(e); gameHost.innerHTML = '<p class="faint">Game failed to load.</p>'; });
+-    }
+ 
+@@ -111,11 +94,2 @@
+   return { title: p.codename, html, mount };
+-}
+-
+-// Mark a phase cracked and celebrate (shared by the door and the per-phase game).
+-function crackPhaseUI(root, p) {
+-  if (store.crackPhase(p.id, p.xp)) {
+-    confetti();
+-    toast({ ico: '🔓', title: `Cracked: ${p.codename}`, desc: `+${p.xp} XP`, kind: 'gold' });
+-    const pill = qs('#crack-pill', root); if (pill) { pill.textContent = '🔓 cracked'; pill.classList.add('teal'); }
+-  }
+ }
+@@ -172,3 +146,9 @@
+   const show = (cls, text) => { out.className = 'cout show ' + cls; out.textContent = text; };
+-  const celebrate = () => crackPhaseUI(root, p);
++  const celebrate = () => {
++    if (store.crackPhase(p.id, p.xp)) {
++      confetti();
++      toast({ ico: '🔓', title: `Cracked: ${p.codename}`, desc: `+${p.xp} XP`, kind: 'gold' });
++      const pill = qs('#crack-pill', root); if (pill) { pill.textContent = '🔓 cracked'; pill.classList.add('teal'); }
++    }
++  };
+ 

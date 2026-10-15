@@ -1,0 +1,69 @@
+--- sources/puzzlehunt/_pr102/README.md
++++ sources/puzzlehunt/_pr101/README.md
+@@ -11,3 +11,4 @@
+ - [Additional hints](#additional-hints)
+-- [What is left](#what-is-left)
++- [Related](#related)
++- [Wanted: original captures](#wanted-original-captures)
+ 
+@@ -17,4 +18,6 @@
+ - The puzzle was published at https://gsmg.io/puzzle
+-- The prize address with 5 BTC is [1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe](https://www.blockchain.com/btc/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe)
+-(The creator of the puzzle intended to halve the prize each time Bitcoin halving occurs. It happened for the first time on May 11, 2020, the current value is 2.5 BTC)
++- The prize address is [1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe](https://www.blockchain.com/btc/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe). It was funded with exactly 5 BTC on 2019-04-13 and still holds 1.25634510 BTC.
++- Coins left it twice, each time shortly after a Bitcoin halving. [On 2020-05-11](https://mempool.space/tx/2aa9a4a90be819d5122d70c993280785a0508f163521e7b38cebb4db0b071b13) 2.5 BTC went to [17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa](https://www.blockchain.com/btc/address/17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa), and [on 2024-04-24](https://mempool.space/tx/88cdb3cdca12b471551b1b26188508a14ca5fd8a415223ffb7c190381c9b9df3) another 1.25 BTC went to the same address. In both transactions the only other output paid back to 1GSMG1.
++- 17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa appears as a recipient in 44 transactions, and none of the coins it received have been spent. It holds 3.75055310 BTC.
++- Between them the two addresses hold 5.00689820 BTC. Balances and both transactions checked 2026-08-18 against mempool.space and blockstream.info.
+ - Discussions on Reddit: [gsmgio_5_btc_puzzle](https://www.reddit.com/r/bitcoinpuzzles/comments/dfwcqk/gsmgio_5_btc_puzzle/), [gsmgio_5_btc_puzzle_challenge](https://www.reddit.com/r/bitcoinpuzzles/comments/bf7siz/gsmgio_5_btc_puzzle_challenge/)
+@@ -398,38 +401,14 @@
+ 
+-# What is left
+-
+-The published stage path has been traversed end to end, but the last page is not open. Two
+-OpenSSL "Salted__" AES blobs sit there with no known password: a small one of 96 bytes, and a
+-larger one titled "Dualite" in the page markup. Parts of the Salphaseion text above also
+-remain undecoded, in particular two conspicuous runs:
+-
+-- a 91-symbol run beginning `dbbi`
+-- a 570-symbol run beginning `faed`
+-
+-Accounts differ on whether those runs feed the final gate, are side material, or are
+-something else again. No reproducible decoding of either is documented here.
+-
+-## Claims, and how to tell them apart
+-
+-Many issues in this tracker announce a solution, and there is no agreed way to test one. So
+-they cannot be told apart, nobody can build on them, and the same ground gets covered again
+-and again. Two things would fix that.
+-
+-Treat a claim as substantiated when it does one of two things: derives an address matching a
+-prize address exactly, or shows every step from material published on the puzzle pages
+-through to its result so that somebody else can rerun it. Valid padding, plaintext that reads
+-as meaningful, and a near miss are none of them a match.
+-
+-When posting a claim or a failure, include:
+-
+-- the exact input, the URL it came from, and a hash of it
+-- the transformations and their parameters, in order
+-- enough code or commands for someone else to reproduce the result
+-- the output, or a hash of the output
+-- for a claimed solution, the derivation all the way down to the address
+-- for a negative, the bounds of what was searched, and a known-good input pushed through the
+-  same code to show the test would have caught a hit
+-
+-Negatives are worth posting. Most of what is known about this puzzle is what does not work,
+-and almost none of it is written down anywhere. A negative with no stated bounds and no
+-known-good witness does not close anything, so say which of the two you have.
++# Related
++
++More documentation: [floflo777/open-crypto-puzzles](https://github.com/floflo777/open-crypto-puzzles).
++
++# Wanted: original captures
++
++Looking for original captures of the puzzle pages:
++
++- Saved pages from any gsmg.io puzzle URL, from any period, with the date. Saved HTML beats a screenshot.
++- The image files as you originally downloaded them, with the source URL and the date if you still have them.
++- Anything the creator posted, with a date and something showing where it came from.
++
++Open an issue or a PR if you have any of it.

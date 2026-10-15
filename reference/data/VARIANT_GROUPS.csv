@@ -1,0 +1,28 @@
+variant_group,canonical_path,member_path,rule,line_similarity,lines_only_in_member,lines_only_in_canonical,diff_file,unique_fact_review
+V001,sources/naddiseo/phase2-assets/phase2.1.txt,sources/hosterjack/assets/walkthrough/phase2-assets/phase2.1.txt,CRLF->LF + trailing-space + outer-strip normalisation equal,1.000,0,0,,pending
+V002,sources/naddiseo/phase2-assets/phase3.txt,sources/hosterjack/assets/walkthrough/phase2-assets/phase3.txt,CRLF->LF + trailing-space + outer-strip normalisation equal,1.000,0,0,,pending
+V003,sources/naddiseo/_pr15/neo/materials/inner96.b64,sources/hosterjack/ciphertexts/p32_trailing.txt,CRLF->LF + trailing-space + outer-strip normalisation equal,1.000,0,0,,pending
+V004,sources/puzzlehunt/_pr93/_work/cosmic_blob.txt,sources/naddiseo/_pr15/neo/materials/cosmic_duality_b64.txt,CRLF->LF + trailing-space + outer-strip normalisation equal,1.000,0,0,,pending
+V005,sources/naddiseo/_pr15/neo/materials/salphaseion_page.txt,sources/naddiseo/_pr15/neo/materials/primary/salphaseion_soup_space_separated.txt,CRLF->LF + trailing-space + outer-strip normalisation equal,1.000,0,0,,pending
+V006,sources/naddiseo/phase3-assets/phase3.2-aes.txt,sources/naddiseo/_pr9/other-puzzles/gsmg-salphaseion/phase32_aes_blob.txt,CRLF->LF + trailing-space + outer-strip normalisation equal,1.000,0,0,,pending
+V007,sources/naddiseo/phase2-assets/phase3_aes.txt,sources/naddiseo/_pr9/other-puzzles/gsmg-salphaseion/phase3_aes_blob.txt,CRLF->LF + trailing-space + outer-strip normalisation equal,1.000,0,0,,pending
+V008,sources/puzzlehunt/_pr102/README.md,sources/puzzlehunt/_pr101/README.md,"same file name, line-similarity >= 0.80",0.973,19,40,reference/data/variants/V008_008.diff,pending
+V008,sources/puzzlehunt/_pr102/README.md,sources/puzzlehunt/README.md,"same file name, line-similarity >= 0.80",0.953,0,39,reference/data/variants/V008_009.diff,pending
+V008,sources/puzzlehunt/_pr102/README.md,sources/puzzlehunt/_pr3/README.md,"same file name, line-similarity >= 0.80",0.950,2,77,reference/data/variants/V008_010.diff,pending
+V009,sources/hosterjack/_branches/feat/arcade-phase-games-governance/assets/js/store.js,sources/hosterjack/_pr2/assets/js/store.js,"same file name, line-similarity >= 0.80",0.989,0,3,reference/data/variants/V009_011.diff,pending
+V009,sources/hosterjack/_branches/feat/arcade-phase-games-governance/assets/js/store.js,sources/hosterjack/_branches/game-rebuild/assets/js/store.js,"same file name, line-similarity >= 0.80",0.814,1,42,reference/data/variants/V009_012.diff,pending
+V010,sources/hosterjack/_branches/feat/arcade-phase-games-governance/assets/js/engine/host.js,sources/hosterjack/_pr2/assets/js/engine/host.js,"same file name, line-similarity >= 0.80",0.950,1,3,reference/data/variants/V010_013.diff,pending
+V011,sources/hosterjack/_branches/feat/arcade-phase-games-governance/assets/js/games/cryptogram.js,sources/hosterjack/_pr2/assets/js/games/cryptogram.js,"same file name, line-similarity >= 0.80",0.945,10,14,reference/data/variants/V011_014.diff,pending
+V012,sources/hosterjack/_branches/feat/arcade-phase-games-governance/assets/js/games/phasegames.js,sources/hosterjack/_pr2/assets/js/games/phasegames.js,"same file name, line-similarity >= 0.80",0.994,1,2,reference/data/variants/V012_015.diff,pending
+V013,sources/hosterjack/_branches/feat/arcade-phase-games-governance/assets/js/views/arcade.js,sources/hosterjack/_pr2/assets/js/views/arcade.js,"same file name, line-similarity >= 0.80",0.815,8,43,reference/data/variants/V013_016.diff,pending
+V014,sources/hosterjack/_pr2/assets/js/views/leaderboard.js,sources/hosterjack/_branches/game-rebuild/assets/js/views/leaderboard.js,"same file name, line-similarity >= 0.80",0.954,1,10,reference/data/variants/V014_017.diff,pending
+V015,sources/hosterjack/_pr2/assets/js/views/phase.js,sources/hosterjack/_branches/game-rebuild/assets/js/views/phase.js,"same file name, line-similarity >= 0.80",0.920,7,27,reference/data/variants/V015_018.diff,pending
+V016,sources/hosterjack/content/phases.js,sources/hosterjack/_pr2/content/phases.js,"same file name, line-similarity >= 0.80",0.976,5,8,reference/data/variants/V016_019.diff,pending
+V016,sources/hosterjack/content/phases.js,sources/hosterjack/_branches/game-rebuild/content/phases.js,"same file name, line-similarity >= 0.80",0.912,4,41,reference/data/variants/V016_020.diff,pending
+V017,sources/hosterjack/assets/js/router.js,sources/hosterjack/_pr2/assets/js/router.js,"same file name, line-similarity >= 0.80",0.980,1,1,reference/data/variants/V017_021.diff,pending
+V018,sources/hosterjack/assets/js/components/matrix.js,sources/hosterjack/_pr2/assets/js/components/matrix.js,"same file name, line-similarity >= 0.80",0.959,2,4,reference/data/variants/V018_022.diff,pending
+V019,sources/hosterjack/_pr2/assets/js/views/reference.js,sources/hosterjack/assets/js/views/reference.js,"same file name, line-similarity >= 0.80",0.946,2,3,reference/data/variants/V019_023.diff,pending
+V020,sources/hosterjack/_pr2/docs/VERIFIED-SOLUTIONS.md,sources/hosterjack/docs/VERIFIED-SOLUTIONS.md,"same file name, line-similarity >= 0.80",0.973,11,12,reference/data/variants/V020_024.diff,pending
+V021,sources/puzzlehunt/_pr30/decentraland.ipynb,sources/naddiseo/decentraland.ipynb,"same file name, line-similarity >= 0.80",0.992,0,4,reference/data/variants/V021_025.diff,pending
+V022,sources/naddiseo/phase3.2.ipynb,sources/puzzlehunt/_pr30/phase3.2.ipynb,"same file name, line-similarity >= 0.80",0.971,0,26,reference/data/variants/V022_026.diff,pending
+V022,sources/naddiseo/phase3.2.ipynb,sources/puzzlehunt/_pr16/phase3.2.ipynb,"same file name, line-similarity >= 0.80",0.993,3,29,reference/data/variants/V022_027.diff,pending

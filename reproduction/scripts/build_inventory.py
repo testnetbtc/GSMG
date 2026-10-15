@@ -30,6 +30,29 @@ with open(os.path.join(SRC, "REFS.tsv")) as fh:
         REFS[(row["key"], row["kind"], row["ref"])] = row["head_commit"]
 
 
+# Unique-fact review of variant members (brief §6.2 rule 2). Keyed by a substring of the member path.
+REVIEW = [
+    ("hosterjack/assets/walkthrough/phase2-assets/", "identical after CRLF->LF; no unique fact (reproduction: upstream_plaintext_check)"),
+    ("hosterjack/assets/walkthrough/phase3-assets/phase3.2.txt", "identical after CRLF->LF; no unique fact (reproduction: upstream_plaintext_check)"),
+    ("ciphertexts/p32_trailing.txt", "same envelope bytes; name collision recorded in 08_GLOSSARY (inner96 = p32_trailing)"),
+    ("cosmic_duality_b64.txt", "same envelope bytes as cosmic; formatting only"),
+    ("salphaseion_soup_space_separated.txt", "same soup text; formatting only (reproduction: salphaseion_page_provenance)"),
+    ("_aes_blob.txt", "same envelope bytes; formatting only"),
+    ("README.md", "PR/branch-only README facts recorded in reference (A PR3/16/30/101/102 in 01/02/03/07; C game-rebuild in 07) — see extraction N5 §3.2 and N1 §7"),
+    ("VERIFIED-SOLUTIONS.md", "version-only facts recorded: matrixsumlist CONFIRMED->INFERRED downgrade, audio/split corrections (04, 07; extraction N1 §7)"),
+    ("content/phases.js", "version-only facts recorded (extraction N1 §7); stale text listed in 07"),
+    (".ipynb", "markdown/URL-encoding differences only; no unique fact (extraction N5 §3.2)"),
+    ("assets/js/", "site UI code; no puzzle fact"),
+]
+
+
+def review_for(path):
+    for key, txt in REVIEW:
+        if key in path:
+            return txt
+    return "pending manual review"
+
+
 def git(*a):
     return subprocess.run(["git", "-C", ROOT, *a], capture_output=True, text=True).stdout
 
@@ -182,7 +205,7 @@ def main():
             vrows.append(dict(variant_group=vid, canonical_path=c["path"], member_path=m["path"], rule=why,
                               line_similarity=f"{ratio:.3f}", lines_only_in_member=only_member,
                               lines_only_in_canonical=only_canon, diff_file=dfile if (only_member or only_canon) else "",
-                              unique_fact_review="pending"))
+                              unique_fact_review=review_for(m["path"])))
     with open(os.path.join(DATA, "VARIANT_GROUPS.csv"), "w", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(vrows[0].keys()) if vrows else ["variant_group"]); w.writeheader(); w.writerows(vrows)
 
