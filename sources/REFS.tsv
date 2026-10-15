@@ -1,0 +1,23 @@
+key	repo	kind	ref	head_commit	archive_tag	commits_reachable	files_in_tree	files_imported	note
+A	puzzlehunt	pr	101	68d09aa9d4f637079424e4e0446a5feb9def422e	archive/A/pr-101	12	7	1	imported unique-vs-default-HEAD files
+A	puzzlehunt	pr	102	76561745f23fbc987134dfaa4609c3c69edb7b68	archive/A/pr-102	12	7	1	imported unique-vs-default-HEAD files
+A	puzzlehunt	pr	11	6e6ed3da58fb2396f6ab26941772dd79bdcccfc4	archive/A/pr-11	12	8	1	imported unique-vs-default-HEAD files
+A	puzzlehunt	pr	16	f6468725bad55d41b0545d5f60a2bd0044b11736	archive/A/pr-16	12	75	3	imported unique-vs-default-HEAD files
+A	puzzlehunt	pr	3	9d99692d4a700c8b1a34fb5eeaecf2474d92b666	archive/A/pr-3	6	6	1	imported unique-vs-default-HEAD files
+A	puzzlehunt	pr	30	290c334564d05824cca6dde178d58f64dad5203b	archive/A/pr-30	14	78	3	imported unique-vs-default-HEAD files
+A	puzzlehunt	pr	68	27ea50eb0544baa6b99f145e9ea51c110010abf4	archive/A/pr-68	13	8	1	imported unique-vs-default-HEAD files
+A	puzzlehunt	pr	8	a7041aac0b920bb207c071d92386e096204eab6d	archive/A/pr-8	10	7	0	imported unique-vs-default-HEAD files
+A	puzzlehunt	pr	93	2c97f4472bda49f983f3b2fb3da454e665d57e6e	archive/A/pr-93	13	50	42	imported unique-vs-default-HEAD files
+A	puzzlehunt	branch	master	fb92dd15487c6e2d275adb8c923698b7166c328e	archive/A/branch/master	11	7	0	default
+B	naddiseo	pr	1	f6468725bad55d41b0545d5f60a2bd0044b11736	archive/B/pr-1	12	75	3	imported unique-vs-default-HEAD files
+B	naddiseo	pr	10	6b2dfd0899253f3e2b5c9861462ec89c7b2abd40	archive/B/pr-10	20	85	1	imported unique-vs-default-HEAD files
+B	naddiseo	pr	12	e2f1d77a6363b20d7fe27b3ebc059efcebb0df79	archive/B/pr-12	22	87	2	imported unique-vs-default-HEAD files
+B	naddiseo	pr	15	1e913fdbd42b8d5bd7d0a0cf3406d6abdd33142a	archive/B/pr-15	157	278	184	imported unique-vs-default-HEAD files
+B	naddiseo	pr	16	37a8e94e41bafccdf6cbaa68dc7233339ccb7e22	archive/B/pr-16	27	89	0	imported unique-vs-default-HEAD files
+B	naddiseo	pr	8	821acd5b2dd0f67f475a211b999c101075f6543f	archive/B/pr-8	38	104	24	imported unique-vs-default-HEAD files
+B	naddiseo	pr	9	041ee64b82f38b55dd9d7dbd2bd55bd95a9d67e3	archive/B/pr-9	59	102	18	imported unique-vs-default-HEAD files
+B	naddiseo	branch	master	9e61693404ef74e8e681598116d371924f399ffa	archive/B/branch/master	27	89	0	default
+C	hosterjack	pr	2	c7707b96dad27fd6d4db21a15b44b89b4f7da252	archive/C/pr-2	3	68	57	imported unique-vs-default-HEAD files
+C	hosterjack	branch	feat/arcade-phase-games-governance	0481267289e8f3dbc346005ec8c8b99ae160277c	archive/C/branch/feat/arcade-phase-games-governance	4	74	63	imported unique-vs-default-HEAD files
+C	hosterjack	branch	game-rebuild	3a65b1bb8c51c9127c3aec100eeb58c543652fba	archive/C/branch/game-rebuild	2	49	39	imported unique-vs-default-HEAD files
+C	hosterjack	branch	main	caaa77a8c218e97f9fdaae8908d580e51118edec	archive/C/branch/main	187	160	0	default

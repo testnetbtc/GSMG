@@ -1,0 +1,173 @@
+# GSMG.IO puzzle — state of the solve & where the frontier is
+
+This document is the "head to toe" map: what is solved, what the exact remaining
+unsolved data is, and the most defensible next directions. It complements the
+narrative `README.md` (which is the chronological walkthrough + hint archive).
+
+Everything claimed here as *validated* is reproduced by code:
+`python3 solver/gsmg_toolkit.py selftest`
+
+---
+
+## 1. The chain, end to end
+
+| Stage | Output | Status |
+|-------|--------|--------|
+| Phase 0 (image) | `gsmg.io/theseedisplanted` | ✅ validated in code |
+| Phase 1 | `theflowerblossoms...` → long URL | ✅ |
+| Phase 2 | password → `sha256` decrypts Phase 3 | ✅ |
+| Phase 3 | `jacquefresco...principle` → decrypts Phase 3.2 | ✅ validated in code |
+| Phase 3.2 EBCDIC+Beaufort | Architect "your life…" speech | ✅ |
+| Phase 3.2 VIC | "IN CASE YOU MANAGE TO CRACK THIS THE PRIVATE KEYS BELONG TO HALF AND BETTER HALF…" | ✅ |
+| **Phase 3.2 final AES** | private key? | ❌ unsolved |
+| SalPhaseIon (via `sha256` of image text) | fragments + 1 AES blob + dbbi/faed strings | ⚠️ partial |
+| **SalPhaseIon `faed` (STR_B)** | **Bifid(key=dbifhceg) → `btcseed` + part1 + part2** | ✅ **CRACKED** (`solver/bifid.py`) |
+| **SalPhaseIon `dbbi` (STR_A)** | **Vigenère/OTP(key=INCASE…) → `…YOUWON…` + half(21) + better(64)** | ✅ **CRACKED** (reproducible) |
+| part1/part2 (the btcseed) | yin-yang mirror halves; wide+narrow channels | ❌ final readout open |
+| half/better-half (the YOUWON keys) | 64 chars = privkey length | ❌ final readout open |
+| **SalPhaseIon AES** / **Cosmic Duality AES** | private key(s)? | ❌ unsolved — the capstone |
+
+There are **two parallel terminal branches** — the main chain (…→ Phase 3.2) and
+SalPhaseIon (reached by hashing the cover image text). SalPhaseIon is the last
+phase; Cosmic Duality is its capstone.
+
+### ⭐ BREAKTHROUGHS (this effort — verified, reproducible)
+1. **`faed` is a Bifid cipher** keyed by `dbbi`'s unique letters (`dbifhceg`) →
+   decodes to the literal word **`btcseed`** + two new strings (part1, part2).
+2. **part1/part2 are a yin-yang**: mirror-image digraph structures
+   `(wide,{bcde})` vs `({bcde},wide)` — matching the creator's #1 "yinyang" unlock.
+3. **`dbbi` is ALSO a Vigenère/OTP** keyed by the `INCASE…` string → **`YOUWON`** +
+   a 21-char "half" + a 64-char "better half" (= hex-privkey length). dbbi thus has
+   a *dual role* (Cosmic Duality theme).
+4. **`matrixsumlist` = the phase-0 grid as a 196-bit number** (`40585…878976`,
+   bunny zeroed), reproduced in `solver/matrix_value.py`.
+5. **yellow=9, blue=15** decoded from the grid (also = grid colour freq; the freq
+   `86,86,15,9`→`8686159` is a prime candidate for the `primes` slot).
+
+**The single remaining frontier:** the final readout of the yin-yang channels
+(part1/part2) and/or the half/better strings into the actual private key(s). The
+most advanced community solvers are stuck at the identical point.
+
+---
+
+## 2. The exact unsolved data (so nobody has to re-derive it)
+
+All of this is in `solver/gsmg_toolkit.py` as named constants.
+
+### 2a. Three AES blobs
+See `unverified/final-aes-blobs.md`. All AES-256-CBC, scheme
+`passphrase = sha256(password)`:
+- `AES_PHASE32` and `AES_SALPHASEION` — 80 ct bytes each (private-key sized).
+- `AES_COSMIC_DUALITY` — **1328 ct bytes**, the large blob under the "Cosmic
+  Duality" header on the SalPhaseIon page. The likely final payload (message +
+  both keys). Captured in `cosmic-duality-assets/cosmic-duality-aes.txt`.
+
+**Verification oracle:** the two destination addresses are known
+(`1GSMG…` / `17ucy…`), so any candidate private key in a decrypted blob can be
+confirmed immediately — `solver/btc.py` derives the address from a key and checks
+it. This turns "does this password work?" from a guess into a definitive test.
+
+### 2b. Two SalPhaseIon base-9 strings (`a`–`i`, the real bottleneck)
+- `SALPH_STR_A` — 91 chars, **skewed** distribution (b,e,g common; a,d,i rare).
+- `SALPH_STR_B` — 570 chars, roughly **uniform** over a–i.
+
+They flank the decoded instruction word **`matrixsumlist`**:
+
+```
+… STR_A …  [binary: matrixsumlist]  … STR_B …  z … z … z  "our first hint is your last command"
+```
+
+The puzzle's own decoders do **not** crack these:
+- `a..i = 1..9 → decimal → hex → ascii` (the method that decodes the `z`-delimited
+  sections) yields binary garbage here.
+- Treating a–i as base-9 digits, or as digit pairs, → garbage.
+- "matrix sum" readings (fold into an R×C matrix for every divisor of 91/570, sum
+  rows/cols, map A1Z26 or ascii) → no English. (Swept in code.)
+
+### 2c. Already-decoded SalPhaseIon fragments
+`matrixsumlist`, `enter`, `lastwordsbeforearchichoice`, `thispassword`,
+`our first hint is your last command`.
+
+---
+
+## 3. The master-password recipe (2023-02-23 official hint)
+
+The binary hint decoded to:
+
+> **yellow blue primes matrix sumlist last words before archichoice yinyang**
+> we wont give away **thepassword** its in front of your eyes but youre not
+> seeing it — very last step is a true give away promised
+
+Read as an ordered ingredient list for the final password:
+
+| Slot | Resolves to | Confidence |
+|------|-------------|-----------|
+| `yellow` | **9** (grid colour count) | decoded — see §4 |
+| `blue` | **15** (grid colour count) | decoded — see §4 |
+| `primes` | an arrangement of **{2, 3, 5, 7}** | set confirmed by hint; arrangement unknown |
+| `matrixsumlist` | **40585734329412479690520338541901772425587069158131163878976** — the phase-0 grid as a 196-bit number with the 4 bunny squares zeroed ("four zeros omitted") | **value confirmed** (`solver/matrix_value.py`); how it enters the password is unknown |
+| `lastwordsbeforearchichoice` | literal string, or the Architect's two-door / "salvation of Zion" speech | ambiguous |
+| `yinyang` | Cosmic Duality (yin-yang of two galaxies = light/dark = yellow/blue). **The creator's single confirmed unlock** ("once you hit a yin-yang, solved in 2 h") — unreached by anyone | unknown |
+| `thepassword` | "in front of your eyes" — the assembled result | unknown |
+
+The Phase 3.2 speech names the structure: *"reinserting the prime basics … seven
+intertwined passwords"* — and the recipe has exactly **7** slots.
+
+**Anchor (Jrk confirmed): the prize is a *regular Bitcoin private key*** — a random
+256-bit value, so it is *stored encrypted* in a blob, not derived from a
+passphrase. The recipe password decrypts that blob → the 64-hex key, verifiable
+against the two vanity addresses via `solver/btc.py`.
+
+**Status of the assembly:** every concatenation of the known/candidate values
+(literal names, the matrix number, all primes arrangements, every yinyang
+spelling) has been tested against all three blobs, both KDFs, both passphrase
+modes, and oracle-checked — **all negative**. So either `yinyang` ≠ a literal
+word, or the assembly is non-trivial. `yinyang` is the one missing lever.
+
+Details: `unverified/salphaseion-strings-and-primes.md`, `telegram-intel.md`.
+
+---
+
+## 4. New result: `yellow` and `blue` decoded
+
+Full write-up: `unverified/yellow-blue-2020-hint.md`.
+
+The 2020-01-14 hint ("Yellow has a number and so does Blue. Go back to the first
+puzzle piece.") resolves against `puzzle.png`:
+
+- The 14×14 grid's coloured squares are **exactly the 8th bit (LSB) of each of the
+  24 bytes** of `gsmg.io/theseedisplanted` — all on multiples of 8.
+- Yellow = LSB 0 (even ASCII), Blue = LSB 1 (odd ASCII).
+- **Yellow count = 9, Blue count = 15.**
+
+This is the first concrete decoding of the first two recipe slots.
+
+---
+
+## 5. Most promising next directions
+
+1. **Crack `matrixsumlist` over STR_A/STR_B.** This is the linchpin. STR_A's
+   frequent digits are exactly the primes 2,3,5,7 (b,c,e,g), so the strongest
+   untried lead is a **straddling-checkerboard / VIC** read (same family as Phase
+   3.2) with 2,3,5,7 as prefix digits. Also: STR_A (message) + STR_B (keystream)
+   under a non-additive combiner; the 7×13 / 13×7 shape of STR_A (`matrixsumlist`
+   has 13 letters; 91 = 7×13). See `unverified/salphaseion-strings-and-primes.md`.
+2. **`primes` = {2,3,5,7}** is confirmed; the open question is the *arrangement*
+   ("too many combinations"). All 24 permutations of `2357` as a password slot
+   are already ruled out, so it likely feeds the cipher in #1 rather than being a
+   literal substring.
+3. **Re-read the grid as 4 symbols** (white/black/yellow/blue) per "a whole lot
+   more", not just binary.
+4. **`yinyang` / Cosmic Duality.** Inspect `salphaseion-assets/` and the
+   `hints/cosmic-duality-book.png` for the dual/mirror structure (the puzzle
+   loves reversal — cf. the 2023-02-23 "reverse binary" hint).
+
+## 6. Reproducing / contributing
+
+```
+pip install pillow numpy           # only needed for the image analysis
+python3 solver/gsmg_toolkit.py selftest      # confirm all validated steps pass
+python3 solver/experiments.py                # re-run the AES password sweep
+```
+
+Negative results are valuable here — please add them under `unverified/`.
