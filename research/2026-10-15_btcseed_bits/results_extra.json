@@ -1,0 +1,86 @@
+[
+{
+"name": "X.base23.alpha.fwd",
+"addr_c": "1JFsbfsqpCsHPHRC2sk8JdiJMc2ePvVfHP",
+"addr_u": "1B3pS8uNPisNHe7p1XozDzaazMVdSVmdAa",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.base23.square.fwd",
+"addr_c": "194dP2qtvfY4Dr2g4Cv2QAy4RdNML6GFEu",
+"addr_u": "1JoTuSDWRUfrRysciek61RRHpa5mYzYuXa",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.base23.freq.fwd",
+"addr_c": "1AvK2u2z2MgiYEHfBj1dzB7nqpXwYUWBtc",
+"addr_u": "1Cz8mqULA1F4BZzqoDhAbjvdbNFJWhb99F",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.5bit_sqidx.fwd.modN",
+"addr_c": "1Nqq2Gu4rVukNShZThcBxPHcxZBVQu6P21",
+"addr_u": "1L3SLG57ZsftGCcJAsBD7NZBDRZQRXz82n",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.5bit_sqidx.fwd.first256",
+"addr_c": "183B53bJSS7DcoHxGn2J6k5Hok2Vriu7fy",
+"addr_u": "15cCe5b5t3n1SCXL7qY9CQWfnpkQQeDpPU",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.5bit_sqidx.fwd.last256",
+"addr_c": "1KeNBpqyQBpqLJNdyGt1gN5a8oyNcLqvct",
+"addr_u": "1P8BMGaQiLhhwYmLgs2xEGjXBfsoxJEqJo",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.base23.alpha.rev",
+"addr_c": "1EoJSdksZDcJBW8oGCNWBJQ98TcT8oZ34s",
+"addr_u": "1mxTXTyKb7BRohV9SokqYh4tdLxoStwew",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.base23.square.rev",
+"addr_c": "19PWNU4sHNEMyvLF8KhMPT9ExGXhehAhvb",
+"addr_u": "1CyEnKoTvM618RKCKspgY3DQPCdGvu5HTS",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.base23.freq.rev",
+"addr_c": "1PgQS1ZkHWPce7knmrMhT4qmbWGRMcEBpK",
+"addr_u": "1AYbtkphbxaE1AAZvFmnQdbF3yNQgmkDgm",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.5bit_sqidx.rev.modN",
+"addr_c": "1B2x8yf8fFHgr6fPnMTWA4ffWYooJmps1N",
+"addr_u": "12jmnKRmRQaY6Mv2WrVizCWPcL7WQkqqV8",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.5bit_sqidx.rev.first256",
+"addr_c": "115yHMijpTomBqWYVi5rQb6wgj9c76c26a",
+"addr_u": "15zGTye4cwHYSeThYn8pDG62TAEiA1XU9D",
+"exact": false,
+"watch": null
+},
+{
+"name": "X.5bit_sqidx.rev.last256",
+"addr_c": "15a3Yeodfb7KoGWYX3Nfyt6DyR4V8dnYSk",
+"addr_u": "15QdxDWX2nKdH14jox4kbnFQGfNek7p6TT",
+"exact": false,
+"watch": null
+}
+]
