@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-15T14:22:28+00:00",
+ "generated_utc": "2026-10-15T14:25:37+00:00",
  "script": "reproduction/scripts/reproduce.py",
  "source_commits": {
   "A": "fb92dd15487c6e2d275adb8c923698b7166c328e",
@@ -8,7 +8,7 @@
  },
  "summary": {
   "confirmed": 17,
-  "new": 11
+  "new": 12
  },
  "results": [
   {
@@ -929,6 +929,46 @@
    "prior_report": null,
    "implementations_agree": null,
    "note": "Same crib recipe on a different padding-valid Cosmic decrypt yields a different well-formed 'Salted__' envelope; the header is manufactured by the mask choice. Observation first reported by extraction agent N4 from B PR #15 files; verified here."
+  },
+  {
+   "step": "salphaseion_page_provenance",
+   "status": "new",
+   "inputs": {
+    "notebook_soup": "B@9e61693:salphaseion.ipynb",
+    "primary_soup": "B@9e61693:_pr15/neo/materials/primary/salphaseion_soup_space_separated.txt",
+    "wayback_pages": "B@9e61693:_pr15/neo/materials/wayback/pages/ (captures 20241123015038, 20251031153559 per INDEX.tsv)",
+    "cosmic": "C@caaa77a:ciphertexts/cosmic.txt"
+   },
+   "params": {
+    "comparison": "exact bytes after HTML unescape; soup also compared with all whitespace removed"
+   },
+   "outputs": {
+    "primary_soup_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+    "primary_equals_notebook_after_space_strip": true,
+    "salphaseion_2024-11-23.html": {
+     "textareas": 2,
+     "soup_textarea_equals_primary": true,
+     "soup_textarea_equals_notebook_after_space_strip": true,
+     "cosmic_textarea_equals_cosmic_txt": true,
+     "h1": [
+      " SalPhaseIon ",
+      " Cosmic Duality "
+     ]
+    },
+    "salphaseion_2025-10-31.html": {
+     "textareas": 2,
+     "soup_textarea_equals_primary": true,
+     "soup_textarea_equals_notebook_after_space_strip": true,
+     "cosmic_textarea_equals_cosmic_txt": true,
+     "h1": [
+      " SalPhaseIon ",
+      " Cosmic Duality "
+     ]
+    }
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": "Captures are as supplied in B PR #15 (user-uploaded Wayback dump); this archive did not refetch them from archive.org."
   }
  ]
 }

@@ -463,6 +463,31 @@ def step_crib_control():
         note="Same crib recipe on a different padding-valid Cosmic decrypt yields a different well-formed 'Salted__' envelope; the header is manufactured by the mask choice. Observation first reported by extraction agent N4 from B PR #15 files; verified here.")
 
 
+def step_page_provenance():
+    """Do the notebook soup, the PR #15 primary soup and the archived SalPhaseIon pages agree, and does the
+    page's Cosmic textarea equal C:ciphertexts/cosmic.txt? (byte comparisons only)"""
+    import html as _html
+    _, nb = soup_text()
+    prim = open(g.src("naddiseo/_pr15/neo/materials/primary/salphaseion_soup_space_separated.txt"), encoding="utf-8").read()
+    cos = g.parse_envelope(open(g.src("hosterjack/ciphertexts/cosmic.txt")).read())[0]
+    out = {"primary_soup_sha256": g.sha256(prim.encode()), "primary_equals_notebook_after_space_strip": "".join(prim.split()) == nb}
+    for name in ("salphaseion_2024-11-23.html", "salphaseion_2025-10-31.html"):
+        page = open(g.src("naddiseo/_pr15/neo/materials/wayback/pages/" + name), encoding="utf-8", errors="replace").read()
+        tas = [_html.unescape(t) for t in re.findall(r"<textarea[^>]*>(.*?)</textarea>", page, re.S | re.I)]
+        out[name] = {"textareas": len(tas),
+                     "soup_textarea_equals_primary": any(t == prim or t.strip() == prim.strip() for t in tas),
+                     "soup_textarea_equals_notebook_after_space_strip": any("".join(t.split()) == nb for t in tas),
+                     "cosmic_textarea_equals_cosmic_txt": any(t.strip().startswith("U2Fsd") and g.parse_envelope(t)[0] == cos for t in tas),
+                     "h1": re.findall(r"<h1[^>]*>(.*?)</h1>", page, re.S | re.I)}
+    rec("salphaseion_page_provenance",
+        inputs={"notebook_soup": cite("naddiseo/salphaseion.ipynb"), "primary_soup": cite("naddiseo/_pr15/neo/materials/primary/salphaseion_soup_space_separated.txt"),
+                "wayback_pages": cite("naddiseo/_pr15/neo/materials/wayback/pages/") + " (captures 20241123015038, 20251031153559 per INDEX.tsv)",
+                "cosmic": cite("hosterjack/ciphertexts/cosmic.txt")},
+        params={"comparison": "exact bytes after HTML unescape; soup also compared with all whitespace removed"},
+        outputs=out, prior=None,
+        note="Captures are as supplied in B PR #15 (user-uploaded Wayback dump); this archive did not refetch them from archive.org.")
+
+
 if __name__ == "__main__":
     step_grid()
     pts = step_aes()
@@ -475,6 +500,7 @@ if __name__ == "__main__":
     step_bifid(dbbi, faed)
     step_prize()
     step_crib_control()
+    step_page_provenance()
     summary = collections.Counter(r["status"] for r in RESULTS)
     doc = {"generated_utc": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(timespec="seconds"),
            "script": "reproduction/scripts/reproduce.py", "source_commits": {"A": A, "B": B, "C": C},
