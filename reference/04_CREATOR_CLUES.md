@@ -78,6 +78,10 @@ B's README and C print it with spaces and split words (`matrix sumlist`, `last w
 | `yellowblueprimes` | colour-bit integer `0xF73D92` = 16203154 (B PR #8 writes 16203666, wrong); A007522 spiral-prime readings; "four-colour prime-weighted" sums | all interpretations [B:_pr8/unverified/yellow-blue-2020-hint.md@821acd5] [C:docs/WALKTHROUGH.md@caaa77a#L1864-L1885] |
 | `yinyang` | `95101`/`10195` and others | interpretation [C:content/attempts.js@caaa77a] |
 
+## 4a. Provenance requests
+
+[C#4] asks Hosterjack for a redacted export of the creator corpus (unanswered); [B#11] quotes dated Jrk messages and notes gsmg.io's "finale" wrapper first appears 2026-08-19 (agent D3). Neither supplies numeric account ids.
+
 ## 5. Things the creator-attributed handle never mentions
 
 Searching both corpora for E_S, checksum, "verification", WIF, seed, mnemonic, vanity, matrixsumlist, yellowblueprimes, cosmic, BTCSEED, dbbi, faed, offset 158, `b657264f`, `secondanswer`, `yourlastcommand` finds **no creator-attributed use** (extraction agents N3 and N6). The handle's only "verified" statement is 66589: "…I've verified many times back then after some sad rushed mistakes, it's all still solvable with a few stable qubits."

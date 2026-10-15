@@ -75,16 +75,16 @@ files under sources/: 1088
 lineage rows: 1088   stale rows (no file): 0
 roles on disk: canonical=843, duplicate=208, variant=37
 ORPHANS: 0
-canonical files cited by path from reference/: 340 / 843
+canonical files cited by path from reference/: 348 / 843
 canonical files carried by raw archive + lineage row only, by area:
-    217  discussions
+    211  discussions
      48  hosterjack
      47  naddiseo/_pr15
      45  hosterjack/_pr2
      39  discussions/attachments
      31  puzzlehunt/_pr93
      28  naddiseo
-     19  naddiseo/_pr8
+     17  naddiseo/_pr8
      14  hosterjack/_branches
      13  naddiseo/_pr9
       1  puzzlehunt/_pr16

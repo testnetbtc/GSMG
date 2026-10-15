@@ -12,7 +12,7 @@ Both sides of every conflict are given with citations, followed by an assessment
 | P4 | Jrk's "Ancient spelling" reply "is not explicit confirmation" of FEFEFE/104 | it is a **Telegram reply to** Janusz's "FORTY but hundred FOUR = 104 is the fefefe square" and calls the spelling a typo | reply_to 5952 in [C:content/sowut-data.js@caaa77a id 5960]; [T L13992-L14013] | stronger than the prior reading: evidence **against** the 104 numerology. |
 | P5 | friends/family (9595): "underlying reply context incomplete" | context found: answer to "if you need to disappear… is there someone else who knows the solutions… And someone to half the prize" | [T L22780-L22783] | sharpens the prior reading (succession/data-access), confirmed. |
 | P6 | Cosmic → 103×103 → base-38 "not reproduced in this task" (§6) | **reproduced**; matches every published value; no prize match | `reproduction/results/reproduction_results.json` step `cosmic_103x103_base38` | extension. |
-| P7 | earliest public pointer for the 7-token Cosmic family: [B#6] 2025-08-24 (§6) | XOR-of-7-hashes concept 2025-04-11 [A#27 comment 2796116788]; jackdevs66 claims 2025-08-18/19 [A#51]; link 2025-08-23 [A#55 body] and Telegram [T L133743]; token list 2025-08-31 [A#56 body] | dated issue comments and transcript | earlier lineage; still not first private discovery. |
+| P7 | earliest public pointer for the 7-token Cosmic family: [B#6] 2025-08-24 (§6) | XOR-of-7-hashes concept 2025-04-11 [A#27 comment 2796116788]; jackdevs66 claims 2025-08-18 [B#3] and 2025-08-18/19 [A#51]; link 2025-08-23 [A#55 body] and Telegram [T L133743]; token list 2025-08-31 [A#56 body] | dated issue comments and transcript | earlier lineage; still not first private discovery. |
 | P8 | Cosmic recipe selection history unknown | jackdevs66: "Uniqueness (p5–p7 search)" | [A#55 comment 3223858361] | direct evidence of a **search** over tokens 5–7 — weakens the recipe's chance argument. |
 | P9 | (not mentioned) | a different padding-valid 1,327-byte Cosmic output and a 79-byte `salph_inner` output were published in **2023-08** from unrelated passwords | [A#15 comments 1668268853, 1674478225]; reproduced (`a15_padding_controls`) | new control: same shapes, unrelated recipe. |
 | P10 | (not mentioned) | Set A seven-token key `818af53d…` claims the same Cosmic output; it opens nothing | [A#62 comment 3432403162] [A#69 body]; reproduced | new; refutes Set A's claim. |
@@ -22,9 +22,11 @@ Both sides of every conflict are given with citations, followed by an assessment
 | P14 | prize address facts: balance and spent outputs only (§8) | second address `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` received 2.5 BTC (2020-05-11) and 1.25 BTC (2024-04-24) from the prize key; never spent | [A:_pr101/README.md@68d09aa]; tx hex in B PR#15 (prize pubkey in 2020 spend inputs reproduced) | extension (reported on-chain facts). |
 | P15 | 2023-08-03/06 "images" | 2023-08-03 creator media were video/GIF; the hints are typed text | [C:content/sowut-data.js@caaa77a ids 8792–8796] | minor. |
 | P16 | puzzlehunt 102 issues / 9 PRs; comments 606/605 | 103 issues (new: #116, 2026-10-15 01:18 UTC) / 9 PRs; comments 606/605; #25 still 19/18 | `sources/discussions/puzzlehunt/COUNTS.json` | one new issue since the prior collection; no new comments in #61–#116. |
+| P18 | [B#17] concerns the "inner blob" | only the **title** says inner blob; the body correctly names the phase-3.2 trailing blob (salt `b45a5e3d`); the thread gives neither the chain-1 recipe nor any "documented value" source | [B#17 body] | refinement of prior §10.1. |
+| P19 | earliest public BTCSEED: [B#13] lineage | Telegram 2025-06-11 (Sycorax) [T L122236]; B PR#8 (opened 2026-06-12) before [B#13] (2026-08-24) | agents N6, D3 | earlier lineage. |
 | P17 | default-branch frozen commits fb92dd1 / 9e61693 / caaa77a | unchanged | `sources/REFS.tsv` | confirmed. |
 
-No reproduced byte differed from the prior report's values (`reproduction_results.json`: 18 confirmed, 0 discrepancies).
+No reproduced byte differed from the prior report's values (`reproduction_results.json`: 17 confirmed against the prior report plus 1 against a published key, 0 discrepancies).
 
 ## 2. Source-versus-source contradictions
 
@@ -33,6 +35,7 @@ No reproduced byte differed from the prior report's values (`reproduction_result
 | Conflict | Side A | Side B | Better supported |
 |---|---|---|---|
 | Was Cosmic opened? | "decrypted" (1,327 B, `4f7a1e…`) [A:_pr68/GAP_ANALYSIS.md@27ea50e] [A#72 body] | "decrypts nothing… fabricated" [C:docs/ENDGAME-ANALYSIS.md@caaa77a §7] [C:content/attempts.js@caaa77a] | **mechanics: A** (reproduced). C never tested raw bytes + EVP-MD5, and its demo uses a different token list. Significance: neither side established it. |
+| "Verified not working" for the Cosmic key | Naddiseo tested SHA-256 of the **hex text** of `a795de11…` (`36b5a88e…`) [B#6] | jackdevs66's KEY `6ac438fa…`/IV `c6ff2e39…` come from the **raw** 32 bytes with salt `2d3f6fe06dc950e6` [B#6] [A#96 body] | **jackdevs66 on mechanics** (reproduced: raw bytes + EVP-MD5 opens); Naddiseo's test used a different input form (agent D3 hash check). |
 | Same output from two token sets | Set A `…sha256, theone` [A#69 body] | Set B `…yourlastcommand, secondanswer` [A#72 body] | **Set B** (reproduced); Set A opens nothing. |
 | Does `Salted__` fix the KDF? | yes [C:content/attempts.js@caaa77a L3626]; "Cosmic uses SHA-256 EVP" [C:docs/ENDGAME-ANALYSIS.md@caaa77a §8c] | no — the envelope does not name a digest (prior report §3.1); [B:_pr15/unverified/salted_header_proves_password.md@1e913fd] says it proves password mode only | **B / prior**: the Cosmic and chain openings use MD5 under the same header. |
 | Plaintext length from an 80-byte ciphertext | 64 bytes [C:content/attempts.js@caaa77a L3695] | 64–79 bytes (prior §4.1) | **prior**; the reproduced chains are 79 bytes. |

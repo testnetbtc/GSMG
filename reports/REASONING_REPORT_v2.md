@@ -22,7 +22,7 @@ Prepared 15 October 2026 from the consolidated archive in this repository. It bu
 
 ## 0. What changed since the prior report
 
-**Upstream state.** The default-branch HEADs are unchanged (A `fb92dd1`, B `9e61693`, C `caaa77a`; `sources/REFS.tsv`). One new A issue, [A#116] (2026-10-15 01:18 UTC), contains no technical values. No comment in A was created or edited after the prior collection (2026-10-14 22:18 UTC; agent D2 scan, `sources/discussions/puzzlehunt/COUNTS.json`). B and C discussion deltas: see §2.2.
+**Upstream state.** The default-branch HEADs are unchanged (A `fb92dd1`, B `9e61693`, C `caaa77a`; `sources/REFS.tsv`). One new A issue, [A#116] (2026-10-15 01:18 UTC), contains no technical values. No comment in A was created or edited after the prior collection (2026-10-14 22:18 UTC; agent D2 scan, `sources/discussions/puzzlehunt/COUNTS.json`). B and C: no comment newer than the prior collection (B's last 2026-10-05, C's 2026-08-01); counts unchanged (agent D3).
 
 **Material this collection includes that the prior report did not use** (the prior report deliberately excluded Telegram corpora; this build is not under that restriction, but uses only what the three repositories ship):
 
@@ -38,11 +38,11 @@ Prepared 15 October 2026 from the consolidated archive in this repository. It bu
 4. The friends/family remark (9595) answers a question about who could continue if the author **disappeared** [T L22780-L22783]; the prior report lacked this context.
 5. The prior report's §6 row "Cosmic binary → 103×103 sums → base-38" is now **reproduced** (no prize match).
 
-No reproduced byte differs from the prior report: 18 comparisons confirmed, 0 discrepancies.
+No reproduced byte differs from the prior report: 18 comparisons with prior-report or published values confirmed (17 against the prior report), 0 discrepancies.
 
 **New evidence bearing on significance:**
 
-- **A selection step behind the Cosmic recipe.** Its originator wrote "Uniqueness (p5–p7 search)" about tokens 5–7 [A#55 comment 3223858361]. The XOR-of-seven-hashes idea appears 2025-04-11 [A#27 comment 2796116788], four months before the prior report's earliest pointer [B#6].
+- **A selection step behind the Cosmic recipe.** Its originator wrote "Uniqueness (p5–p7 search)" about tokens 5–7 [A#55 comment 3223858361]. The XOR-of-seven-hashes idea appears 2025-04-11 [A#27 comment 2796116788]; jackdevs66 claimed a Cosmic decrypt on 2025-08-18 [B#3] and posted the recipe link 2025-08-23 [A#55 body], all before the prior report's earliest pointer [B#6] (2025-08-24). Naddiseo's "verified not working" reply in [B#6] hashed the hex text of the key rather than using its raw bytes (agent D3 hash check), so it is not a mechanical refutation.
 - **A 2023 control.** Unrelated published passwords open `salph_inner` to 79 bytes and `cosmic` to 1,327 bytes with valid padding [A#15 comments 1668268853, 1674478225] — reproduced (`a15_padding_controls`).
 - **A refuted variant.** "Set A" (`…sha256, theone`, key `818af53d…`) claims the same Cosmic output; reproduced: it opens nothing under the four encodings.
 - **A crib control for chain 4.** The same offset-158 `Salted__` crib applied to another padding-valid Cosmic decrypt (`cosmic_A.bin`) yields another well-formed "nested envelope" (salt `0391bdb016191c9d`) — reproduced.
@@ -79,7 +79,13 @@ No source has tags. The full import, dedup and coverage proof is `MANIFEST.md`.
 
 ### 2.2 Discussions
 
-See `MANIFEST.md` §2 for the per-repository table (issues, PRs, comments expected vs fetched, reviews, attachments). Counter mismatches: [A#25] 19/18 and [B#2] 2/1, the same as the prior report. Two A comments survive only as quotes ([A#72 comment 3935458653] quotes a "ZION" text; [A#114 comment 6128068004] quotes AomDEV).
+| Repo | Issues | PRs | Comments expected / fetched | Reviews | Review comments | Attachments attempted / fetched / 404 |
+|---|---:|---:|---:|---:|---:|---:|
+| A | 103 | 9 | 606 / 605 | 3 | 0 | 69 / 66 / 3 |
+| B | 10 | 7 | 36 / 35 | 1 | 1 | 1 / 1 / 0 |
+| C | 3 | 1 | 2 / 2 | 0 | 0 | 0 |
+
+Identical to the prior report except A#116. Full table and gaps: `MANIFEST.md` §2 and §5. Counter mismatches: [A#25] 19/18 and [B#2] 2/1, the same as the prior report. Two A comments survive only as quotes ([A#72 comment 3935458653] quotes a "ZION" text; [A#114 comment 6128068004] quotes AomDEV).
 
 ### 2.3 Identity limits
 
@@ -123,7 +129,7 @@ Unchanged from the prior report §3 and fully reproduced; see `reference/01_SOLV
 
 ## 8. Contradictions
 
-`reference/07_CONTRADICTIONS.md`: 17 rows against the prior report, ~45 source-vs-source rows, each with an assessment.
+`reference/07_CONTRADICTIONS.md`: 19 rows against the prior report and about 45 source-vs-source rows, each with an assessment. Additional detail from the B threads: only the **title** of [B#17] says "inner blob" (its body names the trailing blob correctly), and BTCSEED circulated in B PR #8 (opened 2026-06-12) and in Telegram (2025-06-11) before [B#13].
 
 ## 9. Structured assessments
 
@@ -248,7 +254,7 @@ At most five evidence questions — **not** authorisations for sweeps.
 |---|---|---|
 | A — collection | 3 subtree imports at frozen HEADs; 17 PR heads + 2 branches tagged and unique files imported; issues/PRs/comments/reviews/review comments/files/commits via the REST API (unauthenticated, paced); attachments attempted | see `MANIFEST.md` §2 and §5 for counts and gaps |
 | B — dedup | every file hashed; byte-identical groups and near-identical variant groups with diffs; `check_manifest.py` | `MANIFEST.md` §3–4 |
-| C — reproduction | 32+ records; 18 comparisons with the prior report confirmed, 0 discrepancies; Python vs OpenSSL agree on every AES path; iconv vs Python cp273 agree on CP1141 | `reproduction/results/reproduction_results.json` |
+| C — reproduction | 32 records; 18 comparisons with prior-report or published values confirmed (17 against the prior report), 0 discrepancies; Python vs OpenSSL agree on every AES path; iconv vs Python cp273 agree on CP1141 | `reproduction/results/reproduction_results.json` |
 | D — adversarial | crib control, 2023 control, Set A refutation, self-reference of digests, circular E_C validation, selection evidence | this report §9 |
 | E — provenance | every claim cited; extraction agents' notes preserved in `reference/data/extraction/`; repository content treated as data (`reference/data/INJECTIONS.jsonl`) | performed by this build; not external review |
 
