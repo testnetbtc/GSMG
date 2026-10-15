@@ -1,0 +1,909 @@
+{
+ "generated_utc": "2026-10-15T14:07:06+00:00",
+ "script": "reproduction/scripts/reproduce.py",
+ "source_commits": {
+  "A": "fb92dd15487c6e2d275adb8c923698b7166c328e",
+  "B": "9e61693404ef74e8e681598116d371924f399ffa",
+  "C": "caaa77a8c218e97f9fdaae8908d580e51118edec"
+ },
+ "summary": {
+  "confirmed": 17,
+  "new": 10
+ },
+ "results": [
+  {
+   "step": "grid_14x14_to_url",
+   "status": "confirmed",
+   "inputs": {
+    "image": "A@fb92dd1:puzzle.png",
+    "image_sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+   },
+   "params": {
+    "cell_px": 75,
+    "cell_value": "modal RGB",
+    "1": "black,blue",
+    "0": "white,yellow,FEFEFE",
+    "spiral": "start top-left, first move down, counter-clockwise",
+    "bit_order": "MSB-first"
+   },
+   "outputs": {
+    "url": "gsmg.io/theseedisplanted",
+    "residual_bits": "0000",
+    "ones": 101,
+    "row_sums": [
+     6,
+     10,
+     8,
+     7,
+     6,
+     6,
+     5,
+     4,
+     9,
+     9,
+     7,
+     8,
+     7,
+     9
+    ],
+    "col_sums": [
+     8,
+     10,
+     8,
+     10,
+     8,
+     7,
+     3,
+     6,
+     7,
+     5,
+     9,
+     6,
+     6,
+     8
+    ],
+    "palette_counts": {
+     "white": 85,
+     "black": 86,
+     "blue": 15,
+     "yellow": 9,
+     "FEFEFE": 1
+    },
+    "FEFEFE_cell_rc_zero_based": [
+     [
+      7,
+      4
+     ]
+    ],
+    "FEFEFE_spiral_index_zero_based": [
+     163
+    ],
+    "FEFEFE_rowmajor_index_zero_based": [
+     102
+    ],
+    "colored_spiral_idx_all_7_mod_8": true,
+    "colored_bits_equal_url_lsbs": true,
+    "n_colored": 24
+   },
+   "prior_report": {
+    "url": "gsmg.io/theseedisplanted",
+    "residual_bits": "0000",
+    "ones": 101,
+    "row_sums": [
+     6,
+     10,
+     8,
+     7,
+     6,
+     6,
+     5,
+     4,
+     9,
+     9,
+     7,
+     8,
+     7,
+     9
+    ],
+    "col_sums": [
+     8,
+     10,
+     8,
+     10,
+     8,
+     7,
+     3,
+     6,
+     7,
+     5,
+     9,
+     6,
+     6,
+     8
+    ],
+    "palette_counts": {
+     "black": 86,
+     "white": 85,
+     "blue": 15,
+     "yellow": 9,
+     "FEFEFE": 1
+    },
+    "FEFEFE_cell_rc_zero_based": [
+     [
+      7,
+      4
+     ]
+    ]
+   },
+   "implementations_agree": null,
+   "note": "Prior report §5.2 gives spiral index 163 (zero-based) for FEFEFE."
+  },
+  {
+   "step": "aes_phase2",
+   "status": "confirmed",
+   "inputs": {
+    "envelope": "B@9e61693:phase2-assets/phase2_aes.txt",
+    "envelope_sha256": "a089144531c666e59770c799427c05d1ea4ae074857b97d61b8d3924ff14c7e7",
+    "answer": "causality",
+    "answer_chars": 9
+   },
+   "params": {
+    "password": "lowercase hex of SHA-256(UTF-8 answer)",
+    "kdf": "EVP_BytesToKey, 1 iteration, SHA-256",
+    "cipher": "AES-256-CBC",
+    "padding": "strict PKCS#7",
+    "salt": "06286612d43ed7ed",
+    "ciphertext_bytes": 656
+   },
+   "outputs": {
+    "password_hex": "eb3efb5151e6255994711fe8f2264427ceeebf88109e1d7fad5b0a8b6d07e5bf",
+    "plaintext_bytes": 648,
+    "plaintext_sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a",
+    "plaintext_file": "reproduction/results/phase2_plaintext.bin",
+    "control_md5_kdf_valid_padding": false,
+    "control_raw_digest_password_valid_padding": false
+   },
+   "prior_report": {
+    "password_hex": "eb3efb5151e6255994711fe8f2264427ceeebf88109e1d7fad5b0a8b6d07e5bf",
+    "plaintext_sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a",
+    "plaintext_bytes": 648
+   },
+   "implementations_agree": {
+    "python": true,
+    "openssl_cli_equal": true
+   },
+   "note": ""
+  },
+  {
+   "step": "aes_phase3",
+   "status": "confirmed",
+   "inputs": {
+    "envelope": "B@9e61693:phase2-assets/phase3_aes.txt",
+    "envelope_sha256": "9163a38d8c49038d01005bc468d9c677183b49b14d7a88fdf3bade75d1443f30",
+    "answer": "causalitySafenetLunaHSM111100x736B6E616220726F662074756F6C69616220646E6F63657320666F206B6E697262206E6F20726F6C6C65636E61684320393030322F6E614A2F33302073656D695420656854B5KR/1r5B/2R5/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 b - - 0 1",
+    "answer_chars": 227
+   },
+   "params": {
+    "password": "lowercase hex of SHA-256(UTF-8 answer)",
+    "kdf": "EVP_BytesToKey, 1 iteration, SHA-256",
+    "cipher": "AES-256-CBC",
+    "padding": "strict PKCS#7",
+    "salt": "9fbc451d13d071f4",
+    "ciphertext_bytes": 4096
+   },
+   "outputs": {
+    "password_hex": "1a57c572caf3cf722e41f5f9cf99ffacff06728a43032dd44c481c77d2ec30d5",
+    "plaintext_bytes": 4090,
+    "plaintext_sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f",
+    "plaintext_file": "reproduction/results/phase3_plaintext.bin",
+    "control_md5_kdf_valid_padding": false,
+    "control_raw_digest_password_valid_padding": false
+   },
+   "prior_report": {
+    "password_hex": "1a57c572caf3cf722e41f5f9cf99ffacff06728a43032dd44c481c77d2ec30d5",
+    "plaintext_sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f",
+    "plaintext_bytes": 4090
+   },
+   "implementations_agree": {
+    "python": true,
+    "openssl_cli_equal": true
+   },
+   "note": ""
+  },
+  {
+   "step": "aes_phase32",
+   "status": "confirmed",
+   "inputs": {
+    "envelope": "B@9e61693:phase3-assets/phase3.2-aes.txt",
+    "envelope_sha256": "9d172dc017034564b40eb381fa61e31421f509a08430864c77ccf86cfc8fe784",
+    "answer": "jacquefrescogiveitjustonesecondheisenbergsuncertaintyprinciple",
+    "answer_chars": 62
+   },
+   "params": {
+    "password": "lowercase hex of SHA-256(UTF-8 answer)",
+    "kdf": "EVP_BytesToKey, 1 iteration, SHA-256",
+    "cipher": "AES-256-CBC",
+    "padding": "strict PKCS#7",
+    "salt": "eefc4c5befc1656a",
+    "ciphertext_bytes": 2432
+   },
+   "outputs": {
+    "password_hex": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c",
+    "plaintext_bytes": 2422,
+    "plaintext_sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34",
+    "plaintext_file": "reproduction/results/phase32_plaintext.bin",
+    "control_md5_kdf_valid_padding": false,
+    "control_raw_digest_password_valid_padding": false
+   },
+   "prior_report": {
+    "password_hex": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c",
+    "plaintext_sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34",
+    "plaintext_bytes": 2422
+   },
+   "implementations_agree": {
+    "python": true,
+    "openssl_cli_equal": true
+   },
+   "note": ""
+  },
+  {
+   "step": "upstream_plaintext_check:naddiseo/phase2-assets/phase2.1.txt",
+   "status": "new",
+   "inputs": {
+    "file": "B@9e61693:phase2-assets/phase2.1.txt",
+    "sha256": "e2f9dd65604a3231f8b3301724e8d713a88fffc4b6c7c4aeeb20f58a582b593a",
+    "bytes": 648
+   },
+   "params": {
+    "compare_to": "aes_phase2 output"
+   },
+   "outputs": {
+    "byte_identical": true,
+    "identical_after_CRLF_to_LF": false,
+    "identical_after_CRLF_to_LF_and_strip": false
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "upstream_plaintext_check:naddiseo/phase2-assets/phase3.txt",
+   "status": "new",
+   "inputs": {
+    "file": "B@9e61693:phase2-assets/phase3.txt",
+    "sha256": "c4ad94559a44a927c1032cc0e024515f9510a0806a2d14458dbf4a360af9865f",
+    "bytes": 4090
+   },
+   "params": {
+    "compare_to": "aes_phase3 output"
+   },
+   "outputs": {
+    "byte_identical": true,
+    "identical_after_CRLF_to_LF": false,
+    "identical_after_CRLF_to_LF_and_strip": false
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "upstream_plaintext_check:naddiseo/phase3-assets/phase3.2.txt",
+   "status": "new",
+   "inputs": {
+    "file": "B@9e61693:phase3-assets/phase3.2.txt",
+    "sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34",
+    "bytes": 2422
+   },
+   "params": {
+    "compare_to": "aes_phase32 output"
+   },
+   "outputs": {
+    "byte_identical": true,
+    "identical_after_CRLF_to_LF": false,
+    "identical_after_CRLF_to_LF_and_strip": false
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "upstream_plaintext_check:hosterjack/assets/walkthrough/phase2-assets/phase2.1.txt",
+   "status": "new",
+   "inputs": {
+    "file": "C@caaa77a:assets/walkthrough/phase2-assets/phase2.1.txt",
+    "sha256": "d7f90fc1c36826d62c7fae5825f245edf1e3609a6f16b5b233f51659859eebd5",
+    "bytes": 642
+   },
+   "params": {
+    "compare_to": "aes_phase2 output"
+   },
+   "outputs": {
+    "byte_identical": false,
+    "identical_after_CRLF_to_LF": true,
+    "identical_after_CRLF_to_LF_and_strip": true
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "upstream_plaintext_check:hosterjack/assets/walkthrough/phase2-assets/phase3.txt",
+   "status": "new",
+   "inputs": {
+    "file": "C@caaa77a:assets/walkthrough/phase2-assets/phase3.txt",
+    "sha256": "38360080f8fb7613466a616b5be7765e2ff19e75e6bdcfe8485500cabb424258",
+    "bytes": 4032
+   },
+   "params": {
+    "compare_to": "aes_phase3 output"
+   },
+   "outputs": {
+    "byte_identical": false,
+    "identical_after_CRLF_to_LF": true,
+    "identical_after_CRLF_to_LF_and_strip": true
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "upstream_plaintext_check:hosterjack/assets/walkthrough/phase3-assets/phase3.2.txt",
+   "status": "new",
+   "inputs": {
+    "file": "C@caaa77a:assets/walkthrough/phase3-assets/phase3.2.txt",
+    "sha256": "b04876a956baac1a08d09ed17b5cf4c4337da21fe2d7f6fd55d0ae945e877da1",
+    "bytes": 2411
+   },
+   "params": {
+    "compare_to": "aes_phase32 output"
+   },
+   "outputs": {
+    "byte_identical": false,
+    "identical_after_CRLF_to_LF": true,
+    "identical_after_CRLF_to_LF_and_strip": true
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "envelope_copy_check:hosterjack/ciphertexts/phase2.txt",
+   "status": "new",
+   "inputs": {
+    "file": "C@caaa77a:ciphertexts/phase2.txt",
+    "reference": "B@9e61693:phase2-assets/phase2_aes.txt"
+   },
+   "params": {},
+   "outputs": {
+    "decoded_envelope_identical": true
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "envelope_copy_check:hosterjack/ciphertexts/phase3.txt",
+   "status": "new",
+   "inputs": {
+    "file": "C@caaa77a:ciphertexts/phase3.txt",
+    "reference": "B@9e61693:phase2-assets/phase3_aes.txt"
+   },
+   "params": {},
+   "outputs": {
+    "decoded_envelope_identical": true
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "envelope_copy_check:hosterjack/ciphertexts/phase32.txt",
+   "status": "new",
+   "inputs": {
+    "file": "C@caaa77a:ciphertexts/phase32.txt",
+    "reference": "B@9e61693:phase3-assets/phase3.2-aes.txt"
+   },
+   "params": {},
+   "outputs": {
+    "decoded_envelope_identical": true
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "phase32_ebcdic1141_beaufort",
+   "status": "confirmed",
+   "inputs": {
+    "plaintext": "aes_phase32 output",
+    "slice": "[447:1986]"
+   },
+   "params": {
+    "step1": "bytes as Latin-1 characters, encode to CP1141",
+    "step2": "Beaufort p=(k-c) mod 26",
+    "key": "thematrixhasyou"
+   },
+   "outputs": {
+    "ebcdic_all_lowercase": true,
+    "letters": 1539,
+    "speech_sha256": "90829b510c3697569da47d2817f545f1e2a1cddd78e45f821dafcdab3dc0c281",
+    "speech_head": "yourlifeisthesumofaremainderofanunbalanc",
+    "speech_tail": "ouretheoneciaobellao",
+    "speech_file": "reproduction/results/phase32_speech.txt"
+   },
+   "prior_report": {
+    "letters": 1539
+   },
+   "implementations_agree": {
+    "iconv_IBM1141": true,
+    "python_cp273_equal": true
+   },
+   "note": ""
+  },
+  {
+   "step": "phase32_straddling_checkerboard",
+   "status": "confirmed",
+   "inputs": {
+    "plaintext": "aes_phase32 output",
+    "digits": "15165943121972409169171213758951813141543131412428154191312181219433121171617137149110916631213131281491109166131412199114371612126021664313711154112",
+    "n_digits": 149
+   },
+   "params": {
+    "alphabet": "fubcdora/lethingkymvpszjqwx.",
+    "blank_top_row_columns": [
+     1,
+     4
+    ],
+    "top_row": {
+     "0": "f",
+     "2": "u",
+     "3": "b",
+     "5": "c",
+     "6": "d",
+     "7": "o",
+     "8": "r",
+     "9": "a"
+    },
+    "row1": "/lethingky",
+    "row4": "mvpszjqwx."
+   },
+   "outputs": {
+    "sentence": "incaseyoumanagetocrackthistheprivatekeysbelongtohalfandbetterhalfandtheyalsoneedfundstolive",
+    "letters": 91
+   },
+   "prior_report": {
+    "letters": 91,
+    "n_digits": 149
+   },
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "audio_LminusR_spectrogram",
+   "status": "confirmed",
+   "inputs": {
+    "audio": "B@9e61693:decentraland-assets/puzzlepiece.mp3",
+    "sha256": "ef17a96dce37b4dd7cbf79f210c5cbaf37fcae60e5faf8004de4e0832bd0dfee"
+   },
+   "params": {
+    "decode": "ffmpeg -> s16le 44.1 kHz stereo",
+    "signal": "left - right",
+    "spectrogram": "NFFT 2048, overlap 1536"
+   },
+   "outputs": {
+    "samples": 229248,
+    "rms_L": 4637.092279844017,
+    "rms_LminusR": 495.12461182355304,
+    "spectrogram_png": "reproduction/results/audio_LminusR_spectrogram.png",
+    "visual_reading_hex": "48 41 53 48 54 48 45 54 45 58 54",
+    "visual_reading_ascii": "HASHTHETEXT"
+   },
+   "prior_report": {
+    "visual_reading_ascii": "HASHTHETEXT"
+   },
+   "implementations_agree": null,
+   "note": "Read by eye from the rendered PNG on 2026-10-15: 48 41 53 48 54 48 45 5? 4 45 58 54. The 8th group sits under a broadband transient at ~3.4 s; its first digit is only partly visible, so '54' there rests on a partial glyph plus context. Visual, not programmatic, check."
+  },
+  {
+   "step": "salphaseion_entry_hash",
+   "status": "confirmed",
+   "inputs": {
+    "text": "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+    "chars": 59
+   },
+   "params": {
+    "hash": "SHA-256 of UTF-8"
+   },
+   "outputs": {
+    "sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32"
+   },
+   "prior_report": {
+    "sha256": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32"
+   },
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "salphaseion_soup_sections",
+   "status": "confirmed",
+   "inputs": {
+    "soup": "B@9e61693:salphaseion.ipynb cell 0",
+    "soup_chars_no_spaces": 1075,
+    "soup_sha256": "26e37652067c549c0eee624356be9ffd40a243901197335a41f91fb6c78e6156"
+   },
+   "params": {
+    "split": "regex: a-i run | 104-char a/b block | a-i run | z | z | z | shabef… | base64"
+   },
+   "outputs": {
+    "dbbi_len": 91,
+    "dbbi_offsets": [
+     0,
+     91
+    ],
+    "dbbi_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "ab_block_offsets": [
+     91,
+     195
+    ],
+    "matrixsumlist": "matrixsumlist",
+    "faed_len": 570,
+    "faed_offsets": [
+     195,
+     765
+    ],
+    "faed_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+    "faed_counts": {
+     "a": 54,
+     "b": 49,
+     "c": 52,
+     "d": 49,
+     "e": 69,
+     "f": 57,
+     "g": 107,
+     "h": 58,
+     "i": 75
+    },
+    "dbbi_has_o": false,
+    "dbbi_first_occurrence": "DBIFHCEGA",
+    "z1": "lastwordsbeforearchichoice",
+    "z2": "thispassword",
+    "z3_text": "shabefourfirsthintisyourlastcommand",
+    "inner_insertion": "enter",
+    "inner_b64_halves": [
+     64,
+     64
+    ],
+    "trailing_text": "shabefanstoo",
+    "inner_envelope_equals_hosterjack_salph_inner": true,
+    "inner_salt": "3ab585348552415d",
+    "inner_ct_bytes": 80,
+    "dbbi_file": "reproduction/results/dbbi.txt",
+    "faed_file": "reproduction/results/faed.txt"
+   },
+   "prior_report": {
+    "dbbi_len": 91,
+    "faed_len": 570,
+    "matrixsumlist": "matrixsumlist",
+    "z1": "lastwordsbeforearchichoice",
+    "z2": "thispassword",
+    "inner_insertion": "enter",
+    "dbbi_first_occurrence": "DBIFHCEGA",
+    "dbbi_has_o": false,
+    "faed_counts": {
+     "a": 54,
+     "b": 49,
+     "c": 52,
+     "d": 49,
+     "e": 69,
+     "f": 57,
+     "g": 107,
+     "h": 58,
+     "i": 75
+    },
+    "inner_salt": "3ab585348552415d",
+    "inner_ct_bytes": 80
+   },
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "hint_2023_reverse_binary",
+   "status": "confirmed",
+   "inputs": {
+    "dataset": "C@caaa77a:content/sowut-data.js message id 8446",
+    "date": "2023-02-23 23:20",
+    "groups": 161
+   },
+   "params": {
+    "rule": "reverse the entire bit string, group by 8, ASCII"
+   },
+   "outputs": {
+    "text": "yellowblueprimesmatrixsumlistlastwordsbeforearchichoiceyinyangwewontgiveawaythepassworditsinfrontofyoureyesbutyourenotseeingitverylaststepisatruegiveawaypromised",
+    "bytes": 161,
+    "sha256": "d13afe77dd6969a438e2020cc3df22e0e7d589ae88196caa9162c9168e25a018",
+    "equivalent_rule_agrees": true
+   },
+   "prior_report": {
+    "text": "yellowblueprimesmatrixsumlistlastwordsbeforearchichoiceyinyangwewontgiveawaythepassworditsinfrontofyoureyesbutyourenotseeingitverylaststepisatruegiveawaypromised",
+    "bytes": 161
+   },
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "hint_2026_new_year_binary",
+   "status": "new",
+   "inputs": {
+    "transcription": "B@9e61693:README.md §2026-01-01"
+   },
+   "params": {
+    "rule": "8-bit groups, MSB-first ASCII (no reversal)"
+   },
+   "outputs": {
+    "text": "Happy new year! Make the best of everything. Oh, and here's a \"tiny hint\" <3."
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": "prior report: 'decode is conventional ASCII'"
+  },
+  {
+   "step": "naddiseo17_chain1_salph_inner",
+   "status": "confirmed",
+   "inputs": {
+    "envelope": "salph_inner reconstructed from soup (== C:ciphertexts/salph_inner.txt)",
+    "password": "matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist"
+   },
+   "params": {
+    "password": "raw UTF-8 literal",
+    "kdf": "EVP_BytesToKey MD5",
+    "cipher": "AES-256-CBC",
+    "padding": "strict PKCS#7"
+   },
+   "outputs": {
+    "bytes": 79,
+    "sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+    "E_C": "38d4f4c90cb45fdfc8cff50d0ed1c5",
+    "file": "reproduction/results/chain1.bin"
+   },
+   "prior_report": {
+    "bytes": 79,
+    "sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+    "E_C": "38d4f4c90cb45fdfc8cff50d0ed1c5"
+   },
+   "implementations_agree": {
+    "python": true,
+    "openssl_cli_equal": true
+   },
+   "note": ""
+  },
+  {
+   "step": "naddiseo17_chain2_p32_trailing",
+   "status": "confirmed",
+   "inputs": {
+    "envelope": "tail of aes_phase32 plaintext",
+    "envelope_equals_hosterjack_p32_trailing": true,
+    "password": "WIF text derived from chain1[0:32]"
+   },
+   "params": {
+    "wif": "mainnet 0x80 prefix, no compression flag, Base58Check",
+    "kdf": "EVP_BytesToKey MD5",
+    "cipher": "AES-256-CBC"
+   },
+   "outputs": {
+    "wif_password": "5K2byJMssxFKuTgnk9YQjpBz5FhkwwF2LaZoAyTus8HjGEpz8AT",
+    "bytes": 79,
+    "sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004",
+    "K_S1": "b06fa6f20561756c865dac7190f063480a371e4a13206e529ee7e9078f309c4b",
+    "K_S2": "b11d211ca0a17cd68c580308f3e6f21d3f935c8da3c4373b6f73ab5ccfaea597",
+    "E_S": "740a25de4b8e946d0a5ae2667a23a2",
+    "addr_K_S1_uncompressed": "1MixpoELBvfkFSRUQtDCGXbdG53cjqknZT",
+    "addr_K_S2_uncompressed": "176ysPe7FdevdQjZWaFCK2nnVbzX9Tgydy",
+    "file": "reproduction/results/chain2.bin"
+   },
+   "prior_report": {
+    "wif_password": "5K2byJMssxFKuTgnk9YQjpBz5FhkwwF2LaZoAyTus8HjGEpz8AT",
+    "bytes": 79,
+    "sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004",
+    "K_S1": "b06fa6f20561756c865dac7190f063480a371e4a13206e529ee7e9078f309c4b",
+    "K_S2": "b11d211ca0a17cd68c580308f3e6f21d3f935c8da3c4373b6f73ab5ccfaea597",
+    "E_S": "740a25de4b8e946d0a5ae2667a23a2",
+    "addr_K_S1_uncompressed": "1MixpoELBvfkFSRUQtDCGXbdG53cjqknZT",
+    "addr_K_S2_uncompressed": "176ysPe7FdevdQjZWaFCK2nnVbzX9Tgydy"
+   },
+   "implementations_agree": {
+    "python": true,
+    "openssl_cli_equal": true
+   },
+   "note": "The WIF is a published puzzle intermediate (A#68 comment 3704010992; B#17) used only as an AES password string; it is not imported into any wallet."
+  },
+  {
+   "step": "cosmic_seven_token_xor",
+   "status": "confirmed",
+   "inputs": {
+    "envelope": "C@caaa77a:ciphertexts/cosmic.txt",
+    "envelope_sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805",
+    "tokens": [
+     "matrixsumlist",
+     "enter",
+     "lastwordsbeforearchichoice",
+     "thispassword",
+     "matrixsumlist",
+     "yourlastcommand",
+     "secondanswer"
+    ],
+    "recipe_source": "A#68 comment 3704010992; A:_pr68/GAP_ANALYSIS.md@27ea50e"
+   },
+   "params": {
+    "key": "XOR of SHA-256 digests of the seven tokens",
+    "password": "the 32 raw XOR bytes",
+    "kdf": "EVP_BytesToKey MD5",
+    "salt": "2d3f6fe06dc950e6",
+    "ciphertext_bytes": 1328
+   },
+   "outputs": {
+    "xor_key_hex": "a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735",
+    "xor_of_five_without_matrixsumlist_equal": true,
+    "encoding_variants": {
+     "raw32/md5": [
+      1327,
+      "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081"
+     ],
+     "raw32/sha256": null,
+     "hex64/md5": null,
+     "hex64/sha256": null
+    },
+    "bytes": 1327,
+    "sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+    "first32": "44d19415009a2929a83b2f4e0da7b180d12f8b341cb879dd769ade1f8d399d40",
+    "file": "reproduction/results/cosmic_output.bin"
+   },
+   "prior_report": {
+    "xor_key_hex": "a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735",
+    "bytes": 1327,
+    "sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081"
+   },
+   "implementations_agree": {
+    "python": true,
+    "openssl_cli_equal": true
+   },
+   "note": ""
+  },
+  {
+   "step": "chain4_masked_nested_envelope",
+   "status": "confirmed",
+   "inputs": {
+    "cosmic_output": "cosmic_seven_token_xor output",
+    "offset": 158,
+    "trim_last_byte": true,
+    "mask": "b657264f2f6e6921",
+    "recipe_source": "A#68 comment 3704010992"
+   },
+   "params": {
+    "password": "E_C || E_S || E_B[:2] (raw 32 bytes)",
+    "kdf": "EVP_BytesToKey MD5"
+   },
+   "outputs": {
+    "mystery_bytes": 1169,
+    "unmasked_header": "Salted__",
+    "salt": "5bbd88ac32481bca",
+    "literal_Salted___in_cosmic_output": false,
+    "password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a259cc",
+    "bytes": 1151,
+    "sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+    "file": "reproduction/results/chain4.bin",
+    "mask_equals_header_xor": true
+   },
+   "prior_report": {
+    "mystery_bytes": 1169,
+    "unmasked_header": "Salted__",
+    "salt": "5bbd88ac32481bca",
+    "bytes": 1151,
+    "password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a259cc",
+    "sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b"
+   },
+   "implementations_agree": {
+    "python": true,
+    "openssl_cli_equal": true
+   },
+   "note": "mask_equals_header_xor=True shows the 8-byte mask is exactly cosmic_output[158:166] XOR 'Salted__' — the header is forced by the mask choice."
+  },
+  {
+   "step": "bifid_full_period_faed",
+   "status": "confirmed",
+   "inputs": {
+    "faed": "soup FAED (570 letters)",
+    "square_from": "first-occurrence order of DBBI + remaining alphabet, J omitted"
+   },
+   "params": {
+    "square": "DBIFHCEGAKLMNOPQRSTUVWXYZ",
+    "direction": "decrypt",
+    "coordinate_order": "row then column",
+    "period": 570
+   },
+   "outputs": {
+    "square": "DBIFHCEGAKLMNOPQRSTUVWXYZ",
+    "bytes": 570,
+    "sha256": "0c5d984f90e9baefc09f1d3888e62acbd101f9b0194887e2ae88fc6c9967745e",
+    "head": "BTCSEED",
+    "z_index_zero_based": [
+     97
+    ],
+    "even_positions_alphabet": "BCDE",
+    "odd_positions_symbols_after_removing_I_O": 23,
+    "odd_positions_len_after_removing_I_O": 256,
+    "period2_interleaved_identity": true,
+    "file": "reproduction/results/bifid_full.txt"
+   },
+   "prior_report": {
+    "square": "DBIFHCEGAKLMNOPQRSTUVWXYZ",
+    "bytes": 570,
+    "head": "BTCSEED",
+    "sha256": "0c5d984f90e9baefc09f1d3888e62acbd101f9b0194887e2ae88fc6c9967745e",
+    "z_index_zero_based": [
+     97
+    ],
+    "even_positions_alphabet": "BCDE",
+    "odd_positions_symbols_after_removing_I_O": 23,
+    "odd_positions_len_after_removing_I_O": 256,
+    "period2_interleaved_identity": true
+   },
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "bc_expansion_lengths",
+   "status": "confirmed",
+   "inputs": {
+    "dbbi": "soup DBBI",
+    "faed": "soup FAED"
+   },
+   "params": {
+    "substitution": {
+     "a": "a",
+     "b": "b",
+     "c": "c",
+     "d": "bb",
+     "e": "bc",
+     "f": "cc",
+     "g": "bbc",
+     "h": "bcc",
+     "i": "ccc"
+    }
+   },
+   "outputs": {
+    "dbbi_expanded": 169,
+    "faed_expanded": 1225
+   },
+   "prior_report": {
+    "dbbi_expanded": 169,
+    "faed_expanded": 1225
+   },
+   "implementations_agree": null,
+   "note": ""
+  },
+  {
+   "step": "prize_pubkey_to_address",
+   "status": "confirmed",
+   "inputs": {
+    "pubkey_uncompressed": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+    "pubkey_source": "prior report §11; also present in B@9e61693:_pr15/neo/materials/chain/tx_halving_spend.hex"
+   },
+   "params": {
+    "address": "HASH160 -> version 0x00 -> Base58Check"
+   },
+   "outputs": {
+    "on_curve": true,
+    "address_uncompressed": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+    "address_compressed": "1cc6xayvqpeetixmuXDRsGug7GKyoRdxP",
+    "occurrences_in_spend_tx_hex": 3
+   },
+   "prior_report": {
+    "on_curve": true,
+    "address_uncompressed": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+    "address_compressed": "1cc6xayvqpeetixmuXDRsGug7GKyoRdxP"
+   },
+   "implementations_agree": null,
+   "note": ""
+  }
+ ]
+}
