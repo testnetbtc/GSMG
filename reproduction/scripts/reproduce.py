@@ -511,6 +511,25 @@ def step_cosmic_set_a():
         note="Prior value = key published in A#69. A null entry means invalid padding.")
 
 
+def step_a15_controls(inner_b64):
+    """A#15 (eazytest, Aug 2023): two published passwords that open salph_inner and cosmic with valid padding.
+    A control showing padding-valid outputs of the same lengths arise from unrelated recipes."""
+    cos_b64 = open(g.src("hosterjack/ciphertexts/cosmic.txt")).read()
+    out = {}
+    for name, b64, pw in [("salph_inner", inner_b64, "26770c535632f626daefc0736dd4f85fd6126f647e6a160a2b58c51c0693d40f"),
+                          ("cosmic", cos_b64, "93de0175aa3d0a6a2768ba650009a35a36530fa31898da6f3c46757a693f108f")]:
+        for md in ("sha256", "md5"):
+            o = g.aes_decrypt(b64, pw.encode(), md)
+            out[f"{name}/{md}"] = None if o is None else {"bytes": len(o), "sha256": g.sha256(o), "head16": o[:16].hex(), "pad": 80 - len(o) if name == "salph_inner" else 1328 - len(o)}
+    rec("a15_padding_controls",
+        inputs={"recipe_source": "A#15 comments 1674478225 (2023-08-11), 1668268853 (2023-08-07)",
+                "salph_inner_password": "26770c535632f626daefc0736dd4f85fd6126f647e6a160a2b58c51c0693d40f (stated = SHA-256 of 'MatrixSumlist AnsToo')",
+                "cosmic_password": "93de0175aa3d0a6a2768ba650009a35a36530fa31898da6f3c46757a693f108f (stated = SHA-256 of reversed printable salph_inner output)"},
+        params={"password": "64-char hex string as typed into openssl -pass pass:", "kdfs_tested": ["sha256", "md5"]},
+        outputs=out, prior=None,
+        note="Source states the cosmic output begins 5d2ec2af4c2f9dfb191fce6a70e4a75a. Neither prior report nor any later recipe treats these as stages; they are recorded as independent padding-valid controls.")
+
+
 def step_103x103(cos):
     """A#72/A#79/A#81: 103x103 bit matrix of the Cosmic output -> shifted row+col sums -> base-38 -> 68 bytes."""
     bits = "".join(f"{b:08b}" for b in cos)[:103 * 103]
@@ -551,6 +570,7 @@ if __name__ == "__main__":
     step_crib_control()
     step_page_provenance()
     step_cosmic_set_a()
+    step_a15_controls(inner)
     step_103x103(open(os.path.join(OUT, "cosmic_output.bin"), "rb").read())
     summary = collections.Counter(r["status"] for r in RESULTS)
     doc = {"generated_utc": __import__("datetime").datetime.now(__import__("datetime").timezone.utc).isoformat(timespec="seconds"),

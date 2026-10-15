@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-15T14:36:29+00:00",
+ "generated_utc": "2026-10-15T14:41:52+00:00",
  "script": "reproduction/scripts/reproduce.py",
  "source_commits": {
   "A": "fb92dd15487c6e2d275adb8c923698b7166c328e",
@@ -8,7 +8,7 @@
  },
  "summary": {
   "confirmed": 18,
-  "new": 13
+  "new": 14
  },
  "results": [
   {
@@ -1014,6 +1014,41 @@
    },
    "implementations_agree": null,
    "note": "Prior value = key published in A#69. A null entry means invalid padding."
+  },
+  {
+   "step": "a15_padding_controls",
+   "status": "new",
+   "inputs": {
+    "recipe_source": "A#15 comments 1674478225 (2023-08-11), 1668268853 (2023-08-07)",
+    "salph_inner_password": "26770c535632f626daefc0736dd4f85fd6126f647e6a160a2b58c51c0693d40f (stated = SHA-256 of 'MatrixSumlist AnsToo')",
+    "cosmic_password": "93de0175aa3d0a6a2768ba650009a35a36530fa31898da6f3c46757a693f108f (stated = SHA-256 of reversed printable salph_inner output)"
+   },
+   "params": {
+    "password": "64-char hex string as typed into openssl -pass pass:",
+    "kdfs_tested": [
+     "sha256",
+     "md5"
+    ]
+   },
+   "outputs": {
+    "salph_inner/sha256": {
+     "bytes": 79,
+     "sha256": "c27ea25ddfb54f49da06c1dce13abe0fde6890500ae6125927996bbfb601d4bd",
+     "head16": "44b71114e2209d62ee91507d6c56a5b3",
+     "pad": 1
+    },
+    "salph_inner/md5": null,
+    "cosmic/sha256": {
+     "bytes": 1327,
+     "sha256": "5f8b79db1f85122eedf56665278abf1bc466a5a17036dc309a5c41fe97158f51",
+     "head16": "5d2ec2af4c2f9dfb191fce6a70e4a75a",
+     "pad": 1
+    },
+    "cosmic/md5": null
+   },
+   "prior_report": null,
+   "implementations_agree": null,
+   "note": "Source states the cosmic output begins 5d2ec2af4c2f9dfb191fce6a70e4a75a. Neither prior report nor any later recipe treats these as stages; they are recorded as independent padding-valid controls."
   },
   {
    "step": "cosmic_103x103_base38",
