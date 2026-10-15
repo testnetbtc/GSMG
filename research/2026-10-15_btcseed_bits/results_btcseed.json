@@ -1,0 +1,5026 @@
+[
+{
+"name": "A.even.row.pol0.fwd.all285|msb",
+"k_hex": "0x57b5ee949c9b23fe77f3a4696c2620a44d21870478b1a482d00e3a60e3606d71",
+"addr_c": "1KLT4uXqoPSw6sJ87LHT8LqTutv5bB7sd8",
+"addr_u": "1GdQH6FAVn2kWCUqJ136AeEBXoLCFAAtXM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.fwd.all285|lsb",
+"k_hex": "0x46d757808df76ad6f8b1f8eba2ce6e2e36d2b3c84d742392018d78b2d4823068",
+"addr_c": "1GhcDTwwnpimgjJra8qyK5UDNstS6SBnmN",
+"addr_u": "18Vjj3k9JDS5r1xKmrxHYjG2obTNDwZK7V",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.fwd.first256|msb",
+"k_hex": "0x6f247a92bdaf74a4e4d91ff3bf9d234ad3f47bc1d71f8d1f6b56efb101eaeb62",
+"addr_c": "17h7x92WJ5nPx5G1xy7XGMNVRLUNY4YD2T",
+"addr_u": "1KZc2gFX7mKh55Kfny6gcqgJP25CxcWUJ7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.fwd.first256|lsb",
+"k_hex": "0x46d757808df76ad6f8b1f8eb83de2fcb52c4b9fdcff89b27252ef5bd495e24f6",
+"addr_c": "167WeTp4MxLTFZLKjS5rK326Pf8NssDoCV",
+"addr_u": "1DwKC1p5kohBQm9cfPSa8ur5ToDqCvxjL8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.fwd.first256|msb_byteswap",
+"k_hex": "0x62ebea01b1ef566b1f8d1fd7c17bf4d34a239dbff31fd9e4a474afbd927a246f",
+"addr_c": "1gLZi6eF3n3hA4rLn671gbCdgjbp8yxzC",
+"addr_u": "1EFYsogGPoyyrD9npbeMGJF6EQ22BQk2q1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.fwd.last256|msb",
+"k_hex": "0x57b5ee949c9b23fe77f3a4695a7e8f783ae3f1a3ed6addf6203d5d6c4e18a343",
+"addr_c": "1B7PtvdNcrJEGN5W479GpLd8AUxLuM3twm",
+"addr_u": "12nyJq3kpEENDWUztuKimTy7wWG9PVzwbu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.fwd.last256|lsb",
+"k_hex": "0xc2c5187236babc046fbb56b7c58fc75c1ef17e5a9625cfee7fc4d9392977adea",
+"addr_c": "1GcRLegCftBKwWP4FmxGwZbrppyPPjY5EU",
+"addr_u": "1NifvMyE9vdtoa1Uhbpm3aoT8hMLjDWMu4",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.fwd.last256|msb_byteswap",
+"k_hex": "0x43a3184e6c5d3d20f6dd6aeda3f1e33a788f7e5a69a4f377fe239b9c94eeb557",
+"addr_c": "1MmNoSqWZrzwaPZD5dxM9UveWwN2wjqDkn",
+"addr_u": "1Gjug3v7rX7qz5xth78X5K4Wgf8u9eHKqS",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.fwd.all285|msb",
+"k_hex": "0xa84a116b6364dc01880c5b96bc8403bd97a441dabe9cafe755bd5c03ccd5d3cf",
+"addr_c": "1Jx8Lh5nGdrY4ZnMRThbkqc4ugf3qd9hjQ",
+"addr_u": "1KSzEXDHdfBpEvboFB2dFfi4zR8e3ddffZ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.fwd.all285|lsb",
+"k_hex": "0xb928a87f72089529074e071485dbb633adf31516e9da30d8243e1db1dbb410d8",
+"addr_c": "1DvGAcU7LBoQuUX7iW8hKuAVxqkmD5MeH7",
+"addr_u": "14Z8xv1kU6fovosAErD96VYtXGEatuuQa7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.fwd.first256|msb",
+"k_hex": "0x90db856d42508b5b1b26e00c4062dcb52c0b843e28e072e094a9104efe15149d",
+"addr_c": "17qijWfvTM3FwpTSJgKt62JQZEspy6z8jm",
+"addr_u": "1KyyUoYgbdFMdn8FaKZCqgnoXya4HHfB5S",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.fwd.first256|lsb",
+"k_hex": "0xb928a87f72089529074e07147c21d034ad3b4602300764d8dad10a42b6a1db09",
+"addr_c": "14r5w4qRvMnafeEwseFTzsvwV67WBqWbzv",
+"addr_u": "1FBCPGC1D4Jwb9RPwdxg6Bj6TV4Qem19n",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.fwd.first256|msb_byteswap",
+"k_hex": "0x9d1415fe4e10a994e072e0283e840b2cb5dc62400ce0261b5b8b50426d85db90",
+"addr_c": "1Q1FSfot7zytvyg3GdjHU3uGFxJKaRcBFp",
+"addr_u": "18VTs4caPwEsQ9qw7YXY76dZnFm4SQTrpq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.fwd.last256|msb",
+"k_hex": "0xa84a116b6364dc01880c5b96a5817087c51c0e5c12952209dfc2a293b1e75cbc",
+"addr_c": "1HLR2SqsiBv6fbKS5sAqt8cvhY6bvZvgVo",
+"addr_u": "17UQKydYsyegxK5VgcYgxnCrxd838dpkz8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.fwd.last256|lsb",
+"k_hex": "0x3d3ae78dc94543fb9044a9483a7038a3e10e81a569da3011803b26c6d6885215",
+"addr_c": "1Ah819XhkFDGkeXBHtfk7P6HsPoNjiwiu1",
+"addr_u": "1i5kxSdJ3GvU8AwA37wvEX2iNBZ4Mqr5G",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.fwd.last256|msb_byteswap",
+"k_hex": "0xbc5ce7b193a2c2df092295125c0e1cc5877081a5965b0c8801dc64636b114aa8",
+"addr_c": "1K1Vey5WhWgysbxW4YduFpbWZ2Me7pD7MC",
+"addr_u": "1PUREQaERpZhfAoF2nGBs8Nfs7r232cX3b",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.fwd.all285|msb",
+"k_hex": "0x81182a8bfd6fe2410ecfa95f4b2902cf9c5587c4d456c44f46c0418917255209",
+"addr_c": "1HG1oaK5xduzPvuVWSUuKuJs3BXRAvHf1W",
+"addr_u": "1AUnJm4ybm8hhGsWWX9NbPsRp4aH4Sqas8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.fwd.all285|lsb",
+"k_hex": "0xd424bdab4011dac4cc51ee109d21e52f3c25f93cf1766c9391ef105087c03174",
+"addr_c": "1EeJ5zmrLnTB5uxfRKAym6TWWdwr9WYBkd",
+"addr_u": "14ZtXbcwUxCHRigTJp5ZzA58SXtiFum9sV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.fwd.first256|msb",
+"k_hex": "0xad4881c408c1545feb7f1208767d4af97d141e1108778a33235b8802d5bd242b",
+"addr_c": "1MK6KMcKeNW6vCDPBgQvqhkbmRwUW2D3yJ",
+"addr_u": "17HwxbjAmkmzSyTy4qAEuNMKo92nbrTJam",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.fwd.first256|lsb",
+"k_hex": "0xd424bdab4011dac4cc51ee10887828be9f52be6e1048fed7fa2a8310238112b5",
+"addr_c": "14r3pcZEBUE8MGtjnSivJtcwuhjn3CiXmv",
+"addr_u": "1EWrf4RBsgGhQjSRhJ5CmJAjg79VnBS88",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.fwd.first256|msb_byteswap",
+"k_hex": "0x2b24bdd502885b23338a7708111e147df94a7d7608127feb5f54c108c48148ad",
+"addr_c": "15vkN36fZEyu5uDUQffmisuZGrDmHNnk3o",
+"addr_u": "13PrTGRkHKCPQBMy8gW6ptoG5bxyhRHmhb",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.fwd.last256|msb",
+"k_hex": "0x81182a8bfd6fe2410ecfa95f2fa283c2210ef146646b71005ab7a4857000a841",
+"addr_c": "1P775A3NTXaPUgj66qTsxwC5h5dr1gH48q",
+"addr_u": "1JdDNvoP4rW35CAjVjkQJHS5a6LvFn44Kv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.fwd.last256|lsb",
+"k_hex": "0x8215000ea125ed5a008ed626628f708443c145f4fa95f3708247f6bfd1541881",
+"addr_c": "1APqd96gv1GfpTuT4Gz6bQmqAC6DyRvY95",
+"addr_u": "1AaYDXhkoec5axdCLXRCRtUhdb4BxKgpsg",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.fwd.last256|msb_byteswap",
+"k_hex": "0x41a8007085a4b75a00716b6446f10e21c283a22f5fa9cf0e41e26ffd8b2a1881",
+"addr_c": "15Ljku6kPWJotBhQxDotbUoxCcvECPVZoT",
+"addr_u": "1Pha3qM95BqxjepD7mxqBccLUSpFpiMkoU",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.fwd.all285|msb",
+"k_hex": "0x7ee7d57402901dbef13056a0dd8121924870411a62f7901adf0b54db9910ef37",
+"addr_c": "1E58kh7HXtnjX7vqNxwYocyjk8ghBsKzdt",
+"addr_u": "17fWNKEnh4FCVKJcmxJ4EJnt3k7ggmszcR",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.fwd.all285|lsb",
+"k_hex": "0x2bdb4254bfee253b33ae11ef8b883f32a89fcfa245d7e7d693dc861428760fcc",
+"addr_c": "17SLQupAhTgFLdHKJk8vQ72YxS7hR3qQ4y",
+"addr_u": "1LxWwZdLLY8B6qDTSoJcqRRajaTwT9n3ET",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.fwd.first256|msb",
+"k_hex": "0x52b77e3bf73eaba01480edf78982b50682ebe1eef78875ccdca477fd2a42dbd4",
+"addr_c": "1N79wiejPuuJ9qaDeeD2t7W6GAKzrv8zqo",
+"addr_u": "1DFum84KiHzrohLZUwFra5RPrTyf8iBUzR",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.fwd.first256|lsb",
+"k_hex": "0x2bdb4254bfee253b33ae11ef7787d74160ad4191efb7012805d57cefdc7eed4a",
+"addr_c": "1BdiwmGivW17mucEqpTHK6qGM5Rj6rcjY7",
+"addr_u": "1NFxcgoUEhzVWEqaAdKQewCGLvwyVDQFB8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.fwd.first256|msb_byteswap",
+"k_hex": "0xd4db422afd77a4dccc7588f7eee1eb8206b58289f7ed8014a0ab3ef73b7eb752",
+"addr_c": "14eA8J2X6MABWEZNdciKuhQ6ySqYZd6NR8",
+"addr_u": "1C9J7kzjG7hqs9ugFRqzoLwxJ7sBWnaW6h",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.fwd.last256|msb",
+"k_hex": "0x7ee7d57402901dbef13056a0d05d7c3ddef10eb99b948effa5485b7a8fff57be",
+"addr_c": "18hjirBN32XZTCQ5zvn3oG2kmwFKocmhj7",
+"addr_u": "1L45szVuQRJHbuUjrkcDz9sB9rUZ7bNehZ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.fwd.last256|lsb",
+"k_hex": "0x7deafff15eda12a5ff7129d99d708f7bbc3eba0b056a0c8f7db809402eabe77e",
+"addr_c": "1MX5ByF2FrajEnxU6k6Fc9W3aVjiA3xVvX",
+"addr_u": "1P2ChwWreHnu7T12Yo8Eu3daBFiYyHpxeW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.fwd.last256|msb_byteswap",
+"k_hex": "0xbe57ff8f7a5b48a5ff8e949bb90ef1de3d7c5dd0a05630f1be1d900274d5e77e",
+"addr_c": "14qZL6gqmzZyWkDoxSyDv6gZKKepXk8Zvi",
+"addr_u": "15tor721r6wUKmwi9enhe913PF9ASaDXkr",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.fwd.modN",
+"k_hex": "0x91c14e30ca639876c6cd22bc997a4a4bce94637788b2a0a0a02d92cc2ab58653",
+"addr_c": "1P8rspbqEtf1pfNMP46wmrjMQLJPZSPsLB",
+"addr_u": "1PsqNYDrou2HAbZXqTciaSCY7FrfYGUJ7p",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.fwd.first256|msb",
+"k_hex": "0x1ef7861a1564c98665d9c657b7ba4430fe1073c3ab5d55254f7d43fb862d30e4",
+"addr_c": "1P53ksqUYpSe5CdZLV6KFeitBAz1ND5KAN",
+"addr_u": "183wKzdbsEQojM61kuv4vaynib18DGL2KK",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.fwd.first256|lsb",
+"k_hex": "0x270cb461dfc2bef2a4aabad5c3ce087f0c225dedea639ba6619326a85861ef78",
+"addr_c": "17w7onFDqiq91B1BpcwgK2TByTbNnzNVd8",
+"addr_u": "17K9WwuQoL4ANSSpZSHwJ5GVKhJvSWuCFa",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.fwd.first256|msb_byteswap",
+"k_hex": "0xe4302d86fb437d4f25555dabc37310fe3044bab757c6d96586c964151a86f71e",
+"addr_c": "17zqXPqL61ycrZpEHBY8LoKRz6pAFsZmsd",
+"addr_u": "1548518qhKkVKw3PRpPzKPcwgFWRMKrAEu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.fwd.last256|msb",
+"k_hex": "0xad64560dffab468d7e79beec735b559684222f7311791678b056a96aee25baa7",
+"addr_c": "1GKFSfoXsUexYxN4xg4RRM3gsaEL1EBjVG",
+"addr_u": "1KDVuUnfiaT93oADXRSVs3DpqLngwEgCnW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.fwd.last256|lsb",
+"k_hex": "0xe55da47756956a0d1e689e88cef4442169aadace377d9e7eb162d5ffb06a26b5",
+"addr_c": "14hseXs8oupmxtCGj47qvfZaoMLrSo4VsA",
+"addr_u": "1KC3jaCMMtsMcEfimPE9aevhcVojzvczWx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.fwd.last256|msb_byteswap",
+"k_hex": "0xa7ba25ee6aa956b078167911732f228496555b73ecbe797e8d46abff0d5664ad",
+"addr_c": "1Hs9a2X1PA1M57Vw62L1K4cSfMnmSrKoCt",
+"addr_u": "14L11w5GoLScN4hkPb4iRd55CJVNhPpKFp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.fwd.modN",
+"k_hex": "0xf08a68e0a842d8eb6645db05552eb2ca1eb3ceb635f7878f68511e08d4f12c9f",
+"addr_c": "1CTQ5KnYDoqAhCAyh7NEXQVjGw1tB9twpg",
+"addr_u": "1FLCUS5C9Jonnyf7qy5aTV44Bbv3XFqEuk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.fwd.first256|msb",
+"k_hex": "0x1ba6c71f15748dc7759d8756e6ef4420ab106282fe5955354a6942aec73920b4",
+"addr_c": "1AsycrAoacHNNWfCYpZq9kwBKpq3rTEcor",
+"addr_u": "1P978VTAeoVUxstZ4MnubVGxkFNXa5ACKJ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.fwd.first256|lsb",
+"k_hex": "0x2d049ce375429652acaa9a7f414608d50422f7676ae1b9aee3b12ea8f8e365d8",
+"addr_c": "1rkC5HZ5Mv97huEpu9Pxzbc4faPce25hD",
+"addr_u": "1NyboVxd1zVdNX8ANVQayKcjueht256g8E",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.fwd.first256|msb_byteswap",
+"k_hex": "0xb42039c7ae42694a355559fe826210ab2044efe656879d75c78d74151fc7a61b",
+"addr_c": "13DQnJ1Y7z9YXe86iPFEwyxAxRhFsS8nRF",
+"addr_u": "1GXiqS9kvfGj2E9ZToxAgxmFxeb8cSvHwH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.fwd.last256|msb",
+"k_hex": "0xf9745709aafe47c96b6debb8625e55d7c4333a62116d176ce057fd7fbb35eff6",
+"addr_c": "1CHfK4raXmvyRHC97F4NMD5Zv9TfU29sG8",
+"addr_u": "1PmrEGqPKiJPWEBQ9guRduJuei1KM92NZy",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.fwd.last256|lsb",
+"k_hex": "0x6ff7acddfebfea0736e8b688465ccc23ebaa7a461dd7b6d693e27f5590ea2e9f",
+"addr_c": "1K3c5gWK7ezQ3TEqsNFKq5J2rVLgbLHyk3",
+"addr_u": "1KMgKvN7hNrrxHux1xncmtCcPEqsD3s2HY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.fwd.last256|msb_byteswap",
+"k_hex": "0xf6ef35bb7ffd57e06c176d11623a33c4d7555e62b8eb6d6bc947feaa095774f9",
+"addr_c": "12gsmzb1M2hFyabAWqSSuaQGvQ1C1eeZSG",
+"addr_u": "18RH62DzWfy36rW7mRJC5aAkZbNZCGehr8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.fwd.modN",
+"k_hex": "0x251a6e8881a274dbc6ae36221756854a067dd122ad56166e148b04299d606a",
+"addr_c": "1vpUNL2eWcdGE3ppN2aFhh7xeMMe9FGqj",
+"addr_u": "14JpLvcbXtW4ZDzrMNz4KgmcD3w9NE1yfC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.fwd.first256|msb",
+"k_hex": "0x2dfb49252a98c6499ae6c9ab7b758830fd20b3c357aeaa1a8fbe83f7491e30d8",
+"addr_c": "1FcBa6MnqDDyRGFciDSaMyE24MXSVDLzA3",
+"addr_u": "1CSanrcB7bnieHMkWucCCFTEEgcowhj8mX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.fwd.first256|lsb",
+"k_hex": "0x1b0c7892efc17df1585575eac3cd04bf0c11aeded593675992631954a492dfb4",
+"addr_c": "16ZAgW4nXjje4QiwJGhTBcvkY4WJ6aPKRp",
+"addr_u": "1HRdHjN4TVpr5Uk52jDN26AbCknqaBBydi",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.fwd.first256|msb_byteswap",
+"k_hex": "0xd8301e49f783be8f1aaaae57c3b320fd3088757babc9e69a49c6982a2549fb2d",
+"addr_c": "1KZYD4jX5WYbHv7YRTfVd8nUEochsr5bR3",
+"addr_u": "1JtoM8j9gcZ5cd8tsAZuXcpNnM6wtpETfv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.fwd.last256|msb",
+"k_hex": "0x5e98a90eff57894ebdb67ddcb3a7aa6948111fb322b629b470a95695dd1a755b",
+"addr_c": "1Pu7rqMhfELp2vgBAisFuqyLethm3VTQ6G",
+"addr_u": "1JauF82qXDStPxWCDqTAAeiVmi5sy9bFAY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.fwd.last256|lsb",
+"k_hex": "0xdaae58bba96a950e2d946d44cdf888129655e5cd3bbe6dbd7291eaff7095197a",
+"addr_c": "1PD2NJkN4Q23etYBHqvgWmP6xiSG6edXBs",
+"addr_u": "1JvovuAsuR2ciFSjJbXTFQjjtVEggoL762",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.fwd.last256|msb_byteswap",
+"k_hex": "0x5b751add9556a970b429b622b31f114869aaa7b3dc7db6bd4e8957ff0ea9985e",
+"addr_c": "1MGj2Nyz7bFowiXAZNA93A8iDHPENuzv8h",
+"addr_u": "16ZeXffvktgoC3SZruv6uthhnm6Lp4JgFb",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.fwd.modN",
+"k_hex": "0xbdb74fce4440235e1ab81ec799802781ea45544e7d3723f3fe5ba17d7e14ad02",
+"addr_c": "1HeQ8Y86PpktCjorkCvVp9ojAGfsNzudG5",
+"addr_u": "165uNAVyfd59K3oEeM1izpPFj8GF6ZyVGp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.fwd.first256|msb",
+"k_hex": "0x2759cb2f2ab84ecbba6e4ba9d9df881057209141fda6aa3a8596815dcb361078",
+"addr_c": "1N6W3Q3Fmqqngyt5B8xtvB5cnAFwWoRgew",
+"addr_u": "1Gc3HR1og7tgDQuhZKKJ4MqRw6AAdxqsf8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.fwd.first256|lsb",
+"k_hex": "0x1e086cd3ba8169a15c5565bf828904ea0811fb9b95d2765dd3721d54f4d39ae4",
+"addr_c": "1JoaGzPJ8ecAkrgYhcGNMhNcHw82ZbsKn9",
+"addr_u": "1Lo74FV5m7E4LwA59sqvNg4ci2GPvbZwu8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.fwd.first256|msb_byteswap",
+"k_hex": "0x781036cb5d8196853aaaa6fd419120571088dfd9a94b6ebacb4eb82a2fcb5927",
+"addr_c": "15C9vQgeTEaT6UCh3Mic529fzj3g6qkWtw",
+"addr_u": "1PHU7ws6VcyGy5j5h5fgNeJn8cpxBLsyqp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.fwd.last256|msb",
+"k_hex": "0xf6b8ab0655fd8bc6979ed77491adaaebc8333591229e2b9cd0abfebf773adff9",
+"addr_c": "1PinYZ4aLMRvW6N7XUvX7De9xLk1AeYd8S",
+"addr_u": "15XnsxujMyMwxW8CEjNpsqXzzUfJoEGu5M",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.fwd.last256|lsb",
+"k_hex": "0x9ffb5ceefd7fd50b39d4794489accc13d755b5892eeb79e963d1bfaa60d51d6f",
+"addr_c": "1BfQwk9tkBTHXgh6o5JBmQXpHiqREzbnxy",
+"addr_u": "1PMLLFMxbXWq469zHqGj63Z7Y4NJFsvXgP",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.fwd.last256|msb_byteswap",
+"k_hex": "0xf9df3a77bffeabd09c2b9e22913533c8ebaaad9174d79e97c68bfd5506abb8f6",
+"addr_c": "1HLhQYmZjwzGinaKjLiZoux4oiuALXaVoz",
+"addr_u": "1KsDUEfi8CqgLjwXk7fjhZvjM1BUEw7tW8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.fwd.modN",
+"k_hex": "0xcd52015c247eece79038f1f86668cb3bd046e050193592b6c3f16d05a2f7220e",
+"addr_c": "1JeGddfX9KhBd74ANSy3wL5KkBxdknh64E",
+"addr_u": "17wvG1RjjZQ53GbyyRiN3MZ5ZFH1e7fkMA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.fwd.first256|msb",
+"k_hex": "0x39ae4d353fdc874ddfb78dfe6e65cc20a930e28256fbff1fcaebc2a64d1b209c",
+"addr_c": "1NYTdD44mybtBD69am7BAXHtry78n4e4f4",
+"addr_u": "1HVEPMT8Cw1fCrUevToH3HHZDMw6SriLa5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.fwd.first256|lsb",
+"k_hex": "0x3904d8b26543d753f8ffdf6a41470c950433a6767fb1edfbb2e13bfcacb2759c",
+"addr_c": "17BSeQP4wZwyzrupkVosRJ1JNYK1fUpUHQ",
+"addr_u": "1iDEPhiFDGB5isavq6siXCy5MzV7yjyWq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.fwd.first256|msb_byteswap",
+"k_hex": "0x9c201b4da6c2ebca1ffffb5682e230a920cc656efe8db7df4d87dc3f354dae39",
+"addr_c": "19mnifjMwnzBFZ1TeuFhCgNkAXLTTAuNN3",
+"addr_u": "1MTTZx9EnnoyfU98kECACkyxkUf21GWbLW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.fwd.last256|msb",
+"k_hex": "0x5bdcfd0baa56cd4be9e76998e2f6ff7d4c111ae233e73de460fd57d5991f655e",
+"addr_c": "1FQUrr1T2MPGwWKfXNVeEGQvfGGw1Y7xZD",
+"addr_u": "17G7wmsDfsmVAxJ18AJ6ZEYzxDFDBmxhnF",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.fwd.last256|lsb",
+"k_hex": "0x7aa6f899abeabf0627bce7cc47588832beff6f471996e797d2b36a55d0bf3bda",
+"addr_c": "1LjbVtZHZ5SQ4ejAmPchSrvxp72DbFxZbE",
+"addr_u": "1MjWA838huMssiGtxwKSunMnGyF7j3PWLi",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.fwd.last256|msb_byteswap",
+"k_hex": "0x5e651f99d557fd60e43de733e21a114c7dfff6e29869e7e94bcd56aa0bfddc5b",
+"addr_c": "1E8XQeskShfJRuR3cr4AgQfvbwZwmaja9f",
+"addr_u": "1B9dmhLfDoiCsqXts1C2hvD7V45kXJSsEp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.fwd.modN",
+"k_hex": "0x2c1b1c0c025e2d5c2fb1aa41221d33bb65b76ea81731d969cc4299b57cfc8719",
+"addr_c": "1Q4yJqSDLR5ydCg3d7Y71Pv7rj4VUJ9Jk1",
+"addr_u": "1PrG6rV4LPyogdyBgMnzc6r3cqvMBsRtiH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.fwd.first256|msb",
+"k_hex": "0x365d8e3a3fec4b8eef7b4efd9d9acc105630d141a9f7ff2fc5d7c1598e27106c",
+"addr_c": "1BsUFqazJacrwr9DCcXT1fMknSbVgf5D2A",
+"addr_u": "1BGpSZbViYxwTXwt4ZgqWgvBozRxG61Swz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.fwd.first256|lsb",
+"k_hex": "0x3608e4719a83eba3f4ffef95828b0c6a083359b9bf72def771d237fc5c71ba6c",
+"addr_c": "1AgUt31AV8C5hf9orwH1AUwsTxJ4tRQgFr",
+"addr_u": "1JS37jyV4pNABHG16BbXxqjJjdDcic2qYB",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.fwd.first256|msb_byteswap",
+"k_hex": "0x6c10278e59c1d7c52ffff7a941d1305610cc9a9dfd4e7bef8e4bec3f3a8e5d36",
+"addr_c": "1D8VgUUfggGqGdurLkWbdnLuFS4ePuuQt6",
+"addr_u": "16UkxWy7vSKCnaBuU5vpgeK9WwRp9ZrCDu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.fwd.last256|msb",
+"k_hex": "0xa7ecfe0755a9ce87d6db9664d1f9ffbe8c2225d133db3ed890feabea662f9aad",
+"addr_c": "1Q9uDkJmKqVi24NXNvAZHzuQxum7chMXRA",
+"addr_u": "1PJXenYNVXLRco8q33s7BDiiFqr7tT7189",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.fwd.last256|lsb",
+"k_hex": "0xb559f46657d57f091b7cdbcc8ba444317dff9f8b2669db6be17395aae07f37e5",
+"addr_c": "1MFnCnGHCuPuh1qEith6182ui8dR567Juw",
+"addr_u": "1EvpVyKW4CZ5zC7jm4ZZuBQx8NcmQpBLvY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.fwd.last256|msb_byteswap",
+"k_hex": "0xad9a2f66eaabfe90d83edb33d125228cbefff9d16496dbd687cea95507feeca7",
+"addr_c": "16V4gWqHdNs27YhnXCM56JtgLpRTXg58rN",
+"addr_u": "1GwZSFCiYjqGbQyZoSj7jXCdT8voEx5BYn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.fwd.modN",
+"k_hex": "0x467b0f0098944bbfe5cf11d62e7f8ad70d7526fc68752b39fc9fd9f3a7bfac36",
+"addr_c": "1K9wg5Ftn9Jz7oHQS9PAwbE41wmMXF9PmU",
+"addr_u": "1F2yTo5RJhnsQHSF75dvm4oYjQnicNDuH1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.fwd.first256|msb",
+"k_hex": "0x4ef3924a4021d89220c8d203b3ba1175fe4537d7ab0c00601f3c17fb926c75e1",
+"addr_c": "1C1QzVSFrvbfWfENDwLk493iSaBJqQbv8u",
+"addr_u": "1MrHPJg3M6CXTMYuAm9AihHzoP6YMXiqr9",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.fwd.first256|lsb",
+"k_hex": "0x87ae3649dfe83cf8060030d5ebeca27fae885dcdc04b1304491b84025249cf72",
+"addr_c": "17fgAfMTeDttBSbvRSTmMnyTzgEKg1kHpU",
+"addr_u": "1DUUc1eX6upoH2fSjKNmfKiA2QH8DbCeWi",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.fwd.first256|msb_byteswap",
+"k_hex": "0xe1756c92fb173c1f60000cabd73745fe7511bab303d2c82092d821404a92f34e",
+"addr_c": "1L4Wjq4u66gibxcf1UhNk9bWv3egTWcHub",
+"addr_u": "1N5wHaiqvUtnFVhwdUjptEmyykWBfbpXZ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.fwd.last256|msb",
+"k_hex": "0xac21025cffab129c3e38beed370b008291666f3744384239b502a82aee60baa3",
+"addr_c": "12MgFkro8CqXkp5f3iB31WT2ikEwCj9h82",
+"addr_u": "198eDFvX6KUK2gmHnhTr1XsvXrhQRoLAt7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.fwd.last256|lsb",
+"k_hex": "0xc55d0677541540ad9c421c22ecf666894100d0ecb77d1c7c3948d5ff3a408435",
+"addr_c": "1dJ9iZyZktQF2cFYpfT5Xe7nUytdMreV3",
+"addr_u": "1P8KBd1wB8kavggHcxvCuUmuvicnNhN1pZ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.fwd.last256|msb_byteswap",
+"k_hex": "0xa3ba60ee2aa802b539423844376f669182000b37edbe383e9c12abff5c0221ac",
+"addr_c": "14QDot51JMoTukurjXLaeygnBELGfo1iWf",
+"addr_u": "1jWjP2zQNyNXLP87kanqp1BFrjLoN5Qty",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.fwd.modN",
+"k_hex": "0xa54429b076738c348547ca1eea33f3555d94923b15ba1228c4c3653051fb5282",
+"addr_c": "19f3VJLvd5LYRU4exEFhUuofoqaqssXKk1",
+"addr_u": "16FsK54yo9Ukcab57z3BcGv4jWbkShVuhs",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.fwd.first256|msb",
+"k_hex": "0x4ba2d34f40319cd3308c9302e2ef1165ab452696fe0800701a2816aed37865b1",
+"addr_c": "1AuM866Vn9Wr6VDjEYjRcux68wkmif3xGU",
+"addr_u": "1ET49rBhhPuuRoUrgZrhUm2oU4pRt8exp8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.fwd.first256|lsb",
+"k_hex": "0x8da61ecb756814580e00107f6964a2d5a688f74740c9310ccb398c02f2cb45d2",
+"addr_c": "13sBwp4NjgFnKDpkuYSPhYHKJgJax8U3AR",
+"addr_u": "1E8Bd7bHnTM8MJnQC5jE84VH3eNKyBXyX6",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.fwd.first256|msb_byteswap",
+"k_hex": "0xb16578d3ae16281a700008fe962645ab6511efe202938c30d39c31404fd3a24b",
+"addr_c": "183vDaJoBuHABXq7KCFRN2ofuGxEFcv2kG",
+"addr_u": "1K91KXCJbnDPwSpfn5kNbaA9ZFDg2fbMbm",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.fwd.last256|msb",
+"k_hex": "0xf8310358aafe13d82b2cebb9260e00c3d1777a26442c432de503fc3fbb70eff2",
+"addr_c": "19iTdnDrcKgU22zZrVGoYKPtGEogJiUoE5",
+"addr_u": "17wHqcCbRavG3NcaWJ9t91ifZ5Yre7uGAW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.fwd.last256|lsb",
+"k_hex": "0x4ff70eddfc3fc0a7b4c23422645eee8bc30070649dd734d41bc87f551ac08c1f",
+"addr_c": "1CoJ6n1d3pR87YFtyKAPWCbPgWFFidJJRD",
+"addr_u": "14ZvuN3KzgKU929cbGBaRNZkoxeGHruvNS",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.fwd.last256|msb_byteswap",
+"k_hex": "0xf2ef70bb3ffc03e52d432c44267a77d1c3000e26b9eb2c2bd813feaa580331f8",
+"addr_c": "1GGwATnvWrgTsr7jvwYwmAp8pERsKvSncT",
+"addr_u": "13oAMPmWwJWA4gWbPp3uWU2iTjPc14Q9Qy",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.fwd.modN",
+"k_hex": "0x2342a77c14d05fbc0fc228c93fb9a348bf0838964bb33661584028f075c5a1a5",
+"addr_c": "1FSc7zHqMiKti6x3bPt8nXQA2ZHn6ENoMe",
+"addr_u": "17AhGSyxZ1yCi97ZYQBofqm9q1sbm4U4j4",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.fwd.first256|msb",
+"k_hex": "0x6cfb18606a89d2188ae2d8ab3b309975fc65b7d703aeaa4a9fbe97f3184e75c9",
+"addr_c": "1AfdWqqKdoEBmQNMdQB7ivuFmm2gZRQFq2",
+"addr_u": "1DPx1krJcKcN78tSTcsSxDD8TGWvztGVDx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.fwd.first256|lsb",
+"k_hex": "0x93ae7218cfe97df9525575c0ebeda63fae990cdcd51b4751184b91560618df36",
+"addr_c": "1Hbg9fKiCXKuELDoqD3QaYBeAm6DX3BTWQ",
+"addr_u": "1EdE5BKfif8gp695tJceu7DWxavGZKi4tk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.fwd.first256|msb_byteswap",
+"k_hex": "0xc9754e18f397be9f4aaaae03d7b765fc7599303babd8e28a18d2896a6018fb6c",
+"addr_c": "1NPpL6AmNms3bF4AfEviocWoFWXtM5hrPd",
+"addr_u": "1xxNQQAfpvw59SLt24gwnXzagUo7EEvxk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.fwd.last256|msb",
+"k_hex": "0xe89a85eff03981ebcb23ccdb7a3aa2819444fb766b268b135a80280cc4a300b",
+"addr_c": "1hV9R7PHW8uDGSiKmiAZqctxzqf9JajtQ",
+"addr_u": "1BpGKp87BmGeAnaPYjJ7WEgxKQcA4MXzuX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.fwd.last256|lsb",
+"k_hex": "0xd00c5233014015ac8d164d66edf222981455c5edb33c4d3d7819c0ff7a159170",
+"addr_c": "1CB4Q6WyFxVw18iFvSc8HAXUjkqLK5Y8jR",
+"addr_u": "18g4mgjv1dZDELySWa6AybbiAcoZ6brXy8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.fwd.last256|msb_byteswap",
+"k_hex": "0xb304acc8002a835b168b266b74f441928aaa3b7cd3cb2bc1e9803ff5ea8890e",
+"addr_c": "1F3BTstowrHu7e4a714EAK4mtbY7SGRAZ1",
+"addr_u": "1Q96cDFTHs9tBQLpzHeTstndbwFWfXCnLT",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.fwd.modN",
+"k_hex": "0x3f9df78bae6e2119ee2c51a372d6dcc4f4b79d6ba4394af1f0d86c19a4425348",
+"addr_c": "1B8y9GRHumxHK1QVgWQZhNG8tma9opC3ED",
+"addr_u": "12aYmtMFDSu37iRSSUAniLLU3DyathvDCR",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.fwd.first256|msb",
+"k_hex": "0x6308db6f6ab91edbba2e1ba8c8cf994503658414fca2aa7a9082940cdb724539",
+"addr_c": "1PZSPLXqKNSdxEKMyxmoQygLJNfczohB6i",
+"addr_u": "1LYCKbSwfU6xQUz9ps5rjUMNZJy5vZYXKn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.fwd.first256|lsb",
+"k_hex": "0x9ca24edb302941095e55453f2821a6c0a299f31315d8745ddb789d56f6db10c6",
+"addr_c": "1JiCUaPuon6KoY7Q8qCWrSpCMGqefwaAoz",
+"addr_u": "1EjjVjzLaZ8xe75NcBz2wVZsBVUmcj3quN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.fwd.first256|msb_byteswap",
+"k_hex": "0x394572db0c9482907aaaa2fc148465034599cfc8a81b2ebadb1eb96a6fdb0863",
+"addr_c": "1EweSvRSrAr2ka5qfFniLJj64UYQx53hVg",
+"addr_u": "185TCdrgkFb5EVWAFeovDS6JHewSUiBWUT",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.fwd.last256|msb",
+"k_hex": "0xf2b9ab5200fc9bd2838ec33184acaaebd9777084668e6b8dc5abfebf337acff8",
+"addr_c": "1NNK5zoe2SjxNsALXAociBF53xaEJHDVfQ",
+"addr_u": "16o7GPy2AoBW8ii3WbYdNVLYbp3767sUom",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.fwd.last256|lsb",
+"k_hex": "0x1ff35eccfd7fd5a3b1d67166210eee9bd75535218cc371c14bd93f004ad59d4f",
+"addr_c": "1HZVQrLD8KgrMd7eCsbRrmYSzEjywi1kQe",
+"addr_u": "19igdHE8bCjJzbGGLxTFeKXPoJvRZ2FbDT",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.fwd.last256|msb_byteswap",
+"k_hex": "0xf8cf7a33bffeabc58d6b8e66847077d9ebaaac8431c38e83d29bfc0052abb9f2",
+"addr_c": "18wRzmJBkut5Btq5zfQP4w31Q7VRTwtr57",
+"addr_u": "1K2oQ2oedrz8dVG7ux8tKhsVzwTueJ97x6",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.fwd.modN",
+"k_hex": "0xf06f8e69b0cdaa2ec4346c8b840b17ff45489b15423b7301ae1d0af1ef1f6349",
+"addr_c": "1Hgucp5oq7i1W1fpG825Pw3DxUmALgsuJ9",
+"addr_u": "1BJmzeFXckcUzW6X5S16Twds2eupbuXWbN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.fwd.first256|msb",
+"k_hex": "0x78ae1c707fcd931ccfb39cfe2e20dd65a875e69602fbff4fdaebd6a21c4b658d",
+"addr_c": "1KbHj7VUoM8Bg67vZSt7yfjU7rBdzam5rQ",
+"addr_u": "1FiqLvBcmUCqimwwq8zsJoTpPHwQonFyWk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.fwd.first256|lsb",
+"k_hex": "0xb1a6d238456bd75bf2ffdf406967ae15a6bb04747f39cdf338c9b3fe0e38751e",
+"addr_c": "19R5o9prXeAW2JddGrh2YM4an9XXcs6nDC",
+"addr_u": "1Nneo8psyCeju6Ku7edu8RegJxHqM4nAhd",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.fwd.first256|msb_byteswap",
+"k_hex": "0x8d654b1ca2d6ebda4ffffb0296e675a865dd202efe9cb3cf1c93cd7f701cae78",
+"addr_c": "1NDmAx48A4cgdbZDXkFKR5Ji1vRiRb1C5k",
+"addr_u": "1MZsqJUWggkSAu6xrsLJqPxDPdE6AdPvF",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.fwd.last256|msb",
+"k_hex": "0xbcdfc5baa02dc1be8e32889e6f2ff3c1d444ae677e37ce125fc03c0884f200e",
+"addr_c": "1CpJhF61GuTw2zYLkHX3D8pvvEbr3YLTYA",
+"addr_u": "1AeeJ8a6sdvLP78JCAVNiSR5L73yMjos5R",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.fwd.last256|lsb",
+"k_hex": "0x7004f21103c03fa4873ec7ee675222b83cff4f679114c717d83b4055da3fb3d0",
+"addr_c": "18SurGo76o8jYa3MLocmZfN93rF3z48og1",
+"addr_u": "1Kpd4wzGsBiuRjDf6EaJXTKWNH92iFbGCV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.fwd.last256|msb_byteswap",
+"k_hex": "0xe204f88c003fc25e17ce377e64a441d3cfff2e68928e3e81bdc02aa5bfccd0b",
+"addr_c": "14rW86Vep2friqCxzRS5kUx94MXEjuiGm5",
+"addr_u": "1HKtQASCGjyy8KEjFMqZBdx66w6JVpUqmQ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.fwd.modN",
+"k_hex": "0xae01c3c96c8c2b180325dd1cfb73e8fd2ad894abed7ca0a37e91c2de73606ea0",
+"addr_c": "1HpHHutKjk4vJzL75pdFgsf28s9qPK47wv",
+"addr_u": "1GnXKUi9Rzm6frWCe9yPSkcDCWs5XsySsP",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.fwd.first256|msb",
+"k_hex": "0x720c9e7a7fed1b9eef3b1efc8c8add450275c414a8f3ff6fd0c3d4089e63452d",
+"addr_c": "1Fwd7JjyrS7oATFws6aoKMrYHycWyEb8z9",
+"addr_u": "19BJQuQHriz7quidH4sKyFJFd99f5ytMtw",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.fwd.first256|lsb",
+"k_hex": "0xb4a2c679102bc30bf6ffcf152823ae40a2bb51313f78dcf779d8b7fe5e79304e",
+"addr_c": "1D3UR7bQpG3SneBw4WhoazBpgy1MaX5T7U",
+"addr_u": "1BS47DnWkktDsFiKgxMtK2yFvFpqpPtzED",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.fwd.first256|msb_byteswap",
+"k_hex": "0x2d45639e08d4c3d06ffff3a814c4750245dd8a8cfc1e3bef9e1bed7f7a9e0c72",
+"addr_c": "18BqL6rNhbhw9m4YqodPDJDg56cA1Tr7vg",
+"addr_u": "1AwRFgHLDsQJYpUWrNnAPJZ53s9s2JjhNG",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.fwd.last256|msb",
+"k_hex": "0xa3edfe5300a8de93c2cb8221c4f8ffbe9d6660c477cb7ec985feabea226f8aac",
+"addr_c": "13wcLzCks1Wik12XN8RZJEQXQVzRSMKqqk",
+"addr_u": "1BWJJXmjwgvQjCedf4GwMLRJfyKXvNJbi1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.fwd.last256|lsb",
+"k_hex": "0x3551f64457d57fa1937ed3ee230666b97dff1f238441d343c97b1500ca7fb7c5",
+"addr_c": "12Xwzx8LQxWvRHDys1u5cgJBtYWVANiRV2",
+"addr_u": "14tmd993HozZNPV23LUMrKeJ2yzfL1rrxF",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.fwd.last256|msb_byteswap",
+"k_hex": "0xac8a6f22eaabfe85c97ecb77c460669dbefff8c42182cbc293dea80053feeda3",
+"addr_c": "19XvmsNoTn2VuELjxDSAqdxt9T3dBgv6X2",
+"addr_u": "1D5KWdjgS1DdvsX6oD2WonveVUdgZpXFCu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.fwd.modN",
+"k_hex": "0x69989c0e24e3090719ca8c694c21d79a8276e1c1917b0b84e6cb77dff3e7ed71",
+"addr_c": "1Jsd2XBTjhCLz7kLuS7zANWD86bfxVwT7A",
+"addr_u": "16Qj2duSfYqKjBfhqsbLSkZQ2yQuoPSuc9",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.fwd.first256|msb",
+"k_hex": "0x8df361858012e46110c4e103737522bafd8a3beb570c00902f3c2bf7619cbad2",
+"addr_c": "1GuCsBn4exJQqjmFpqHnNaXeRKnWCTHfkB",
+"addr_u": "1FaXhRCTujUcBfBeZxmsR2FwY9YxWzoncj",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.fwd.first256|lsb",
+"k_hex": "0x4b5d3986efd43cf4090030ead7dc51bf5d44aecec087230886274801a186cfb1",
+"addr_c": "18zayjtFnhR9Q5EQcprPq3ZkMc5YYeouHz",
+"addr_u": "1JNFNDj3xTEUdG9oHQasZgydHcrtWNmYQC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.fwd.first256|msb_byteswap",
+"k_hex": "0xd2ba9c61f72b3c2f90000c57eb3b8afdba22757303e1c41061e412808561f38d",
+"addr_c": "1CyfHniVie9dDfJ1dWrw5L7ft4FaY9AiRN",
+"addr_u": "1JcFPY1qm52CRLztt1B5f12gFJyognLyUf",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.fwd.last256|msb",
+"k_hex": "0x5c1201acff57216c3d347dde3b07004162999f3b883481367a015415dd907553",
+"addr_c": "1FJmCynsNY4uvERym84PzhogSGvGRVytax",
+"addr_u": "1PVo9RfLdDf1qhAeoSvKG9DbCWiR8p9yKd",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.fwd.last256|lsb",
+"k_hex": "0xcaae09bba82a805e6c812c11dcf999468200e0dc7bbe2cbc3684eaff3580483a",
+"addr_c": "16ntZZYuempEunV7Xw4cSsdcHARUeC4GHA",
+"addr_u": "1BS29oqB3eqCe8pZSTktDPzyXL2mXn4Tn5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.fwd.last256|msb_byteswap",
+"k_hex": "0x537590dd1554017a368134883b9f99624100073bde7d343d6c2157ffac01125c",
+"addr_c": "14W3G3NBecbK35sYSV6zQijjHUP5Yv1vhr",
+"addr_u": "1KR1ZdAG4ZAYTgNrd1YFapn2qiNRoh3Dn5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.fwd.modN",
+"k_hex": "0x272ad16de0a189f058bbfcfac38aa8986806db583cbc3926b7402fcc7828f8c8",
+"addr_c": "16Gt7MxJipByQDytHgVxLYxiHjEypzCe1h",
+"addr_u": "1HdUXkyn9PchxffYtDFvNeoo9zz5TRtScS",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.fwd.first256|msb",
+"k_hex": "0x8751e38f80326ce3304c6301d1df229a578a1969fd0400b02514295de3b49a72",
+"addr_c": "1KCUbwiy5Trvu54AQptu6PL7AV7jWQvpwg",
+"addr_u": "1PPNk7zy772Z4n7Nd1trGvESjDMvGyk7WX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.fwd.first256|lsb",
+"k_hex": "0x4e592dc7ba9428a40d0020bf969851ea5944fb8b80c6320cc7364c01f1c78ae1",
+"addr_c": "1PqeeiHtWqTuxNN49R1g5nDs8XQsAGRYJ9",
+"addr_u": "1nDkMDWnWZy4Pq6q2CxMsAKuN9DVn7Y9B",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.fwd.first256|msb_byteswap",
+"k_hex": "0x729ab4e35d291425b00004fd69198a579a22dfd101634c30e36c32808fe35187",
+"addr_c": "1svaA7KL4sdEnnF7CvPGduxNhY44Fz5FB",
+"addr_u": "1Jy5aGzZXa8bVdf8dvQVxRdbZ6Xn2ByLsS",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.fwd.last256|msb",
+"k_hex": "0xf43203a455fd23e4171cd776190d00c3e2bbb519881c831eda03fc3f77b0dff1",
+"addr_c": "1AR4NGiJfN8seYjEoK7ajCntCGF2jG7gyT",
+"addr_u": "1EBwULgzK9Jbm5jbhyG4ZCjWAX2L9bffAL",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.fwd.last256|lsb",
+"k_hex": "0x8ffb0deefc3fc05b78c1381198addd47c300b0986eeb38e827c4bfaa25c04c2f",
+"addr_c": "1AL1jhkbNBHYtkhLKaJ6b9eq1NRQcwLN1e",
+"addr_u": "1KD4WuvDw1vEfnFnUAr93AgQ99kim8ZVMN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.fwd.last256|msb_byteswap",
+"k_hex": "0xf1dfb0773ffc03da1e831c8819b5bbe2c3000d1976d71c17e423fd55a40332f4",
+"addr_c": "1P4Puy8D8AzZbKiwq1YN83kHCtpgsszPDa",
+"addr_u": "1LAuSLGGLJJjhuroKu1hRHxk9cTv562YVk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.fwd.modN",
+"k_hex": "0xd7fc684be30113052ec417e2d4bee3d2b897d901dabe61367484cea4c30608c9",
+"addr_c": "12o85eYnssxTX2GVEBnKei3XLAj4zWcmde",
+"addr_u": "1FxEE3sVHu4TQFEUCthuuaFS5sJtP8ixjn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.fwd.first256|msb",
+"k_hex": "0x9cf724909546e12445d1e457373066bafc9a7beb035d55856f7d6bf3248dbac6",
+"addr_c": "12exkwLdUZvHLBXzNmMMXKj8rG9XSFfRx1",
+"addr_u": "1JHnNjyNoxDcDo4dZPibUvwy6NkZwwyPjc",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.fwd.first256|lsb",
+"k_hex": "0x635db124cfd6bef6a1aabac0d7de593f5d660cecea278ba2248762a90924ef39",
+"addr_c": "18PH1bXZWLHveAgueG7BpNa9kNFajj3yTt",
+"addr_u": "1Phb8pMqTA3juwcbuhhP1AcPNsmpbp25xk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.fwd.first256|msb_byteswap",
+"k_hex": "0xc6ba8d24f36b7d6f85555d03eb7b9afcba66303757e4d14524e146959024f79c",
+"addr_c": "1HMUSVDJoXvhJskgBYYV4NaAmpLQpvKdhL",
+"addr_u": "1N4CXLtsLcw1tMQ2JgCAZAUSeV6kxYfGFa",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.fwd.last256|msb",
+"k_hex": "0xd4654adff03642d7c713cce7b53551426888f7b997194723a540140cc853007",
+"addr_c": "1TZ4WkCsfdunGF2wdaJ5cshVwfwD2Gg5F",
+"addr_u": "18zYmaiSd8Wz5rSNnDLJyP8S9qe2pw7Q5J",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.fwd.last256|lsb",
+"k_hex": "0xe00ca13302802a5c4e298e99def1116428aacade733c8e3eb426c0ffb52a62b0",
+"addr_c": "1GpTh5bXhbNqX83qVztTTt9nsjfjwz3rmc",
+"addr_u": "1HMAcB1rbUauDLA2iJRB1XreUVfjNvLBsN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.fwd.last256|msb_byteswap",
+"k_hex": "0x73085cc4001543a729471997b8f88261455537bce3c717c2d6403ffad54460d",
+"addr_c": "1FJe5z3FRUAGWGKGZAHCA9Fzgq2cM9CJ62",
+"addr_u": "1HEDFn9LP6ZozsKmhwfXm4xNSorf4ZgzsY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.fwd.modN",
+"k_hex": "0xf457b85b7c9ed4630d2e40bd07dc1d4eee473dd7334475c70d1d11cdf182ba6c",
+"addr_c": "158PYdb9pYjG7fqxyLSF6noyEgKjr4iwNn",
+"addr_u": "14PZ7LpfKo6aqD9WhYkdGGEgVYA6bJQjPQ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.fwd.first256|msb",
+"k_hex": "0x9304e79f95762de7751d2754c4cf668a039a4828fc5155b56041680ce7b18a36",
+"addr_c": "1EVCbcp61j4Gsjq5Nu3aQkAFqu31sxb8LE",
+"addr_u": "19K5pV2PVBe9KzpisvRV7c72CSYK8AXDKz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.fwd.first256|lsb",
+"k_hex": "0x6c518de730168206adaa8a3f141259c05166f3232ae4b8aee7b46ea9f9e720c9",
+"addr_c": "17q9eapyYxoVev7CMKNWfTgD9GH2YvoxEA",
+"addr_u": "146VcjAYqo6UAgV7xyZSvSFwyE2bwiZk7F",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.fwd.first256|msb_byteswap",
+"k_hex": "0x368ab1e70c684160b55551fc28489a038a66cfc454271d75e72d76959fe70493",
+"addr_c": "1EC4KpwBeniZUWxcMnpTuRf8HJRiXN4qMg",
+"addr_u": "1HzEpasxsW1iuq5TxyWEiTNUVPyha2PbZg",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.fwd.last256|msb",
+"k_hex": "0xf17657a100fc67e1434dc332485c55d7e6bbb048994d974eca57fd7f33b5cff4",
+"addr_c": "1Jfh6KdJ3MwbNk3ovKvMbf3BHANyZDYh5N",
+"addr_u": "1A2q2Sy8jHW3AfJ8SgJ4nLftQtBPvbxLYo",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.fwd.last256|lsb",
+"k_hex": "0x2ff3adccfebfea5372e9b299120ddd67ebaa3a124cc3b2c287e63f0085ea6e8f",
+"addr_c": "1CwSKrVcsJ97yeSebxcsZKfnxuX5GWhYVV",
+"addr_u": "1DjpwHeKZppSg1EuMRnv6RZ3uZHMWJe6hh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.fwd.last256|msb_byteswap",
+"k_hex": "0xf4cfb5337ffd57ca4e974d9948b0bbe6d7555c4832c34d43e167fc00a15776f1",
+"addr_c": "1Nqtv3yXdm5WuC8zuDAJSKdEQH3exRJtvN",
+"addr_u": "1ALVL4QSzn68NtHEGuynS1q1R8quFHdXw",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.fwd.modN",
+"k_hex": "0x725636271afba7ea97a89f675d61cd424fbae432693d99ffa099d58e154d098f",
+"addr_c": "14vtzZFxWj7eTiFTnoQGD1ag3425DR1CWv",
+"addr_u": "1BoMvw7Cp33jN9r7jSWK8GVyLmnAP2WiTj",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.fwd.first256|msb",
+"k_hex": "0xb45d2cb0bfce632ccf736cfd1d10ee9a54bad96901f7ff8fe5d7e9512c879a4e",
+"addr_c": "1Ncz4GLBoQ2RTF81LAhhE4Ah9PF8RBG8uE",
+"addr_u": "1H5XsDUPpgVpiysXVtZcGNKpCm9Mnpm2TM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.fwd.first256|lsb",
+"k_hex": "0x7259e1348a97eba7f1ffef80969b5d2a597708b8bf36cef334c673fd0d34ba2d",
+"addr_c": "1PQQJj7kW9kb1oioze6bYSEErLRXoaXe7E",
+"addr_u": "1FfZp56Z4YWWN28HywkbnSgfft4ih9e62C",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.fwd.first256|msb_byteswap",
+"k_hex": "0x4e9a872c51e9d7e58ffff70169d9ba549aee101dfd6c73cf2c63cebfb02c5db4",
+"addr_c": "1pkLXoux9h2Ng1cr72fPjCCpwmjsY4fe4",
+"addr_u": "171CWwWQniepbt7BuhZ5ufqUBtg2c1tqBB",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.fwd.last256|msb",
+"k_hex": "0x7cefca75501ec27d4d31446d9f1ff3c2e8885d9bbd3bcd21afc03c0448f100d",
+"addr_c": "1ARiotBxg2E187zYZpe1LAaY4gAheokwnt",
+"addr_u": "1KffxyVhnmxMuFJMMfUNsEzWbHVqigAekM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.fwd.last256|lsb",
+"k_hex": "0xb008f12203c03f584b3dcbdd9ba111743cff8f9b6228cb2be43780aae53f73e0",
+"addr_c": "18JiXG8H4qC8ZGz32MEZUbbB52dcZnBjFq",
+"addr_u": "1KJNnV3m32GDZK8MhYGJsf9eXbipzYWRN4",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.fwd.last256|msb_byteswap",
+"k_hex": "0xd108f44c003fc1ad2bcd3bbd985882e3cfff1d94614d3d427ec0155a7fcce07",
+"addr_c": "1EvmpL3yLNY9LPxjtU4Uhw58b5rxRAoZpX",
+"addr_u": "1JMbgWnhKe9vWHt8wdxmwEMUdsEP4dZpAX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.fwd.modN",
+"k_hex": "0xd11f50d6f8dae85f372157b0191635c09fda4f71168280ee68bd60cabf88afdb",
+"addr_c": "14EPTRnBHrjej3w9QZLVcNqgxFw4bFxzDy",
+"addr_u": "1L9XoZvLQTr8fasH6gX5NXze4zED6QXwHH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.fwd.first256|msb",
+"k_hex": "0xb10c6db5bfde276ddf372dfc4c45ee8a01bac82854f3ff9fe0c3e8046d938a1e",
+"addr_c": "1GUdkLzbf8BDhQPReaRxDrp9d7AnwfVsHn",
+"addr_u": "1A4cxb3dCy7z5QQSm8HS5Nw31rYoSHGEvE",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.fwd.first256|lsb",
+"k_hex": "0x7851c9b62017c307f9ffcf2a14135d805177a2323fb4ecfbb6e47bfdadb6308d",
+"addr_c": "1FeqrQVH9AGpRWXioh666LntJiLKEoCsLX",
+"addr_u": "1J65iHYDK3v4c97vfZySaxwRp9Q3jYwJw1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.fwd.first256|msb_byteswap",
+"k_hex": "0x1e8a936d04e8c3e09ffff35428c8ba018aee454cfc2d37df6d27debfb56d0cb1",
+"addr_c": "1PjhWHfp9PE3stryJxR98Ns3uLmnktu1jH",
+"addr_u": "1Tq8G3Poj214nbwxXKiKqVaxnUMs8y91A",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.fwd.last256|msb",
+"k_hex": "0x53defda30054ed63c1c74112c8f4ff7d6e9990c8bbc7bdc64afd57d5119f455c",
+"addr_c": "19T84HC9KiQJ5NTc1cGRkGsxkg8yqxb2px",
+"addr_u": "18U3DAECoX6puDRyoWRmUcsKiHqH5dNdC8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.fwd.last256|lsb",
+"k_hex": "0x3aa2f988abeabf5263bde3dd13099976beff2f134882e383c6b72a00c5bf7bca",
+"addr_c": "19KKfTMWdGhLi19MLpgDWPUi2UPQn2b2Eo",
+"addr_u": "18YrTohsMUZLqU8f8KP7fmJdXkHQTSZaGz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.fwd.last256|msb_byteswap",
+"k_hex": "0x5c459f11d557fd4ac6bdc7bbc890996e7dfff4c81241c7c163ed5400a3fdde53",
+"addr_c": "1DxdM4eMzwiULtBJiVXXppzh2qXjJ64foG",
+"addr_u": "177ctkdh71kq4mfjYQx2GE8DjcJikUi78K",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.fwd.modN",
+"k_hex": "0xeb7f43cb8f1106c2ed3ebf4525788cdc479807c567c5d2be991aa108ea4bd4f8",
+"addr_c": "1PcDYwKv473WHaWk3w56inmSx3ybBCqiZh",
+"addr_u": "18qQE6aZodNgsQubVzCk2ka8yx27gpmkNh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.fwd.first256|msb",
+"k_hex": "0xc9a271c5c013b4711084b102626533efa9cf2ebe560800d03a283ea671d8ef93",
+"addr_c": "1BK6py29VxNaVasjqzoWP2V9UoK9TkKXEf",
+"addr_u": "15Lm36kpAFNbLquzTXBrX6RHv2SZiHH1sB",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.fwd.first256|lsb",
+"k_hex": "0xc9f71b8e657c145c0b00106a7d74f395f7cca646408d21088e2dc803a38e4593",
+"addr_c": "13g8oPndWuPgsGcxjHu2xXC4gEEfsKMy4N",
+"addr_u": "1CR1h6tkfvFRYTKonGXJA79hKTwtjCg8gD",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.fwd.first256|msb_byteswap",
+"k_hex": "0x93efd871a63e283ad0000856be2ecfa9ef33656202b1841071b413c0c571a2c9",
+"addr_c": "18BUixSyXwzzX9SVGxK6kcXX3p3Bnud6e2",
+"addr_u": "15vQJVgrkFcvdWpC5dtN3dzxpjrXNWHKSx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.fwd.last256|msb",
+"k_hex": "0x581301f8aa5631782924699b2e06004173ddda2ecc24c1276f01541599d06552",
+"addr_c": "159SU6VpVkyYKTyeBZWjDADBgofADp1vAA",
+"addr_u": "18koYHUYEtbvZewXg5AnjtCUzG4dRJpX4x",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.fwd.last256|lsb",
+"k_hex": "0x4aa60b99a82a80f6e4832433745bbbce82006074d99624941e8c6a551f80c81a",
+"addr_c": "1BRh9UkahgA1SsdqgF3pMgMPkU5KFs6UBS",
+"addr_u": "1GhmRsAyg7FJp4SUb2Twgc344RjXUrGxhW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.fwd.last256|msb_byteswap",
+"k_hex": "0x5265d0991554016f27c124cc2edadd734100062e9b692429783156aaf8011358",
+"addr_c": "19N3zx2uJiKAjAFmWsrjj54jd8yEqpSEr1",
+"addr_u": "1FesDqXw7hx9RzJ6kSHD4Cm4K6XD5i771u",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.fwd.modN",
+"k_hex": "0x4a485e7b6cf047378cb7778de12cf55bdd08961d65c21971a16bcdb8c4513a03",
+"addr_c": "1HKY54z3YCrbdnRLDgKoa2DAVkicDfwTSC",
+"addr_u": "1Ap5kTtFqQRc7oEeyVrFK5EtJg9VERfJAW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.fwd.first256|msb",
+"k_hex": "0xc651b2cac02378b220487201919a33df56cf1d7da90400e035143d59b2e4df63",
+"addr_c": "18A9XRYoJ2Z8RJXRGsCP7WMzA8f4YH49Hx",
+"addr_u": "1KeA7WBCWeuSowuueTEoug2szHKU8223Wa",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.fwd.first256|lsb",
+"k_hex": "0xc6fb274d9abc28ac07002095beb8f36afbcc5989804e12044d1ec403534d8a63",
+"addr_c": "1ECFH6xQ92TKuYMU5GdoYXZYsitfh52PmM",
+"addr_u": "13FCQJvMhrE5U56LJywT2EEuHtK3Z9cGef",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.fwd.first256|msb_byteswap",
+"k_hex": "0x63dfe4b2593d1435e00004a97d1dcf56df339a9101724820b27823c0cab251c6",
+"addr_c": "1AmmfoazSBvhdBJpgJTMXQidhPmkqfm2WW",
+"addr_u": "1JpjQf6tGgDhb7S6VyRDR9D9U5juApTos4",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.fwd.last256|msb",
+"k_hex": "0xa42302f455a932b4161896671d090082b3eee51dcc18c21b9f02a82a66e09aa1",
+"addr_c": "1LuHsraKqx68DhZn1k3U5X2eRzssvePL1n",
+"addr_u": "1LqvPmLsGbcQhs4FsyV8c8X4VswBeXwvkU",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.fwd.last256|lsb",
+"k_hex": "0x85590766541540f9d8431833b8a777cd410090b8e66918682d4c95aa2f40c425",
+"addr_c": "1EEpsMDxq6tb3DFevxFkdrTPtHRteuX4Et",
+"addr_u": "1BpkXU9R427gYsUPgmpskLUrNTkbcGmvXE",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.fwd.last256|msb_byteswap",
+"k_hex": "0xa19ae0662aa8029f1bc218cc1de5eeb38200091d67961816b432a955f40223a4",
+"addr_c": "1GVm7cNehWwPoNZXNHAgsECr4zzmwJCinJ",
+"addr_u": "1GDXXLWgpK5gimzg7vZfiu8yTetHpFvA3E",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.fwd.modN",
+"k_hex": "0x59e310094d2f10c102384abeae159915c30a221f01c0883467019940e933af0f",
+"addr_c": "17W2sLjKTcQSL9RrNMHeuWEP6zDAUGmvCG",
+"addr_u": "1Cte92DGPCj942jYQBNLJSV8nXRcF7Cz7h",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.fwd.first256|msb",
+"k_hex": "0xd8a634d0d547b1344591b456262077efa8df6ebe025955c57a697ea234c9ef87",
+"addr_c": "17DaE85GK8P1jF8xP5X253Bj3B9wTJBAfX",
+"addr_u": "1CiqdFKJtvkTB1LPZ5adDaryb6rR5J3uTA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.fwd.first256|lsb",
+"k_hex": "0xe1f7932c457e965ea3aa9a407d76fb15f7ee04646a2d89a22c8de2ab0b2c651b",
+"addr_c": "1EYexLjXiFBLVK7ZuNetGqHvcoyuCkRb21",
+"addr_u": "12xLr7L8mncNF5AUomuyvkhz3rtdxdSuwC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.fwd.first256|msb_byteswap",
+"k_hex": "0x87efc934a27e697ac5555902be6edfa8ef77202656b4914534b147d5d034a6d8",
+"addr_c": "17ZLgBnsb4YXc71jDqGXx92nPNTqmzC636",
+"addr_u": "1GUu9ChydcDjrXAE1vo9or1zmeESQAXfTj",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.fwd.last256|msb",
+"k_hex": "0x94754f9aa0274396861288b6e52551437ccca6edd61d4632f54014088c52006",
+"addr_c": "1BezSsTUGqUNV7UsZmyrwyHmDPVUj9aS92",
+"addr_u": "1FWfWkDC1PYqB9NVUhzM9WGvrW5LPA8VeA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.fwd.last256|lsb",
+"k_hex": "0x6004a31102802af4c62b86bb765333ec28aa4a76d11486169c2e40559f2ae290",
+"addr_c": "1KveTEdMG8UJA3GGupBm6jkFxCbjQQw58a",
+"addr_u": "1MSwJg15UboazNDqetx3aeRCRoHtbzfTxn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.fwd.last256|msb_byteswap",
+"k_hex": "0x620c5884001542f63d461dd6ecacc371455526e8b286168397402aaf9544709",
+"addr_c": "19P5v6sWYLbZXrQKxH4PWeLb1JNXTGiEf",
+"addr_u": "1NUUDBqN7x7izk2xaJB37zcCAdf1hCVxVi",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.fwd.modN",
+"k_hex": "0x1775456908ed91aa4129bb50257e6a13a89a1bb5ad01b5d63776512d6d74ba66",
+"addr_c": "1GW16vr9h7EKwBKDaJ6tATNceSYoMcKpca",
+"addr_u": "178Ac1UFniW7QQtrzWC19GyJ9DkRc38Jkc",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.fwd.first256|msb",
+"k_hex": "0xd204b6dad56739b665193654848a77cf02df4c3ca85155e570417c08b6e1cf27",
+"addr_c": "19vWBmgfn2WmWj8RD3CJ2L23CQwessGNb5",
+"addr_u": "1DLvezmwYDS9sRh3MaHy7hs3sxjMVasKCg",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.fwd.first256|lsb",
+"k_hex": "0xe4f3876d103e820ea7aa8a153c32fb40f3ee51212a6c98a66d9ce6ab5b6d204b",
+"addr_c": "1FUffbBP8Mqv6K7bQ6zFPGz73BJAVTzjnk",
+"addr_u": "1KRMJic3pSNiM58tpx7iexWcZ5bXqBMu6G",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.fwd.first256|msb_byteswap",
+"k_hex": "0x27cfe1b6087c4170e55551a83c4cdf02cf778a8454361965b63967d5dab604d2",
+"addr_c": "1PnNAxABzdimGmGf64cuDADvQqjzgPSFTv",
+"addr_u": "1D6SfPnSqr8A3s77yv2df6VvKCU62woFZK",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.fwd.last256|msb",
+"k_hex": "0xa16756f100a876b1424982234c585596b7eee04cdd49d64b8f56a96a22e58aa4",
+"addr_c": "1GwPHaiaYpvjQf2GDVRAa7rZyLnWMKTA41",
+"addr_u": "1BsJGDETTvbay9Py7DkJ4YHvSzt3hABtUM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.fwd.last256|lsb",
+"k_hex": "0x2551a74456956af1d26b92bb320777ed69aa1a32c44192428d6e15008f6ae685",
+"addr_c": "1MhR82b83CdbuigYFvE64HmGhMaypZZxpF",
+"addr_u": "1DN4DTSJTM2NvMVowJ383dLuFFGZJ9h6nv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.fwd.last256|msb_byteswap",
+"k_hex": "0xa48ae5226aa9568f4bd649dd4ce0eeb79655584c23824942b176a800f15667a1",
+"addr_c": "18AH5K5uGivnDqBKPjQbwMNSu3PRU98cUH",
+"addr_u": "1HmaEoUkq83JgtVzCMQF6aaSGmQWbUSeT1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.fwd.modN",
+"k_hex": "0x270ff6f6e92c5b33b6aa8e80f2670dcd8e9ba7b749002498fd0c1cb592572f72",
+"addr_c": "1EXshBHMrZU1xHT3JWsranneftArHhLXnd",
+"addr_u": "1DquBmcXySJpf96GkXuAUgwi9v2Lu8QYyr",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.fwd.first256|msb",
+"k_hex": "0xe45938e0ea8b72388a6278a91910bbdf54ef9d7d01a6aacab596bd5138c6df4b",
+"addr_c": "128Y1hXNr4asBetMjDvHekXHMzNEqzc46y",
+"addr_u": "12RWY23uVCBwqJiU2qhAYFKurpbe9FU5PC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.fwd.first256|lsb",
+"k_hex": "0xd2fb631c8abd69ad53556580beb9f72afbdd0898951e46511c4ed157071c9a27",
+"addr_c": "1MxVpu9JLzdar1FyAXxawAh3yQ1r68n3h",
+"addr_u": "1NAj5qj9S9N2SsmpVNKPotnRkFe9JUqbzV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.fwd.first256|msb_byteswap",
+"k_hex": "0x4bdfc63851bd96b5caaaa6017d9def54dfbb1019a978628a38728beae03859e4",
+"addr_c": "1AEBugqH5az6nCEFoVTT5g4poaTmkoa5nq",
+"addr_u": "17osNF8ApXmXhx1U5dgxLW5564p9r28Yoy",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.fwd.last256|msb",
+"k_hex": "0x68ba8f65501b836949214479da1aa283bccc59dee92e8931fa8028044ca1009",
+"addr_c": "1CZuFgUh9qVn5DScjZoNiY7WeBoKa6QG2b",
+"addr_u": "17h8K4e1Mdrg5w3Qvc5m77UUjC3Y2csoDT",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.fwd.last256|lsb",
+"k_hex": "0x90085322014015f8c9174977b9a333dc145585b9e22849296c1d80aa6f15d160",
+"addr_c": "1GoGuCN6AE2NbKx4F34sVbFFrFvwTxxWkJ",
+"addr_u": "1HWZad6Q2LLhtcLXeZsiD16ft5s7fK1aWM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.fwd.last256|msb_byteswap",
+"k_hex": "0x910ca448002a81f93e892ee9dc5cc3b28aaa19d4714929436b80155f6a88b06",
+"addr_c": "1GYehwyfzrpL1cnbRRsmzqftuhZuTUrnMB",
+"addr_u": "16tADhE698r2U1zdzKXwSPrxtQGxj9PxWu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.fwd.modN",
+"k_hex": "0x85d911a6c70b9ba8562346c9ae1b764bdebb12f5f6450b87c52fa7f23c92d5be",
+"addr_c": "1KqVhBbx1YApWTjuWaiyyy8buGg6sbasUF",
+"addr_u": "1LzfK22PDd33PsMT96xVVd7Uj8dnAJZb1J",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.fwd.first256|msb",
+"k_hex": "0xe10879e5ea9b36799a2639a84845bbcf01ef8c3c54a2aadab082bc0479d2cf1b",
+"addr_c": "1MRRkpZGUybGcCkkQx5r4NKVmJc4hsqcae",
+"addr_u": "15ehgSin16R5V4zeXkTcC8aDDQpSU7GDuE",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.fwd.first256|lsb",
+"k_hex": "0xd8f34b9e203d410d5b55452a3c31f780f3dda212159c64599e6cd957a79e1087",
+"addr_c": "1NNpHKDdYdfcUsXbzteNMovYw8L7DfEAmU",
+"addr_u": "1CTQKZZbzdtisBD7FEQMoyqiGsqNNWUz2e",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.fwd.first256|msb_byteswap",
+"k_hex": "0x1bcfd27904bc82b0daaaa2543c8cef01cfbb4548a839269a79369beae57908e1",
+"addr_c": "1HSUaJFtKRzPciwfW2q9FmsFjhQUuzPmTp",
+"addr_u": "1PFD4TSz82kssRKk4pxUVi7WyrEDvRYVbx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.fwd.last256|msb",
+"k_hex": "0x529ba9f20054b972818641138ca4aa697bddd08cee86e9874fa9569511da4558",
+"addr_c": "1GTb23skFaJuAEaiApNg4Lk9CkQu7nQFRS",
+"addr_u": "1Q1e6GMqe1r5u5mkUeTTQD7qMUQNGyrmdV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.fwd.last256|lsb",
+"k_hex": "0x1aa25b88a96a95f2e1976177310bbbde96552531c88261814e9d2a004f95d94a",
+"addr_c": "12QYx8x8jKYxAyskRkJdVLnnARZ5rhPSxQ",
+"addr_u": "148dpMyFBpApfJ49vHnB881AjWs5LUTGLq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.fwd.last256|msb_byteswap",
+"k_hex": "0x5845da119556a94f87e986ee8cd0dd7b69aaa48c1341868172b95400f2a99b52",
+"addr_c": "177YLZRnELHtpp1yNQtp5ZJFzYnGDCwx3F",
+"addr_u": "1LKf5hvE1E9LPGoCSYVDVPi1XmP5GL5Hyn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol0.fwd|msb",
+"k_hex": "0x6e48e92bdaf7549d2c8ff9dfcd23531fc7bc1d71f8e3daadbe880ae789c314e1",
+"addr_c": "1F6PSUNGHNJfXkAnrx2cyZ1Mm5uXpE8FDv",
+"addr_u": "1GdbqrQWRGt8WhCSqvaYBAb8zRVWwMrykX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol0.fwd|lsb",
+"k_hex": "0x8728c391e750117db55bc71f8eb83de3f8cac4b3fb9ff134b92aef5bd4971276",
+"addr_c": "1HJkkC3pztMryuWoNK79nEC3soD5M4WwPm",
+"addr_u": "153kpkZN7vjhdwNGA4ySfTzV6vAgYhht7k",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol0.fwd|msb_byteswap",
+"k_hex": "0xe114c389e70a88beaddae3f8711dbcc71f5323cddff98f2c9d54f7da2be9486e",
+"addr_c": "1G2xDXTjmpjMUYL5ymmLxbW6J8oUhwgzPd",
+"addr_u": "19MWXjApbrpmSyAmS9WtUe697f3SXTKMvu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol1.fwd|msb",
+"k_hex": "0x91b716d42508ab62d370062032dcace03843e28e071c25524177f518763ceb1e",
+"addr_c": "1GRzouJpp5KBSa3oG2fR3WLetAMUF1EfLc",
+"addr_u": "1JH4jW83YdwZNjaKMrDnPSfGbK1sV5uSqh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol1.fwd|lsb",
+"k_hex": "0x78d73c6e18afee824aa438e07147c21c07353b4c04600ecb46d510a42b68ed89",
+"addr_c": "15W6rZqjMPj7UG3PkizBUBatwfGViBLYGm",
+"addr_u": "1LfqeAwZojUxKyXyYxdKf4GzMFv9v878Tz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol1.fwd|msb_byteswap",
+"k_hex": "0x1eeb3c7618f5774152251c078ee24338e0acdc32200670d362ab0825d416b791",
+"addr_c": "19293TRwRMa1VLCNKqT4j5jGPdTDD6VL9T",
+"addr_u": "1AFvBvsx4R4nKH5r3Wr4NS3hPDyawqvPG3",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol0.fwd|msb",
+"k_hex": "0xaa911c408c154bfeff89043b3d4af5e8c1e11087788652b72016ad28ae001521",
+"addr_c": "1Ng67aUYMvj3ed3t2CYeUey6YroDhuVZ93",
+"addr_u": "1F8P5cb9yLak49K5eFS5Mwv89Xr7rcfA5y",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol0.fwd|lsb",
+"k_hex": "0x84a8007514b56804ed4a611ee108878317af52bcdc2091ff7fd2a83102388955",
+"addr_c": "19TqYedLM1K46PAva4FAXj9WzYWWs85eHq",
+"addr_u": "1LQbev98iD99av1syEFpq5DWEBDc6NikJq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol0.fwd|msb_byteswap",
+"k_hex": "0x211500ae28ad1620b75286788710e1c1e8f54a3d3b0489fffe4b158c401c91aa",
+"addr_c": "15MH5MupnyjxZEcR7EXmCND4AZdXnYVeJw",
+"addr_u": "1KLmaj5crTeE8BAf5q1wUTJ3aHgpRHSCi",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol1.fwd|msb",
+"k_hex": "0x556ee3bf73eab4010076fbc4c2b50a173e1eef788779ad48dfe952d751ffeade",
+"addr_c": "1LHwvTY433gsMXXiV9WbqVpgMToANE6roW",
+"addr_u": "139rrmktnPJV4YZ4H4b9YNRYemUmN2d21g",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol1.fwd|lsb",
+"k_hex": "0x7b57ff8aeb4a97fb12b59ee11ef7787ce850ad4323df6e00802d57cefdc776aa",
+"addr_c": "1M5i6YHhi5Dkce7u114A5fFY6i78aq1fXe",
+"addr_u": "12yQM88AZTLboNdcUMJX7fqg5y5EqMBG6Z",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol1.fwd|msb_byteswap",
+"k_hex": "0xdeeaff51d752e9df48ad798778ef1e3e170ab5c2c4fb760001b4ea73bfe36e55",
+"addr_c": "15r6Wt4nVeqETTa897KNCHNz5cDBczhcrh",
+"addr_u": "149bbNES1asqr3MZcWeRFTccfTQBrcQNgv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol0.fwd|msb",
+"k_hex": "0xe6ac3891c3c05586f5db67a67a6f938365159604665afb495640a43ed20c5588",
+"addr_c": "1B5LYH4AZjNWw5oDHF4diMoLhRVhiqThBV",
+"addr_u": "12cEKubh5Xomb2159iDACoLXPmoq6CrNDN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol0.fwd|lsb",
+"k_hex": "0x11aa304b7c25026a92df5a662069a8a6c1c9f65e65e6dbaf61aa03c3891c3567",
+"addr_c": "1P3B7mHFVwuGyY9MHJHLy67hRqHT4snoR7",
+"addr_u": "113brzKj53C7YSht1oMxwhwAaTdu1FvSCw",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol0.fwd|msb_byteswap",
+"k_hex": "0x88550cd23ea4405649fb5a660496156583936f7aa667dbf58655c0c39138ace6",
+"addr_c": "1ArL9eus4Z8hj4PzSRBCKRc5oW9FQZY5bm",
+"addr_u": "1NCLb5Efi45ekKiGCiTtW1A7oqTRT89ciq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol1.fwd|msb",
+"k_hex": "0x1953c76e3c3faa790a24985985906c7c9aea69fb99a504b6a9bf5bc12df3aa77",
+"addr_c": "17XE18Xm4VeLFLHRFCVUASshB48qVdqdT4",
+"addr_u": "1GNHjzwesxq8AX7J31sr3nDEig1Nemfs8s",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol1.fwd|lsb",
+"k_hex": "0xee55cfb483dafd956d20a599df9657593e3609a19a1924509e55fc3c76e3ca98",
+"addr_c": "1LTur2TWeAT8PRm8AAmte8izNCL573aD3i",
+"addr_u": "1PNojfbdMYmtQzypTDDEnb77omW3xECH9",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol1.fwd|msb_byteswap",
+"k_hex": "0x77aaf32dc15bbfa9b604a599fb69ea9a7c6c90855998240a79aa3f3c6ec75319",
+"addr_c": "1DmEXcNYgcTRmqUKADezM5WhhHaRgK5Xg6",
+"addr_u": "1JVDadNA6EYkQ2KS4EcNumW2dNY72UBb5y",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol0.fwd|msb",
+"k_hex": "0xaa002a000443ab56014304a0014150083c67724772017953e9d61309924b4d20",
+"addr_c": "1Drr2f8ACu8donAx1MquxvkSyWVUfAKWKC",
+"addr_u": "15V5mpF3t6dcnoGTdL2Y5JBvxEojRGEUTv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol0.fwd|lsb",
+"k_hex": "0x4b2d24990c86b97ca9e804ee24ee63c100a82800520c2806ad5c22000540055",
+"addr_c": "13N4n2MCvdP3UFRP1scQmz2AP1uRYdPB13",
+"addr_u": "1FzGDGm2ZjNnvGk1fEtHP1W2kUcCxfAY9G",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol0.fwd|msb_byteswap",
+"k_hex": "0x204d4b920913d6e9537901724772673c08504101a004430156ab4304002a00aa",
+"addr_c": "1PgnKp9s811yDQXcBqjsiB7uCdgJa6mTRX",
+"addr_u": "1HiAUCdPfMnAtd47xSzzBFaSRyTqy3RivY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol1.fwd|msb",
+"k_hex": "0x55ffd5fffbbc54a9febcfb5ffebeaff7c3988db88dfe86ac1629ecf66db4b2df",
+"addr_c": "185fFWWu3nJtXsEyS28qxXnKfhn5uuJfs7",
+"addr_u": "1PzihwzAuVnTZaYAPjraS4oYHQqiKhcKFr",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol1.fwd|lsb",
+"k_hex": "0xfb4d2db66f37946835617fb11db119c3eff57d7ffadf3d7f952a3ddfffabffaa",
+"addr_c": "1HWdsk1Ee7yBdEMoRaqRXmpmYbgTAp7JSu",
+"addr_u": "1BqWyhkd6tSdMunemn5w8J8gYHrEABzWuh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol1.fwd|msb_byteswap",
+"k_hex": "0xdfb2b46df6ec2916ac86fe8db88d98c3f7afbefe5ffbbcfea954bcfbffd5ff55",
+"addr_c": "1H4sdRnwXhoMy9QV2aoRa3uWEU2cHwXYEB",
+"addr_u": "18RAnt9kAn5T1dgN6Rrusr2bTjoVrzqVtx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol0.fwd|msb",
+"k_hex": "0xc08bb1af8b886ee35dbea8b8ee1f98e61ac51a9ce4d48c004441fcd061b8c9c6",
+"addr_c": "1PYZoS6GBUPEKtimN5bWMvJhuDhN6J2j9n",
+"addr_u": "1Nhi3zjewjf7YCDpk9H7BnG2BiEs4TtbgH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol0.fwd|lsb",
+"k_hex": "0x63931d860b3f822200312b273958a3586719f8771d157dbac77611d1f58dd103",
+"addr_c": "1HDARpBbZy9JrHiQx6Ji75GhbjZc3XHCPC",
+"addr_u": "1Egfgy7xQqn6K6bTQpStAnHQoKQdSjdroh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol0.fwd|msb_byteswap",
+"k_hex": "0xc6c9b861d0fc4144008cd4e49c1ac51ae6981feeb8a8be5de36e888bafb18bc0",
+"addr_c": "1CogE1NBrFLwqW5iUr6crSQFsSf1ECuayd",
+"addr_u": "1EvKU4Ymfs9P9GuyKkqsUd4A14QiUbps7N",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol1.fwd|msb",
+"k_hex": "0x3f744e507477911ca241574711e06719e53ae5631b2b73ffbbbe032f9e473639",
+"addr_c": "1JrJHkUAVMjWoSoasKNU4okyBqFUvFyE3x",
+"addr_u": "1GMzZbV9ktQiuWgN8soZV8SYhs3spnmc31",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol1.fwd|lsb",
+"k_hex": "0x9c6ce279f4c07dddffced4d8c6a75ca798e60788e2ea82453889ee2e0a722efc",
+"addr_c": "147EH65LL2ewrKETvmJk74vvkzqXHUV2Pj",
+"addr_u": "1ES8gcTJxJqAjiQiL7NcQ13VTM7PU4XE2i",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol1.fwd|msb_byteswap",
+"k_hex": "0x3936479e2f03bebbff732b1b63e53ae51967e011475741a21c917774504e743f",
+"addr_c": "15d2zkvpMKP5PZK7QQNkw6G8uQyaMoosmV",
+"addr_u": "1AtfyXUjgZHPudQ458HtGt8offFU44sRhp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol0.fwd|msb",
+"k_hex": "0xc08bb1af8b886ee35dbea8b8ee1f98e61ac51a9ce4d48c004441fcd061b8c9c6",
+"addr_c": "1PYZoS6GBUPEKtimN5bWMvJhuDhN6J2j9n",
+"addr_u": "1Nhi3zjewjf7YCDpk9H7BnG2BiEs4TtbgH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol0.fwd|lsb",
+"k_hex": "0x63931d860b3f822200312b273958a3586719f8771d157dbac77611d1f58dd103",
+"addr_c": "1HDARpBbZy9JrHiQx6Ji75GhbjZc3XHCPC",
+"addr_u": "1Egfgy7xQqn6K6bTQpStAnHQoKQdSjdroh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol0.fwd|msb_byteswap",
+"k_hex": "0xc6c9b861d0fc4144008cd4e49c1ac51ae6981feeb8a8be5de36e888bafb18bc0",
+"addr_c": "1CogE1NBrFLwqW5iUr6crSQFsSf1ECuayd",
+"addr_u": "1EvKU4Ymfs9P9GuyKkqsUd4A14QiUbps7N",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol1.fwd|msb",
+"k_hex": "0x3f744e507477911ca241574711e06719e53ae5631b2b73ffbbbe032f9e473639",
+"addr_c": "1JrJHkUAVMjWoSoasKNU4okyBqFUvFyE3x",
+"addr_u": "1GMzZbV9ktQiuWgN8soZV8SYhs3spnmc31",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol1.fwd|lsb",
+"k_hex": "0x9c6ce279f4c07dddffced4d8c6a75ca798e60788e2ea82453889ee2e0a722efc",
+"addr_c": "147EH65LL2ewrKETvmJk74vvkzqXHUV2Pj",
+"addr_u": "1ES8gcTJxJqAjiQiL7NcQ13VTM7PU4XE2i",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol1.fwd|msb_byteswap",
+"k_hex": "0x3936479e2f03bebbff732b1b63e53ae51967e011475741a21c917774504e743f",
+"addr_c": "15d2zkvpMKP5PZK7QQNkw6G8uQyaMoosmV",
+"addr_u": "1AtfyXUjgZHPudQ458HtGt8offFU44sRhp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol0.fwd|msb",
+"k_hex": "0xc88bb1af9f9e6ef35fbea8f9ee1fb8ee9acd3abcfdd48cb0ecf7fcd16df9c9c7",
+"addr_c": "1JzB7k3JCTFS6pf9egoznWV6C6i2oBPTdD",
+"addr_u": "1E3AJeNUrZuozjPq69ozcyV2Dj15xdaNR5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol0.fwd|lsb",
+"k_hex": "0xe3939fb68b3fef370d312bbf3d5cb359771df8779f157dfacf7679f9f58dd113",
+"addr_c": "1HFtjFbeXRc9zhv9acnxyxdRDriB8g8PSD",
+"addr_u": "1PQ6jHnP6CuN79VgTH51oWqQmCNh77sVcg",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol0.fwd|msb_byteswap",
+"k_hex": "0xc7c9f96dd1fcf7ecb08cd4fdbc3acd9aeeb81feef9a8be5ff36e9e9fafb18bc8",
+"addr_c": "1BfvJBjMBshQutnXsQfwzmTjcf14YgVHFi",
+"addr_u": "1CDha8gjK4W4U8nfiCnb3KM7fgYEovJe31",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol1.fwd|msb",
+"k_hex": "0x37744e506061910ca041570611e047116532c543022b734f1308032e92063638",
+"addr_c": "112zR5f4UxueLUcJUFijVbB3QopEM1vshp",
+"addr_u": "13Rebm9iMFbGpfGw4okf6jP5JQdFzQZX2H",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol1.fwd|lsb",
+"k_hex": "0x1c6c604974c010c8f2ced440c2a34ca688e2078860ea8205308986060a722eec",
+"addr_c": "13F7JyHjR7yhnCcQjFgyUMKixqaBY2q9GS",
+"addr_u": "13VnDmaeW5difkLfNvfcK9gqJmyDMX3Hxu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol1.fwd|msb_byteswap",
+"k_hex": "0x383606922e0308134f732b0243c532651147e011065741a00c916160504e7437",
+"addr_c": "1PqWPHEon1wwpZL6Aqpx6Qewi4ZkrG967Z",
+"addr_u": "1Ca7QK9VXShMY16RAB8psGPrnf7DnbWLMt",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol0.fwd|msb",
+"k_hex": "0x2200080003400d0400510400424000002c4000000200f14100001018d2000400",
+"addr_c": "1EXnh31ENoG2Fi9wrTKy5CyQcrYuA9PvMq",
+"addr_u": "1KpVouJHzFPXmVqyzmXMGJAgygZ6yqALRp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol0.fwd|lsb",
+"k_hex": "0x20004b18080000828f0040000002340000024200208a0020b002c000100044",
+"addr_c": "138RV7GTGTXU6ab55rdeBsAk4hcLELBkve",
+"addr_u": "1KrCVnQf4oQkCzZwsdqiVkJSq9z5KhuxFz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol0.fwd|msb_byteswap",
+"k_hex": "0x400d21810000041f100020000402c0000404200045100040d400300080022",
+"addr_c": "18yKjhGTKjwnNZvrQ6pSB3zdyntruxce3o",
+"addr_u": "1NotsCqCXzeHVAVgBPhFJFzhXsUpsyTcDA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol1.fwd|msb",
+"k_hex": "0xddfff7fffcbff2fbffaefbffbdbfffffd3bffffffdff0ebeffffefe72dfffbff",
+"addr_c": "1ET987Ay9tAWstjBQG2kw1qcmAhVHsdNPB",
+"addr_u": "164uUqzk4PHhchxKAp2CUGevH7nq1kP1p1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol1.fwd|lsb",
+"k_hex": "0xffdfffb4e7f7ffff7d70ffbffffffdcbfffffdbdffdf75ffdf4ffd3fffefffbb",
+"addr_c": "19VewPchpU7bHj3KeKJR9dm6Tw7LTPnmuf",
+"addr_u": "15MF9iPFEqZCWGXFpsKjcrneegjrngHVHu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol1.fwd|msb_byteswap",
+"k_hex": "0xfffbff2de7efffffbe0efffdffffbfd3ffffbfbdfffbaefffbf2bffcfff7ffdd",
+"addr_c": "17JaM47Jm1ExmsafE73d5QXzao1CVA2Fou",
+"addr_u": "1KSvKZYK4Nd4EkkYP4vphmEdgVyEqAmUsF",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0123.fwd",
+"k_hex": "0x91c14e30ca639876c6cd22bc997a4a4bce94637788b2a0a0a02d92cc2ab58653",
+"addr_c": "1P8rspbqEtf1pfNMP46wmrjMQLJPZSPsLB",
+"addr_u": "1PsqNYDrou2HAbZXqTciaSCY7FrfYGUJ7p",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0132.fwd",
+"k_hex": "0xf08a68e0a842d8eb6645db05552eb2ca1eb3ceb635f7878f68511e08d4f12c9f",
+"addr_c": "1CTQ5KnYDoqAhCAyh7NEXQVjGw1tB9twpg",
+"addr_u": "1FLCUS5C9Jonnyf7qy5aTV44Bbv3XFqEuk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0213.fwd",
+"k_hex": "0x251a6e8881a274dbc6ae36221756854a067dd122ad56166e148b04299d606a",
+"addr_c": "1vpUNL2eWcdGE3ppN2aFhh7xeMMe9FGqj",
+"addr_u": "14JpLvcbXtW4ZDzrMNz4KgmcD3w9NE1yfC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0231.fwd",
+"k_hex": "0xbdb74fce4440235e1ab81ec799802781ea45544e7d3723f3fe5ba17d7e14ad02",
+"addr_c": "1HeQ8Y86PpktCjorkCvVp9ojAGfsNzudG5",
+"addr_u": "165uNAVyfd59K3oEeM1izpPFj8GF6ZyVGp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0312.fwd",
+"k_hex": "0xcd52015c247eece79038f1f86668cb3bd046e050193592b6c3f16d05a2f7220e",
+"addr_c": "1JeGddfX9KhBd74ANSy3wL5KkBxdknh64E",
+"addr_u": "17wvG1RjjZQ53GbyyRiN3MZ5ZFH1e7fkMA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0321.fwd",
+"k_hex": "0x2c1b1c0c025e2d5c2fb1aa41221d33bb65b76ea81731d969cc4299b57cfc8719",
+"addr_c": "1Q4yJqSDLR5ydCg3d7Y71Pv7rj4VUJ9Jk1",
+"addr_u": "1PrG6rV4LPyogdyBgMnzc6r3cqvMBsRtiH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1023.fwd",
+"k_hex": "0x467b0f0098944bbfe5cf11d62e7f8ad70d7526fc68752b39fc9fd9f3a7bfac36",
+"addr_c": "1K9wg5Ftn9Jz7oHQS9PAwbE41wmMXF9PmU",
+"addr_u": "1F2yTo5RJhnsQHSF75dvm4oYjQnicNDuH1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1032.fwd",
+"k_hex": "0xa54429b076738c348547ca1eea33f3555d94923b15ba1228c4c3653051fb5282",
+"addr_c": "19f3VJLvd5LYRU4exEFhUuofoqaqssXKk1",
+"addr_u": "16FsK54yo9Ukcab57z3BcGv4jWbkShVuhs",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1203.fwd",
+"k_hex": "0x2342a77c14d05fbc0fc228c93fb9a348bf0838964bb33661584028f075c5a1a5",
+"addr_c": "1FSc7zHqMiKti6x3bPt8nXQA2ZHn6ENoMe",
+"addr_u": "17AhGSyxZ1yCi97ZYQBofqm9q1sbm4U4j4",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1230.fwd",
+"k_hex": "0x3f9df78bae6e2119ee2c51a372d6dcc4f4b79d6ba4394af1f0d86c19a4425348",
+"addr_c": "1B8y9GRHumxHK1QVgWQZhNG8tma9opC3ED",
+"addr_u": "12aYmtMFDSu37iRSSUAniLLU3DyathvDCR",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1302.fwd",
+"k_hex": "0xf06f8e69b0cdaa2ec4346c8b840b17ff45489b15423b7301ae1d0af1ef1f6349",
+"addr_c": "1Hgucp5oq7i1W1fpG825Pw3DxUmALgsuJ9",
+"addr_u": "1BJmzeFXckcUzW6X5S16Twds2eupbuXWbN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1320.fwd",
+"k_hex": "0xae01c3c96c8c2b180325dd1cfb73e8fd2ad894abed7ca0a37e91c2de73606ea0",
+"addr_c": "1HpHHutKjk4vJzL75pdFgsf28s9qPK47wv",
+"addr_u": "1GnXKUi9Rzm6frWCe9yPSkcDCWs5XsySsP",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2013.fwd",
+"k_hex": "0x69989c0e24e3090719ca8c694c21d79a8276e1c1917b0b84e6cb77dff3e7ed71",
+"addr_c": "1Jsd2XBTjhCLz7kLuS7zANWD86bfxVwT7A",
+"addr_u": "16Qj2duSfYqKjBfhqsbLSkZQ2yQuoPSuc9",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2031.fwd",
+"k_hex": "0x272ad16de0a189f058bbfcfac38aa8986806db583cbc3926b7402fcc7828f8c8",
+"addr_c": "16Gt7MxJipByQDytHgVxLYxiHjEypzCe1h",
+"addr_u": "1HdUXkyn9PchxffYtDFvNeoo9zz5TRtScS",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2103.fwd",
+"k_hex": "0xd7fc684be30113052ec417e2d4bee3d2b897d901dabe61367484cea4c30608c9",
+"addr_c": "12o85eYnssxTX2GVEBnKei3XLAj4zWcmde",
+"addr_u": "1FxEE3sVHu4TQFEUCthuuaFS5sJtP8ixjn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2130.fwd",
+"k_hex": "0xf457b85b7c9ed4630d2e40bd07dc1d4eee473dd7334475c70d1d11cdf182ba6c",
+"addr_c": "158PYdb9pYjG7fqxyLSF6noyEgKjr4iwNn",
+"addr_u": "14PZ7LpfKo6aqD9WhYkdGGEgVYA6bJQjPQ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2301.fwd",
+"k_hex": "0x725636271afba7ea97a89f675d61cd424fbae432693d99ffa099d58e154d098f",
+"addr_c": "14vtzZFxWj7eTiFTnoQGD1ag3425DR1CWv",
+"addr_u": "1BoMvw7Cp33jN9r7jSWK8GVyLmnAP2WiTj",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2310.fwd",
+"k_hex": "0xd11f50d6f8dae85f372157b0191635c09fda4f71168280ee68bd60cabf88afdb",
+"addr_c": "14EPTRnBHrjej3w9QZLVcNqgxFw4bFxzDy",
+"addr_u": "1L9XoZvLQTr8fasH6gX5NXze4zED6QXwHH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3012.fwd",
+"k_hex": "0xeb7f43cb8f1106c2ed3ebf4525788cdc479807c567c5d2be991aa108ea4bd4f8",
+"addr_c": "1PcDYwKv473WHaWk3w56inmSx3ybBCqiZh",
+"addr_u": "18qQE6aZodNgsQubVzCk2ka8yx27gpmkNh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3021.fwd",
+"k_hex": "0x4a485e7b6cf047378cb7778de12cf55bdd08961d65c21971a16bcdb8c4513a03",
+"addr_c": "1HKY54z3YCrbdnRLDgKoa2DAVkicDfwTSC",
+"addr_u": "1Ap5kTtFqQRc7oEeyVrFK5EtJg9VERfJAW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3102.fwd",
+"k_hex": "0x59e310094d2f10c102384abeae159915c30a221f01c0883467019940e933af0f",
+"addr_c": "17W2sLjKTcQSL9RrNMHeuWEP6zDAUGmvCG",
+"addr_u": "1Cte92DGPCj942jYQBNLJSV8nXRcF7Cz7h",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3120.fwd",
+"k_hex": "0x1775456908ed91aa4129bb50257e6a13a89a1bb5ad01b5d63776512d6d74ba66",
+"addr_c": "1GW16vr9h7EKwBKDaJ6tATNceSYoMcKpca",
+"addr_u": "178Ac1UFniW7QQtrzWC19GyJ9DkRc38Jkc",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3201.fwd",
+"k_hex": "0x270ff6f6e92c5b33b6aa8e80f2670dcd8e9ba7b749002498fd0c1cb592572f72",
+"addr_c": "1EXshBHMrZU1xHT3JWsranneftArHhLXnd",
+"addr_u": "1DquBmcXySJpf96GkXuAUgwi9v2Lu8QYyr",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3210.fwd",
+"k_hex": "0x85d911a6c70b9ba8562346c9ae1b764bdebb12f5f6450b87c52fa7f23c92d5be",
+"addr_c": "1KqVhBbx1YApWTjuWaiyyy8buGg6sbasUF",
+"addr_u": "1LzfK22PDd33PsMT96xVVd7Uj8dnAJZb1J",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.odd.base25sq.fwd",
+"k_hex": "0x137b13669f2fcaa5fa85a26a976b806494c5f3fcda94963a10b288c1da84949a",
+"addr_c": "17mXxaM886DKmohN56epUc6jqmvMoHWj12",
+"addr_u": "13ZajUBqQ3dBcVyANBD9KCvE6LbkoCa49y",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.oddnoIO.base25sq.fwd",
+"k_hex": "0xb61972e9054f78d256c96263aade2038c89de3e4cb7599773fc3ec49c3ccff46",
+"addr_c": "1P5zoXerKtjNvtN8WaV4uDpmPAHRbh1GYq",
+"addr_u": "1CQvQzosB2AP3aH2TzFvy5iJtos9XLz2o5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.whole.base25sq.fwd",
+"k_hex": "0xaace8eb872c34c781fa17261ec810b354b11c1025e2bfef81abf9f936dd9c878",
+"addr_c": "12oFBS9VLTf2KoYjQDHgnU5ULpZVhxxe86",
+"addr_u": "1MwGdnCQsWHaEu2HsBYgsTSLgAd4gpvgTa",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.wholenoIO.base25sq.fwd",
+"k_hex": "0x17dd5689112f0e00cbe2f739940b4ed1dbc032ba4f5e64150438b0fc06749cf3",
+"addr_c": "1LjEFwU9SzCxpFfjuYCpKYNWReNECEtYjo",
+"addr_u": "1HU5hfrSKBGg6fAWp2E6qtS9tLLb3BUJZF",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.oddnoIO.primeidx0.rows01.fwd|msb",
+"k_hex": "0x7d6c7663d6de",
+"addr_c": "1HEmcRvisKG7F74k8aFBDZ1RqQHM51h2dp",
+"addr_u": "161WuyrVBkUB9VzipcWVbXSqTan8K8BpZM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.oddnoIO.primeidx0.rows01.fwd|lsb",
+"k_hex": "0x1edaf19b8daf80",
+"addr_c": "1Gsa2Gxta5dJ2MTg4EHaV2dKbfqRKi9qPN",
+"addr_u": "1De8JVMAcJBTCHubHyQMY44Hr7Pcp3XDWF",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.even.primeidx0.row.fwd|msb",
+"k_hex": "0x16e269ef3aeea559",
+"addr_c": "1ACZL5nuakXPHyAqnunwwnS5rA63SfAadU",
+"addr_u": "1ARfGLEWxivyQ27WHYxBheJYiD4xcmBt7o",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.even.primeidx0.row.fwd|lsb",
+"k_hex": "0x1354aeeb9ef2c8ed",
+"addr_c": "1Lpo8C7UcE2qEYGnYdCAnHcpc1SjHbF8C8",
+"addr_u": "1NPkYajkx9cAMJ4gXvZcreFpfnyRhLeDDg",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.oddnoIO.primeidx1.rows01.fwd|msb",
+"k_hex": "0x29dee7fbaf16ba",
+"addr_c": "1AkCEBJE1hEDYe7L7WytrB61zvBHww6r7V",
+"addr_u": "16nsLiUwubGVHsYaXQDcP32D6ifWPXBuY5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.oddnoIO.primeidx1.rows01.fwd|lsb",
+"k_hex": "0x175a3d77f9dee5",
+"addr_c": "1NTacyTX5cAY4541ZtpfGoTkNsFnvXJSwb",
+"addr_u": "1AiBwaCMA3kDtmRvw8dHHFk9ewpTZ3MaGV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.even.primeidx1.row.fwd|msb",
+"k_hex": "0x1f37d53d5e6dc784",
+"addr_c": "1BrT51ZE1uFNBR9Shf7nebDGXxspFhUzyb",
+"addr_u": "1A6pm781y8whxWBihDzdVBnDwyzvQkKr3T",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.even.primeidx1.row.fwd|lsb",
+"k_hex": "0x43c76cf57957d9f",
+"addr_c": "1EWfYJWfzTJfP7FNvUVwwcWeKrhbbzqq6Y",
+"addr_u": "1646TnEk57QEGpsaJi5Cc7yRqfKYNMEW69",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.rev.all285|msb",
+"k_hex": "0x46d757808df76ad6f8b1f8eba2ce6e2e36d2b3c84d742392018d78b2d4823068",
+"addr_c": "1GhcDTwwnpimgjJra8qyK5UDNstS6SBnmN",
+"addr_u": "18Vjj3k9JDS5r1xKmrxHYjG2obTNDwZK7V",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.rev.all285|lsb",
+"k_hex": "0x57b5ee949c9b23fe77f3a4696c2620a44d21870478b1a482d00e3a60e3606d71",
+"addr_c": "1KLT4uXqoPSw6sJ87LHT8LqTutv5bB7sd8",
+"addr_u": "1GdQH6FAVn2kWCUqJ136AeEBXoLCFAAtXM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.rev.first256|msb",
+"k_hex": "0xc2c5187236babc046fbb56b7c58fc75c1ef17e5a9625cfee7fc4d9392977adea",
+"addr_c": "1GcRLegCftBKwWP4FmxGwZbrppyPPjY5EU",
+"addr_u": "1NifvMyE9vdtoa1Uhbpm3aoT8hMLjDWMu4",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.rev.first256|lsb",
+"k_hex": "0x57b5ee949c9b23fe77f3a4695a7e8f783ae3f1a3ed6addf6203d5d6c4e18a343",
+"addr_c": "1B7PtvdNcrJEGN5W479GpLd8AUxLuM3twm",
+"addr_u": "12nyJq3kpEENDWUztuKimTy7wWG9PVzwbu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.rev.first256|msb_byteswap",
+"k_hex": "0xeaad772939d9c47feecf25965a7ef11e5cc78fc5b756bb6f04bcba367218c5c2",
+"addr_c": "14nr4t59vES5XdNgdaWumvH5PwLY8wN9kQ",
+"addr_u": "1NYRLPfzUE8fgFVtXVme3jAuNS9KBhM5Rz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.rev.last256|msb",
+"k_hex": "0x46d757808df76ad6f8b1f8eb83de2fcb52c4b9fdcff89b27252ef5bd495e24f6",
+"addr_c": "167WeTp4MxLTFZLKjS5rK326Pf8NssDoCV",
+"addr_u": "1DwKC1p5kohBQm9cfPSa8ur5ToDqCvxjL8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.rev.last256|lsb",
+"k_hex": "0x6f247a92bdaf74a4e4d91ff3bf9d234ad3f47bc1d71f8d1f6b56efb101eaeb62",
+"addr_c": "17h7x92WJ5nPx5G1xy7XGMNVRLUNY4YD2T",
+"addr_u": "1KZc2gFX7mKh55Kfny6gcqgJP25CxcWUJ7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol0.rev.last256|msb_byteswap",
+"k_hex": "0xf6245e49bdf52e25279bf8cffdb9c452cb2fde83ebf8b1f8d66af78d8057d746",
+"addr_c": "16r7HEFXDPPTyBNphQkH5sENNt242Pqe5o",
+"addr_u": "1EF57ccL6DTkQAUVbwd1pdWV4uCDgT43uR",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.rev.all285|msb",
+"k_hex": "0xb928a87f72089529074e071485dbb633adf31516e9da30d8243e1db1dbb410d8",
+"addr_c": "1DvGAcU7LBoQuUX7iW8hKuAVxqkmD5MeH7",
+"addr_u": "14Z8xv1kU6fovosAErD96VYtXGEatuuQa7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.rev.all285|lsb",
+"k_hex": "0xa84a116b6364dc01880c5b96bc8403bd97a441dabe9cafe755bd5c03ccd5d3cf",
+"addr_c": "1Jx8Lh5nGdrY4ZnMRThbkqc4ugf3qd9hjQ",
+"addr_u": "1KSzEXDHdfBpEvboFB2dFfi4zR8e3ddffZ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.rev.first256|msb",
+"k_hex": "0x3d3ae78dc94543fb9044a9483a7038a3e10e81a569da3011803b26c6d6885215",
+"addr_c": "1Ah819XhkFDGkeXBHtfk7P6HsPoNjiwiu1",
+"addr_u": "1i5kxSdJ3GvU8AwA37wvEX2iNBZ4Mqr5G",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.rev.first256|lsb",
+"k_hex": "0xa84a116b6364dc01880c5b96a5817087c51c0e5c12952209dfc2a293b1e75cbc",
+"addr_c": "1HLR2SqsiBv6fbKS5sAqt8cvhY6bvZvgVo",
+"addr_u": "17UQKydYsyegxK5VgcYgxnCrxd838dpkz8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.rev.first256|msb_byteswap",
+"k_hex": "0x155288d6c6263b801130da69a5810ee1a338703a48a94490fb4345c98de73a3d",
+"addr_c": "1HWXGPomUVGm1o7vEKZTaZ8mtzvMtNYjYX",
+"addr_u": "1Kq45oAfA6QjYqe9NTAhXpzUecxeVF6ZKJ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.rev.last256|msb",
+"k_hex": "0xb928a87f72089529074e07147c21d034ad3b4602300764d8dad10a42b6a1db09",
+"addr_c": "14r5w4qRvMnafeEwseFTzsvwV67WBqWbzv",
+"addr_u": "1FBCPGC1D4Jwb9RPwdxg6Bj6TV4Qem19n",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.rev.last256|lsb",
+"k_hex": "0x90db856d42508b5b1b26e00c4062dcb52c0b843e28e072e094a9104efe15149d",
+"addr_c": "17qijWfvTM3FwpTSJgKt62JQZEspy6z8jm",
+"addr_u": "1KyyUoYgbdFMdn8FaKZCqgnoXya4HHfB5S",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.row.pol1.rev.last256|msb_byteswap",
+"k_hex": "0x9dba1b6420ad1dad864073002463bad34d0217c14074e07299508727fa828b9",
+"addr_c": "16swDpFwGkw8KpoYBWUD9s98reQZNv1dkp",
+"addr_u": "13a6y1Fp9gvV4cDX3md9eCzzsWHZVo7tNN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.rev.all285|msb",
+"k_hex": "0xd424bdab4011dac4cc51ee109d21e52f3c25f93cf1766c9391ef105087c03174",
+"addr_c": "1EeJ5zmrLnTB5uxfRKAym6TWWdwr9WYBkd",
+"addr_u": "14ZtXbcwUxCHRigTJp5ZzA58SXtiFum9sV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.rev.all285|lsb",
+"k_hex": "0x81182a8bfd6fe2410ecfa95f4b2902cf9c5587c4d456c44f46c0418917255209",
+"addr_c": "1HG1oaK5xduzPvuVWSUuKuJs3BXRAvHf1W",
+"addr_u": "1AUnJm4ybm8hhGsWWX9NbPsRp4aH4Sqas8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.rev.first256|msb",
+"k_hex": "0x8215000ea125ed5a008ed626628f708443c145f4fa95f3708247f6bfd1541881",
+"addr_c": "1APqd96gv1GfpTuT4Gz6bQmqAC6DyRvY95",
+"addr_u": "1AaYDXhkoec5axdCLXRCRtUhdb4BxKgpsg",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.rev.first256|lsb",
+"k_hex": "0x81182a8bfd6fe2410ecfa95f2fa283c2210ef146646b71005ab7a4857000a841",
+"addr_c": "1P775A3NTXaPUgj66qTsxwC5h5dr1gH48q",
+"addr_u": "1JdDNvoP4rW35CAjVjkQJHS5a6LvFn44Kv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.rev.first256|msb_byteswap",
+"k_hex": "0x811854d1bff6478270f395faf445c14384708f6226d68e005aed25a10e001582",
+"addr_c": "1AegTrkaFY7KZyx8EfQeTN2ekLMpBWyfNU",
+"addr_u": "1HaCCVaqZUA3KAGyLtVjLcTjnZeQfNzk2y",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.rev.last256|msb",
+"k_hex": "0xd424bdab4011dac4cc51ee10887828be9f52be6e1048fed7fa2a8310238112b5",
+"addr_c": "14r3pcZEBUE8MGtjnSivJtcwuhjn3CiXmv",
+"addr_u": "1EWrf4RBsgGhQjSRhJ5CmJAjg79VnBS88",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.rev.last256|lsb",
+"k_hex": "0xad4881c408c1545feb7f1208767d4af97d141e1108778a33235b8802d5bd242b",
+"addr_c": "1MK6KMcKeNW6vCDPBgQvqhkbmRwUW2D3yJ",
+"addr_u": "17HwxbjAmkmzSyTy4qAEuNMKo92nbrTJam",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol0.rev.last256|msb_byteswap",
+"k_hex": "0xb512812310832afad7fe48106ebe529fbe28788810ee51ccc4da1140abbd24d4",
+"addr_c": "18zCiLzeNa6NZcnn5LAMC7vAqrU5pE4oxr",
+"addr_u": "16mD4RaMUWRtVF8B9DRx4gVxyNX8v4soGX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.rev.all285|msb",
+"k_hex": "0x2bdb4254bfee253b33ae11ef8b883f32a89fcfa245d7e7d693dc861428760fcc",
+"addr_c": "17SLQupAhTgFLdHKJk8vQ72YxS7hR3qQ4y",
+"addr_u": "1LxWwZdLLY8B6qDTSoJcqRRajaTwT9n3ET",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.rev.all285|lsb",
+"k_hex": "0x7ee7d57402901dbef13056a0dd8121924870411a62f7901adf0b54db9910ef37",
+"addr_c": "1E58kh7HXtnjX7vqNxwYocyjk8ghBsKzdt",
+"addr_u": "17fWNKEnh4FCVKJcmxJ4EJnt3k7ggmszcR",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.rev.first256|msb",
+"k_hex": "0x7deafff15eda12a5ff7129d99d708f7bbc3eba0b056a0c8f7db809402eabe77e",
+"addr_c": "1MX5ByF2FrajEnxU6k6Fc9W3aVjiA3xVvX",
+"addr_u": "1P2ChwWreHnu7T12Yo8Eu3daBFiYyHpxeW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.rev.first256|lsb",
+"k_hex": "0x7ee7d57402901dbef13056a0d05d7c3ddef10eb99b948effa5485b7a8fff57be",
+"addr_c": "18hjirBN32XZTCQ5zvn3oG2kmwFKocmhj7",
+"addr_u": "1L45szVuQRJHbuUjrkcDz9sB9rUZ7bNehZ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.rev.first256|msb_byteswap",
+"k_hex": "0x7ee7ab2e4009b87d8f0c6a050bba3ebc7b8f709dd92971ffa512da5ef1ffea7d",
+"addr_c": "1PGRWxsVKtcJdzZUMHTFrkrEqMGEvTb64E",
+"addr_u": "1FKRf1SgxZ8xLMi6f8YdbMEvV7oik2HyRB",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.rev.last256|msb",
+"k_hex": "0x2bdb4254bfee253b33ae11ef7787d74160ad4191efb7012805d57cefdc7eed4a",
+"addr_c": "1BdiwmGivW17mucEqpTHK6qGM5Rj6rcjY7",
+"addr_u": "1NFxcgoUEhzVWEqaAdKQewCGLvwyVDQFB8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.rev.last256|lsb",
+"k_hex": "0x52b77e3bf73eaba01480edf78982b50682ebe1eef78875ccdca477fd2a42dbd4",
+"addr_c": "1N79wiejPuuJ9qaDeeD2t7W6GAKzrv8zqo",
+"addr_u": "1DFum84KiHzrohLZUwFra5RPrTyf8iBUzR",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.col.pol1.rev.last256|msb_byteswap",
+"k_hex": "0x4aed7edcef7cd5052801b7ef9141ad6041d78777ef11ae333b25eebf5442db2b",
+"addr_c": "1Nd6dHh4trPDoo7V4R7MTkA2nG7YjDfGou",
+"addr_u": "19X6YLJwnYaTf8ePh3w51AkZxJg9brapBe",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.rev.modN",
+"k_hex": "0x62038ac342f47e9b1aed1b9e8543220e86666b1138753ac84539447ace5f46f4",
+"addr_c": "1L25oPZG4rpxLApP4DjP7PCoGJ6bUP7ppk",
+"addr_u": "1MdS1rPq3CrRLRPicr5w65CV6FPaUT4PrG",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.rev.first256|msb",
+"k_hex": "0xdaae58bba96a950e2d946d44cdf888129655e5cd3bbe6dbd7291eaff7095197a",
+"addr_c": "1PD2NJkN4Q23etYBHqvgWmP6xiSG6edXBs",
+"addr_u": "1JvovuAsuR2ciFSjJbXTFQjjtVEggoL762",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.rev.first256|lsb",
+"k_hex": "0x5e98a90eff57894ebdb67ddcb3a7aa6948111fb322b629b470a95695dd1a755b",
+"addr_c": "1Pu7rqMhfELp2vgBAisFuqyLethm3VTQ6G",
+"addr_u": "1JauF82qXDStPxWCDqTAAeiVmi5sy9bFAY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.rev.first256|msb_byteswap",
+"k_hex": "0x7a199570ffea9172bd6dbe3bcde555961288f8cd446d942d0e956aa9bb58aeda",
+"addr_c": "1BJgNQYmCYdkpD318dVyNSMesTebXg898y",
+"addr_u": "1CsYJutpy1wP2ebo7CZ1Jizs57P62xJhgv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.rev.last256|msb",
+"k_hex": "0x1b0c7892efc17df1585575eac3cd04bf0c11aeded593675992631954a492dfb4",
+"addr_c": "16ZAgW4nXjje4QiwJGhTBcvkY4WJ6aPKRp",
+"addr_u": "1HRdHjN4TVpr5Uk52jDN26AbCknqaBBydi",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.rev.last256|lsb",
+"k_hex": "0x2dfb49252a98c6499ae6c9ab7b758830fd20b3c357aeaa1a8fbe83f7491e30d8",
+"addr_c": "1FcBa6MnqDDyRGFciDSaMyE24MXSVDLzA3",
+"addr_u": "1CSanrcB7bnieHMkWucCCFTEEgcowhj8mX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0123.rev.last256|msb_byteswap",
+"k_hex": "0xb4df92a454196392596793d5deae110cbf04cdc3ea755558f17dc1ef92780c1b",
+"addr_c": "1An3KwkS1Y2bTuQ2dxZTHPgsssauDsBJ3G",
+"addr_u": "144R5KWzfaWh8y6K5DAainuUCUd12WERgy",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.rev.modN",
+"k_hex": "0xa96f4e280dfd168ce02a34788b224d7cf1e2d52ad81cae38b2d7eefe9036b8a5",
+"addr_c": "13BjmjEK6ysmY4BCWvDcd8ESiDh6x9e1At",
+"addr_u": "14YEFqRKy1toD4c273KbTkHHVczRfSTB97",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.rev.first256|msb",
+"k_hex": "0x9ffb5ceefd7fd50b39d4794489accc13d755b5892eeb79e963d1bfaa60d51d6f",
+"addr_c": "1BfQwk9tkBTHXgh6o5JBmQXpHiqREzbnxy",
+"addr_u": "1PMLLFMxbXWq469zHqGj63Z7Y4NJFsvXgP",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.rev.first256|lsb",
+"k_hex": "0xf6b8ab0655fd8bc6979ed77491adaaebc8333591229e2b9cd0abfebf773adff9",
+"addr_c": "1PinYZ4aLMRvW6N7XUvX7De9xLk1AeYd8S",
+"addr_u": "15XnsxujMyMwxW8CEjNpsqXzzUfJoEGu5M",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.rev.first256|msb_byteswap",
+"k_hex": "0x6f1dd560aabfd163e979eb2e89b555d713ccac894479d4390bd57ffdee5cfb9f",
+"addr_c": "1C7gi529A8VW9XJy9tLFtNTidNhfCk7rHV",
+"addr_u": "1HZLVTRCRXfjGkRMhA1bstDhkszKNYAM48",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.rev.last256|msb",
+"k_hex": "0x1e086cd3ba8169a15c5565bf828904ea0811fb9b95d2765dd3721d54f4d39ae4",
+"addr_c": "1JoaGzPJ8ecAkrgYhcGNMhNcHw82ZbsKn9",
+"addr_u": "1Lo74FV5m7E4LwA59sqvNg4ci2GPvbZwu8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.rev.last256|lsb",
+"k_hex": "0x2759cb2f2ab84ecbba6e4ba9d9df881057209141fda6aa3a8596815dcb361078",
+"addr_c": "1N6W3Q3Fmqqngyt5B8xtvB5cnAFwWoRgew",
+"addr_u": "1Gc3HR1og7tgDQuhZKKJ4MqRw6AAdxqsf8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0132.rev.last256|msb_byteswap",
+"k_hex": "0xe49ad3f4541d72d35d76d2959bfb1108ea048982bf65555ca16981bad36c081e",
+"addr_c": "1EEkoio1z5EsfriTpFy3vMDU7Kkn9inaNk",
+"addr_u": "14V8ZdArNooqdGfXE9FTSQoaGNxqgsPxbY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.rev.modN",
+"k_hex": "0x37a6524eb30a4d3ec255a5fdfb0bd583ee8ff5808914cc8c1efe90ac91099e9a",
+"addr_c": "1KfdCybJF3N9s43GVxXaBs1rCdsnbppgvq",
+"addr_u": "1KepDQt9mzr6vUzPSWGQMeF7caT3VNfBp7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.rev.first256|msb",
+"k_hex": "0xe55da47756956a0d1e689e88cef4442169aadace377d9e7eb162d5ffb06a26b5",
+"addr_c": "14hseXs8oupmxtCGj47qvfZaoMLrSo4VsA",
+"addr_u": "1KC3jaCMMtsMcEfimPE9aevhcVojzvczWx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.rev.first256|lsb",
+"k_hex": "0xad64560dffab468d7e79beec735b559684222f7311791678b056a96aee25baa7",
+"addr_c": "1GKFSfoXsUexYxN4xg4RRM3gsaEL1EBjVG",
+"addr_u": "1KDVuUnfiaT93oADXRSVs3DpqLngwEgCnW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.rev.first256|msb_byteswap",
+"k_hex": "0xb5266ab0ffd562b17e9e7d37cedaaa692144f4ce889e681e0d6a955677a45de5",
+"addr_c": "1QD72t1VynGCYL7GcEVta5AXBsrr8EBZTN",
+"addr_u": "17vdqV3uXSQvXrFg1jDiE5eskb94FL3r6h",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.rev.last256|msb",
+"k_hex": "0x270cb461dfc2bef2a4aabad5c3ce087f0c225dedea639ba6619326a85861ef78",
+"addr_c": "17w7onFDqiq91B1BpcwgK2TByTbNnzNVd8",
+"addr_u": "17K9WwuQoL4ANSSpZSHwJ5GVKhJvSWuCFa",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.rev.last256|lsb",
+"k_hex": "0x1ef7861a1564c98665d9c657b7ba4430fe1073c3ab5d55254f7d43fb862d30e4",
+"addr_c": "1P53ksqUYpSe5CdZLV6KFeitBAz1ND5KAN",
+"addr_u": "183wKzdbsEQojM61kuv4vaynib18DGL2KK",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0213.rev.last256|msb_byteswap",
+"k_hex": "0x78ef6158a8269361a69b63eaed5d220c7f08cec3d5baaaa4f2bec2df61b40c27",
+"addr_c": "1LJ2v79KAZjcv1z6oALaDeWwLUxJPdc9bp",
+"addr_u": "1MHPzoJ6rpFbawCaJfAYp2buny1zGv6PWq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.rev.modN",
+"k_hex": "0xc67dd918491b7d224ccfd7b206ca2c60c588c9b3c863b36cfa3be5b414b881fc",
+"addr_c": "131xunhzRzQhn2hmy6y7RZNaEYzQqxrZQZ",
+"addr_u": "16dCoqFq2h3BWLYtjvKnqv6aTZf2xrqPZV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.rev.first256|msb",
+"k_hex": "0x6ff7acddfebfea0736e8b688465ccc23ebaa7a461dd7b6d693e27f5590ea2e9f",
+"addr_c": "1K3c5gWK7ezQ3TEqsNFKq5J2rVLgbLHyk3",
+"addr_u": "1KMgKvN7hNrrxHux1xncmtCcPEqsD3s2HY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.rev.first256|lsb",
+"k_hex": "0xf9745709aafe47c96b6debb8625e55d7c4333a62116d176ce057fd7fbb35eff6",
+"addr_c": "1CHfK4raXmvyRHC97F4NMD5Zv9TfU29sG8",
+"addr_u": "1PmrEGqPKiJPWEBQ9guRduJuei1KM92NZy",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.rev.first256|msb_byteswap",
+"k_hex": "0x9f2eea90557fe293d6b6d71d467aaaeb23cc5c4688b6e83607eabffeddacf76f",
+"addr_c": "1Gfj7JNFYGRf5DWyjo22b8r4CbwzoJpYpv",
+"addr_u": "1QAybYrmNnKkipkjNrRtRsWdwTD2Syzo25",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.rev.last256|msb",
+"k_hex": "0x2d049ce375429652acaa9a7f414608d50422f7676ae1b9aee3b12ea8f8e365d8",
+"addr_c": "1rkC5HZ5Mv97huEpu9Pxzbc4faPce25hD",
+"addr_u": "1NyboVxd1zVdNX8ANVQayKcjueht256g8E",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.rev.last256|lsb",
+"k_hex": "0x1ba6c71f15748dc7759d8756e6ef4420ab106282fe5955354a6942aec73920b4",
+"addr_c": "1AsycrAoacHNNWfCYpZq9kwBKpq3rTEcor",
+"addr_u": "1P978VTAeoVUxstZ4MnubVGxkFNXa5ACKJ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0231.rev.last256|msb_byteswap",
+"k_hex": "0xd865e3f8a82eb1e3aeb9e16a67f72204d50846417f9aaaac52964275e39c042d",
+"addr_c": "1HgfAr7bVn5MuW6vW3LwCqMJp2MdB8w21q",
+"addr_u": "1FZqjdrruw1pzjpLfhAjphZ3j5b2jzdcCm",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.rev.modN",
+"k_hex": "0x54b4dd3eee28b3d42efb493776b3b467c235ea09795bd1c066628762158b67f1",
+"addr_c": "123Fh6fnFQ9U2JxdGUWnHofGTzzyRJcNh7",
+"addr_u": "1ENx9p2bBRdTNDVznDMHn1nR6FaUk9xg7x",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.rev.first256|msb",
+"k_hex": "0xb559f46657d57f091b7cdbcc8ba444317dff9f8b2669db6be17395aae07f37e5",
+"addr_c": "1MFnCnGHCuPuh1qEith6182ui8dR567Juw",
+"addr_u": "1EvpVyKW4CZ5zC7jm4ZZuBQx8NcmQpBLvY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.rev.first256|lsb",
+"k_hex": "0xa7ecfe0755a9ce87d6db9664d1f9ffbe8c2225d133db3ed890feabea662f9aad",
+"addr_c": "1Q9uDkJmKqVi24NXNvAZHzuQxum7chMXRA",
+"addr_u": "1PJXenYNVXLRco8q33s7BDiiFqr7tT7189",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.rev.first256|msb_byteswap",
+"k_hex": "0xe5377fe0aa9573e16bdb69268b9fff7d3144a48bccdb7c1b097fd55766f459b5",
+"addr_c": "1BYvsgWcDAGTfzdCXN7o1XBQVNVJtBz8Dr",
+"addr_u": "19giSsjJqu15W26F6aYzc3t7FBEqQhvEX7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.rev.last256|msb",
+"k_hex": "0x3608e4719a83eba3f4ffef95828b0c6a083359b9bf72def771d237fc5c71ba6c",
+"addr_c": "1AgUt31AV8C5hf9orwH1AUwsTxJ4tRQgFr",
+"addr_u": "1JS37jyV4pNABHG16BbXxqjJjdDcic2qYB",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.rev.last256|lsb",
+"k_hex": "0x365d8e3a3fec4b8eef7b4efd9d9acc105630d141a9f7ff2fc5d7c1598e27106c",
+"addr_c": "1BsUFqazJacrwr9DCcXT1fMknSbVgf5D2A",
+"addr_u": "1BGpSZbViYxwTXwt4ZgqWgvBozRxG61Swz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0312.rev.last256|msb_byteswap",
+"k_hex": "0x6cba715cfc37d271f7de72bfb95933086a0c8b8295effff4a3eb839a71e40836",
+"addr_c": "187rF55fp6LiiSTuc1QXwNxuPbhMF2gnwi",
+"addr_u": "17LQQZzVWs54i53wdANsNQhxJg5knx9F4e",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.rev.modN",
+"k_hex": "0x9c20a0a3b9314bc5f43862117c92dfd62db2542319034530d40131e5d762d9a2",
+"addr_c": "18SARkSLdQpngVtXPRMyLriY4R2nJCeYf4",
+"addr_u": "1P7iMosrS4S5pmDjZZuDRzciyiFvoY63fj",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.rev.first256|msb",
+"k_hex": "0x7aa6f899abeabf0627bce7cc47588832beff6f471996e797d2b36a55d0bf3bda",
+"addr_c": "1LjbVtZHZ5SQ4ejAmPchSrvxp72DbFxZbE",
+"addr_u": "1MjWA838huMssiGtxwKSunMnGyF7j3PWLi",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.rev.first256|lsb",
+"k_hex": "0x5bdcfd0baa56cd4be9e76998e2f6ff7d4c111ae233e73de460fd57d5991f655e",
+"addr_c": "1FQUrr1T2MPGwWKfXNVeEGQvfGGw1Y7xZD",
+"addr_u": "17G7wmsDfsmVAxJ18AJ6ZEYzxDFDBmxhnF",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.rev.first256|msb_byteswap",
+"k_hex": "0xda3bbfd0556ab3d297e79619476fffbe32885847cce7bc2706bfeaab99f8a67a",
+"addr_c": "1F1rfPvTJso1pEuR9FSZuiLFG1mXhpxnwG",
+"addr_u": "18aXgLY37ZNRScEWwsTPwZoS2L61xxibZM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.rev.last256|msb",
+"k_hex": "0x3904d8b26543d753f8ffdf6a41470c950433a6767fb1edfbb2e13bfcacb2759c",
+"addr_c": "17BSeQP4wZwyzrupkVosRJ1JNYK1fUpUHQ",
+"addr_u": "1iDEPhiFDGB5isavq6siXCy5MzV7yjyWq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.rev.last256|lsb",
+"k_hex": "0x39ae4d353fdc874ddfb78dfe6e65cc20a930e28256fbff1fcaebc2a64d1b209c",
+"addr_c": "1NYTdD44mybtBD69am7BAXHtry78n4e4f4",
+"addr_u": "1HVEPMT8Cw1fCrUevToH3HHZDMw6SriLa5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.0321.rev.last256|msb_byteswap",
+"k_hex": "0x9c75b2acfc3be1b2fbedb17f76a63304950c47416adffff853d74365b2d80439",
+"addr_c": "1HQicHSfP1zaTQBdtQP5NWAZErwdsVx641",
+"addr_u": "1256uBTPnh7NDuSvLNERtgStkZU1ZX3Zvj",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.rev.modN",
+"k_hex": "0x6eefd614e650e57218d6b05da15d862c70337dd18752c1daa8e1c4f7a1d2a51e",
+"addr_c": "15wvqmEz6JAs1d9QueSbU3pEJZTVZK9m3K",
+"addr_u": "17FDTybP4ne1dNBj4Jaownu9W1bBQRcivn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.rev.first256|msb",
+"k_hex": "0xcaae09bba82a805e6c812c11dcf999468200e0dc7bbe2cbc3684eaff3580483a",
+"addr_c": "16ntZZYuempEunV7Xw4cSsdcHARUeC4GHA",
+"addr_u": "1BS29oqB3eqCe8pZSTktDPzyXL2mXn4Tn5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.rev.first256|lsb",
+"k_hex": "0x5c1201acff57216c3d347dde3b07004162999f3b883481367a015415dd907553",
+"addr_c": "1FJmCynsNY4uvERym84PzhogSGvGRVytax",
+"addr_u": "1PVo9RfLdDf1qhAeoSvKG9DbCWiR8p9yKd",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.rev.first256|msb_byteswap",
+"k_hex": "0x3a488035ffea8436bc2cbe7bdce000824699f9dc112c816c5e802aa8bb09aeca",
+"addr_c": "17AU58MJUyd9bndAZpRQpiQ2B8bEwmG8Xb",
+"addr_u": "1BRYMGqqUg1BCZQhiThVRiXKv6yLrj4ybG",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.rev.last256|msb",
+"k_hex": "0x4b5d3986efd43cf4090030ead7dc51bf5d44aecec087230886274801a186cfb1",
+"addr_c": "18zayjtFnhR9Q5EQcprPq3ZkMc5YYeouHz",
+"addr_u": "1JNFNDj3xTEUdG9oHQasZgydHcrtWNmYQC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.rev.last256|lsb",
+"k_hex": "0x8df361858012e46110c4e103737522bafd8a3beb570c00902f3c2bf7619cbad2",
+"addr_c": "1GuCsBn4exJQqjmFpqHnNaXeRKnWCTHfkB",
+"addr_u": "1FaXhRCTujUcBfBeZxmsR2FwY9YxWzoncj",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1023.rev.last256|msb_byteswap",
+"k_hex": "0xb1cf86a101482786082387c0ceae445dbf51dcd7ea300009f43cd4ef86395d4b",
+"addr_c": "1M48eYFVkiWTgjEB5tzvddNN4ph58B4wv4",
+"addr_u": "14DS79SqwGPQSqTJFeR8TsF75VBypYZNR4",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.rev.modN",
+"k_hex": "0xb65b9979b1597d63de13c937a73cb19adbafe7eb26fa354b16806f7b63aa16cf",
+"addr_c": "1NK3zQ7EfLZJkGQCkeynMV8V7j82xW8qur",
+"addr_u": "1CewwcRG11JrxFcWK3A6EjjUuwZnSvjx6b",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.rev.first256|msb",
+"k_hex": "0x8ffb0deefc3fc05b78c1381198addd47c300b0986eeb38e827c4bfaa25c04c2f",
+"addr_c": "1AL1jhkbNBHYtkhLKaJ6b9eq1NRQcwLN1e",
+"addr_u": "1KD4WuvDw1vEfnFnUAr93AgQ99kim8ZVMN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.rev.first256|lsb",
+"k_hex": "0xf43203a455fd23e4171cd776190d00c3e2bbb519881c831eda03fc3f77b0dff1",
+"addr_c": "1AR4NGiJfN8seYjEoK7ajCntCGF2jG7gyT",
+"addr_u": "1EBwULgzK9Jbm5jbhyG4ZCjWAX2L9bffAL",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.rev.first256|msb_byteswap",
+"k_hex": "0x2f4cc025aabfc427e838eb6e98b000c347ddad981138c1785bc03ffcee0dfb8f",
+"addr_c": "1HZF2nR1t7MFhHP9w1Xv5oabGE1oec3Xhr",
+"addr_u": "1Pz6xnaPHmm9eTdkqHa21XGx34FLopY7Fh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.rev.last256|msb",
+"k_hex": "0x4e592dc7ba9428a40d0020bf969851ea5944fb8b80c6320cc7364c01f1c78ae1",
+"addr_c": "1PqeeiHtWqTuxNN49R1g5nDs8XQsAGRYJ9",
+"addr_u": "1nDkMDWnWZy4Pq6q2CxMsAKuN9DVn7Y9B",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.rev.last256|lsb",
+"k_hex": "0x8751e38f80326ce3304c6301d1df229a578a1969fd0400b02514295de3b49a72",
+"addr_c": "1KCUbwiy5Trvu54AQptu6PL7AV7jWQvpwg",
+"addr_u": "1PPNk7zy772Z4n7Nd1trGvESjDMvGyk7WX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1032.rev.last256|msb_byteswap",
+"k_hex": "0xe18ac7f1014c36c70c32c6808bfb4459ea519896bf20000da42894bac72d594e",
+"addr_c": "16rNrUX9AtKfa6Cs8sgsDybuTvCFsZgskW",
+"addr_u": "1BowotoZKZB9d24ZUQLtMJwd5EiXUz39av",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.rev.modN",
+"k_hex": "0x1a35652bc67c82b967a7c51c8ceeed17408692b02891e5625c6c5d5b2727546a",
+"addr_c": "1LGHisu9iMMwmJRCGviRLKUPtRcJw4GMyG",
+"addr_u": "16mFHYme6ZCituPYobtJimGqVU3zB3zunx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.rev.first256|msb",
+"k_hex": "0xe00ca13302802a5c4e298e99def1116428aacade733c8e3eb426c0ffb52a62b0",
+"addr_c": "1GpTh5bXhbNqX83qVztTTt9nsjfjwz3rmc",
+"addr_u": "1HMAcB1rbUauDLA2iJRB1XreUVfjNvLBsN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.rev.first256|lsb",
+"k_hex": "0xd4654adff03642d7c713cce7b53551426888f7b997194723a540140cc853007",
+"addr_c": "1TZ4WkCsfdunGF2wdaJ5cshVwfwD2Gg5F",
+"addr_u": "18zYmaiSd8Wz5rSNnDLJyP8S9qe2pw7Q5J",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.rev.first256|msb_byteswap",
+"k_hex": "0xb0622ab5ffc026b43e8e3c73decaaa286411f1de998e294e5c2a800233a10ce0",
+"addr_c": "16QNxfMe9ULSJbu8n2YkLPZP4ydwjkmTg9",
+"addr_u": "17PPRA62vE6EZvMEa6fiMJcxjjnh9X47oq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.rev.last256|msb",
+"k_hex": "0x635db124cfd6bef6a1aabac0d7de593f5d660cecea278ba2248762a90924ef39",
+"addr_c": "18PH1bXZWLHveAgueG7BpNa9kNFajj3yTt",
+"addr_u": "1Phb8pMqTA3juwcbuhhP1AcPNsmpbp25xk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.rev.last256|lsb",
+"k_hex": "0x9cf724909546e12445d1e457373066bafc9a7beb035d55856f7d6bf3248dbac6",
+"addr_c": "12exkwLdUZvHLBXzNmMMXKj8rG9XSFfRx1",
+"addr_u": "1JHnNjyNoxDcDo4dZPibUvwy6NkZwwyPjc",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1203.rev.last256|msb_byteswap",
+"k_hex": "0x39ef2409a9628724a28b27eaec0c665d3f59ded7c0baaaa1f6bed6cf24b15d63",
+"addr_c": "1Cq131Rdma1U5uPRR7EWyXruBVKAviZ5KT",
+"addr_u": "1PSi5RmecZ2JhcgBg51SbVuUcjfP19LCZW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.rev.modN",
+"k_hex": "0xf078af5a27964a8eb75f0faa9e8c6f6282fbd0fd07883fb3a5485ce66cada97d",
+"addr_c": "1AgnSmwRfLAQ7EK64e5SG8terSZDykgs36",
+"addr_u": "1NaHozqMxW6YFYVbMQhRDGhuYqS6Gf3833",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.rev.first256|msb",
+"k_hex": "0x2ff3adccfebfea5372e9b299120ddd67ebaa3a124cc3b2c287e63f0085ea6e8f",
+"addr_c": "1CwSKrVcsJ97yeSebxcsZKfnxuX5GWhYVV",
+"addr_u": "1DjpwHeKZppSg1EuMRnv6RZ3uZHMWJe6hh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.rev.first256|lsb",
+"k_hex": "0xf17657a100fc67e1434dc332485c55d7e6bbb048994d974eca57fd7f33b5cff4",
+"addr_c": "1Jfh6KdJ3MwbNk3ovKvMbf3BHANyZDYh5N",
+"addr_u": "1A2q2Sy8jHW3AfJ8SgJ4nLftQtBPvbxLYo",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.rev.first256|msb_byteswap",
+"k_hex": "0x8f6eea85003fe687c2b2c34c123aaaeb67dd0d1299b2e97253eabffeccadf32f",
+"addr_c": "1PzpRY18sa3VcdthW9zVy6FooDEdmyMSgF",
+"addr_u": "1BoCdsnCwcwQnDQiTDkiZfxvsF1e8oR2Bs",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.rev.last256|msb",
+"k_hex": "0x6c518de730168206adaa8a3f141259c05166f3232ae4b8aee7b46ea9f9e720c9",
+"addr_c": "17q9eapyYxoVev7CMKNWfTgD9GH2YvoxEA",
+"addr_u": "146VcjAYqo6UAgV7xyZSvSFwyE2bwiZk7F",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.rev.last256|lsb",
+"k_hex": "0x9304e79f95762de7751d2754c4cf668a039a4828fc5155b56041680ce7b18a36",
+"addr_c": "1EVCbcp61j4Gsjq5Nu3aQkAFqu31sxb8LE",
+"addr_u": "19K5pV2PVBe9KzpisvRV7c72CSYK8AXDKz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1230.rev.last256|msb_byteswap",
+"k_hex": "0xc920e7f9a96eb4e7aeb8e42a23f36651c05912143f8aaaad06821630e78d516c",
+"addr_c": "19afMxZEtQPJYPsNuuymMa3caLuivBjZYQ",
+"addr_u": "13PQ9fnH4u3zrzecC9Qgn3muK7QZWWXfK1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.rev.modN",
+"k_hex": "0x3743f01c019ae94ed44d68560896cbfb142c873918d8ea96a3d05410aba91dc1",
+"addr_c": "13iRVJeXCSDUVySVZyV6cGXyrmCAXfiLu8",
+"addr_u": "1NeszrpdoevZZxpQqcSY6tWrm6QZ24kRZL",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.rev.first256|msb",
+"k_hex": "0xb008f12203c03f584b3dcbdd9ba111743cff8f9b6228cb2be43780aae53f73e0",
+"addr_c": "18JiXG8H4qC8ZGz32MEZUbbB52dcZnBjFq",
+"addr_u": "1KJNnV3m32GDZK8MhYGJsf9eXbipzYWRN4",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.rev.first256|lsb",
+"k_hex": "0x7cefca75501ec27d4d31446d9f1ff3c2e8885d9bbd3bcd21afc03c0448f100d",
+"addr_c": "1ARiotBxg2E187zYZpe1LAaY4gAheokwnt",
+"addr_u": "1KffxyVhnmxMuFJMMfUNsEzWbHVqigAekM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.rev.first256|msb_byteswap",
+"k_hex": "0xe0733fe5aa8037e42bcb28629b8fff3c7411a19bddcb3d4b583fc00322f108b0",
+"addr_c": "1AkgkAph6SiqPe8vziudcx4ZFhyJv6Smpp",
+"addr_u": "1BJmzZqjwiEkyvXEhBXYC2JeN4P5MgyQd3",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.rev.last256|msb",
+"k_hex": "0x7259e1348a97eba7f1ffef80969b5d2a597708b8bf36cef334c673fd0d34ba2d",
+"addr_c": "1PQQJj7kW9kb1oioze6bYSEErLRXoaXe7E",
+"addr_u": "1FfZp56Z4YWWN28HywkbnSgfft4ih9e62C",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.rev.last256|lsb",
+"k_hex": "0xb45d2cb0bfce632ccf736cfd1d10ee9a54bad96901f7ff8fe5d7e9512c879a4e",
+"addr_c": "1Ncz4GLBoQ2RTF81LAhhE4Ah9PF8RBG8uE",
+"addr_u": "1H5XsDUPpgVpiysXVtZcGNKpCm9Mnpm2TM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1302.rev.last256|msb_byteswap",
+"k_hex": "0x2dba340dfd73c634f3ce36bfb80877592a5d9b9680effff1a7eb978a34e15972",
+"addr_c": "187KbK8Nx5RpqSg3TfhsiVLRCCbat4iFEY",
+"addr_u": "12BesWS1aSSYGyA4HasUzgE5eJo92G2c7z",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.rev.modN",
+"k_hex": "0xc61b76e597ac19325ec79a0a145522d7eb255b6c5827d1777f0da9182f580123",
+"addr_c": "1GRKWCtFhKLiwH9M3yJG3p1gsnSpyCUQ2z",
+"addr_u": "1KzhS8Nt12tAHxWsBqq3MTaHGr5pbLGSFA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.rev.first256|msb",
+"k_hex": "0x3aa2f988abeabf5263bde3dd13099976beff2f134882e383c6b72a00c5bf7bca",
+"addr_c": "19KKfTMWdGhLi19MLpgDWPUi2UPQn2b2Eo",
+"addr_u": "18YrTohsMUZLqU8f8KP7fmJdXkHQTSZaGz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.rev.first256|lsb",
+"k_hex": "0x53defda30054ed63c1c74112c8f4ff7d6e9990c8bbc7bdc64afd57d5119f455c",
+"addr_c": "19T84HC9KiQJ5NTc1cGRkGsxkg8yqxb2px",
+"addr_u": "18U3DAECoX6puDRyoWRmUcsKiHqH5dNdC8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.rev.first256|msb_byteswap",
+"k_hex": "0xca7bbfc5002ab7c683e38248132fffbe76990913dde3bd6352bfeaab88f9a23a",
+"addr_c": "1LRNScqZ3EAdGNDbLWDjQp9C2p6JDtNvrh",
+"addr_u": "1JRsh6Cgw4fmChzn6ifi3AoAEyKdLbitK5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.rev.last256|msb",
+"k_hex": "0x7851c9b62017c307f9ffcf2a14135d805177a2323fb4ecfbb6e47bfdadb6308d",
+"addr_c": "1FeqrQVH9AGpRWXioh666LntJiLKEoCsLX",
+"addr_u": "1J65iHYDK3v4c97vfZySaxwRp9Q3jYwJw1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.rev.last256|lsb",
+"k_hex": "0xb10c6db5bfde276ddf372dfc4c45ee8a01bac82854f3ff9fe0c3e8046d938a1e",
+"addr_c": "1GUdkLzbf8BDhQPReaRxDrp9d7AnwfVsHn",
+"addr_u": "1A4cxb3dCy7z5QQSm8HS5Nw31rYoSHGEvE",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.1320.rev.last256|msb_byteswap",
+"k_hex": "0x8d30b6adfd7be4b6fbecb43f32a27751805d13142acffff907c31720b6c95178",
+"addr_c": "1G3fwQ9tty5sDdamoxR8PeC2KjtZvkMcvw",
+"addr_u": "1LEjtEn7u9cWq9LNdEq7fmbD17VSJnX9eA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.rev.modN",
+"k_hex": "0x517ee8f1f9c31aecbe28cf7c33409dbfc22a1b0126cfdab0e64f91a637f05aee",
+"addr_c": "1JSbh9H8F3YtnRB6ZSBgC84W7ueEogeuQw",
+"addr_u": "16XojcE8ffgMZWFGgrbvS3CaSqw6ZW5LK9",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.rev.first256|msb",
+"k_hex": "0xc55d0677541540ad9c421c22ecf666894100d0ecb77d1c7c3948d5ff3a408435",
+"addr_c": "1dJ9iZyZktQF2cFYpfT5Xe7nUytdMreV3",
+"addr_u": "1P8KBd1wB8kavggHcxvCuUmuvicnNhN1pZ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.rev.first256|lsb",
+"k_hex": "0xac21025cffab129c3e38beed370b008291666f3744384239b502a82aee60baa3",
+"addr_c": "12MgFkro8CqXkp5f3iB31WT2ikEwCj9h82",
+"addr_u": "198eDFvX6KUK2gmHnhTr1XsvXrhQRoLAt7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.rev.first256|msb_byteswap",
+"k_hex": "0x3584403affd548397c1c7db7ecd000418966f6ec221c429cad40155477065dc5",
+"addr_c": "1GSXBGwm18cMsKz4MUEaXP7AWiRQpsNQgh",
+"addr_u": "1JEEJv1o4SB5tCBdRanH4pT33kZ68TcRYx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.rev.last256|msb",
+"k_hex": "0x87ae3649dfe83cf8060030d5ebeca27fae885dcdc04b1304491b84025249cf72",
+"addr_c": "17fgAfMTeDttBSbvRSTmMnyTzgEKg1kHpU",
+"addr_u": "1DUUc1eX6upoH2fSjKNmfKiA2QH8DbCeWi",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.rev.last256|lsb",
+"k_hex": "0x4ef3924a4021d89220c8d203b3ba1175fe4537d7ab0c00601f3c17fb926c75e1",
+"addr_c": "1C1QzVSFrvbfWfENDwLk493iSaBJqQbv8u",
+"addr_u": "1MrHPJg3M6CXTMYuAm9AihHzoP6YMXiqr9",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2013.rev.last256|msb_byteswap",
+"k_hex": "0x72cf495202841b4904134bc0cd5d88ae7fa2ecebd5300006f83ce8df4936ae87",
+"addr_c": "1GS5s5Vvghw9JdTA6iLZiU4AXB588PC2hS",
+"addr_u": "139ZEQs3gEA3hpsNVA6B6wd3NT8vp9KRDz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.rev.modN",
+"k_hex": "0xe0566fbb8fd44ad048a301303efef49c9922ef34661ec191c18ce6adbb9f3e50",
+"addr_c": "13XopX2Gogh3e6VdUgqLEVFw61fqnynysT",
+"addr_u": "1eG5htCqRzmsj6pYZEr8y3nEbwJpo8bfM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.rev.first256|msb",
+"k_hex": "0x4ff70eddfc3fc0a7b4c23422645eee8bc30070649dd734d41bc87f551ac08c1f",
+"addr_c": "1CoJ6n1d3pR87YFtyKAPWCbPgWFFidJJRD",
+"addr_u": "14ZvuN3KzgKU929cbGBaRNZkoxeGHruvNS",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.rev.first256|lsb",
+"k_hex": "0xf8310358aafe13d82b2cebb9260e00c3d1777a26442c432de503fc3fbb70eff2",
+"addr_c": "19iTdnDrcKgU22zZrVGoYKPtGEogJiUoE5",
+"addr_u": "17wHqcCbRavG3NcaWJ9t91ifZ5Yre7uGAW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.rev.first256|msb_byteswap",
+"k_hex": "0x1f8cc01a557fc81bd434d79d647000c38bee5e642234c2b4a7c03ffcdd0ef74f",
+"addr_c": "1EJ5s3ZTHLnzg6TyPB3cHuZrnyGBYuRYA4",
+"addr_u": "14HxJAiuETGgSXWK5JhdG69rfJgwNXeRir",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.rev.last256|msb",
+"k_hex": "0x8da61ecb756814580e00107f6964a2d5a688f74740c9310ccb398c02f2cb45d2",
+"addr_c": "13sBwp4NjgFnKDpkuYSPhYHKJgJax8U3AR",
+"addr_u": "1E8Bd7bHnTM8MJnQC5jE84VH3eNKyBXyX6",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.rev.last256|lsb",
+"k_hex": "0x4ba2d34f40319cd3308c9302e2ef1165ab452696fe0800701a2816aed37865b1",
+"addr_c": "1AuM866Vn9Wr6VDjEYjRcux68wkmif3xGU",
+"addr_u": "1ET49rBhhPuuRoUrgZrhUm2oU4pRt8exp8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2031.rev.last256|msb_byteswap",
+"k_hex": "0xd245cbf2028c39cb0c31c94047f788a6d5a264697f10000e58146875cb1ea68d",
+"addr_c": "1FoyYZ3VPMc3ZWTygRDw1GZD7M9Q4u88nR",
+"addr_u": "19xr8dM51B4GSNvy6Rmcro9PNtkBwTai2B",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.rev.modN",
+"k_hex": "0x2721b07d69d8e990659159dba90951352a53a570776f6c74c014ddd7fa9ab294",
+"addr_c": "15uYJEdBkvF7DQdUUbfptgYraopdFqpRUP",
+"addr_u": "179fGvwXu2yp16aGgmrLDVzozmSpG7k9fx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.rev.first256|msb",
+"k_hex": "0xd00c5233014015ac8d164d66edf222981455c5edb33c4d3d7819c0ff7a159170",
+"addr_c": "1CB4Q6WyFxVw18iFvSc8HAXUjkqLK5Y8jR",
+"addr_u": "18g4mgjv1dZDELySWa6AybbiAcoZ6brXy8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.rev.first256|lsb",
+"k_hex": "0xe89a85eff03981ebcb23ccdb7a3aa2819444fb766b268b135a80280cc4a300b",
+"addr_c": "1hV9R7PHW8uDGSiKmiAZqctxzqf9JajtQ",
+"addr_u": "1BpGKp87BmGeAnaPYjJ7WEgxKQcA4MXzuX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.rev.first256|msb_byteswap",
+"k_hex": "0x7091157affc019783d4d3cb3edc555149822f2ed664d168dac15400133520cd0",
+"addr_c": "17XrPmeqf6iaXem7X8xUwwinREEJrs4MZV",
+"addr_u": "1HUGpNXxW5WPiBPxb95QXanp85KJsFumYw",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.rev.last256|msb",
+"k_hex": "0x93ae7218cfe97df9525575c0ebeda63fae990cdcd51b4751184b91560618df36",
+"addr_c": "1Hbg9fKiCXKuELDoqD3QaYBeAm6DX3BTWQ",
+"addr_u": "1EdE5BKfif8gp695tJceu7DWxavGZKi4tk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.rev.last256|lsb",
+"k_hex": "0x6cfb18606a89d2188ae2d8ab3b309975fc65b7d703aeaa4a9fbe97f3184e75c9",
+"addr_c": "1AfdWqqKdoEBmQNMdQB7ivuFmm2gZRQFq2",
+"addr_u": "1DPx1krJcKcN78tSTcsSxDD8TGWvztGVDx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2103.rev.last256|msb_byteswap",
+"k_hex": "0x36df180656914b1851471bd5dc0c99ae3fa6edebc0755552f97de9cf1872ae93",
+"addr_c": "1Q45AMo9MyqgEo34sRrhyTKr3vrYtxcVWW",
+"addr_u": "1DxM9r5RHNGYRdkuXebiDtgRRJZQk4Ki7s",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.rev.modN",
+"k_hex": "0xfd64faabcaf2b165b548a469baa6d3806cc8e3bd5665c6c608f0dd63402107a7",
+"addr_c": "17mVDpHTh8aNQBNguSAwvqiAhsA42VZu1k",
+"addr_u": "17Wa4emdJyxHb2ALxF2DboaGeQt1aQLh8h",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.rev.first256|msb",
+"k_hex": "0x1ff35eccfd7fd5a3b1d67166210eee9bd75535218cc371c14bd93f004ad59d4f",
+"addr_c": "1HZVQrLD8KgrMd7eCsbRrmYSzEjywi1kQe",
+"addr_u": "19igdHE8bCjJzbGGLxTFeKXPoJvRZ2FbDT",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.rev.first256|lsb",
+"k_hex": "0xf2b9ab5200fc9bd2838ec33184acaaebd9777084668e6b8dc5abfebf337acff8",
+"addr_c": "1NNK5zoe2SjxNsALXAociBF53xaEJHDVfQ",
+"addr_u": "16o7GPy2AoBW8ii3WbYdNVLYbp3767sUom",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.rev.first256|msb_byteswap",
+"k_hex": "0x4f9dd54a003fd94bc171c38c213555d79bee0e216671d6b1a3d57ffdcc5ef31f",
+"addr_c": "18fVP8QjzhvUBUu84LcDtjEvfknkAoMTR7",
+"addr_u": "1ACoKms7KqqhJ1iapd7QKJz2EZKHTAUm7H",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.rev.last256|msb",
+"k_hex": "0x9ca24edb302941095e55453f2821a6c0a299f31315d8745ddb789d56f6db10c6",
+"addr_c": "1JiCUaPuon6KoY7Q8qCWrSpCMGqefwaAoz",
+"addr_u": "1EjjVjzLaZ8xe75NcBz2wVZsBVUmcj3quN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.rev.last256|lsb",
+"k_hex": "0x6308db6f6ab91edbba2e1ba8c8cf994503658414fca2aa7a9082940cdb724539",
+"addr_c": "1PZSPLXqKNSdxEKMyxmoQygLJNfczohB6i",
+"addr_u": "1LYCKbSwfU6xQUz9ps5rjUMNZJy5vZYXKn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2130.rev.last256|msb_byteswap",
+"k_hex": "0xc610dbf6569d78db5d74d81513f399a2c0a621283f45555e09412930db4ea29c",
+"addr_c": "1BCe6YB6BbwKGED4bhC6tw3kapMWQ7ecxf",
+"addr_u": "1FBEcEdCo86cfHat6NJVzzYHbheTVBw7QH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.rev.modN",
+"k_hex": "0x613ec65de015b6bb3edca04ea0590efcd19f8e8257fd76dd4edccb43039e4542",
+"addr_c": "1DD3Yw6T8HJkzgpzPPe4gHnPgsWyZiNuAp",
+"addr_u": "1J5SXRqaQ9Vv3RZ4wkncn9JdfaqSCESLv3",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.rev.first256|msb",
+"k_hex": "0x7004f21103c03fa4873ec7ee675222b83cff4f679114c717d83b4055da3fb3d0",
+"addr_c": "18SurGo76o8jYa3MLocmZfN93rF3z48og1",
+"addr_u": "1Kpd4wzGsBiuRjDf6EaJXTKWNH92iFbGCV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.rev.first256|lsb",
+"k_hex": "0xbcdfc5baa02dc1be8e32889e6f2ff3c1d444ae677e37ce125fc03c0884f200e",
+"addr_c": "1CpJhF61GuTw2zYLkHX3D8pvvEbr3YLTYA",
+"addr_u": "1AeeJ8a6sdvLP78JCAVNiSR5L73yMjos5R",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.rev.first256|msb_byteswap",
+"k_hex": "0xd0b33fda55403bd817c71491674fff3cb8225267eec73e87a43fc00311f20470",
+"addr_c": "1AwkPS1kpn55tzrPeRMvWebLpduS8Y32NA",
+"addr_u": "1JaW9V7Cm1jQ9fGAsKMLn9GXNLuSZtCjAM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.rev.last256|msb",
+"k_hex": "0xb1a6d238456bd75bf2ffdf406967ae15a6bb04747f39cdf338c9b3fe0e38751e",
+"addr_c": "19R5o9prXeAW2JddGrh2YM4an9XXcs6nDC",
+"addr_u": "1Nneo8psyCeju6Ku7edu8RegJxHqM4nAhd",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.rev.last256|lsb",
+"k_hex": "0x78ae1c707fcd931ccfb39cfe2e20dd65a875e69602fbff4fdaebd6a21c4b658d",
+"addr_c": "1KbHj7VUoM8Bg67vZSt7yfjU7rBdzam5rQ",
+"addr_u": "1FiqLvBcmUCqimwwq8zsJoTpPHwQonFyWk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2301.rev.last256|msb_byteswap",
+"k_hex": "0x1e75380efeb3c938f3cd397f7404bba615ae676940dffff25bd76b4538d2a6b1",
+"addr_c": "17uBEGcJuUf9eaAj4hC8b485sawm3b3eT3",
+"addr_u": "1G6PEjD362P4oAD7as3Lf6aHFZQM8EcyCS",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.rev.modN",
+"k_hex": "0xa8aa89c2ab1e4ead0419b928a6383a6b3d1bf89bf7a4ea4dbc7b75c6c575b6f3",
+"addr_c": "13Q3XqJce9w9TSABSY9UNS6bvPfFjLbTS1",
+"addr_u": "16V7EzNM5wV5zbcexrpbbHbAB69KQmQd4M",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.rev.first256|msb",
+"k_hex": "0x3551f64457d57fa1937ed3ee230666b97dff1f238441d343c97b1500ca7fb7c5",
+"addr_c": "12Xwzx8LQxWvRHDys1u5cgJBtYWVANiRV2",
+"addr_u": "14tmd993HozZNPV23LUMrKeJ2yzfL1rrxF",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.rev.first256|lsb",
+"k_hex": "0xa3edfe5300a8de93c2cb8221c4f8ffbe9d6660c477cb7ec985feabea226f8aac",
+"addr_c": "13wcLzCks1Wik12XN8RZJEQXQVzRSMKqqk",
+"addr_u": "1BWJJXmjwgvQjCedf4GwMLRJfyKXvNJbi1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.rev.first256|msb_byteswap",
+"k_hex": "0xc5b77fca00157bc943d34184231fff7db9660623eed37e93a17fd55744f65135",
+"addr_c": "12YdBW51rPQKocGSkfB1PDk3CiSgRuLnee",
+"addr_u": "1LxuLHgUS1wqkUD55PC17CsLkctBdJVa9a",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.rev.last256|msb",
+"k_hex": "0xb4a2c679102bc30bf6ffcf152823ae40a2bb51313f78dcf779d8b7fe5e79304e",
+"addr_c": "1D3UR7bQpG3SneBw4WhoazBpgy1MaX5T7U",
+"addr_u": "1BS47DnWkktDsFiKgxMtK2yFvFpqpPtzED",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.rev.last256|lsb",
+"k_hex": "0x720c9e7a7fed1b9eef3b1efc8c8add450275c414a8f3ff6fd0c3d4089e63452d",
+"addr_c": "1Fwd7JjyrS7oATFws6aoKMrYHycWyEb8z9",
+"addr_u": "19BJQuQHriz7quidH4sKyFJFd99f5ytMtw",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.2310.rev.last256|msb_byteswap",
+"k_hex": "0x4e30795efeb7d879f7dc783f3151bba240ae232815cffff60bc32b1079c6a2b4",
+"addr_c": "1Luy8784sRPDuxhdEBNjjZQYEiq9VhzxhM",
+"addr_u": "13CMLrB5BBr4EKsbwt87ouZn3vRy3ZNsoY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.rev.modN",
+"k_hex": "0x7b79bf33d83de85928b80774cb02e0c17f9d224a65f466f7915c08d88fe5826f",
+"addr_c": "1K5JSgozA5RXPtfyGwUCk8iDFuee256kY",
+"addr_u": "1AaqUqSEBzah1YmWoTG97b9bU3mU3g41h8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.rev.first256|msb",
+"k_hex": "0x85590766541540f9d8431833b8a777cd410090b8e66918682d4c95aa2f40c425",
+"addr_c": "1EEpsMDxq6tb3DFevxFkdrTPtHRteuX4Et",
+"addr_u": "1BpkXU9R427gYsUPgmpskLUrNTkbcGmvXE",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.rev.first256|lsb",
+"k_hex": "0xa42302f455a932b4161896671d090082b3eee51dcc18c21b9f02a82a66e09aa1",
+"addr_c": "1LuHsraKqx68DhZn1k3U5X2eRzssvePL1n",
+"addr_u": "1LqvPmLsGbcQhs4FsyV8c8X4VswBeXwvkU",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.rev.first256|msb_byteswap",
+"k_hex": "0x25c4402faa954c2d681869e6b8900041cd77a7b8331843d8f940155466075985",
+"addr_c": "14BSyXWkbewG93pKeJUonzGyPNhP1GCwQS",
+"addr_u": "15vpXehPzhVGwLVRV3WthkyuDoeuCd254x",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.rev.last256|msb",
+"k_hex": "0xc6fb274d9abc28ac07002095beb8f36afbcc5989804e12044d1ec403534d8a63",
+"addr_c": "1ECFH6xQ92TKuYMU5GdoYXZYsitfh52PmM",
+"addr_u": "13FCQJvMhrE5U56LJywT2EEuHtK3Z9cGef",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.rev.last256|lsb",
+"k_hex": "0xc651b2cac02378b220487201919a33df56cf1d7da90400e035143d59b2e4df63",
+"addr_c": "18A9XRYoJ2Z8RJXRGsCP7WMzA8f4YH49Hx",
+"addr_u": "1KeA7WBCWeuSowuueTEoug2szHKU8223Wa",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3012.rev.last256|msb_byteswap",
+"k_hex": "0x638a4d5303c41e4d04124e808959ccfb6af3b8be95200007ac28bc9a4d27fbc6",
+"addr_c": "1CwdrTGG968Wb87RzM5TDc4XienJjb39Xx",
+"addr_u": "1C9YzzNvkoCc5htzUwxWC2EUL1yCozUafK",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.rev.modN",
+"k_hex": "0xc2e58298a346804aedf5204ed0e20c2feb198c64059bda67fefab35c51bcf420",
+"addr_c": "1PQtLnbd2vUCYMLvWKpSshsE5CfZ6dR5oC",
+"addr_u": "1Ftppedn2uVhYvqXWzohZn7DDbUGKK7DQo",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.rev.first256|msb",
+"k_hex": "0x4aa60b99a82a80f6e4832433745bbbce82006074d99624941e8c6a551f80c81a",
+"addr_c": "1BRh9UkahgA1SsdqgF3pMgMPkU5KFs6UBS",
+"addr_u": "1GhmRsAyg7FJp4SUb2Twgc344RjXUrGxhW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.rev.first256|lsb",
+"k_hex": "0x581301f8aa5631782924699b2e06004173ddda2ecc24c1276f01541599d06552",
+"addr_c": "159SU6VpVkyYKTyeBZWjDADBgofADp1vAA",
+"addr_u": "18koYHUYEtbvZewXg5AnjtCUzG4dRJpX4x",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.rev.first256|msb_byteswap",
+"k_hex": "0x1ac8801f556a8c1e942496d974600082cebb5b74332483e4f6802aa8990ba64a",
+"addr_c": "1ovdvb1KTnNevXEGa22nyBwW4yHs88GUT",
+"addr_u": "115xgM5jdQ3Y4pp2kPcBq1qB4h4fhutwkM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.rev.last256|msb",
+"k_hex": "0xc9f71b8e657c145c0b00106a7d74f395f7cca646408d21088e2dc803a38e4593",
+"addr_c": "13g8oPndWuPgsGcxjHu2xXC4gEEfsKMy4N",
+"addr_u": "1CR1h6tkfvFRYTKonGXJA79hKTwtjCg8gD",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.rev.last256|lsb",
+"k_hex": "0xc9a271c5c013b4711084b102626533efa9cf2ebe560800d03a283ea671d8ef93",
+"addr_c": "1BK6py29VxNaVasjqzoWP2V9UoK9TkKXEf",
+"addr_u": "15Lm36kpAFNbLquzTXBrX6RHv2SZiHH1sB",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3021.rev.last256|msb_byteswap",
+"k_hex": "0x93458ea303c82d8e08218d4046a6ccf795f3747d6a10000b5c147c658e1bf7c9",
+"addr_c": "16MSck3TNE5e1ZwZp22SkSmV5hSgEZ6JCx",
+"addr_u": "1Hr9Sh3R2aXW44GfPveH8HCLu4qQ1txrGD",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.rev.modN",
+"k_hex": "0x511c86bf4853b6fcd02091d440cb9436e7c6acb9b693f8bb6b21550a528fda15",
+"addr_c": "188YQwwBXsyD5ZVWbdZEErNJ4WAkYYE4Jj",
+"addr_u": "1MC64xZtow84TF4AgipcFaMpVCuJsHxvkt",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.rev.first256|msb",
+"k_hex": "0x90085322014015f8c9174977b9a333dc145585b9e22849296c1d80aa6f15d160",
+"addr_c": "1GoGuCN6AE2NbKx4F34sVbFFrFvwTxxWkJ",
+"addr_u": "1HWZad6Q2LLhtcLXeZsiD16ft5s7fK1aWM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.rev.first256|lsb",
+"k_hex": "0x68ba8f65501b836949214479da1aa283bccc59dee92e8931fa8028044ca1009",
+"addr_c": "1CZuFgUh9qVn5DScjZoNiY7WeBoKa6QG2b",
+"addr_u": "17h8K4e1Mdrg5w3Qvc5m77UUjC3Y2csoDT",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.rev.first256|msb_byteswap",
+"k_hex": "0x60d1156faa801d6c294928e2b9855514dc33a3b9774917c9f815400122530890",
+"addr_c": "1MMo35Z3GiXdbVJtbTRxWBzguAkaw7jCsV",
+"addr_u": "1Av74gdYwpzrHWtCTguEQh9rNGcDnZkmAm",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.rev.last256|msb",
+"k_hex": "0xd2fb631c8abd69ad53556580beb9f72afbdd0898951e46511c4ed157071c9a27",
+"addr_c": "1MxVpu9JLzdar1FyAXxawAh3yQ1r68n3h",
+"addr_u": "1NAj5qj9S9N2SsmpVNKPotnRkFe9JUqbzV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.rev.last256|lsb",
+"k_hex": "0xe45938e0ea8b72388a6278a91910bbdf54ef9d7d01a6aacab596bd5138c6df4b",
+"addr_c": "128Y1hXNr4asBetMjDvHekXHMzNEqzc46y",
+"addr_u": "12RWY23uVCBwqJiU2qhAYFKurpbe9FU5PC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3102.rev.last256|msb_byteswap",
+"k_hex": "0x279a1c0757d14e1c51461e959808ddfb2af7b9be80655553ad69bd8a1c63fbd2",
+"addr_c": "1HtqkDUuvRL23c18nPbDqRbuq6HbXqq9XG",
+"addr_u": "15RPUoVDxTBxspS6qeq4osT8KH5xGx4igk",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.rev.modN",
+"k_hex": "0xdff40d88de64e6e05a9ac3884c89eb13bebf80ecf5e2df9c465eaa11d63ebd77",
+"addr_c": "1A7AucXAubUfCgQDMVzd1TtpZVvdxvosCp",
+"addr_u": "1Kw9RQTGjcUgXDeX2rQwJ4pKtmD1eb85U8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.rev.first256|msb",
+"k_hex": "0x1aa25b88a96a95f2e1976177310bbbde96552531c88261814e9d2a004f95d94a",
+"addr_c": "12QYx8x8jKYxAyskRkJdVLnnARZ5rhPSxQ",
+"addr_u": "148dpMyFBpApfJ49vHnB881AjWs5LUTGLq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.rev.first256|lsb",
+"k_hex": "0x529ba9f20054b972818641138ca4aa697bddd08cee86e9874fa9569511da4558",
+"addr_c": "1GTb23skFaJuAEaiApNg4Lk9CkQu7nQFRS",
+"addr_u": "1Q1e6GMqe1r5u5mkUeTTQD7qMUQNGyrmdV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.rev.first256|msb_byteswap",
+"k_hex": "0x4ad9954f002a9d4e816182c831255596debb0b31776197e1f2956aa9885ba21a",
+"addr_c": "1EWB7vnYMeMazepmELxUkgHm4pu15s3vFf",
+"addr_u": "13JWb8FMu5JzX5DWVTu8nfDeAWL7EYu2KK",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.rev.last256|msb",
+"k_hex": "0xd8f34b9e203d410d5b55452a3c31f780f3dda212159c64599e6cd957a79e1087",
+"addr_c": "1NNpHKDdYdfcUsXbzteNMovYw8L7DfEAmU",
+"addr_u": "1CTQKZZbzdtisBD7FEQMoyqiGsqNNWUz2e",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.rev.last256|lsb",
+"k_hex": "0xe10879e5ea9b36799a2639a84845bbcf01ef8c3c54a2aadab082bc0479d2cf1b",
+"addr_c": "1MRRkpZGUybGcCkkQx5r4NKVmJc4hsqcae",
+"addr_u": "15ehgSin16R5V4zeXkTcC8aDDQpSU7GDuE",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3120.rev.last256|msb_byteswap",
+"k_hex": "0x87109ea757d96c9e59649c1512a2ddf380f7313c2a45555b0d413d209e4bf3d8",
+"addr_c": "1JtgJinPoPi8uqNtxoHdNS2yCAgj6Zeh5A",
+"addr_u": "1A4mUttr1regWfajTDv7HiThseCs8WWPqB",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.rev.modN",
+"k_hex": "0x6e2b11af83721d923cc6350dbc73731abb6ca142a6dafdefb2854bbfd711a36c",
+"addr_c": "1DpgKaueo5oYCvpGSfwMEuBWmEepLxbQGq",
+"addr_u": "14Fe1USKWRNsd44qEuWMnJ8JrqMrXgZFAn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.rev.first256|msb",
+"k_hex": "0x6004a31102802af4c62b86bb765333ec28aa4a76d11486169c2e40559f2ae290",
+"addr_c": "1KveTEdMG8UJA3GGupBm6jkFxCbjQQw58a",
+"addr_u": "1MSwJg15UboazNDqetx3aeRCRoHtbzfTxn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.rev.first256|lsb",
+"k_hex": "0x94754f9aa0274396861288b6e52551437ccca6edd61d4632f54014088c52006",
+"addr_c": "1BezSsTUGqUNV7UsZmyrwyHmDPVUj9aS92",
+"addr_u": "1FWfWkDC1PYqB9NVUhzM9WGvrW5LPA8VeA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.rev.first256|msb_byteswap",
+"k_hex": "0x90e22a9f55402e9c168614d1764aaa28ec335376bb862bc6f42a800211a30460",
+"addr_c": "1Mc2sfxf3hvYfp5vCAkLHeKNMnFhXcp1tx",
+"addr_u": "1MSK3KNLSqgJnrRBeUwG7efnsgD8T12eJK",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.rev.last256|msb",
+"k_hex": "0xe1f7932c457e965ea3aa9a407d76fb15f7ee04646a2d89a22c8de2ab0b2c651b",
+"addr_c": "1EYexLjXiFBLVK7ZuNetGqHvcoyuCkRb21",
+"addr_u": "12xLr7L8mncNF5AUomuyvkhz3rtdxdSuwC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.rev.last256|lsb",
+"k_hex": "0xd8a634d0d547b1344591b456262077efa8df6ebe025955c57a697ea234c9ef87",
+"addr_c": "17DaE85GK8P1jF8xP5X253Bj3B9wTJBAfX",
+"addr_u": "1CiqdFKJtvkTB1LPZ5adDaryb6rR5J3uTA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3201.rev.last256|msb_byteswap",
+"k_hex": "0x1b652c0babe28d2ca2892d6a6404eef715fb767d409aaaa35e967e452c93f7e1",
+"addr_c": "1PhjhwsWjikTcirNGnzeStCkGKXFh81iit",
+"addr_u": "17JCrXAKy6kBegQHBLsm6pMYA3bBS2Defy",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.rev.modN",
+"k_hex": "0xb596d5144e7ab58402034de7c2529e8926e90b5c468271602023f64398e9151d",
+"addr_c": "172zobVeXUX2notRHNvhYRhd256FJcukTY",
+"addr_u": "1LuuvKKQEDtxT57UqSS4pMmgEK2DWcoPbQ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.rev.first256|msb",
+"k_hex": "0x2551a74456956af1d26b92bb320777ed69aa1a32c44192428d6e15008f6ae685",
+"addr_c": "1MhR82b83CdbuigYFvE64HmGhMaypZZxpF",
+"addr_u": "1DN4DTSJTM2NvMVowJ383dLuFFGZJ9h6nv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.rev.first256|lsb",
+"k_hex": "0xa16756f100a876b1424982234c585596b7eee04cdd49d64b8f56a96a22e58aa4",
+"addr_c": "1GwPHaiaYpvjQf2GDVRAa7rZyLnWMKTA41",
+"addr_u": "1BsJGDETTvbay9Py7DkJ4YHvSzt3hABtUM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.rev.first256|msb_byteswap",
+"k_hex": "0x85e66a8f00156e8d429241c4321aaa69ed770732bb926bd2f16a955644a75125",
+"addr_c": "19oE7rXeffxkdb1nVHoJVvkRvKjunHxcU4",
+"addr_u": "1MqxrVaR7bdKDgpfBxb1DZY2aHTwg2ekVU",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.rev.last256|msb",
+"k_hex": "0xe4f3876d103e820ea7aa8a153c32fb40f3ee51212a6c98a66d9ce6ab5b6d204b",
+"addr_c": "1FUffbBP8Mqv6K7bQ6zFPGz73BJAVTzjnk",
+"addr_u": "1KRMJic3pSNiM58tpx7iexWcZ5bXqBMu6G",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.rev.last256|lsb",
+"k_hex": "0xd204b6dad56739b665193654848a77cf02df4c3ca85155e570417c08b6e1cf27",
+"addr_c": "19vWBmgfn2WmWj8RD3CJ2L23CQwessGNb5",
+"addr_u": "1DLvezmwYDS9sRh3MaHy7hs3sxjMVasKCg",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "A.even.2bit.3210.rev.last256|msb_byteswap",
+"k_hex": "0x4b206d5babe69c6da6986c2a2151eef340fb323c158aaaa70e823e106d87f3e4",
+"addr_c": "1DNSHC9zqk3GHm9u9H85sE2kN7nxxQbB4Z",
+"addr_u": "1DFV4VmVVMstz5thrSZvT37yH2cCaY8PRW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol0.rev|msb",
+"k_hex": "0x8728c391e750117db55bc71f8eb83de3f8cac4b3fb9ff134b92aef5bd4971276",
+"addr_c": "1HJkkC3pztMryuWoNK79nEC3soD5M4WwPm",
+"addr_u": "153kpkZN7vjhdwNGA4ySfTzV6vAgYhht7k",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol0.rev|lsb",
+"k_hex": "0x6e48e92bdaf7549d2c8ff9dfcd23531fc7bc1d71f8e3daadbe880ae789c314e1",
+"addr_c": "1F6PSUNGHNJfXkAnrx2cyZ1Mm5uXpE8FDv",
+"addr_u": "1GdbqrQWRGt8WhCSqvaYBAb8zRVWwMrykX",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol0.rev|msb_byteswap",
+"k_hex": "0x761297d45bef2ab934f19ffbb3c4caf8e33db88e1fc75bb57d1150e791c32887",
+"addr_c": "1NA4j2qiN5MPXSzkygGVx62zSVBvkgSA19",
+"addr_u": "1Gppoue1nwHN5xdiYxi6aZLftMTnQRkVs2",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol1.rev|msb",
+"k_hex": "0x78d73c6e18afee824aa438e07147c21c07353b4c04600ecb46d510a42b68ed89",
+"addr_c": "15W6rZqjMPj7UG3PkizBUBatwfGViBLYGm",
+"addr_u": "1LfqeAwZojUxKyXyYxdKf4GzMFv9v878Tz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol1.rev|lsb",
+"k_hex": "0x91b716d42508ab62d370062032dcace03843e28e071c25524177f518763ceb1e",
+"addr_c": "1GRzouJpp5KBSa3oG2fR3WLetAMUF1EfLc",
+"addr_u": "1JH4jW83YdwZNjaKMrDnPSfGbK1sV5uSqh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.row.pol1.rev|msb_byteswap",
+"k_hex": "0x89ed682ba410d546cb0e60044c3b35071cc24771e038a44a82eeaf186e3cd778",
+"addr_c": "1MJ11vkkVTf9tCPRpDzdA3Rp31jvZGQtdx",
+"addr_u": "19xx9nf3duVsWKNCyMh7vwfshZCLcJ6Mpv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol0.rev|msb",
+"k_hex": "0x84a8007514b56804ed4a611ee108878317af52bcdc2091ff7fd2a83102388955",
+"addr_c": "19TqYedLM1K46PAva4FAXj9WzYWWs85eHq",
+"addr_u": "1LQbev98iD99av1syEFpq5DWEBDc6NikJq",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol0.rev|lsb",
+"k_hex": "0xaa911c408c154bfeff89043b3d4af5e8c1e11087788652b72016ad28ae001521",
+"addr_c": "1Ng67aUYMvj3ed3t2CYeUey6YroDhuVZ93",
+"addr_u": "1F8P5cb9yLak49K5eFS5Mwv89Xr7rcfA5y",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol0.rev|msb_byteswap",
+"k_hex": "0x5589380231a8d27fff9120dcbc52af17838708e11e614aed0468b5147500a884",
+"addr_c": "1DDsD9VtThWLiXui3NB7pMRNxqxkauJecS",
+"addr_u": "1NzL2iVun1EXeWX4WTeL8ud3YjC4VM3E33",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol1.rev|msb",
+"k_hex": "0x7b57ff8aeb4a97fb12b59ee11ef7787ce850ad4323df6e00802d57cefdc776aa",
+"addr_c": "1M5i6YHhi5Dkce7u114A5fFY6i78aq1fXe",
+"addr_u": "12yQM88AZTLboNdcUMJX7fqg5y5EqMBG6Z",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol1.rev|lsb",
+"k_hex": "0x556ee3bf73eab4010076fbc4c2b50a173e1eef788779ad48dfe952d751ffeade",
+"addr_c": "1LHwvTY433gsMXXiV9WbqVpgMToANE6roW",
+"addr_u": "139rrmktnPJV4YZ4H4b9YNRYemUmN2d21g",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "B.even_dropIOpair.col.pol1.rev|msb_byteswap",
+"k_hex": "0xaa76c7fdce572d80006edf2343ad50e87c78f71ee19eb512fb974aeb8aff577b",
+"addr_c": "1HHPPm4Vr31rXDQJiUvi6uj6aUw3px7KT9",
+"addr_u": "1KFhtg4dBoF1acWyQ1USQHhBBeEZkTo9Yr",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol0.rev|msb",
+"k_hex": "0x11aa304b7c25026a92df5a662069a8a6c1c9f65e65e6dbaf61aa03c3891c3567",
+"addr_c": "1P3B7mHFVwuGyY9MHJHLy67hRqHT4snoR7",
+"addr_u": "113brzKj53C7YSht1oMxwhwAaTdu1FvSCw",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol0.rev|lsb",
+"k_hex": "0xe6ac3891c3c05586f5db67a67a6f938365159604665afb495640a43ed20c5588",
+"addr_c": "1B5LYH4AZjNWw5oDHF4diMoLhRVhiqThBV",
+"addr_u": "12cEKubh5Xomb2159iDACoLXPmoq6CrNDN",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol0.rev|msb_byteswap",
+"k_hex": "0x67351c89c303aa61afdbe6655ef6c9c1a6a86920665adf926a02257c4b30aa11",
+"addr_c": "14bv8CSKsC9DvzWGJyVAH2N8QLDXzmQX1u",
+"addr_u": "1LVHpdvckb4a5VMoNE8q8KfPTgzhz1SrZG",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol1.rev|msb",
+"k_hex": "0xee55cfb483dafd956d20a599df9657593e3609a19a1924509e55fc3c76e3ca98",
+"addr_c": "1LTur2TWeAT8PRm8AAmte8izNCL573aD3i",
+"addr_u": "1PNojfbdMYmtQzypTDDEnb77omW3xECH9",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol1.rev|lsb",
+"k_hex": "0x1953c76e3c3faa790a24985985906c7c9aea69fb99a504b6a9bf5bc12df3aa77",
+"addr_c": "17XE18Xm4VeLFLHRFCVUASshB48qVdqdT4",
+"addr_u": "1GNHjzwesxq8AX7J31sr3nDEig1Nemfs8s",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rowpar.pol1.rev|msb_byteswap",
+"k_hex": "0x98cae3763cfc559e5024199aa109363e595796df99a5206d95fdda83b4cf55ee",
+"addr_c": "18kToKb7zJrbuKx5p4xH7Yuz9tmksCShCp",
+"addr_u": "15Qf8Pppk2rfRigFwtDsBWMFfnGNoAsPWt",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol0.rev|msb",
+"k_hex": "0x4b2d24990c86b97ca9e804ee24ee63c100a82800520c2806ad5c22000540055",
+"addr_c": "13N4n2MCvdP3UFRP1scQmz2AP1uRYdPB13",
+"addr_u": "1FzGDGm2ZjNnvGk1fEtHP1W2kUcCxfAY9G",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol0.rev|lsb",
+"k_hex": "0xaa002a000443ab56014304a0014150083c67724772017953e9d61309924b4d20",
+"addr_c": "1Drr2f8ACu8donAx1MquxvkSyWVUfAKWKC",
+"addr_u": "15V5mpF3t6dcnoGTdL2Y5JBvxEojRGEUTv",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol0.rev|msb_byteswap",
+"k_hex": "0x5500540020c2d56a80c2200580820a103ce64ee24e809eca976bc89049d2b204",
+"addr_c": "17ggEmHhd7JufkBBhzv5CJGL1ey1Sgv7tc",
+"addr_u": "159Fff7fX3K19SaMcZF2zVadxEKUPUWQ4y",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol1.rev|msb",
+"k_hex": "0xfb4d2db66f37946835617fb11db119c3eff57d7ffadf3d7f952a3ddfffabffaa",
+"addr_c": "1HWdsk1Ee7yBdEMoRaqRXmpmYbgTAp7JSu",
+"addr_u": "1BqWyhkd6tSdMunemn5w8J8gYHrEABzWuh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol1.rev|lsb",
+"k_hex": "0x55ffd5fffbbc54a9febcfb5ffebeaff7c3988db88dfe86ac1629ecf66db4b2df",
+"addr_c": "185fFWWu3nJtXsEyS28qxXnKfhn5uuJfs7",
+"addr_u": "1PzihwzAuVnTZaYAPjraS4oYHQqiKhcKFr",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.colpar.pol1.rev|msb_byteswap",
+"k_hex": "0xaaffabffdf3d2a957f3ddffa7f7df5efc319b11db17f61356894376fb62d4dfb",
+"addr_c": "1EFD8QAucwXsq9QsFsNYnf4KtEoD2DUDC2",
+"addr_u": "1ABbqxnnAN4P9DpB972F9abY2qMtLEwbpb",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol0.rev|msb",
+"k_hex": "0x63931d860b3f822200312b273958a3586719f8771d157dbac77611d1f58dd103",
+"addr_c": "1HDARpBbZy9JrHiQx6Ji75GhbjZc3XHCPC",
+"addr_u": "1Egfgy7xQqn6K6bTQpStAnHQoKQdSjdroh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol0.rev|lsb",
+"k_hex": "0xc08bb1af8b886ee35dbea8b8ee1f98e61ac51a9ce4d48c004441fcd061b8c9c6",
+"addr_c": "1PYZoS6GBUPEKtimN5bWMvJhuDhN6J2j9n",
+"addr_u": "1Nhi3zjewjf7YCDpk9H7BnG2BiEs4TtbgH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol0.rev|msb_byteswap",
+"k_hex": "0x3d18df5d11176c7ba7d151d77f8196758a35839272b310022823f0b861d9363",
+"addr_c": "19kdfn6dV2PNnc7f1Qp5Rc7cJ5k9uox5JU",
+"addr_u": "1DFy2WVwcwckKmg4uZDopW4w3vCCJ2aqvH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol1.rev|msb",
+"k_hex": "0x9c6ce279f4c07dddffced4d8c6a75ca798e60788e2ea82453889ee2e0a722efc",
+"addr_c": "147EH65LL2ewrKETvmJk74vvkzqXHUV2Pj",
+"addr_u": "1ES8gcTJxJqAjiQiL7NcQ13VTM7PU4XE2i",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol1.rev|lsb",
+"k_hex": "0x3f744e507477911ca241574711e06719e53ae5631b2b73ffbbbe032f9e473639",
+"addr_c": "1JrJHkUAVMjWoSoasKNU4okyBqFUvFyE3x",
+"addr_u": "1GMzZbV9ktQiuWgN8soZV8SYhs3spnmc31",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.sqidx_hi.pol1.rev|msb_byteswap",
+"k_hex": "0xfc2e720a2eee89384582eae28807e698a75ca7c6d8d4ceffdd7dc0f479e26c9c",
+"addr_c": "1ByfCRnDja39Ayn2vGXVn1gtq7UC9x8fgg",
+"addr_u": "12wd4NqA569DX11xdsHtkdzMufqQwDKz4C",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol0.rev|msb",
+"k_hex": "0x63931d860b3f822200312b273958a3586719f8771d157dbac77611d1f58dd103",
+"addr_c": "1HDARpBbZy9JrHiQx6Ji75GhbjZc3XHCPC",
+"addr_u": "1Egfgy7xQqn6K6bTQpStAnHQoKQdSjdroh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol0.rev|lsb",
+"k_hex": "0xc08bb1af8b886ee35dbea8b8ee1f98e61ac51a9ce4d48c004441fcd061b8c9c6",
+"addr_c": "1PYZoS6GBUPEKtimN5bWMvJhuDhN6J2j9n",
+"addr_u": "1Nhi3zjewjf7YCDpk9H7BnG2BiEs4TtbgH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol0.rev|msb_byteswap",
+"k_hex": "0x3d18df5d11176c7ba7d151d77f8196758a35839272b310022823f0b861d9363",
+"addr_c": "19kdfn6dV2PNnc7f1Qp5Rc7cJ5k9uox5JU",
+"addr_u": "1DFy2WVwcwckKmg4uZDopW4w3vCCJ2aqvH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol1.rev|msb",
+"k_hex": "0x9c6ce279f4c07dddffced4d8c6a75ca798e60788e2ea82453889ee2e0a722efc",
+"addr_c": "147EH65LL2ewrKETvmJk74vvkzqXHUV2Pj",
+"addr_u": "1ES8gcTJxJqAjiQiL7NcQ13VTM7PU4XE2i",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol1.rev|lsb",
+"k_hex": "0x3f744e507477911ca241574711e06719e53ae5631b2b73ffbbbe032f9e473639",
+"addr_c": "1JrJHkUAVMjWoSoasKNU4okyBqFUvFyE3x",
+"addr_u": "1GMzZbV9ktQiuWgN8soZV8SYhs3spnmc31",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.alpha_hi.pol1.rev|msb_byteswap",
+"k_hex": "0xfc2e720a2eee89384582eae28807e698a75ca7c6d8d4ceffdd7dc0f479e26c9c",
+"addr_c": "1ByfCRnDja39Ayn2vGXVn1gtq7UC9x8fgg",
+"addr_u": "12wd4NqA569DX11xdsHtkdzMufqQwDKz4C",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol0.rev|msb",
+"k_hex": "0xe3939fb68b3fef370d312bbf3d5cb359771df8779f157dfacf7679f9f58dd113",
+"addr_c": "1HFtjFbeXRc9zhv9acnxyxdRDriB8g8PSD",
+"addr_u": "1PQ6jHnP6CuN79VgTH51oWqQmCNh77sVcg",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol0.rev|lsb",
+"k_hex": "0xc88bb1af9f9e6ef35fbea8f9ee1fb8ee9acd3abcfdd48cb0ecf7fcd16df9c9c7",
+"addr_c": "1JzB7k3JCTFS6pf9egoznWV6C6i2oBPTdD",
+"addr_u": "1E3AJeNUrZuozjPq69ozcyV2Dj15xdaNR5",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol0.rev|msb_byteswap",
+"k_hex": "0x13d18df5f97976cffa7d159f77f81d7759b35c3dbf2b310d37ef3f8bb69f93e3",
+"addr_c": "1ndGKAb6KhUAsmaW5bqkeAvDLfFcE29an",
+"addr_u": "1E9WkbJTJpEvqWPVBUdWpTNVZALRjEjnPx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol1.rev|msb",
+"k_hex": "0x1c6c604974c010c8f2ced440c2a34ca688e2078860ea8205308986060a722eec",
+"addr_c": "13F7JyHjR7yhnCcQjFgyUMKixqaBY2q9GS",
+"addr_u": "13VnDmaeW5difkLfNvfcK9gqJmyDMX3Hxu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol1.rev|lsb",
+"k_hex": "0x37744e506061910ca041570611e047116532c543022b734f1308032e92063638",
+"addr_c": "112zR5f4UxueLUcJUFijVbB3QopEM1vshp",
+"addr_u": "13Rebm9iMFbGpfGw4okf6jP5JQdFzQZX2H",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.rows01.pol1.rev|msb_byteswap",
+"k_hex": "0xec2e720a068689300582ea608807e288a64ca3c240d4cef2c810c07449606c1c",
+"addr_c": "1NTM6g4muAH31kxbEVTsui5PpYgeLmuv2d",
+"addr_u": "1EE8xPrVLppMYUmzMiCucfas2Xt8Aafu57",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol0.rev|msb",
+"k_hex": "0x20004b18080000828f0040000002340000024200208a0020b002c000100044",
+"addr_c": "138RV7GTGTXU6ab55rdeBsAk4hcLELBkve",
+"addr_u": "1KrCVnQf4oQkCzZwsdqiVkJSq9z5KhuxFz",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol0.rev|lsb",
+"k_hex": "0x2200080003400d0400510400424000002c4000000200f14100001018d2000400",
+"addr_c": "1EXnh31ENoG2Fi9wrTKy5CyQcrYuA9PvMq",
+"addr_u": "1KpVouJHzFPXmVqyzmXMGJAgygZ6yqALRp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol0.rev|msb_byteswap",
+"k_hex": "0x44001000c002b020008a2000420200003402000040008f82000008184b002000",
+"addr_c": "19uDV8BsNSuXodZxpgkd8BCcD8ffHGWmHs",
+"addr_u": "13nAgb4iGbHfkboxfgjNBfU7dHrAc6Xrhn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol1.rev|msb",
+"k_hex": "0xffdfffb4e7f7ffff7d70ffbffffffdcbfffffdbdffdf75ffdf4ffd3fffefffbb",
+"addr_c": "19VewPchpU7bHj3KeKJR9dm6Tw7LTPnmuf",
+"addr_u": "15MF9iPFEqZCWGXFpsKjcrneegjrngHVHu",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol1.rev|lsb",
+"k_hex": "0xddfff7fffcbff2fbffaefbffbdbfffffd3bffffffdff0ebeffffefe72dfffbff",
+"addr_c": "1ET987Ay9tAWstjBQG2kw1qcmAhVHsdNPB",
+"addr_u": "164uUqzk4PHhchxKAp2CUGevH7nq1kP1p1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "C.oddnoIO.vowel.pol1.rev|msb_byteswap",
+"k_hex": "0xbbffefff3ffd4fdfff75dfffbdfdffffcbfdffffbfff707dfffff7e7b4ffdfff",
+"addr_c": "1HRjnfmJQVDUjjCQQ39E4z6euY33rvcn4e",
+"addr_u": "16Spzzxu568WPE2HpJqRr8jqT5dbMapp9j",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0123.rev",
+"k_hex": "0x62038ac342f47e9b1aed1b9e8543220e86666b1138753ac84539447ace5f46f4",
+"addr_c": "1L25oPZG4rpxLApP4DjP7PCoGJ6bUP7ppk",
+"addr_u": "1MdS1rPq3CrRLRPicr5w65CV6FPaUT4PrG",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0132.rev",
+"k_hex": "0xa96f4e280dfd168ce02a34788b224d7cf1e2d52ad81cae38b2d7eefe9036b8a5",
+"addr_c": "13BjmjEK6ysmY4BCWvDcd8ESiDh6x9e1At",
+"addr_u": "14YEFqRKy1toD4c273KbTkHHVczRfSTB97",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0213.rev",
+"k_hex": "0x37a6524eb30a4d3ec255a5fdfb0bd583ee8ff5808914cc8c1efe90ac91099e9a",
+"addr_c": "1KfdCybJF3N9s43GVxXaBs1rCdsnbppgvq",
+"addr_u": "1KepDQt9mzr6vUzPSWGQMeF7caT3VNfBp7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0231.rev",
+"k_hex": "0xc67dd918491b7d224ccfd7b206ca2c60c588c9b3c863b36cfa3be5b414b881fc",
+"addr_c": "131xunhzRzQhn2hmy6y7RZNaEYzQqxrZQZ",
+"addr_u": "16dCoqFq2h3BWLYtjvKnqv6aTZf2xrqPZV",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0312.rev",
+"k_hex": "0x54b4dd3eee28b3d42efb493776b3b467c235ea09795bd1c066628762158b67f1",
+"addr_c": "123Fh6fnFQ9U2JxdGUWnHofGTzzyRJcNh7",
+"addr_u": "1ENx9p2bBRdTNDVznDMHn1nR6FaUk9xg7x",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.0321.rev",
+"k_hex": "0x9c20a0a3b9314bc5f43862117c92dfd62db2542319034530d40131e5d762d9a2",
+"addr_c": "18SARkSLdQpngVtXPRMyLriY4R2nJCeYf4",
+"addr_u": "1P7iMosrS4S5pmDjZZuDRzciyiFvoY63fj",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1023.rev",
+"k_hex": "0x6eefd614e650e57218d6b05da15d862c70337dd18752c1daa8e1c4f7a1d2a51e",
+"addr_c": "15wvqmEz6JAs1d9QueSbU3pEJZTVZK9m3K",
+"addr_u": "17FDTybP4ne1dNBj4Jaownu9W1bBQRcivn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1032.rev",
+"k_hex": "0xb65b9979b1597d63de13c937a73cb19adbafe7eb26fa354b16806f7b63aa16cf",
+"addr_c": "1NK3zQ7EfLZJkGQCkeynMV8V7j82xW8qur",
+"addr_u": "1CewwcRG11JrxFcWK3A6EjjUuwZnSvjx6b",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1203.rev",
+"k_hex": "0x1a35652bc67c82b967a7c51c8ceeed17408692b02891e5625c6c5d5b2727546a",
+"addr_c": "1LGHisu9iMMwmJRCGviRLKUPtRcJw4GMyG",
+"addr_u": "16mFHYme6ZCituPYobtJimGqVU3zB3zunx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1230.rev",
+"k_hex": "0xf078af5a27964a8eb75f0faa9e8c6f6282fbd0fd07883fb3a5485ce66cada97d",
+"addr_c": "1AgnSmwRfLAQ7EK64e5SG8terSZDykgs36",
+"addr_u": "1NaHozqMxW6YFYVbMQhRDGhuYqS6Gf3833",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1302.rev",
+"k_hex": "0x3743f01c019ae94ed44d68560896cbfb142c873918d8ea96a3d05410aba91dc1",
+"addr_c": "13iRVJeXCSDUVySVZyV6cGXyrmCAXfiLu8",
+"addr_u": "1NeszrpdoevZZxpQqcSY6tWrm6QZ24kRZL",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.1320.rev",
+"k_hex": "0xc61b76e597ac19325ec79a0a145522d7eb255b6c5827d1777f0da9182f580123",
+"addr_c": "1GRKWCtFhKLiwH9M3yJG3p1gsnSpyCUQ2z",
+"addr_u": "1KzhS8Nt12tAHxWsBqq3MTaHGr5pbLGSFA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2013.rev",
+"k_hex": "0x517ee8f1f9c31aecbe28cf7c33409dbfc22a1b0126cfdab0e64f91a637f05aee",
+"addr_c": "1JSbh9H8F3YtnRB6ZSBgC84W7ueEogeuQw",
+"addr_u": "16XojcE8ffgMZWFGgrbvS3CaSqw6ZW5LK9",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2031.rev",
+"k_hex": "0xe0566fbb8fd44ad048a301303efef49c9922ef34661ec191c18ce6adbb9f3e50",
+"addr_c": "13XopX2Gogh3e6VdUgqLEVFw61fqnynysT",
+"addr_u": "1eG5htCqRzmsj6pYZEr8y3nEbwJpo8bfM",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2103.rev",
+"k_hex": "0x2721b07d69d8e990659159dba90951352a53a570776f6c74c014ddd7fa9ab294",
+"addr_c": "15uYJEdBkvF7DQdUUbfptgYraopdFqpRUP",
+"addr_u": "179fGvwXu2yp16aGgmrLDVzozmSpG7k9fx",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2130.rev",
+"k_hex": "0xfd64faabcaf2b165b548a469baa6d3806cc8e3bd5665c6c608f0dd63402107a7",
+"addr_c": "17mVDpHTh8aNQBNguSAwvqiAhsA42VZu1k",
+"addr_u": "17Wa4emdJyxHb2ALxF2DboaGeQt1aQLh8h",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2301.rev",
+"k_hex": "0x613ec65de015b6bb3edca04ea0590efcd19f8e8257fd76dd4edccb43039e4542",
+"addr_c": "1DD3Yw6T8HJkzgpzPPe4gHnPgsWyZiNuAp",
+"addr_u": "1J5SXRqaQ9Vv3RZ4wkncn9JdfaqSCESLv3",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.2310.rev",
+"k_hex": "0xa8aa89c2ab1e4ead0419b928a6383a6b3d1bf89bf7a4ea4dbc7b75c6c575b6f3",
+"addr_c": "13Q3XqJce9w9TSABSY9UNS6bvPfFjLbTS1",
+"addr_u": "16V7EzNM5wV5zbcexrpbbHbAB69KQmQd4M",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3012.rev",
+"k_hex": "0x7b79bf33d83de85928b80774cb02e0c17f9d224a65f466f7915c08d88fe5826f",
+"addr_c": "1K5JSgozA5RXPtfyGwUCk8iDFuee256kY",
+"addr_u": "1AaqUqSEBzah1YmWoTG97b9bU3mU3g41h8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3021.rev",
+"k_hex": "0xc2e58298a346804aedf5204ed0e20c2feb198c64059bda67fefab35c51bcf420",
+"addr_c": "1PQtLnbd2vUCYMLvWKpSshsE5CfZ6dR5oC",
+"addr_u": "1Ftppedn2uVhYvqXWzohZn7DDbUGKK7DQo",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3102.rev",
+"k_hex": "0x511c86bf4853b6fcd02091d440cb9436e7c6acb9b693f8bb6b21550a528fda15",
+"addr_c": "188YQwwBXsyD5ZVWbdZEErNJ4WAkYYE4Jj",
+"addr_u": "1MC64xZtow84TF4AgipcFaMpVCuJsHxvkt",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3120.rev",
+"k_hex": "0xdff40d88de64e6e05a9ac3884c89eb13bebf80ecf5e2df9c465eaa11d63ebd77",
+"addr_c": "1A7AucXAubUfCgQDMVzd1TtpZVvdxvosCp",
+"addr_u": "1Kw9RQTGjcUgXDeX2rQwJ4pKtmD1eb85U8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3201.rev",
+"k_hex": "0x6e2b11af83721d923cc6350dbc73731abb6ca142a6dafdefb2854bbfd711a36c",
+"addr_c": "1DpgKaueo5oYCvpGSfwMEuBWmEepLxbQGq",
+"addr_u": "14Fe1USKWRNsd44qEuWMnJ8JrqMrXgZFAn",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.even.base4.3210.rev",
+"k_hex": "0xb596d5144e7ab58402034de7c2529e8926e90b5c468271602023f64398e9151d",
+"addr_c": "172zobVeXUX2notRHNvhYRhd256FJcukTY",
+"addr_u": "1LuuvKKQEDtxT57UqSS4pMmgEK2DWcoPbQ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.odd.base25sq.rev",
+"k_hex": "0x4093293e8f36496661eeefc7d026457e55edff527c75b6edde089fd870299b01",
+"addr_c": "13iNZ5ktoGUuAWpjT9nAFdmwxML4Wjk8ej",
+"addr_u": "1CxqqUR3Tn19wzgXsBTKtnexRS27UAMJDh",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.oddnoIO.base25sq.rev",
+"k_hex": "0x198c2897a82b4ac77bfd19a963601a139eecdb2c41c7c840eac502f183c87dc6",
+"addr_c": "19PiAyc9HUJvCf5Gfk9KrjoQ71SfR8PXTR",
+"addr_u": "1KqpLwGSGjAF9M9BKtWfjQVM8EMan7CyxY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.whole.base25sq.rev",
+"k_hex": "0xcd342a75c454e7af603025b5c1e8f535d8ac5973a3b340a58c3a8acc45db2d93",
+"addr_c": "14fd4uPZDdKbq9iSd71o94bVdH7PXw6soR",
+"addr_u": "1ogLUum4nbRV2YLeT8atG3c9CTU7whjbY",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "D.wholenoIO.base25sq.rev",
+"k_hex": "0x241a42ea272f46cf158381e4c9743e5d2d0c74aeaf0efa032a0533e91f9e29cb",
+"addr_c": "18vvo6YmLmdi6bbT7YPtsc8tAbwnsrwevW",
+"addr_u": "1KFwfZE4R4cxX25C24ez4W1H1BUc9u8Jm6",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.oddnoIO.primeidx0.rows01.rev|msb",
+"k_hex": "0x2671f51ed3f7f7",
+"addr_c": "1G27HgZ9X1DrsxwyKzZfS9518NcEsBZcbN",
+"addr_u": "1KsYKXMY4qijvTDTTv12dxWuL96TqTV8eZ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.oddnoIO.primeidx0.rows01.rev|lsb",
+"k_hex": "0x3bfbf2de2be399",
+"addr_c": "137epijFazZ1skD1rvidsvcN5NV2A8nVXD",
+"addr_u": "1FemrtmQ6d1TaynVLWZFKEutyohkL4iJi7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.even.primeidx0.row.rev|msb",
+"k_hex": "0xa2aaddbcabe64d",
+"addr_c": "1PryDFfBq89LvpWwTaKFHwqXetpHejjfxk",
+"addr_u": "1BWX6aUZ8e4xKdAdoqKKHVT8ez3LFm6HYT",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.even.primeidx0.row.rev|lsb",
+"k_hex": "0x164cfaa7b76aa8a0",
+"addr_c": "1E46NpcfMvLafApttQBv4vw4TcZ6S3xXx1",
+"addr_u": "1BMBBokrLepuYpYU5J7SvUHU6xUp4M5E5U",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.oddnoIO.primeidx1.rows01.rev|msb",
+"k_hex": "0x34ade0d348bfaa",
+"addr_c": "15kdsr9T3kWLSiaf25BvbLWYNSFkZFnvwE",
+"addr_u": "1M99iPh4D9DLoXS82H6qD1Zwt8RiVqA63A",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.oddnoIO.primeidx1.rows01.rev|lsb",
+"k_hex": "0x157f44b2c1ed4b",
+"addr_c": "1PtpkL521fp1KuRoNZPeHJgT2wpUvrUyCY",
+"addr_u": "12focR5suKcjC4J7p3c5CfP2dV3jR52ME1",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.even.primeidx1.row.rev|msb",
+"k_hex": "0x1205e7b19f4d9ba3",
+"addr_c": "1Cqu3AfLeYKrcG7XF587MFhNn3xSwdpEKQ",
+"addr_u": "12TEJfiPse4ckKPerMWgnVfFnFJ7SBSdHc",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "E.even.primeidx1.row.rev|lsb",
+"k_hex": "0x18bb365f31bcf409",
+"addr_c": "13BEspMKBFor7rd9G5gpeYUneC8Ru6y7eh",
+"addr_u": "18gXCbP41gV7gFojzPpS1LG5qjJnYxUVZP",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rowpar+oddC.colpar",
+"k_hex": "0x90ac6291c80400dcf71e6c467bb0e38ce6ce2b652913d461804458bb94216167",
+"addr_c": "189affVHtVVJaDL2w9NyK2qHDYcBZZfskp",
+"addr_u": "1N4LY4mA4eGDUqAsPWtWCLjU5hY5rRChyJ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rowpar*oddC.colpar",
+"k_hex": "0x4635214a66a34795fccbe6be229a518e785173d691838a5c5e1eef98e37602d2",
+"addr_c": "1MsD8XbrYnVyde49s5kVY2ZWxYYFsnVJBC",
+"addr_u": "16Fh7seJbXPMRNyGfitpxsUg3CaW61mNkC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rowpar+oddC.sqidx_hi",
+"k_hex": "0xa737ea414f48c46a539a105f688f2c6ac52bd3ba9be6e70ddab04282638ede0d",
+"addr_c": "1DUMwWvvUQgzBamCkPPFPoPSNztwGsUNrV",
+"addr_u": "18fYVScgwa1meSzRBPWXFaSJdtW3KrpPGe",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rowpar*oddC.sqidx_hi",
+"k_hex": "0x5193bbb7cf557d7cb08ef356a5d80a9dc8ac7bfd666c02bd07839b43e73c658d",
+"addr_c": "1KiHCUAPZSFzXsYJJX3wLBXo5UUhqksYEo",
+"addr_u": "1GeMxTLNkZDUdbkuC6BkkAKLdsw9VLt584",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rowpar+oddC.alpha_hi",
+"k_hex": "0xa737ea414f48c46a539a105f688f2c6ac52bd3ba9be6e70ddab04282638ede0d",
+"addr_c": "1DUMwWvvUQgzBamCkPPFPoPSNztwGsUNrV",
+"addr_u": "18fYVScgwa1meSzRBPWXFaSJdtW3KrpPGe",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rowpar*oddC.alpha_hi",
+"k_hex": "0x5193bbb7cf557d7cb08ef356a5d80a9dc8ac7bfd666c02bd07839b43e73c658d",
+"addr_c": "1KiHCUAPZSFzXsYJJX3wLBXo5UUhqksYEo",
+"addr_u": "1GeMxTLNkZDUdbkuC6BkkAKLdsw9VLt584",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rowpar+oddC.rows01",
+"k_hex": "0xaf37ea41635ec47a559a10a0688f4c734533f3dab4e6e7be836642836fcfde0e",
+"addr_c": "16GXkxfH9betgc8Xe9RUz3Takf5ZYQW8T5",
+"addr_u": "12QhZxzhiTuf6wT7NZ5tVjbsy18dQ4k7RP",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rowpar*oddC.rows01",
+"k_hex": "0xc72478d84ad25dfa2b97f7c418923006563d97e6a7523ba17d813755edbdf532",
+"addr_c": "18Hn7vm2uAJrAWuiAmRLj34FytSMmyFLuJ",
+"addr_u": "18hZKGvChCvQwzWHBrMjSiQdx2vfnqwGZT",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rowpar+oddC.vowel",
+"k_hex": "0x8ac4091c700628af62c6ba6bcaf9384d6a6b91db9134c4e966e55cad3d61847",
+"addr_c": "1HsnQiv2XRPo19CdZ6yrB4Nr3Unso98Ar7",
+"addr_u": "18Np9gQKTridycd5fU3LRmUGkY7q2ZaGbt",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rowpar*oddC.vowel",
+"k_hex": "0x5b26db4491ed8b4fe1e019ecacaac9446f542f6b46258dde6e551dcd5817c814",
+"addr_c": "13GYsLkBreT6o5nS4cyuKmmvSRjS1V2LLB",
+"addr_u": "133Dzx5EPJZ3sKwxtkv9bTMepLKXaJiUHp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.colpar+oddC.rowpar",
+"k_hex": "0x90ac6291c80400dcf71e6c467bb0e38ce6ce2b652913d461804458bb94216167",
+"addr_c": "189affVHtVVJaDL2w9NyK2qHDYcBZZfskp",
+"addr_u": "1N4LY4mA4eGDUqAsPWtWCLjU5hY5rRChyJ",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.colpar*oddC.rowpar",
+"k_hex": "0x4635214a66a34795fccbe6be229a518e785173d691838a5c5e1eef98e37602d2",
+"addr_c": "1MsD8XbrYnVyde49s5kVY2ZWxYYFsnVJBC",
+"addr_u": "16Fh7seJbXPMRNyGfitpxsUg3CaW61mNkC",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.colpar+oddC.sqidx_hi",
+"k_hex": "0x6a8bdbaf8fcc1a395f01ad58ef60e8ef9c7daffda78d65186e45b14d23cdd5a5",
+"addr_c": "1AaivPG85ktUwAJTwsST8QaWiUipndnL97",
+"addr_u": "17qZDAKoshwFWifpRfomPB2W7F1qoeHEai",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.colpar*oddC.sqidx_hi",
+"k_hex": "0x2d259bee6ad2c5cb688b7bde4342c211652a17af6f433fce727638f1f6e50be",
+"addr_c": "12RREs5YALx5xVVezEuTVRkq8VUiwz4Dnm",
+"addr_u": "13hpEgPkV2A1ULhkZHJvnbyhDcDD6ngRQs",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.colpar+oddC.alpha_hi",
+"k_hex": "0x6a8bdbaf8fcc1a395f01ad58ef60e8ef9c7daffda78d65186e45b14d23cdd5a5",
+"addr_c": "1AaivPG85ktUwAJTwsST8QaWiUipndnL97",
+"addr_u": "17qZDAKoshwFWifpRfomPB2W7F1qoeHEai",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.colpar*oddC.alpha_hi",
+"k_hex": "0x2d259bee6ad2c5cb688b7bde4342c211652a17af6f433fce727638f1f6e50be",
+"addr_c": "12RREs5YALx5xVVezEuTVRkq8VUiwz4Dnm",
+"addr_u": "13hpEgPkV2A1ULhkZHJvnbyhDcDD6ngRQs",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.colpar+oddC.rows01",
+"k_hex": "0x728bdbafa3e21a496101ad99ef6108f81c85d01dc08d65c916fbb14e300ed5a6",
+"addr_c": "1GQkLBdPbN11tuDKzWrgvmQamzCvhvNFBk",
+"addr_u": "1Q3zESxJabnAijTYrVh8BGykg8355aKFxA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.colpar*oddC.rows01",
+"k_hex": "0x70c15a843c6d19f35bfe85b5e7bb261c70798fce1827ed8873c071f5f0d042ee",
+"addr_c": "1JB4qfGRqwr6GESPCan3WmBkQKq1vS1kj2",
+"addr_u": "1D7G5mnJ6dCwFEZDZW34A5rrN221mNxZ3A",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.colpar+oddC.vowel",
+"k_hex": "0xcc0032000783b85a019408a04381500868a7724774026a94e9d62322644b5120",
+"addr_c": "1Peh2vebAzH8s84mB1oZsuik867UiKEoAV",
+"addr_u": "1JCn3mcQdgexTytyzexuTWwybPjKpvRwv8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.colpar*oddC.vowel",
+"k_hex": "0x88d70478716e02ea68b5e7f45f72ae7a284044003640ef69fb1d1cf4afd2634f",
+"addr_c": "1AGfYy2s4vTTVfd6gJcuUZ7xsPM1v6TSJN",
+"addr_u": "1DCQBTPooevW1T4kQPsmMLhiDBMBJ2FByE",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.sqidx_hi+oddC.rowpar",
+"k_hex": "0xa737ea414f48c46a539a105f688f2c6ac52bd3ba9be6e70ddab04282638ede0d",
+"addr_c": "1DUMwWvvUQgzBamCkPPFPoPSNztwGsUNrV",
+"addr_u": "18fYVScgwa1meSzRBPWXFaSJdtW3KrpPGe",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.sqidx_hi*oddC.rowpar",
+"k_hex": "0x5193bbb7cf557d7cb08ef356a5d80a9dc8ac7bfd666c02bd07839b43e73c658d",
+"addr_c": "1KiHCUAPZSFzXsYJJX3wLBXo5UUhqksYEo",
+"addr_u": "1GeMxTLNkZDUdbkuC6BkkAKLdsw9VLt584",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.sqidx_hi+oddC.colpar",
+"k_hex": "0x6a8bdbaf8fcc1a395f01ad58ef60e8ef9c7daffda78d65186e45b14d23cdd5a5",
+"addr_c": "1AaivPG85ktUwAJTwsST8QaWiUipndnL97",
+"addr_u": "17qZDAKoshwFWifpRfomPB2W7F1qoeHEai",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.sqidx_hi*oddC.colpar",
+"k_hex": "0x2d259bee6ad2c5cb688b7bde4342c211652a17af6f433fce727638f1f6e50be",
+"addr_c": "12RREs5YALx5xVVezEuTVRkq8VUiwz4Dnm",
+"addr_u": "13hpEgPkV2A1ULhkZHJvnbyhDcDD6ngRQs",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.sqidx_hi+oddC.alpha_hi",
+"k_hex": "0x8117635f1710ddc6bb7d5171dc3f31cd7adb58531a6077c4c8b19b13f33b524b",
+"addr_c": "1DYUY6L3yLganYGqMv3MF4M7QdarNdFSJZ",
+"addr_u": "1HFhVXm7Uy2FamQ3ZTpcMUQrXANkizwZBH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.sqidx_hi*oddC.alpha_hi",
+"k_hex": "0x724a77d80aa97069c47dac54807712fed9a611d6236e07636c812a13f2aed32e",
+"addr_c": "16mQkgnNESnTam15B62aZs5vcYtTday6qw",
+"addr_u": "1NjdumLjV7A6gBMxdbX15yoZg7QHPdoQ4M",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.sqidx_hi+oddC.rows01",
+"k_hex": "0x8917635f2b26ddd6bd7d51b2dc3f51d5fae378733360787571679b14ff7c524c",
+"addr_c": "1GKDdbrBuhZkAoxyQCzWAJXPvzxgEByZQv",
+"addr_u": "1i6MJ2UQT37vxWG7KBLSG8jgK7MUyqqE7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.sqidx_hi*oddC.rows01",
+"k_hex": "0x515371f3e9c54723e779df80b9d7785e0fe2f2a1155fa471cd534974e0dbb40c",
+"addr_c": "16gLFjhNvsyZqtDhnUsywhYrAF7gHGeGHn",
+"addr_u": "1GRVgGAitPdrYWQYwJkvzQfqtLiC1NVBwA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.sqidx_hi+oddC.vowel",
+"k_hex": "0xe28bb9af8ec87be75e0facb9305f98e647051a9ce6d57d4144420ce933b8cdc6",
+"addr_c": "18pgQYk37vM8Zcxe4TharLhCqyWh47CWzr",
+"addr_u": "17yn7Q5kTwNZMH231DmhhZT2dAvxvoTmoW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.sqidx_hi*oddC.vowel",
+"k_hex": "0x83998d368f22f3d6ce4ea99bb125c92c00d85f5cf57620734ac6e9695b67448f",
+"addr_c": "1AqWfd85zX3vhXNXsWCVpSXzjVfs2XQAUr",
+"addr_u": "1FVKcCUhg3JEUPNeVT3VyoxyrP6MPdEH6u",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.alpha_hi+oddC.rowpar",
+"k_hex": "0xa737ea414f48c46a539a105f688f2c6ac52bd3ba9be6e70ddab04282638ede0d",
+"addr_c": "1DUMwWvvUQgzBamCkPPFPoPSNztwGsUNrV",
+"addr_u": "18fYVScgwa1meSzRBPWXFaSJdtW3KrpPGe",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.alpha_hi*oddC.rowpar",
+"k_hex": "0x5193bbb7cf557d7cb08ef356a5d80a9dc8ac7bfd666c02bd07839b43e73c658d",
+"addr_c": "1KiHCUAPZSFzXsYJJX3wLBXo5UUhqksYEo",
+"addr_u": "1GeMxTLNkZDUdbkuC6BkkAKLdsw9VLt584",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.alpha_hi+oddC.colpar",
+"k_hex": "0x6a8bdbaf8fcc1a395f01ad58ef60e8ef9c7daffda78d65186e45b14d23cdd5a5",
+"addr_c": "1AaivPG85ktUwAJTwsST8QaWiUipndnL97",
+"addr_u": "17qZDAKoshwFWifpRfomPB2W7F1qoeHEai",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.alpha_hi*oddC.colpar",
+"k_hex": "0x2d259bee6ad2c5cb688b7bde4342c211652a17af6f433fce727638f1f6e50be",
+"addr_c": "12RREs5YALx5xVVezEuTVRkq8VUiwz4Dnm",
+"addr_u": "13hpEgPkV2A1ULhkZHJvnbyhDcDD6ngRQs",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.alpha_hi+oddC.sqidx_hi",
+"k_hex": "0x8117635f1710ddc6bb7d5171dc3f31cd7adb58531a6077c4c8b19b13f33b524b",
+"addr_c": "1DYUY6L3yLganYGqMv3MF4M7QdarNdFSJZ",
+"addr_u": "1HFhVXm7Uy2FamQ3ZTpcMUQrXANkizwZBH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.alpha_hi*oddC.sqidx_hi",
+"k_hex": "0x724a77d80aa97069c47dac54807712fed9a611d6236e07636c812a13f2aed32e",
+"addr_c": "16mQkgnNESnTam15B62aZs5vcYtTday6qw",
+"addr_u": "1NjdumLjV7A6gBMxdbX15yoZg7QHPdoQ4M",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.alpha_hi+oddC.rows01",
+"k_hex": "0x8917635f2b26ddd6bd7d51b2dc3f51d5fae378733360787571679b14ff7c524c",
+"addr_c": "1GKDdbrBuhZkAoxyQCzWAJXPvzxgEByZQv",
+"addr_u": "1i6MJ2UQT37vxWG7KBLSG8jgK7MUyqqE7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.alpha_hi*oddC.rows01",
+"k_hex": "0x515371f3e9c54723e779df80b9d7785e0fe2f2a1155fa471cd534974e0dbb40c",
+"addr_c": "16gLFjhNvsyZqtDhnUsywhYrAF7gHGeGHn",
+"addr_u": "1GRVgGAitPdrYWQYwJkvzQfqtLiC1NVBwA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.alpha_hi+oddC.vowel",
+"k_hex": "0xe28bb9af8ec87be75e0facb9305f98e647051a9ce6d57d4144420ce933b8cdc6",
+"addr_c": "18pgQYk37vM8Zcxe4TharLhCqyWh47CWzr",
+"addr_u": "17yn7Q5kTwNZMH231DmhhZT2dAvxvoTmoW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.alpha_hi*oddC.vowel",
+"k_hex": "0x83998d368f22f3d6ce4ea99bb125c92c00d85f5cf57620734ac6e9695b67448f",
+"addr_c": "1AqWfd85zX3vhXNXsWCVpSXzjVfs2XQAUr",
+"addr_u": "1FVKcCUhg3JEUPNeVT3VyoxyrP6MPdEH6u",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rows01+oddC.rowpar",
+"k_hex": "0xaf37ea41635ec47a559a10a0688f4c734533f3dab4e6e7be836642836fcfde0e",
+"addr_c": "16GXkxfH9betgc8Xe9RUz3Takf5ZYQW8T5",
+"addr_u": "12QhZxzhiTuf6wT7NZ5tVjbsy18dQ4k7RP",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rows01*oddC.rowpar",
+"k_hex": "0xc72478d84ad25dfa2b97f7c418923006563d97e6a7523ba17d813755edbdf532",
+"addr_c": "18Hn7vm2uAJrAWuiAmRLj34FytSMmyFLuJ",
+"addr_u": "18hZKGvChCvQwzWHBrMjSiQdx2vfnqwGZT",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rows01+oddC.colpar",
+"k_hex": "0x728bdbafa3e21a496101ad99ef6108f81c85d01dc08d65c916fbb14e300ed5a6",
+"addr_c": "1GQkLBdPbN11tuDKzWrgvmQamzCvhvNFBk",
+"addr_u": "1Q3zESxJabnAijTYrVh8BGykg8355aKFxA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rows01*oddC.colpar",
+"k_hex": "0x70c15a843c6d19f35bfe85b5e7bb261c70798fce1827ed8873c071f5f0d042ee",
+"addr_c": "1JB4qfGRqwr6GESPCan3WmBkQKq1vS1kj2",
+"addr_u": "1D7G5mnJ6dCwFEZDZW34A5rrN221mNxZ3A",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rows01+oddC.sqidx_hi",
+"k_hex": "0x8917635f2b26ddd6bd7d51b2dc3f51d5fae378733360787571679b14ff7c524c",
+"addr_c": "1GKDdbrBuhZkAoxyQCzWAJXPvzxgEByZQv",
+"addr_u": "1i6MJ2UQT37vxWG7KBLSG8jgK7MUyqqE7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rows01*oddC.sqidx_hi",
+"k_hex": "0x515371f3e9c54723e779df80b9d7785e0fe2f2a1155fa471cd534974e0dbb40c",
+"addr_c": "16gLFjhNvsyZqtDhnUsywhYrAF7gHGeGHn",
+"addr_u": "1GRVgGAitPdrYWQYwJkvzQfqtLiC1NVBwA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rows01+oddC.alpha_hi",
+"k_hex": "0x8917635f2b26ddd6bd7d51b2dc3f51d5fae378733360787571679b14ff7c524c",
+"addr_c": "1GKDdbrBuhZkAoxyQCzWAJXPvzxgEByZQv",
+"addr_u": "1i6MJ2UQT37vxWG7KBLSG8jgK7MUyqqE7",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rows01*oddC.alpha_hi",
+"k_hex": "0x515371f3e9c54723e779df80b9d7785e0fe2f2a1155fa471cd534974e0dbb40c",
+"addr_c": "16gLFjhNvsyZqtDhnUsywhYrAF7gHGeGHn",
+"addr_u": "1GRVgGAitPdrYWQYwJkvzQfqtLiC1NVBwA",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.rows01+oddC.vowel",
+"k_hex": "0xea8bb9afa2de7bf7600facfa305fb8eec70d3abcffd57df1ecf80cea3ff9cdc7",
+"addr_c": "1Coyj4pkRp8nP5oF9BnViQELoWwWykRce4",
+"addr_u": "1G9PQKde3mV7G5AZEoUpiWF3fug1mbKL2",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.rows01*oddC.vowel",
+"k_hex": "0xb6755c16c131fd7060304e395da772bbece7f6ed652e69f9e071525e6cef501",
+"addr_c": "1PD8VunS2EhkwBJ6SgtDsgL6Z49jCj64FC",
+"addr_u": "17gFyRgrNw1aQ74qpFK8VNLk2FVR521TfH",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.vowel+oddC.rowpar",
+"k_hex": "0x8ac4091c700628af62c6ba6bcaf9384d6a6b91db9134c4e966e55cad3d61847",
+"addr_c": "1HsnQiv2XRPo19CdZ6yrB4Nr3Unso98Ar7",
+"addr_u": "18Np9gQKTridycd5fU3LRmUGkY7q2ZaGbt",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.vowel*oddC.rowpar",
+"k_hex": "0x5b26db4491ed8b4fe1e019ecacaac9446f542f6b46258dde6e551dcd5817c814",
+"addr_c": "13GYsLkBreT6o5nS4cyuKmmvSRjS1V2LLB",
+"addr_u": "133Dzx5EPJZ3sKwxtkv9bTMepLKXaJiUHp",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.vowel+oddC.colpar",
+"k_hex": "0xcc0032000783b85a019408a04381500868a7724774026a94e9d62322644b5120",
+"addr_c": "1Peh2vebAzH8s84mB1oZsuik867UiKEoAV",
+"addr_u": "1JCn3mcQdgexTytyzexuTWwybPjKpvRwv8",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.vowel*oddC.colpar",
+"k_hex": "0x88d70478716e02ea68b5e7f45f72ae7a284044003640ef69fb1d1cf4afd2634f",
+"addr_c": "1AGfYy2s4vTTVfd6gJcuUZ7xsPM1v6TSJN",
+"addr_u": "1DCQBTPooevW1T4kQPsmMLhiDBMBJ2FByE",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.vowel+oddC.sqidx_hi",
+"k_hex": "0xe28bb9af8ec87be75e0facb9305f98e647051a9ce6d57d4144420ce933b8cdc6",
+"addr_c": "18pgQYk37vM8Zcxe4TharLhCqyWh47CWzr",
+"addr_u": "17yn7Q5kTwNZMH231DmhhZT2dAvxvoTmoW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.vowel*oddC.sqidx_hi",
+"k_hex": "0x83998d368f22f3d6ce4ea99bb125c92c00d85f5cf57620734ac6e9695b67448f",
+"addr_c": "1AqWfd85zX3vhXNXsWCVpSXzjVfs2XQAUr",
+"addr_u": "1FVKcCUhg3JEUPNeVT3VyoxyrP6MPdEH6u",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.vowel+oddC.alpha_hi",
+"k_hex": "0xe28bb9af8ec87be75e0facb9305f98e647051a9ce6d57d4144420ce933b8cdc6",
+"addr_c": "18pgQYk37vM8Zcxe4TharLhCqyWh47CWzr",
+"addr_u": "17yn7Q5kTwNZMH231DmhhZT2dAvxvoTmoW",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.vowel*oddC.alpha_hi",
+"k_hex": "0x83998d368f22f3d6ce4ea99bb125c92c00d85f5cf57620734ac6e9695b67448f",
+"addr_c": "1AqWfd85zX3vhXNXsWCVpSXzjVfs2XQAUr",
+"addr_u": "1FVKcCUhg3JEUPNeVT3VyoxyrP6MPdEH6u",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.sum.oddC.vowel+oddC.rows01",
+"k_hex": "0xea8bb9afa2de7bf7600facfa305fb8eec70d3abcffd57df1ecf80cea3ff9cdc7",
+"addr_c": "1Coyj4pkRp8nP5oF9BnViQELoWwWykRce4",
+"addr_u": "1G9PQKde3mV7G5AZEoUpiWF3fug1mbKL2",
+"exact_prize_point": false,
+"watch": null
+},
+{
+"name": "F.mul.oddC.vowel*oddC.rows01",
+"k_hex": "0xb6755c16c131fd7060304e395da772bbece7f6ed652e69f9e071525e6cef501",
+"addr_c": "1PD8VunS2EhkwBJ6SgtDsgL6Z49jCj64FC",
+"addr_u": "17gFyRgrNw1aQ74qpFK8VNLk2FVR521TfH",
+"exact_prize_point": false,
+"watch": null
+}
+]
