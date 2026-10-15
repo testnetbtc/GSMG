@@ -1,0 +1,71 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+.vscode/
+.idea/
+
+# transient artifacts written by the leaderboard Actions at runtime
+verify-summary.txt
+arcade-summary.txt
+
+# ── private maintainer source material — NEVER track or push ─────────────────
+# Raw dump of all of Jrk's messages/answers; used only to enrich the walkthrough.
+jrk_all_messages.txt
+jrk_*.txt
+*jrk*messages*
+*_all_messages.txt
+
+# ── Telegram group export — huge (100s of MB) + personal data; sift LOCALLY only ──
+telegram_export.*
+*telegram_export*
+telegram_export_media/
+
+# ── Claude / AI tooling — never tracked or pushed ────────────────────────────
+# Everything relating to Claude Code stays local to the maintainer's machine.
+CLAUDE.md
+CLAUDE.local.md
+**/CLAUDE.md
+.claude/
+.claude*/
+**/.claude/
+.cursor/
+.cursorrules
+.aider*
+.mcp.json
+.anthropic/
+claude-*.local.*
+
+# ── AI memory / scratch (belt-and-suspenders; these live outside the repo, but never track them) ──
+memory/
+MEMORY.md
+scratch/
+scratchpad/
+*.scratch
+
+# ── Private puzzle-research engine + Telegram tooling (LOCAL ONLY — never pushed) ─────────────
+# research/ holds unverified work-in-progress; only APPROVED findings are promoted INTO docs/*.md by
+# hand. A .session file is full access to the maintainer's Telegram account; tg_*.py embed API creds.
+research/
+*.session
+*.session-journal
+tg_downloader.py
+tg_sync.py
+tg_*.py
+
+# ── Telegram BOT credentials + any secrets (NEVER track or push — contains the alert bot token) ──
+Telegram Data/
+**/Telegram Data/
+.env
+*.env
+**/.env
+secrets.*
+*.secret
+
+# ── Python caches ────────────────────────────────────────────────────────────
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
