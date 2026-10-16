@@ -1,5 +1,5 @@
 {
- "generated_utc": "2026-10-15T15:12:25+00:00",
+ "generated_utc": "2026-10-16T09:37:30+00:00",
  "script": "reproduction/scripts/reproduce.py",
  "source_commits": {
   "A": "fb92dd15487c6e2d275adb8c923698b7166c328e",
@@ -136,7 +136,7 @@
     ]
    },
    "implementations_agree": null,
-   "note": "Prior report §5.2 gives spiral index 163 (zero-based) for FEFEFE."
+   "note": "Prior report section 5.2 gives spiral index 163 (zero-based) for FEFEFE."
   },
   {
    "step": "aes_phase2",
@@ -532,7 +532,7 @@
     "soup_sha256": "26e37652067c549c0eee624356be9ffd40a243901197335a41f91fb6c78e6156"
    },
    "params": {
-    "split": "regex: a-i run | 104-char a/b block | a-i run | z | z | z | shabef… | base64"
+    "split": "regex: a-i run | 104-char a/b block | a-i run | z | z | z | shabef... | base64"
    },
    "outputs": {
     "dbbi_len": 91,
@@ -634,7 +634,7 @@
    "step": "hint_2026_new_year_binary",
    "status": "new",
    "inputs": {
-    "transcription": "B@9e61693:README.md §2026-01-01"
+    "transcription": "B@9e61693:README.md section 2026-01-01"
    },
    "params": {
     "rule": "8-bit groups, MSB-first ASCII (no reversal)"
@@ -807,7 +807,7 @@
     "python": true,
     "openssl_cli_equal": true
    },
-   "note": "mask_equals_header_xor=True shows the 8-byte mask is exactly cosmic_output[158:166] XOR 'Salted__' — the header is forced by the mask choice."
+   "note": "mask_equals_header_xor=True shows the 8-byte mask is exactly cosmic_output[158:166] XOR 'Salted__' -- the header is forced by the mask choice."
   },
   {
    "step": "bifid_full_period_faed",
@@ -888,7 +888,7 @@
    "status": "confirmed",
    "inputs": {
     "pubkey_uncompressed": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
-    "pubkey_source": "prior report §11; also present in B@9e61693:_pr15/neo/materials/chain/tx_halving_spend.hex"
+    "pubkey_source": "prior report section 11; also present in B@9e61693:_pr15/neo/materials/chain/tx_halving_spend.hex"
    },
    "params": {
     "address": "HASH160 -> version 0x00 -> Base58Check"
@@ -1054,7 +1054,7 @@
    "step": "cosmic_103x103_base38",
    "status": "new",
    "inputs": {
-    "cosmic_output": "cosmic_seven_token_xor output (4f7a1e4e…)",
+    "cosmic_output": "cosmic_seven_token_xor output (4f7a1e4e...)",
     "recipe_source": "A#72 body; A#79 body; A#81 body"
    },
    "params": {
@@ -1088,7 +1088,7 @@
    },
    "prior_report": null,
    "implementations_agree": null,
-   "note": "Prior report §6 listed this as not reproduced. Published values to compare: half 0423d911…, better half 48cc46e6…, trail fc0c1b02, addresses 1JG648ya…/15E3pcDD…/1FhbJnrd…/145ZQ9si… (A#72, A#79). The 32-byte values are already public; addresses are derived only for comparison with the published ones and the prize address. Shift 7, offset 80, base 38 and the split are discretionary choices made after inspecting the bytes."
+   "note": "Prior report section 6 listed this as not reproduced. Published values to compare: half 0423d911..., better half 48cc46e6..., trail fc0c1b02, addresses 1JG648ya.../15E3pcDD.../1FhbJnrd.../145ZQ9si... (A#72, A#79). The 32-byte values are already public; addresses are derived only for comparison with the published ones and the prize address. Shift 7, offset 80, base 38 and the split are discretionary choices made after inspecting the bytes."
   }
  ]
 }

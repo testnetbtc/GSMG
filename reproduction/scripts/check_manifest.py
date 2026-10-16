@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Completeness check for the archive (brief §7.4).
+"""Completeness check for the archive (brief section 7.4).
 
 Walks sources/ and asserts, for every file on disk, that it is either
   (a) a `canonical` row in reference/data/SOURCE_LINEAGE.csv, or

@@ -1,14 +1,14 @@
 id,family,target,inputs_params,kdf,validator,count,claimed_result,limits,date,who,source,status,extracted_by
-PRIOR-E001,floflo777 letter-bit masks / spatial reads,,~335 million submissions; injected controls; two implementations,,,,,reported; generator and logs unavailable,,,prior_report§7,reported,
-PRIOR-E002,floflo777 16+7 alphabet partitions,,"245,157 partitions, both polarities",,,,,finite claimed model; not replayed,,,prior_report§7,reported,
-PRIOR-E003,Base58 / substrings / direct blob windows,,explicit window lengths/steps in tested.md,,,,,excludes only documented representations,,,prior_report§7,reported,
-PRIOR-E004,fixed taijitu antisymmetry model,,analytical argument,,,,,not a proof against all yin-yang interpretations,,,prior_report§7,reported,
-PRIOR-E005,prior small-blob oracle sweeps,,MD5 version; later SHA-256 rerun; later both-digest tools,,,,,coverage must retain the actual digest,,,prior_report§7,reported,
-PRIOR-E006,word-window / joined-answer / matrices / planted-address families,,named counts and synthetic witnesses,,,,,scoped negatives; need frozen manifests,,,prior_report§7,reported,
-PRIOR-E007,Hosterjack field / binary / grid / cipher families,,many printable-text scoring checks,,,,,a readability negative is not a binary-key negative,,,prior_report§7,reported,
-PRIOR-E008,Naddiseo#13 permutation/null experiments,,"9! keys, prefix analysis, corrections, direct-key checks",,,,,prefix/substring nulls differ,,,prior_report§7,reported,
-PRIOR-E009,Naddiseo#17 continuation attempts,,"named WIF, digest/KDF/mode families, ~2,400 ingredient candidates",,,,,no full parameter manifest,,,prior_report§7,reported,
-PRIOR-E010,E054 / earlier operation-capped searches,,mentioned only in brief,,,,,no coverage inherited; cap is not exhaustiveness,,,prior_report§7,reported,
+PRIOR-E001,floflo777 letter-bit masks / spatial reads,,~335 million submissions; injected controls; two implementations,,,,,reported; generator and logs unavailable,,,prior_report section 7,reported,
+PRIOR-E002,floflo777 16+7 alphabet partitions,,"245,157 partitions, both polarities",,,,,finite claimed model; not replayed,,,prior_report section 7,reported,
+PRIOR-E003,Base58 / substrings / direct blob windows,,explicit window lengths/steps in tested.md,,,,,excludes only documented representations,,,prior_report section 7,reported,
+PRIOR-E004,fixed taijitu antisymmetry model,,analytical argument,,,,,not a proof against all yin-yang interpretations,,,prior_report section 7,reported,
+PRIOR-E005,prior small-blob oracle sweeps,,MD5 version; later SHA-256 rerun; later both-digest tools,,,,,coverage must retain the actual digest,,,prior_report section 7,reported,
+PRIOR-E006,word-window / joined-answer / matrices / planted-address families,,named counts and synthetic witnesses,,,,,scoped negatives; need frozen manifests,,,prior_report section 7,reported,
+PRIOR-E007,Hosterjack field / binary / grid / cipher families,,many printable-text scoring checks,,,,,a readability negative is not a binary-key negative,,,prior_report section 7,reported,
+PRIOR-E008,Naddiseo#13 permutation/null experiments,,"9! keys, prefix analysis, corrections, direct-key checks",,,,,prefix/substring nulls differ,,,prior_report section 7,reported,
+PRIOR-E009,Naddiseo#17 continuation attempts,,"named WIF, digest/KDF/mode families, ~2,400 ingredient candidates",,,,,no full parameter manifest,,,prior_report section 7,reported,
+PRIOR-E010,E054 / earlier operation-capped searches,,mentioned only in brief,,,,,no coverage inherited; cap is not exhaustiveness,,,prior_report section 7,reported,
 EXT-E0001,cosmic/sha256-hex,,SHA256-hex passwords (OpenSSL default) on Cosmic/SalPhaseIon; padding-only validator | exact: 26770c53...; 93de0175...; d837e4485a5a18e8d4a5aa42584ab97cd8bf42ef06ff14a4fa82a008f9c96638,,,,,noise outputs,2023-08-11,,[A#15 comment 1674478225]; [A#15 comment 2027809037],reported,reference/data/extraction/D1.jsonl#L57
 EXT-E0002,vanity/seed,,seed+counter vanity prefix search | exact: see claims,,,,,,2025-07-20,,[A#15 comment 3092667671],reported,reference/data/extraction/D1.jsonl#L58
 EXT-E0003,cosmic/padding-fp,,Ciphertext byte flip passes PKCS#7 after 1 try; entropy 7.867212 | exact: padding PASSED after 1 flips on corrupted ciphertext,,,,,,2025-08-25,,[A#55 comment 3220632221],source-reproduced,reference/data/extraction/D1.jsonl#L59

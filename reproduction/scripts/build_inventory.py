@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Hash every file under sources/ and build the inventory, byte-identical lineage
-and near-identical variant tables (brief §6.1–6.2).
+and near-identical variant tables (brief section 6.1-6.2).
 
 Outputs (reference/data/):
   SOURCE_INVENTORY.csv  one row per file: path, repo, origin ref, commit, bytes, sha256, first_seen_date
@@ -10,7 +10,7 @@ Outputs (reference/data/):
                         similarity, and the diff file
   variants/<id>.diff    unified diff canonical -> member (only for non-byte-identical variants)
 
-Canonical choice for a byte-identical group (brief §6.1): upstream repo in fork history first
+Canonical choice for a byte-identical group (brief section 6.1): upstream repo in fork history first
 (A puzzlehunt > B naddiseo [GitHub fork of A] > C hosterjack [vendors B, per its NOTICE.md]),
 then default branch before PR/branch extras, then earliest first_seen_date, then shortest path.
 """
@@ -30,20 +30,20 @@ with open(os.path.join(SRC, "REFS.tsv")) as fh:
         REFS[(row["key"], row["kind"], row["ref"])] = row["head_commit"]
 
 
-# Unique-fact review of variant members (brief §6.2 rule 2). Keyed by a substring of the member path.
+# Unique-fact review of variant members (brief section 6.2 rule 2). Keyed by a substring of the member path.
 REVIEW = [
     ("hosterjack/assets/walkthrough/phase2-assets/", "identical after CRLF->LF; no unique fact (reproduction: upstream_plaintext_check)"),
     ("hosterjack/assets/walkthrough/phase3-assets/phase3.2.txt", "identical after CRLF->LF; no unique fact (reproduction: upstream_plaintext_check)"),
-    ("_pr30/decentraland.ipynb", "UNIQUE: appended contributor note (in-world sound broken in some clients; a non-functional 'door' near the question mark; originals not downloadable) — recorded in 01_SOLVED_CHAIN §3.7"),
+    ("_pr30/decentraland.ipynb", "UNIQUE: appended contributor note (in-world sound broken in some clients; a non-functional 'door' near the question mark; originals not downloadable) -- recorded in 01_SOLVED_CHAIN section 3.7"),
     ("inner96.b64", "same envelope bytes as p32_trailing; name collision recorded in 08_GLOSSARY"),
     ("ciphertexts/p32_trailing.txt", "same envelope bytes; name collision recorded in 08_GLOSSARY (inner96 = p32_trailing)"),
     ("cosmic_duality_b64.txt", "same envelope bytes as cosmic; formatting only"),
     ("salphaseion_soup_space_separated.txt", "same soup text; formatting only (reproduction: salphaseion_page_provenance)"),
     ("_aes_blob.txt", "same envelope bytes; formatting only"),
-    ("README.md", "PR/branch-only README facts recorded in reference (A PR3/16/30/101/102 in 01/02/03/07; C game-rebuild in 07) — see extraction N5 §3.2 and N1 §7"),
-    ("VERIFIED-SOLUTIONS.md", "version-only facts recorded: matrixsumlist CONFIRMED->INFERRED downgrade, audio/split corrections (04, 07; extraction N1 §7)"),
-    ("content/phases.js", "version-only facts recorded (extraction N1 §7); stale text listed in 07"),
-    (".ipynb", "markdown/URL-encoding differences only; no unique fact (extraction N5 §3.2)"),
+    ("README.md", "PR/branch-only README facts recorded in reference (A PR3/16/30/101/102 in 01/02/03/07; C game-rebuild in 07) -- see extraction N5 section 3.2 and N1 section 7"),
+    ("VERIFIED-SOLUTIONS.md", "version-only facts recorded: matrixsumlist CONFIRMED->INFERRED downgrade, audio/split corrections (04, 07; extraction N1 section 7)"),
+    ("content/phases.js", "version-only facts recorded (extraction N1 section 7); stale text listed in 07"),
+    (".ipynb", "markdown/URL-encoding differences only; no unique fact (extraction N5 section 3.2)"),
     ("assets/js/", "site UI code; no puzzle fact"),
 ]
 

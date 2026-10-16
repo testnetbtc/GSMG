@@ -1,0 +1,18 @@
+# Mark binary files so GitHub shows "binary file" (with a download link)
+# instead of rendering their bytes as garbled text. "binary" also disables
+# line-ending normalisation and diffs for them.
+*.bin  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.mp3  binary
+*.pdf  binary
+*.zip  binary
+*.pyc  binary
+
+# Never normalise anything under sources/: those bytes are the evidence of
+# record (several upstream files use CRLF line endings on purpose).
+sources/** -text
+
+# Text views of the binaries live next to them as .hex (see reproduction/results/README.md)

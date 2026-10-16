@@ -1,4 +1,4 @@
-# 00 — Index and citation legend
+# 00 -- Index and citation legend
 
 This is the curated, deduplicated reference layer of the GSMG archive. The raw evidence of record is `sources/`; this layer states each fact once, cites every source that carries it, and tags every mechanical claim with a status. `MANIFEST.md` (repo root) proves that every file in `sources/` is either canonical here or a recorded duplicate/variant of one that is.
 
@@ -15,7 +15,7 @@ This is the curated, deduplicated reference layer of the GSMG archive. The raw e
 | [07_CONTRADICTIONS.md](07_CONTRADICTIONS.md) | disagreements with the prior report; source-vs-source conflicts |
 | [08_GLOSSARY.md](08_GLOSSARY.md) | **canonical object names** (by envelope hash and salt), aliases, people, addresses |
 | `artifacts/` | one canonical byte-copy of each puzzle artifact (map: `data/ARTIFACT_FILES.csv`) |
-| `data/` | registers — see §4 |
+| `data/` | registers -- see section 4 |
 
 ## 2. Citation keys
 
@@ -27,14 +27,14 @@ This is the curated, deduplicated reference layer of the GSMG archive. The raw e
 
 Forms:
 
-- `[A:README.md@fb92dd1]` — file on a default branch, at the frozen commit; `#L12-L20` or `§3` narrows it.
-- `[A:_pr93/FINDINGS.md@2c97f44]` — file that exists only in a PR head (or `_branches/<name>/`), at that head commit. Heads are listed in `sources/REFS.tsv`; local copies live in `sources/<repo>/_pr<N>/` and `sources/<repo>/_branches/`.
-- `[A#68]`, `[A#68 body]` — issue or pull request #68 (issues and PRs share one number space). Rendered losslessly at `sources/discussions/<repo>/issues/068.md` or `pulls/068.md`.
-- `[A#68 comment 3704010992]` — a GitHub comment id (URL `…#issuecomment-3704010992`).
-- `[T L13992]` — shorthand for `[A:_pr93/_work/chat_transcript.txt@2c97f44 L13992]`, the Telegram transcript shipped in puzzlehunt PR #93 (line of the message header).
-- `[C:content/sowut-data.js@caaa77a id 8000]` — record id in C's creator-message dataset (Telegram message id per C).
-- `prior_report§N` — `reports/MASTER_REASONING_REPORT.md` section N (14 Oct 2026).
-- `reproduction` / step names — `reproduction/results/reproduction_results.json`.
+- `[A:README.md@fb92dd1]` -- file on a default branch, at the frozen commit; `#L12-L20` or ` section 3` narrows it.
+- `[A:_pr93/FINDINGS.md@2c97f44]` -- file that exists only in a PR head (or `_branches/<name>/`), at that head commit. Heads are listed in `sources/REFS.tsv`; local copies live in `sources/<repo>/_pr<N>/` and `sources/<repo>/_branches/`.
+- `[A#68]`, `[A#68 body]` -- issue or pull request #68 (issues and PRs share one number space). Rendered losslessly at `sources/discussions/<repo>/issues/068.md` or `pulls/068.md`.
+- `[A#68 comment 3704010992]` -- a GitHub comment id (URL `...#issuecomment-3704010992`).
+- `[T L13992]` -- shorthand for `[A:_pr93/_work/chat_transcript.txt@2c97f44 L13992]`, the Telegram transcript shipped in puzzlehunt PR #93 (line of the message header).
+- `[C:content/sowut-data.js@caaa77a id 8000]` -- record id in C's creator-message dataset (Telegram message id per C).
+- `prior_report section N` -- `reports/MASTER_REASONING_REPORT.md` section N (14 Oct 2026).
+- `reproduction` / step names -- `reproduction/results/reproduction_results.json`.
 
 ## 3. Status vocabulary (never blurred)
 
@@ -54,14 +54,14 @@ Two separate verdicts are kept for every proposed stage: **mechanics** (do the b
 | `SOURCE_INVENTORY.csv` | every file under `sources/` | path, repo, origin ref, commit, upstream path, bytes, SHA-256, first-seen date |
 | `SOURCE_LINEAGE.csv` | every file under `sources/` | byte-identical `group_id`, `role` (canonical / duplicate / variant), canonical path, variant group |
 | `VARIANT_GROUPS.csv` + `variants/*.diff` | near-identical text groups | normalisation rule, similarity, unified diff, unique-fact review result |
-| `ARTIFACT_REGISTRY.csv` | puzzle and derived objects | prior-report rows (`PR-…`) preserved + new rows (`NEW-…`); `source`, `status` |
+| `ARTIFACT_REGISTRY.csv` | puzzle and derived objects | prior-report rows (`PR-...`) preserved + new rows (`NEW-...`); `source`, `status` |
 | `ARTIFACT_FILES.csv` | `artifacts/` copies | canonical source, duplicates, hashes |
 | `CLAIMS.jsonl` | claims | prior-report rows, every reproduction record, extracted claims; `source`, `status` |
-| `CREATOR_CLUES.jsonl` | creator-attributed statements | prior §5 rows + extracted register |
-| `EXPERIMENT_COVERAGE.csv` | attempts and negatives | prior §7 rows + extracted rows |
+| `CREATOR_CLUES.jsonl` | creator-attributed statements | prior section 5 rows + extracted register |
+| `EXPERIMENT_COVERAGE.csv` | attempts and negatives | prior section 7 rows + extracted rows |
 | `CONTRADICTIONS.jsonl`, `INJECTIONS.jsonl`, `GLOSSARY_RAW.jsonl` | extracted rows | inputs to 07, the injection log, 08 |
 | `extraction/` | raw agent notes | read-only sub-agent extraction, one file per scope (see its README) |
 
 ## 5. Reading order
 
-For the puzzle: 01 → 03 → 04 → 05. For auditing a claim: find the object in 08, its registry row, then its source citation. Every claim here can be traced to a `sources/` path or a discussion URL.
+For the puzzle: 01 -> 03 -> 04 -> 05. For auditing a claim: find the object in 08, its registry row, then its source citation. Every claim here can be traced to a `sources/` path or a discussion URL.

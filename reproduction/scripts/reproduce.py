@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Fresh, independent reproduction of the GSMG solved chain and the published
-fixed community recipes (brief §8.1). Writes reproduction/results/.
+fixed community recipes (brief section 8.1). Writes reproduction/results/.
 
 Inputs are read only from sources/ (the raw upstream imports); every input is
 recorded with its repo@commit:path. Two implementations are used where the
@@ -99,7 +99,7 @@ def step_grid():
                "col_sums": [8, 10, 8, 10, 8, 7, 3, 6, 7, 5, 9, 6, 6, 8],
                "palette_counts": {"black": 86, "white": 85, "blue": 15, "yellow": 9, "FEFEFE": 1},
                "FEFEFE_cell_rc_zero_based": [(7, 4)]},
-        note="Prior report §5.2 gives spiral index 163 (zero-based) for FEFEFE.")
+        note="Prior report section 5.2 gives spiral index 163 (zero-based) for FEFEFE.")
     return text
 
 
@@ -259,7 +259,7 @@ def step_salphaseion():
     hj = g.parse_envelope(open(g.src("hosterjack/ciphertexts/salph_inner.txt")).read())[0]
     rec("salphaseion_soup_sections",
         inputs={"soup": cite(path) + " cell 0", "soup_chars_no_spaces": len(s), "soup_sha256": g.sha256(s.encode())},
-        params={"split": "regex: a-i run | 104-char a/b block | a-i run | z | z | z | shabef… | base64"},
+        params={"split": "regex: a-i run | 104-char a/b block | a-i run | z | z | z | shabef... | base64"},
         outputs={"dbbi_len": len(dbbi), "dbbi_offsets": [0, len(dbbi)], "dbbi_sha256": g.sha256(dbbi.encode()),
                  "ab_block_offsets": [len(dbbi), len(dbbi) + 104], "matrixsumlist": ab(abblk),
                  "faed_len": len(faed), "faed_offsets": [195, 195 + len(faed)], "faed_sha256": g.sha256(faed.encode()),
@@ -298,7 +298,7 @@ def step_hint2023():
     mm = re.search(r"Copyable:\n> ([01 ]+)", rd)
     if mm:
         nyb = bytes(int(x, 2) for x in mm.group(1).split()).decode()
-        rec("hint_2026_new_year_binary", inputs={"transcription": cite("naddiseo/README.md") + " §2026-01-01"},
+        rec("hint_2026_new_year_binary", inputs={"transcription": cite("naddiseo/README.md") + " section 2026-01-01"},
             params={"rule": "8-bit groups, MSB-first ASCII (no reversal)"}, outputs={"text": nyb},
             prior=None, note="prior report: 'decode is conventional ASCII'")
 
@@ -394,7 +394,7 @@ def step_cosmic(c1, c2):
                "password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a259cc",
                "sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b"},
         impls={"python": c4 is not None, "openssl_cli_equal": c4 == c4o},
-        note="mask_equals_header_xor=True shows the 8-byte mask is exactly cosmic_output[158:166] XOR 'Salted__' — the header is forced by the mask choice.")
+        note="mask_equals_header_xor=True shows the 8-byte mask is exactly cosmic_output[158:166] XOR 'Salted__' -- the header is forced by the mask choice.")
 
 
 # ======================================================================== 9. Bifid
@@ -437,7 +437,7 @@ def step_prize():
     txp = "naddiseo/_pr15/neo/materials/chain/tx_halving_spend.hex"
     tx = open(g.src(txp)).read().strip().lower()
     rec("prize_pubkey_to_address",
-        inputs={"pubkey_uncompressed": pub, "pubkey_source": "prior report §11; also present in " + cite(txp)},
+        inputs={"pubkey_uncompressed": pub, "pubkey_source": "prior report section 11; also present in " + cite(txp)},
         params={"address": "HASH160 -> version 0x00 -> Base58Check"},
         outputs={"on_curve": g.on_curve(pt), "address_uncompressed": g.p2pkh(b), "address_compressed": g.p2pkh(g.ser(pt, True)),
                  "occurrences_in_spend_tx_hex": tx.count(pub)},
@@ -546,14 +546,14 @@ def step_103x103(cos):
         P = g.point_mul(int.from_bytes(k, "big"))
         addrs[nm] = {"uncompressed": g.p2pkh(g.ser(P, False)), "compressed": g.p2pkh(g.ser(P, True))}
     rec("cosmic_103x103_base38",
-        inputs={"cosmic_output": "cosmic_seven_token_xor output (4f7a1e4e…)", "recipe_source": "A#72 body; A#79 body; A#81 body"},
+        inputs={"cosmic_output": "cosmic_seven_token_xor output (4f7a1e4e...)", "recipe_source": "A#72 body; A#79 body; A#81 body"},
         params={"bits": "first 10,609 bits MSB-first, row-major 103x103", "secondary": "row_sum[i] + col_sum[(i+7) mod 103]",
                 "digit": "value - 80", "base": 38, "split": "32 + 32 + rest"},
         outputs={"secondary_string": "".join(chr(v) for v in sec), "secondary_min_max": [min(sec), max(sec)], "bytes": len(out),
                  "half_prefix": half[:4].hex(), "better_half_prefix": better[:4].hex(), "trail": trail.hex(),
                  "addresses": addrs, "prize_address_match": any(a == "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe" for d in addrs.values() for a in d.values())},
         prior=None,
-        note="Prior report §6 listed this as not reproduced. Published values to compare: half 0423d911…, better half 48cc46e6…, trail fc0c1b02, addresses 1JG648ya…/15E3pcDD…/1FhbJnrd…/145ZQ9si… (A#72, A#79). The 32-byte values are already public; addresses are derived only for comparison with the published ones and the prize address. Shift 7, offset 80, base 38 and the split are discretionary choices made after inspecting the bytes.")
+        note="Prior report section 6 listed this as not reproduced. Published values to compare: half 0423d911..., better half 48cc46e6..., trail fc0c1b02, addresses 1JG648ya.../15E3pcDD.../1FhbJnrd.../145ZQ9si... (A#72, A#79). The 32-byte values are already public; addresses are derived only for comparison with the published ones and the prize address. Shift 7, offset 80, base 38 and the split are discretionary choices made after inspecting the bytes.")
 
 
 if __name__ == "__main__":
