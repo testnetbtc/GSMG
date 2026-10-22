@@ -27,6 +27,7 @@ The laws are the user's rules and are fixed. Arguments against them are recorded
 | `REPORT_ANALYSIS.md` | Task 1 Stage A (one dossier per agent report: scope, claim table, errors, unique points, ways forward, grade) and Stage B (agreement matrix, conflicts ruled, shared blind spots, combined "why unsolved" model, pooled ways forward, proposals about the rules). |
 | `FUNNEL.md` | Task 1 Stages C and D: the ten mechanism-distinct ideas with full cards and scores, then the funnel 10 -> 5 -> 3 -> 2 -> 1 with a kill note for every cut. |
 | `SELECTED.md` | Task 1 Stage E: the single selected way forward as a typed specification with a pre-registered success test, a negative criterion, a clue tick-box, and what a negative result would teach. |
+| `CLUE_COVERAGE.md` | The clue x idea matrix: which CORE clues each of the ten funnel ideas uses, is consistent with, or contradicts, and which clues no idea touches (added after the Task-1 stop at the user's request). |
 | `GRAVEYARD.md` | Every idea known to be tried or cut -- ours and the community's -- one line each with its reference, so nothing is rediscovered as new. Checked before every LAW 2 judgement. |
 | `STATE.md` | One page: current task, current stage, last thing done, next concrete step. A fresh agent resumes from it. |
 | `PLAN.md` | The plan with exactly one ACTIVE item; the runner-up listed second. |
@@ -40,3 +41,5 @@ sign or broadcast, never submit anything to gsmg.io; if a check ever matches the
 key, stop, keep the key out of git and logs, do not push, tell the user. Keep reproduced /
 reported / interpreted apart; padding validity is never "confirmed". Cite everything in the
 repo's style (`[A:path@commit]`, `[B#17]`, `[T L12345]`, `[C:content/sowut-data.js@caaa77a id N]`).
+
+The end-to-end account of Task 1 (what was read, how the reports were graded, the ten ideas, the funnel, the selection, the audit against the brief) is `reports/TASK1_REPORT_2026-10-22.md`.

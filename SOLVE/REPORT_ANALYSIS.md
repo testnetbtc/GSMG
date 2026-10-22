@@ -484,29 +484,14 @@ the assumptions its gate makes.
 
 ### B.4 Combined "why unsolved" model (the ideas in Stage C must attack this)
 
-1. Every solved stage was `answer -> sha256hex -> AES-256-CBC (EVP SHA-256)`, with the answer
-   either a quotation or a join of found pieces, and instructions inside each plaintext (A-01,
-   A-02). The frontier keeps the containers but drops the instructions (A-08).
-2. Past SalPhaseIon there is no verifier: one 2019 hash (C-01), no page checkpoint (A-08), and
-   a wrong key passes PKCS#7 ~1/256 (`reference/03` section 1). Every "opening" since 2023 has
-   that shape; three need MD5, which fails on all solved stages (`reference/05` section 2).
-3. The creator named the ingredients (C-28) but no values and no join; he confirmed primes and
-   "zeroing" as operations (C-25, C-27) without an operand; "yinyang" is a phase, not a value
-   (C-38), reached after "1 microstep" (C-35) with "all the info" in hand (C-30b, C-32).
-4. The public record therefore contains the ingredients and not the recipe. Searches have been
-   enormous but unstructured and validator-blind (`reference/06`): ~33M (B), ~33.5M (C), ~2.5B
-   (A#106), plus unheld hundreds of millions, with zero verified hits; readability gates set
-   above ~0.6 would have rejected a Phase-3.2-like plaintext (R5-C37).
-5. The build was rushed (C-47, C-03, C-44); the last steps are one person's formatting whims,
-   which no enumeration over "natural" readings need contain.
-6. The creator may have gated the end on something personal (C-43, D-03); the evidence does
-   not separate that from a public recognition step (K3).
-7. The community's own record is polluted: solvers' words became "creator rules" (S-01..S-05),
-   reactions became confirmations (K1, D-02), and self-validating outputs became "stages"
-   (`reference/05` M5-M8). A dated, reply-linked corpus does not exist in the archive (B.3-9).
-8. What is *not* the cause: compute (K2, K5), the padding economy per se (it is a symptom),
-   and a lack of ideas -- the pool below has thirty; what is missing is an idea whose success
-   test is exact and whose parameters are sourced.
+1. Every solved stage was `answer -> sha256hex -> AES-256-CBC (EVP SHA-256)`, answers were quotations or joins of found pieces, and each plaintext carried the next instructions (A-01, A-02); the frontier keeps the containers but drops the instructions (A-08).
+2. Past SalPhaseIon there is no verifier: one 2019 hash (C-01), no page checkpoint (A-08), and a wrong key passes PKCS#7 ~1/256 (`reference/03` section 1); every "opening" since 2023 has that shape and three need MD5, which fails on all solved stages (`reference/05` section 2).
+3. The creator named the ingredients (C-28) but no values and no join; he confirmed primes and "zeroing" as operations without an operand (C-25, C-27); "yinyang" is a phase, not a value (C-38), reached after "1 microstep" (C-35) with "all the info" in hand (C-30b, C-32).
+4. The public record therefore holds the ingredients, not the recipe; searches were enormous but unstructured and validator-blind (`reference/06`): ~33M (B), ~33.5M (C), ~2.5B (A#106) plus unheld hundreds of millions, zero verified hits; readability gates above ~0.6 would reject a Phase-3.2-like plaintext (R5-C37).
+5. The build was rushed (C-47, C-03, C-44): the last steps are one person's formatting whims, which no enumeration over "natural" readings need contain.
+6. The creator may have gated the end on something personal (C-43, D-03); the evidence does not separate that from a public recognition step (K3).
+7. The community's own record is polluted: solvers' words became "creator rules" (S-01..S-05), reactions became confirmations (K1, D-02), self-validating outputs became "stages" (`reference/05` M5-M8); no reply-linked corpus is held (B.3-9).
+8. Not the cause: compute (K2, K5), the padding economy as such (a symptom), or a shortage of ideas (the pool has thirty); what is missing is an idea whose success test is exact and whose parameters are sourced.
 
 ### B.5 Pool of ways forward (deduplicated)
 

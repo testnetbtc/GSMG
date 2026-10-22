@@ -117,12 +117,13 @@ Citations: `[C id N]` = `[C:content/sowut-data.js@caaa77a id N]` (dataset messag
 | A-12 | Phase-2 plaintext (PT-phase2) | "# X 2 S H 4 Y 0 Q B 15 #"; "Q -> extend the name of a hackers' swordless fish, the I and W are below."; "B -> ((BV80605001911AP)- (sqrt(-1)))^2"; "H -> (Answer to only this puzzle but nothing else) * -1"; "S -> cha' + (vagh * jav)" | `reference/artifacts/plaintexts/phase2_plaintext.txt`; `walkthrough/03` | creator-authored material not used by any solved stage (S-06/D-07); its role, if any, is open | open |
 | A-13 | 2023 binary (C-28) | the four labels and the sentence (listed under C-28) | -- | -- | CORE |
 | A-14 | gsmg.io root, 2026-08-19 | "GSMG ... 2017 -- 2026 / The lights are off. / Nine years of chaos ended. / One mystery remains. / Follow the white rabbit ->" | `reference/artifacts/pages/root_2026-08-19_finale.html` | authorship unverified; "one mystery remains" | unverified |
+| A-15 | Cosmic Duality images | (i) `reference/artifacts/images/SalPhaselonCosmicDuality.png`: the page as rendered (two headings, two textareas); (ii) `reference/artifacts/hints/2022-12-10-cosmic.png` and `cosmic-duality-book.png`: the Time-Life *Mysteries of the Unknown: Cosmic Duality* book cover posted by a SOLVER (@barrystyle) on 2022-12-11, to which the handle replied C-26; the dataset record 8310 carries no media, so whether the held image is the posted one is unverified | `reference/02_ARTIFACTS.md` section 2 and the hints table | (i) fixes the page's text: nothing beyond A-07/A-08; (ii) a solver's image that the creator called "very specific" -- the book title matches the heading; it does not establish that the book's content is needed (EXT-E0304: 0/27 solved answers found in it) | (i) ARTIFACT; (ii) SOLVER-posted, CREATOR-reacted; CORE |
 
 ## 5. CORE clue list (the short list any serious idea is expected to touch)
 
 C-06, C-10, C-12, C-13, C-14, C-17, C-19, C-20, C-21, C-23, C-24, C-25, C-26, C-27, C-28, C-29,
 C-30, C-31, C-32, C-33, C-35, C-38, C-40, C-42, C-43, C-44; A-03, A-05, A-06, A-07, A-08, A-09,
-A-10, A-11.
+A-10, A-11, A-15.
 
 ## 6. Things the creator-attributed handle never said
 
