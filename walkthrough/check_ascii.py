@@ -17,7 +17,8 @@ sources/ is never checked: it is upstream content preserved verbatim. One
 archive document is also exempt: reports/MASTER_REASONING_REPORT.md, the
 prior report kept byte-for-byte (its header states the body's SHA-256 so
 the verbatim copy stays checkable); its content is superseded by
-reports/REASONING_REPORT_v2.md and walkthrough/.
+reports/REASONING_REPORT_v2.md and walkthrough/. reports/agent_responses/ is
+exempt for the same reason: other agents' reports, kept byte-for-byte.
 
 Run:  python3 walkthrough/check_ascii.py        (exit 0 = clean)
 """
@@ -65,6 +66,7 @@ def main():
         for dp, dn, fn in os.walk(os.path.join(ROOT, sub)):
             for f in fn:
                 p = os.path.join(dp, f)
+                if os.path.join(ROOT, "reports", "agent_responses") in dp: continue
                 if f.endswith(".md") and p not in EXEMPT:
                     targets.append((p, False))
     for path, strict in targets:

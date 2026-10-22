@@ -42,6 +42,7 @@ research/              this archive's own experiments on the unsolved parts (dat
 reports/
   MASTER_REASONING_REPORT.md    prior report (14 Oct 2026), kept byte-for-byte under a dated header
   REASONING_REPORT_v2.md        this build's auditable reasoning report
+  agent_responses/              six independent agent assessments (22 Oct 2026): why it is unsolved, what next; verbatim
 ```
 
 Every non-default ref of every source is also kept as a git tag `archive/<A|B|C>/<pr-N | branch/name>` on the remote (22 tags), so no commit object is lost. (`git fetch --tags` if your clone did not fetch them.)
