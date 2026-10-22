@@ -14,5 +14,6 @@
 | 10 | Research session on the unsolved parts (offline oracle; BTCSEED, brain-wallet, matrixsumlist, image, stream-combine and vanity-offset tests; yinyang operations) | done (all negative; journal + scripts pushed) | 2026-10-15 | `research:` |
 | 11 | `walkthrough/` layer: 12 pages, `verify.py` (102 checks), `check_ascii.py`, generated verification page | done | 2026-10-16 | `walkthrough:` |
 | 12 | ASCII typography normalisation; binary results made readable (`.gitattributes`, `.hex`, results README); `CLAUDE.md` restored; results JSON, MANIFEST and registers regenerated | done (all checks PASS) | 2026-10-16 | `docs:` |
+| 13 | Task 1: scrutiny of the six agent reports, clue checklist, ten-idea funnel, selected way forward (`SOLVE/`) | done (W-02 selected, awaiting user go-ahead; W-01 runner-up; nothing run) | 2026-10-22 | `solve:` |
 
 Note: work proceeded partly in parallel while the GitHub API rate limit blocked step 3 (steps 5-6 were drafted from repository files first and re-checked after the discussions arrived).
